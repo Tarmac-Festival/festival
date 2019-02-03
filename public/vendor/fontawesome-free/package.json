@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "@fortawesome/fontawesome-free@5.6.3",
+      "D:\\2\\Entwicklung\\Web\\festival"
+    ]
+  ],
   "_from": "@fortawesome/fontawesome-free@5.6.3",
   "_id": "@fortawesome/fontawesome-free@5.6.3",
   "_inBundle": false,
@@ -20,9 +26,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.6.3.tgz",
-  "_shasum": "61c122c420d7a91613f393d6a06e5a4c6ae6abf3",
-  "_spec": "@fortawesome/fontawesome-free@5.6.3",
-  "_where": "/Users/DANGER_DAVID/Sites/startbootstrap-themes/startbootstrap-agency",
+  "_spec": "5.6.3",
+  "_where": "D:\\2\\Entwicklung\\Web\\festival",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
@@ -31,7 +36,6 @@
   "bugs": {
     "url": "http://github.com/FortAwesome/Font-Awesome/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Brian Talbot",
@@ -55,7 +59,6 @@
     }
   ],
   "dependencies": {},
-  "deprecated": false,
   "description": "The iconic font, CSS, and SVG framework",
   "engines": {
     "node": ">=6"
