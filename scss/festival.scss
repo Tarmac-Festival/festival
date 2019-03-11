@@ -4,10 +4,11 @@
 // Global CSS
 @import "global.scss";
 // Components
+@import "flip.scss";
 @import "navbar.scss";
 @import "masthead.scss";
+@import "news.scss";
 @import "info.scss";
-@import "stages.scss";
 @import "about.scss";
 @import "contact.scss";
 @import "footer.scss";

@@ -42,9 +42,19 @@
   // Hide navbar when modals trigger
   $('.portfolio-modal').on('show.bs.modal', function(e) {
     $('.navbar').addClass('d-none');
-  })
+  });
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $('.navbar').removeClass('d-none');
-  })
+  });
+
+  // Flipclock initialisation
+  var currentDate = new Date();
+  var futureDate = new Date('June 01, 2020');
+  var diff =  futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+  var clock = $('.clock').FlipClock(diff, {
+    countdown: true,
+    language: 'german',
+    clockFace: 'DailyCounter'
+  });
 
 })(jQuery); // End of use strict

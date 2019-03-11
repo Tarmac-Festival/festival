@@ -1,0 +1,196 @@
+$clock-font-size: 36px;
+$clock-height: ($clock-font-size * 1.2);
+$digit-gap: 3px;
+$border-radius: 3px;
+$dot-size: 4px;
+
+.flip-clock-wrapper ul {
+  width: ($clock-font-size * 0.8);
+  height: $clock-height;
+  margin: 0 ($digit-gap / 2);
+  padding: 0;
+}
+
+.flip-clock-wrapper ul li {
+  line-height: $clock-height;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+  font-size: $clock-font-size;
+}
+
+.flip-clock-wrapper ul,
+.flip-clock-wrapper ul li a div div.inn {
+  border-radius: $border-radius;
+}
+
+.flip-clock-wrapper ul li a div.down {
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+}
+
+.flip-clock-wrapper ul li a div.up:after {
+  top: (($clock-height / 2) - 1px);
+}
+
+.flip-clock-dot.top {
+  top: ($clock-height / 2 - $clock-font-size * 0.2 - $dot-size / 2);
+}
+
+.flip-clock-dot.bottom {
+  top: ($clock-height / 2 + $clock-font-size * 0.2 - $dot-size / 2);
+}
+
+.flip-clock-dot{
+  width: $dot-size;
+  height: $dot-size;
+  left: $dot-size;
+}
+
+.flip-clock-divider {
+  width: ($dot-size * 3);
+  height: $clock-font-size;
+
+  .flip-clock-label {
+    font-size: $clock-font-size * 0.2;
+    line-height: $clock-font-size * 0.2;
+    text-shadow: 1px 1px 2px #000000 !important;
+    font-style: italic !important;
+    color: white !important;
+    right: -($dot-size * 8) !important;
+  }
+}
+
+@media(min-width:768px) {
+  header.masthead {
+    $clock-font-size: 60px;
+    $clock-height: ($clock-font-size * 1.2);
+    $digit-gap: 6px;
+    $border-radius: 6px;
+    $dot-size: 8px;
+
+    .flip-clock-wrapper ul {
+      width: ($clock-font-size * 0.8);
+      height: $clock-height;
+      margin: 0 ($digit-gap / 2);
+      padding: 0;
+    }
+
+    .flip-clock-wrapper ul li {
+      line-height: $clock-height;
+    }
+
+    .flip-clock-wrapper ul li a div div.inn {
+      font-size: $clock-font-size;
+    }
+
+    .flip-clock-wrapper ul,
+    .flip-clock-wrapper ul li a div div.inn {
+      border-radius: $border-radius;
+    }
+
+    .flip-clock-wrapper ul li a div.down {
+      border-bottom-left-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
+    }
+
+    .flip-clock-wrapper ul li a div.up:after {
+      top: (($clock-height / 2) - 1px);
+    }
+
+    .flip-clock-dot.top {
+      top: ($clock-height / 2 - $clock-font-size * 0.2 - $dot-size / 2);
+    }
+
+    .flip-clock-dot.bottom {
+      top: ($clock-height / 2 + $clock-font-size * 0.2 - $dot-size / 2);
+    }
+
+    .flip-clock-dot{
+      width: $dot-size;
+      height: $dot-size;
+      left: $dot-size;
+    }
+
+    .flip-clock-divider {
+      width: ($dot-size * 3);
+      height: $clock-font-size;
+
+      .flip-clock-label {
+        font-size: $clock-font-size * 0.2;
+        line-height: $clock-font-size * 0.2;
+        text-shadow: 1px 1px 2px #000000 !important;
+        font-style: italic !important;
+        color: white !important;
+        right: -($dot-size * 8) !important;
+      }
+    }
+  }
+}
+
+@media(min-width:992px) {
+  header.masthead {
+    $clock-font-size: 80px;
+    $clock-height: ($clock-font-size * 1.2);
+    $digit-gap: 8px;
+    $border-radius: 6px;
+    $dot-size: 10px;
+
+    .flip-clock-wrapper ul {
+      width: ($clock-font-size * 0.8);
+      height: $clock-height;
+      margin: 0 ($digit-gap / 2);
+      padding: 0;
+    }
+
+    .flip-clock-wrapper ul li {
+      line-height: $clock-height;
+    }
+
+    .flip-clock-wrapper ul li a div div.inn {
+      font-size: $clock-font-size;
+    }
+
+    .flip-clock-wrapper ul,
+    .flip-clock-wrapper ul li a div div.inn {
+      border-radius: $border-radius;
+    }
+
+    .flip-clock-wrapper ul li a div.down {
+      border-bottom-left-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
+    }
+
+    .flip-clock-wrapper ul li a div.up:after {
+      top: (($clock-height / 2) - 1px);
+    }
+
+    .flip-clock-dot.top {
+      top: ($clock-height / 2 - $clock-font-size * 0.2 - $dot-size / 2);
+    }
+
+    .flip-clock-dot.bottom {
+      top: ($clock-height / 2 + $clock-font-size * 0.2 - $dot-size / 2);
+    }
+
+    .flip-clock-dot{
+      width: $dot-size;
+      height: $dot-size;
+      left: $dot-size;
+    }
+
+    .flip-clock-divider {
+      width: ($dot-size * 3);
+      height: $clock-font-size;
+
+      .flip-clock-label {
+        font-size: $clock-font-size * 0.2;
+        line-height: $clock-font-size * 0.2;
+        text-shadow: 1px 1px 2px #000000 !important;
+        font-style: italic !important;
+        color: white !important;
+        right: -($dot-size * 8) !important;
+      }
+    }
+  }
+}

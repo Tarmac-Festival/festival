@@ -14,7 +14,7 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Martin Suckau"
     ],
     "repository": {
         "type": "git",
@@ -23,6 +23,8 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.6.3",
         "bootstrap": "4.2.1",
+        "bootstrap-select": "^1.13.6",
+        "flipclock": "^0.7.8",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1"
     },

@@ -23,29 +23,41 @@ gulp.task('vendor', function() {
   // Bootstrap
   gulp.src([
       './node_modules/bootstrap/dist/**/*',
-      '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
-      '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
+      '!./node_modules/bootstrap/dist/css/bootstrap-grid*'
     ])
-    .pipe(gulp.dest('./public/vendor/bootstrap'))
+    .pipe(gulp.dest('./public/vendor/bootstrap'));
 
   // Font Awesome
   gulp.src([
       './node_modules/@fortawesome/**/*',
     ])
-    .pipe(gulp.dest('./public/vendor'))
+    .pipe(gulp.dest('./public/vendor'));
 
   // jQuery
   gulp.src([
       './node_modules/jquery/dist/*',
       '!./node_modules/jquery/dist/core.js'
     ])
-    .pipe(gulp.dest('./public/vendor/jquery'))
+    .pipe(gulp.dest('./public/vendor/jquery'));
 
   // jQuery Easing
   gulp.src([
       './node_modules/jquery.easing/*.js'
     ])
-    .pipe(gulp.dest('./public/vendor/jquery-easing'))
+    .pipe(gulp.dest('./public/vendor/jquery-easing'));
+
+  // Flipclock
+  gulp.src([
+      './node_modules/flipclock/compiled/**/*'
+    ])
+    .pipe(gulp.dest('./public/vendor/flipclock'));
+
+  // Bootstrap Select
+  gulp.src([
+      './node_modules/bootstrap-select/dist/**/*',
+      '!./node_modules/bootstrap-select/dist/js/i18n/*'
+  ])
+    .pipe(gulp.dest('./public/vendor/bootstrap-select'));
 
 });
 

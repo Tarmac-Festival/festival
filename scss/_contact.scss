@@ -13,17 +13,23 @@ section#contact {
     textarea {
       padding: 20px;
     }
+    .btn {
+      padding: 20px;
+      font-size: 18px;
+    }
+    div.form-control,
     input.form-control {
       height: auto;
     }
     textarea.form-control {
-      height: 248px;
+      height: 338px;
     }
   }
   .form-control:focus {
     border-color: $primary;
     box-shadow: none;
   }
+  .bs-placeholder,
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-400;

@@ -5,13 +5,20 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Website for Tarmac Festival">
+    <meta name="author" content="Martin Suckau">
 
-    <title>Festival Allstedt</title>
+    <title>Tarmac Festival</title>
 
     <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Flipclock CSS -->
+    <link href="vendor/flipclock/flipclock.css" rel="stylesheet">
+
+    <!-- Bootstrap Select CSS -->
+    <link href="vendor/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -30,7 +37,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Festival Allstedt</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Tarmac Festival</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -38,19 +45,21 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#news">Aktuelles</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#info">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#stages">Stages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Über Uns</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Kollektive</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="modal" href="#ticketsModal">Tickets</a>
+              <div class="nav-link nav-btn">
+                <a class="btn btn-primary" data-toggle="modal" href="#ticketsModal">Tickets</a>
+              </div>
             </li>
           </ul>
         </div>
@@ -61,12 +70,33 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Willkommen auf dem Festival Allstedt!</div>
-          <div class="intro-heading text-uppercase">Hier könnte Ihre Werbung stehen</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#info">Mehr Erfahren</a>
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <div class="clock intro-lead-in"></div>
+            </div>
+          </div>
+          <div class="intro-button">
+            <a class="btn btn-primary text-uppercase js-scroll-trigger" href="#info">
+              <i class="fas fa-angle-down"></i> Mehr Erfahren <i class="fas fa-angle-down"></i>
+            </a>
+          </div>
         </div>
       </div>
     </header>
+
+    <!-- News -->
+    <section class="bg-light" id="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Aktuelles</h2>
+            <h3 class="section-subheading text-muted">Hier könnte Ihre Werbung stehen.</h3>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+      </div>
+    </section>
 
     <!-- Info -->
     <section id="info">
@@ -106,119 +136,21 @@
       </div>
     </section>
 
-    <!-- Stages Grid -->
-    <section class="bg-light" id="stages">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Stages</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 stages-item">
-            <a class="stages-link" data-toggle="modal" href="#stagesModal1">
-              <div class="stages-hover">
-                <div class="stages-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/stages/01-thumbnail.jpg" alt="">
-            </a>
-            <div class="stages-caption">
-              <h4>Stage One</h4>
-              <p class="text-muted">Geile Musik</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 stages-item">
-            <a class="stages-link" data-toggle="modal" href="#stagesModal2">
-              <div class="stages-hover">
-                <div class="stages-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/stages/02-thumbnail.jpg" alt="">
-            </a>
-            <div class="stages-caption">
-              <h4>Stage Two</h4>
-              <p class="text-muted">Krasser Scheiß</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 stages-item">
-            <a class="stages-link" data-toggle="modal" href="#stagesModal3">
-              <div class="stages-hover">
-                <div class="stages-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/stages/03-thumbnail.jpg" alt="">
-            </a>
-            <div class="stages-caption">
-              <h4>Stage Three</h4>
-              <p class="text-muted">Bum Bum Bum</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 stages-item">
-            <a class="stages-link" data-toggle="modal" href="#stagesModal1">
-              <div class="stages-hover">
-                <div class="stages-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/stages/04-thumbnail.jpg" alt="">
-            </a>
-            <div class="stages-caption">
-              <h4>Plceholder</h4>
-              <p class="text-muted">Plceholder</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 stages-item">
-            <a class="stages-link" data-toggle="modal" href="#stagesModal1">
-              <div class="stages-hover">
-                <div class="stages-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/stages/05-thumbnail.jpg" alt="">
-            </a>
-            <div class="stages-caption">
-              <h4>Plceholder</h4>
-              <p class="text-muted">Plceholder</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 stages-item">
-            <a class="stages-link" data-toggle="modal" href="#stagesModal1">
-              <div class="stages-hover">
-                <div class="stages-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/stages/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="stages-caption">
-              <h4>Plceholder</h4>
-              <p class="text-muted">Plceholder</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- About -->
     <section class="bg-light" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Über Uns</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Kollektive</h2>
+            <h3 class="section-subheading text-muted">Wir sind in verschiedenen Kollektiven organisiert. Alle tragen zum großen Ganzen ihren individuellen Teil bei.</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="about-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
+              <h4>Kollektiv Essen</h4>
+              <p class="text-muted">Wir machen lecker Essen.</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -241,8 +173,8 @@
           <div class="col-sm-4">
             <div class="about-member">
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
+              <h4>Kollektiv Sicherheit</h4>
+              <p class="text-muted">Alles sicher hier !</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -265,8 +197,8 @@
           <div class="col-sm-4">
             <div class="about-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
+              <h4>Kollektiv Bühnen</h4>
+              <p class="text-muted">Wir bauen auf, wir reißen ein.</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -285,11 +217,6 @@
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
           </div>
         </div>
       </div>
@@ -337,6 +264,14 @@
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
               <div class="row">
                 <div class="col-md-6">
+                  <div class="form-group">
+                    <select class="form-control selectpicker" data-header="Betreff auswählen *" id="subject" title="Dein Betreff *" required="required" data-validation-required-message="Bitte Betreff auswählen">
+                      <option value="1">Helfer</option>
+                      <option value="2">Workshop</option>
+                      <option value="3">Andere</option>
+                    </select>
+                    <p class="help-block text-danger"></p>
+                  </div>
                   <div class="form-group">
                     <input class="form-control" id="name" type="text" placeholder="Dein Name *" required="required" data-validation-required-message="Bitte Namen eingeben">
                     <p class="help-block text-danger"></p>
@@ -531,6 +466,12 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <!-- Flipclock JavaScript -->
+    <script src="vendor/flipclock/flipclock.min.js"></script>
+
+    <!-- Bootstrap Select JavaScript -->
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
@@ -539,5 +480,4 @@
     <script src="js/festival.min.js"></script>
 
   </body>
-
 </html>
