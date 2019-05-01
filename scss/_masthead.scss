@@ -5,8 +5,9 @@ header.masthead {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
+  flex:1 1 auto;
   .intro-text {
     padding-top: 125px;
     padding-bottom: 75px;
