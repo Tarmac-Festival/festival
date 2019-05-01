@@ -71,6 +71,7 @@ section h3.section-subheading {
 }
 
 .btn-primary {
+  color: black;
   background-color: #fc0;
   border-color: #fc0;
 }
@@ -363,17 +364,6 @@ header.masthead .intro-text .intro-lead-in {
 
 header.masthead .intro-text .intro-button {
   margin-top: 50px;
-}
-
-.teaser {
-  background-color: #fc0;
-  text-align: center;
-  text-shadow: 0 0 1px #fff;
-  color: #000;
-}
-
-.teaser h1, .teaser h2, .teaser h3 {
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 @media (min-width: 768px) {
