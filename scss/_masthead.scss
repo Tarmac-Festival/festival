@@ -4,6 +4,7 @@ header.masthead {
   background-color: $primary;
   flex:1 1 auto;
   .intro-text {
+    color: $accent;
     padding-top: 125px;
     padding-bottom: 75px;
     .intro-lead-in {
@@ -14,7 +15,6 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      color: $accent;
       padding-top: 250px;
       padding-bottom: 200px;
     }

@@ -10625,6 +10625,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
+  color: #ABBF0F;
   padding-top: 125px;
   padding-bottom: 75px;
 }
@@ -10635,7 +10636,6 @@ header.masthead .intro-text .intro-lead-in {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    color: #ABBF0F;
     padding-top: 250px;
     padding-bottom: 200px;
   }
