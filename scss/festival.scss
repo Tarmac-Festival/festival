@@ -1,14 +1,14 @@
 // Core variables and mixins
 @import "variables.scss";
 @import "mixins.scss";
+
+@import "bootstrap/scss/bootstrap.scss";
+
 // Global CSS
 @import "global.scss";
 // Components
-@import "flip.scss";
 @import "navbar.scss";
 @import "masthead.scss";
-@import "news.scss";
-@import "info.scss";
-@import "about.scss";
+@import "avenue.scss";
 @import "contact.scss";
 @import "footer.scss";

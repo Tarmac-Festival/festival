@@ -1,7 +1,7 @@
 {
     "title": "Festival Allstedt",
     "name": "festival-allstedt",
-    "version": "5.0.3",
+    "version": "1.0.0",
     "keywords": [
         "css",
         "sass",
@@ -10,9 +10,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://festival-allstedt.firebaseapp.com/",
+    "homepage": "https://tarmac-festival.de/",
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Martin Suckau",
     "contributors": [
         "Martin Suckau"
     ],

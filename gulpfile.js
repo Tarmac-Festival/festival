@@ -11,8 +11,7 @@ var browserSync = require('browser-sync').create();
 // Set the banner content
 var banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-  ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-  ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
+  ' * Copyright 2019-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
   ' */\n',
   '\n'
 ].join('');
@@ -65,7 +64,8 @@ gulp.task('vendor', function() {
 gulp.task('css:compile', function() {
   return gulp.src('./scss/**/*.scss')
     .pipe(sass.sync({
-      outputStyle: 'expanded'
+      outputStyle: 'expanded',
+      includePaths: "./node_modules"
     }).on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],

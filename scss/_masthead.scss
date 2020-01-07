@@ -1,12 +1,7 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url('../img/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top center;
-  background-size: cover;
+  background-color: $primary;
   flex:1 1 auto;
   .intro-text {
     padding-top: 125px;
@@ -14,14 +9,12 @@ header.masthead {
     .intro-lead-in {
       @include serif-font;
     }
-    .intro-button {
-      margin-top: 50px;
-    }
   }
 }
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
+      color: $accent;
       padding-top: 250px;
       padding-bottom: 200px;
     }

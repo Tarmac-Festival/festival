@@ -6,17 +6,19 @@ body {
 
 p {
   line-height: 1.75;
+  color: $accent;
+  text-align: justify;
 }
 
 a {
-  color: $primary;
+  color: $accent;
   &:hover {
-    color: darken($primary, 10%);
+    color: darken($accent, 10%);
   }
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $accent !important;
 }
 
 h1,
@@ -32,15 +34,17 @@ h6 {
 section {
   padding: 100px 0;
   h2.section-heading {
+    color: $gray-200;
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
   }
   h3.section-subheading {
-    font-size: 16px;
+    color: $gray-500;
+    font-size: 18px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
+    margin-bottom: 5px;
     text-transform: none;
     @include serif-font;
   }
@@ -63,9 +67,12 @@ section {
 }
 
 .btn-primary {
-  color: black;
+  color: $accent !important;
   background-color: $primary;
   border-color: $primary;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   &:active,
   &:focus,
   &:hover {
@@ -75,7 +82,7 @@ section {
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+    box-shadow: 0 0 0 0.1rem darken($primary, 7.5%) !important;
   }
 }
 

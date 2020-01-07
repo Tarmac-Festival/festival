@@ -14,4 +14,6 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$primary: #fc0 !default;
+$primary: #402A01 !default;
+$secondary: lighten($primary, 1%) !default;
+$accent: #ABBF0F !default;

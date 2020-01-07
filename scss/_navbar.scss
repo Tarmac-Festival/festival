@@ -1,83 +1,124 @@
-// Styling for the navbar
-#mainNav {
-  background-color: $gray-900;
-  .navbar-toggler {
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
-    color: white;
-    border: 0;
-    background-color: $primary;
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  height: 100vh;
+  min-width: 270px;
+  max-width: 270px;
+  background: $primary;
+  color: #fff;
+  transition: all 0.3s;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  .brand {
+    color: $accent;
     @include heading-font;
-  }
-  .navbar-brand {
-    color: $primary;
-    @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($accent, 10%);
+      text-decoration: none;
     }
   }
-  .navbar-nav {
-    .nav-item {
-      .nav-link {
-        font-size: 90%;
-        font-weight: 400;
-        padding: 0.75em 0;
-        letter-spacing: 1px;
-        color: white;
-        @include heading-font;
-        &.active,
-        &:hover {
-          color: $primary;
+  .h6{
+    color: $accent;
+  }
+  .nav-btn {
+    a {
+      color: $gray-200;
+      &.active,
+      &:hover{
+        background: transparent;
+        color: $accent;
+      }
+    }
+  }
+  h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  ul.components{
+    padding: 0;
+  }
+  ul{
+    li{
+      font-size: 16px;
+      >ul{
+        margin-left: 10px;
+        li{
+          font-size: 14px;
         }
       }
-      .nav-btn {
-        padding-top: 0.55em !important;
-        padding-bottom: 0.55em !important;
-        padding-right: 0 !important;
+      a{
+        padding: 10px 0;
+        display: block;
+        color: $gray-200;
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        &.active,
+        &:hover{
+          background: transparent;
+          color: $accent;
+        }
       }
+    }
+  }
+  @media(max-width: 991.98px) {
+    margin-left: -270px;
+    &.active {
+      margin-left: 0;
+    }
+    .custom-menu{
+      margin-right: -60px !important;
+      top: 10px !important;
+    }
+  }
+
+  .custom-menu{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: -20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    .btn{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
     }
   }
 }
-@media(min-width:992px) {
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent;
-    .navbar-brand {
-      font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
-    }
-    .navbar-nav {
-      .nav-item {
-        .nav-link {
-          padding: 1.1em 1em !important;
-        }
-        .nav-btn {
-          padding-top: 0.55em !important;
-          padding-bottom: 0.55em !important;
-          padding-right: 0 !important;
-        }
-      }
-    }
-    &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: $gray-900;
-      .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
-      }
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+#sidebarCollapse{
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
+#content {
+  width: 100%;
+  padding: 0;
+  min-height: 100vh;
+  transition: all 0.3s;
+  margin-left: 270px;
+
+  &.active {
+    margin-left: 270px;
+  }
+
+  @media(max-width: 991.98px) {
+    &.active {
+      margin-left: 0;
     }
   }
 }
