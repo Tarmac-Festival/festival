@@ -5,6 +5,7 @@ body {
 }
 
 p {
+  font-size: 20px;
   line-height: 1.75;
   color: $accent;
   text-align: justify;
@@ -32,26 +33,29 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 20px 0;
   h2.section-heading {
-    color: $gray-200;
-    font-size: 40px;
+    color: $white;
+    font-size: 64px;
     margin-top: 0;
     margin-bottom: 40px;
   }
   h3.section-subheading {
-    color: $gray-500;
-    font-size: 18px;
+    color: $white;
+    font-size: 20px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 5px;
     text-transform: none;
     @include serif-font;
   }
+  a {
+    text-decoration: underline;
+  }
 }
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    padding: 40px 0;
   }
 }
 

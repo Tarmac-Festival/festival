@@ -47,7 +47,7 @@
   }
   ul{
     li{
-      font-size: 16px;
+      font-size: 20px;
       >ul{
         margin-left: 10px;
         li{
@@ -57,8 +57,7 @@
       a{
         padding: 10px 0;
         display: block;
-        color: $gray-200;
-        border-bottom: 1px solid rgba(255,255,255,.1);
+        color: $white;
         &.active,
         &:hover{
           background: transparent;
