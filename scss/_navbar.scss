@@ -14,17 +14,6 @@
   z-index: 999;
   top: 0;
   left: 0;
-  .brand {
-    color: $accent;
-    @include heading-font;
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: darken($accent, 10%);
-      text-decoration: none;
-    }
-  }
   .h6{
     color: $accent;
   }
@@ -87,6 +76,8 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     .btn{
+      background-color: darken($primary, 10);
+      border-color: darken($primary, 10);
       width: 40px;
       height: 40px;
       border-radius: 50%;

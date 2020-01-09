@@ -10410,7 +10410,7 @@ section {
 
 section h2.section-heading {
   color: #fff;
-  font-size: 64px;
+  font-size: 50px;
   margin-top: 0;
   margin-bottom: 40px;
 }
@@ -10432,6 +10432,9 @@ section a {
 @media (min-width: 768px) {
   section {
     padding: 40px 0;
+  }
+  section h2.section-heading {
+    font-size: 64px;
   }
 }
 
@@ -10507,16 +10510,6 @@ img::-moz-selection {
   left: 0;
 }
 
-#sidebar .brand {
-  color: #ff0eb4;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-#sidebar .brand.active, #sidebar .brand:active, #sidebar .brand:focus, #sidebar .brand:hover {
-  color: #da0096;
-  text-decoration: none;
-}
-
 #sidebar .h6 {
   color: #ff0eb4;
 }
@@ -10586,6 +10579,8 @@ img::-moz-selection {
 }
 
 #sidebar .custom-menu .btn {
+  background-color: #0000b0;
+  border-color: #0000b0;
   width: 40px;
   height: 40px;
   border-radius: 50%;
