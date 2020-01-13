@@ -1,0 +1,41 @@
+{
+    "title": "Festival Allstedt",
+    "name": "festival-allstedt",
+    "version": "5.0.3",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://festival-allstedt.firebaseapp.com/",
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "Martin Suckau"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/He1md4ll/festival.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.6.3",
+        "bootstrap": "4.2.1",
+        "bootstrap-select": "^1.13.6",
+        "flipclock": "^0.7.8",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.1"
+    }
+}

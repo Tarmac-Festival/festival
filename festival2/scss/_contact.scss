@@ -1,0 +1,44 @@
+// Styling for the contact section
+section#contact {
+  background-color: $primary;
+  .box-shadow-full {
+    padding: 3rem;
+    position: relative;
+    background-color: $white;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  .title-left:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: $accent;
+    width: 100px;
+    bottom: -12px;
+  }
+  .title-box {
+    position: relative;
+    margin-bottom: 3rem;
+  }
+  .form-control:focus {
+    border-color: $accent;
+    box-shadow: none;
+  }
+  .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: $font-weight-base;
+    font-size: $font-size-base;
+  }
+  .list-ico {
+    line-height: 2;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+}
