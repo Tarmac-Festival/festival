@@ -2,12 +2,11 @@
 footer {
   padding: 25px 0;
   text-align: center;
-  border-top: 1px solid rgba(255,255,255,.1);
   span.copyright {
     font-size: 70%;
     line-height: 40px;
     text-transform: none;
-    @include heading-font;
+    @include custom-font;
   }
 
   ul.social-buttons {

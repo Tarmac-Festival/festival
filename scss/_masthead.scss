@@ -2,22 +2,5 @@
 header.masthead {
   text-align: center;
   background-color: $primary;
-
   flex:1 1 auto;
-  .intro-text {
-    color: $accent;
-    padding-top: 125px;
-    padding-bottom: 75px;
-    .intro-lead-in {
-      @include serif-font;
-    }
-  }
-}
-@media(min-width:768px) {
-  header.masthead {
-    .intro-text {
-      padding-top: 250px;
-      padding-bottom: 200px;
-    }
-  }
 }
