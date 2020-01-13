@@ -25,7 +25,7 @@
         "bootstrap": "4.2.1",
         "bootstrap-select": "^1.13.6",
         "flipclock": "^0.7.8",
-        "jquery": "3.3.1",
+        "jquery": "3.4.0",
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
