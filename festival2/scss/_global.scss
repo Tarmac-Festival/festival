@@ -45,11 +45,6 @@ section {
     @include heading-font;
   }
 }
-@media(min-width:768px) {
-  section {
-    padding: 150px 0;
-  }
-}
 
 // Button Styles
 .btn {
@@ -59,7 +54,7 @@ section {
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 15px 20px;
 }
 
 .btn-primary {
@@ -96,4 +91,14 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+@media(min-width:768px) {
+  section {
+    padding: 150px 0;
+  }
+
+  .btn-xl {
+    padding: 20px 40px;
+  }
 }
