@@ -57,7 +57,7 @@
             </li>
             <li class="nav-item">
               <div class="nav-link nav-btn">
-                <a class="btn btn-primary" href="#">Tickets</a>
+                <a class="btn btn-primary" href="https://111000111.de/A2/34/index.php" target="_blank">Tickets</a>
               </div>
             </li>
           </ul>
@@ -71,7 +71,6 @@
         <div class="intro-text">
           <div class="intro-lead-in">Flugplatz Allstedt</div>
           <div class="intro-heading text-uppercase">04.09.20 - 06.09.20</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Über Uns</a>
         </div>
       </div>
     </header>
@@ -142,18 +141,48 @@
       </div>
     </section>
 
-    <!-- Clients -->
+    <!-- Collectives -->
     <section class="py-5 bg-primary">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6">
+          <div class="collective col-md-3 col-sm-4 col-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/1.png" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/logos/escape.png" alt="">
             </a>
           </div>
-          <div class="col-md-6 col-sm-6">
+          <div class="collective col-md-3 col-sm-4 col-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/2.png" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="">
+            </a>
+          </div>
+          <div class="collective col-md-3 col-sm-4 col-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/teilkonversum.png" alt="">
+            </a>
+          </div>
+          <div class="collective col-md-3 col-sm-4 col-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/ks.png" alt="">
+            </a>
+          </div>
+          <div class="collective col-md-3 col-sm-4 col-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/l300.png" alt="">
+            </a>
+          </div>
+          <div class="collective col-md-3 col-sm-4 col-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/reihe.png" alt="">
+            </a>
+          </div>
+          <div class="collective col-md-3 col-sm-4 col-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/root.png" alt="">
+            </a>
+          </div>
+          <div class="collective col-md-3 col-sm-4 col-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/resonant.png" alt="">
             </a>
           </div>
         </div>
@@ -181,30 +210,26 @@
                       </h3>
                     </div>
                     <div>
-                      <form action="" method="post" role="form" class="contactForm">
+                      <form action="" method="post" role="form" id="contactForm">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="subject" placeholder="* Betreff" data-rule="minlen:4" data-msg="Bitte mind. 4 Zeichen eingeben" />
-                              <div class="validation"></div>
+                              <input type="text" name="subject" class="form-control" id="subject" placeholder="* Betreff" minlength="4" required />
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="* Name" data-rule="minlen:4" data-msg="Bitte mind. 4 Zeichen eingeben" />
-                              <div class="validation"></div>
+                              <input type="text" name="name" class="form-control" id="name" placeholder="* Name" minlength="4" required />
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="* E-Mail" data-rule="email" data-msg="Bitte gültige E-Mail Adresse eingeben" />
-                              <div class="validation"></div>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="* E-Mail" required />
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Bitte Nachricht eingeben" placeholder="* Nachricht"></textarea>
-                              <div class="validation"></div>
+                              <textarea class="form-control" name="message" id="message" rows="5" placeholder="* Nachricht" required></textarea>
                             </div>
                           </div>
                           <div class="col-md-12">
@@ -228,8 +253,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                       </p>
                       <ul class="list-ico">
-                        <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1" target="_blank" href="https://www.google.com/maps/@51.380219,11.433763,16z?hl=de">Flughafen Allstedt</a></li>
-                        <li><i class="fas fa-phone text-primary"></i> <a href="tel:+490000000000">+49 000 00000000</a></li>
+                        <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1" target="_blank" href="https://www.google.com/maps/@51.380219,11.433763,16z?hl=de">Flugplatz Allstedt</a></li>
                         <li><i class="fas fa-envelope text-primary"></i> <a href="mailto:kontakt@schreinerei-suckau.de">kontakt@tarmac-festival.de</a></li>
                       </ul>
                     </div>
@@ -246,7 +270,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Festival Allstedt 2019</span>
+            <span class="copyright">Copyright &copy; Tarmac Festival 2020</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -270,10 +294,10 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#">Impressum</a>
+                <a href="AGB.html" target="_blank">Impressum</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Datenschutzerklärung</a>
+                <a href="Datenschutz.html" target="_blank">Datenschutzerklärung</a>
               </li>
             </ul>
           </div>
@@ -297,6 +321,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
+    <script src="js/jquery.cookiebar.js"></script>
     <script src="js/festival.min.js"></script>
   </body>
 </html>

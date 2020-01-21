@@ -5,7 +5,8 @@
  */
 
 @font-face {
-  src: local("Favorit Std Light"), local("FavoritStd-Light-Regular"), url("FavoritStd-Light.woff") format("woff");
+  font-family: "Favorit Std Light";
+  src: url("../fonts/FavoritStd-Light.woff") format("woff");
 }
 
 /*!
@@ -10712,22 +10713,21 @@ p {
 }
 
 a {
-  color: #CC4023;
+  color: #f6a300;
 }
 
 a:hover {
-  color: #a0321c;
+  color: #c38100;
 }
 
 .text-primary {
-  color: #CC4023 !important;
+  color: #f6a300 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 section {
@@ -10748,45 +10748,49 @@ section h3.section-subheading {
   text-transform: none;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
 }
 
 .btn {
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
   font-weight: 700;
 }
 
 .btn-xl {
   font-size: 18px;
-  padding: 15px 20px;
+  padding: 20px 40px;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #CC4023;
-  border-color: #CC4023;
+  background-color: #f6a300;
+  border-color: #f6a300;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   color: #fff;
-  background-color: #ab361d !important;
-  border-color: #ab361d !important;
+  background-color: #d08a00 !important;
+  border-color: #d08a00 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem #8b2c18 !important;
-  box-shadow: 0 0 0 0.2rem #8b2c18 !important;
+  -webkit-box-shadow: 0 0 0 0.2rem #aa7000 !important;
+  box-shadow: 0 0 0 0.2rem #aa7000 !important;
 }
 
 ::-moz-selection {
-  background: #CC4023;
+  background: #f6a300;
   text-shadow: none;
 }
 
 ::selection {
-  background: #CC4023;
+  background: #f6a300;
   text-shadow: none;
 }
 
@@ -10802,15 +10806,6 @@ img::-moz-selection {
   background: transparent;
 }
 
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
-  .btn-xl {
-    padding: 20px 40px;
-  }
-}
-
 #mainNav {
   background-color: #010101;
 }
@@ -10822,21 +10817,19 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #CC4023;
+  background-color: #f6a300;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 #mainNav .navbar-brand {
   color: #fff;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #CC4023;
+  color: #f6a300;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10847,11 +10840,10 @@ img::-moz-selection {
   color: white;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #CC4023;
+  color: #f6a300;
 }
 
 #mainNav .navbar-nav .nav-item .nav-btn {
@@ -10905,39 +10897,39 @@ header.masthead {
 
 header.masthead .intro-text {
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+  text-shadow: 2px 2px 3px #8a65a8;
 }
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 32px;
-  font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
+  font-style: italic !important;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 40px;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 46px;
   margin-bottom: 25px;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 250px;
+    padding-top: 215px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
-    line-height: 40px;
-    margin-bottom: 25px;
+    line-height: 50px;
+    margin-bottom: 30px;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -10950,6 +10942,15 @@ header.masthead .intro-text .intro-heading {
 .info-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+.collective {
+  padding: 20px 0;
+}
+
+.collective img {
+  max-height: 125px;
+  max-width: 125px;
 }
 
 section#contact {
@@ -10969,7 +10970,7 @@ section#contact .title-left:before {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #CC4023;
+  background-color: #f6a300;
   width: 100px;
   bottom: -12px;
 }
@@ -10980,17 +10981,9 @@ section#contact .title-box {
 }
 
 section#contact .form-control:focus {
-  border-color: #CC4023;
+  border-color: #f6a300;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-
-section#contact .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 1rem;
 }
 
 section#contact .list-ico {
@@ -11015,7 +11008,6 @@ footer span.copyright {
   text-transform: none;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 footer ul.quicklinks {
@@ -11025,7 +11017,6 @@ footer ul.quicklinks {
   text-transform: none;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 ul.social-buttons {
@@ -11043,9 +11034,69 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #CC4023;
+  background-color: #f6a300;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #ab361d;
+  background-color: #d08a00;
+}
+
+#cookie-bar {
+  background: #010101;
+  height: auto;
+  line-height: 24px;
+  color: #eeeeee;
+  text-align: center;
+  padding: 3px 0;
+}
+
+#cookie-bar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#cookie-bar.fixed.bottom {
+  bottom: 0;
+  top: auto;
+}
+
+#cookie-bar p {
+  margin: 0;
+  padding: 0;
+}
+
+#cookie-bar a {
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 0 6px;
+  margin-left: 8px;
+}
+
+#cookie-bar .cb-enable {
+  background: #f6a300;
+}
+
+#cookie-bar .cb-enable:hover {
+  background: #d08a00;
+}
+
+#cookie-bar .cb-disable {
+  background: #990000;
+}
+
+#cookie-bar .cb-disable:hover {
+  background: #bb0000;
+}
+
+#cookie-bar .cb-policy {
+  background: #ececec;
+  color: #010101;
+}
+
+#cookie-bar .cb-policy:hover {
+  background: #d9d9d9;
 }

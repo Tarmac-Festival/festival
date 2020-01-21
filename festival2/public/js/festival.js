@@ -3,7 +3,7 @@
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
@@ -28,10 +28,11 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
+    var nav = $("#mainNav");
+    if (nav.offset().top > 100) {
+        nav.addClass("navbar-shrink");
     } else {
-      $("#mainNav").removeClass("navbar-shrink");
+        nav.removeClass("navbar-shrink");
     }
   };
   // Collapse now if page is not at top
@@ -51,8 +52,19 @@
     
     var styles = [{"featureType":"administrative","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","elementType":"all","stylers":[{"saturation":-100},{"lightness":"50"},{"visibility":"simplified"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"lightness":"30"}]},{"featureType":"road.local","elementType":"all","stylers":[{"lightness":"40"}]},{"featureType":"transit","elementType":"all","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]},{"featureType":"water","elementType":"labels","stylers":[{"lightness":-25},{"saturation":-100}]}];
     map.set('styles', styles);
-  }
+  };
   initMap();
 
+    var details = {
+        message: 'Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung zu.',
+        acceptText: 'Akzeptieren',
+        policyButton: true,
+        policyText: 'Datenschutzerklärung',
+        policyURL: '/Datenschutz.html', //URL of Privacy Policy
+        fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
+        bottom: true, //Force CSS when fixed, so bar appears at bottom of website
+        zindex: '9999'
+    };
+  $.cookieBar(details);
 
 })(jQuery); // End of use strict

@@ -5,9 +5,9 @@
 @mixin heading-font {
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 500;
 }
 
 @font-face {
-  src: local('Favorit Std Light'), local('FavoritStd-Light-Regular'), url('FavoritStd-Light.woff') format('woff');
+  font-family: "Favorit Std Light";
+  src: url("../fonts/FavoritStd-Light.woff") format('woff');
 }
