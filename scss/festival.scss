@@ -3,10 +3,15 @@
 @import "mixins.scss";
 
 @import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap/scss/bootstrap-reboot.scss";
 
 // Global CSS
 @import "global.scss";
+
 // Components
 @import "navbar.scss";
 @import "masthead.scss";
+@import "info.scss";
+@import "collective.scss";
+@import "contact.scss";
 @import "footer.scss";

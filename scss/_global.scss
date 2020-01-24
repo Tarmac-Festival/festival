@@ -1,14 +1,11 @@
 // Global styling for this template
 body {
   overflow-x: hidden;
-  @include custom-font;
+  @include body-font;
 }
 
 p {
-  font-size: 20px;
   line-height: 1.75;
-  color: $accent;
-  text-align: justify;
 }
 
 a {
@@ -29,78 +26,62 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  @include custom-font;
+  @include heading-font;
 }
 
 section {
-  padding: 20px 0;
+  padding: 100px 0;
   h2.section-heading {
-    color: $white;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
   h3.section-subheading {
-    color: $white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 75px;
     text-transform: none;
-    @include custom-font;
-  }
-  a {
-    text-decoration: underline;
-  }
-}
-@media(min-width:768px) {
-  section {
-    padding: 40px 0;
-    h2.section-heading {
-      font-size: 64px;
-    }
+    @include heading-font;
   }
 }
 
 // Button Styles
 .btn {
-  @include custom-font;
+  @include heading-font;
   font-weight: 700;
 }
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 15px 20px;
 }
 
 .btn-primary {
-  color: $accent !important;
-  background-color: $primary;
-  border-color: $primary;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+  color: $white !important;
+  background-color: $accent;
+  border-color: $accent;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
-    color: white;
+    color: $white;
+    background-color: darken($accent, 7.5%) !important;
+    border-color: darken($accent, 7.5%) !important;
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.1rem darken($primary, 7.5%) !important;
+    box-shadow: 0 0 0 0.2rem darken($accent, 15%) !important;
   }
 }
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: $accent;
   text-shadow: none;
 }
 
 ::selection {
-  background: $primary;
+  background: $accent;
   text-shadow: none;
 }
 
@@ -110,4 +91,17 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+@media(min-width:768px) {
+  section {
+    padding: 150px 0;
+    h2.section-heading {
+      font-size: 45px;
+    }
+  }
+
+  .btn-xl {
+    padding: 20px 40px;
+  }
 }

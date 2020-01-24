@@ -11,7 +11,8 @@ var browserSync = require('browser-sync').create();
 // Set the banner content
 var banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-  ' * Copyright 2019-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
+  ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
+  ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
   ' */\n',
   '\n'
 ].join('');
@@ -28,7 +29,7 @@ gulp.task('vendor', function() {
 
   // Font Awesome
   gulp.src([
-      './node_modules/@fortawesome/**/*',
+      './node_modules/@fortawesome/**/*'
     ])
     .pipe(gulp.dest('./public/vendor'));
 
@@ -44,12 +45,6 @@ gulp.task('vendor', function() {
       './node_modules/jquery.easing/*.js'
     ])
     .pipe(gulp.dest('./public/vendor/jquery-easing'));
-
-  // Flipclock
-  gulp.src([
-      './node_modules/flipclock/compiled/**/*'
-    ])
-    .pipe(gulp.dest('./public/vendor/flipclock'));
 
   // Bootstrap Select
   gulp.src([

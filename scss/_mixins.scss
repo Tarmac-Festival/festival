@@ -1,10 +1,18 @@
 // Font Mixins
-@mixin custom-font {
+//@mixin body-font {
+//  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+//}
+@mixin body-font {
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
-  font-weight: 400;
+}
+
+@mixin heading-font {
+  font-family: 'Favorit Std Light', serif;
+  font-style: normal;
 }
 
 @font-face {
-  src: local('Favorit Std Light'), local('FavoritStd-Light-Regular'), url('FavoritStd-Light.woff') format('woff');
+  font-family: "Favorit Std Light";
+  src: url("../fonts/FavoritStd-Light.woff") format('woff');
 }

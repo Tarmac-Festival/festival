@@ -1,40 +1,55 @@
 // Styling for the footer
 footer {
-  padding: 25px 0;
+  padding: 50px 0;
   text-align: center;
   span.copyright {
-    font-size: 70%;
+    font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    @include custom-font;
+    @include heading-font;
   }
-
-  ul.social-buttons {
-    padding: 10px 0 !important;
+  ul.quicklinks {
+    font-size: 90%;
+    line-height: 50px;
     margin-bottom: 0;
-    li {
-      a {
-        border-bottom: none !important;
-        padding: 0 !important;
-        font-size: 32px;
-        line-height: 60px;
-        display: block;
-        width: 60px;
-        height: 60px;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-        color: $gray-200 !important;
-        border-radius: 100%;
-        outline: none;
-        background-color: $primary;
-        &:active,
-        &:focus,
-        &:hover {
-          color: $accent !important;
-          background-color: darken($primary, 7.5%) !important;
-        }
+    text-transform: none;
+    @include heading-font;
+  }
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      font-size: 20px;
+      line-height: 50px;
+      display: block;
+      width: 50px;
+      height: 50px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      color: white !important;
+      border-radius: 100%;
+      outline: none;
+      background-color: $accent;
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: darken($accent, 7.5);
       }
     }
   }
 }
+
+#cookie-bar {background:$secondary; height:auto; line-height:24px; color:#eeeeee; text-align:center; padding:3px 0;}
+#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
+#cookie-bar.fixed.bottom {bottom:0; top:auto;}
+#cookie-bar p {margin:0; padding:0;}
+#cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
+#cookie-bar .cb-enable {background:$accent;}
+#cookie-bar .cb-enable:hover {background:darken($accent, 7.5);}
+#cookie-bar .cb-disable {background:#990000;}
+#cookie-bar .cb-disable:hover {background:#bb0000;}
+#cookie-bar .cb-policy {background:$primary; color:$secondary}
+#cookie-bar .cb-policy:hover {background:darken($primary, 7.5);}
