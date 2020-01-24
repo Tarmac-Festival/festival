@@ -32,7 +32,7 @@ h6 {
 section {
   padding: 100px 0;
   h2.section-heading {
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
   }
@@ -58,7 +58,7 @@ section {
 }
 
 .btn-primary {
-  color: $white;
+  color: $white !important;
   background-color: $accent;
   border-color: $accent;
   &:active,
@@ -96,6 +96,9 @@ img::-moz-selection {
 @media(min-width:768px) {
   section {
     padding: 150px 0;
+    h2.section-heading {
+      font-size: 45px;
+    }
   }
 
   .btn-xl {

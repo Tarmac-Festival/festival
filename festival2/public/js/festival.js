@@ -56,7 +56,7 @@
   initMap();
 
     var details = {
-        message: 'Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung zu.',
+        message: 'Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung von Cookies zu.',
         acceptText: 'Akzeptieren',
         policyButton: true,
         policyText: 'Datenschutzerklärung',

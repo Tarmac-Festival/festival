@@ -27,9 +27,15 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./public/vendor/bootstrap'));
 
+  gulp.src([
+        './node_modules/bootstrap-select/dist/**/*',
+        '!./node_modules/bootstrap-select/dist/js/i18n/*'
+    ])
+    .pipe(gulp.dest('./public/vendor/bootstrap-select'));
+
   // Font Awesome
   gulp.src([
-      './node_modules/@fortawesome/**/*',
+      './node_modules/@fortawesome/**/*'
     ])
     .pipe(gulp.dest('./public/vendor'));
 
