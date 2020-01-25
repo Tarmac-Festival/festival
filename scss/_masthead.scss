@@ -25,6 +25,11 @@ header.masthead {
       margin-bottom: 25px;
       @include heading-font;
     }
+    .down {
+      border-radius: 100%;
+      width: 46px;
+      height: 46px;
+    }
   }
 }
 @media(min-width:768px) {
@@ -33,7 +38,6 @@ header.masthead {
       padding-top: 41vh;
       .intro-lead-in {
         font-size: 80px;
-        font-style: italic;
         line-height: 80px;
         margin-bottom: 20px;
       }

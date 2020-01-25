@@ -10926,13 +10926,18 @@ header.masthead .intro-text .intro-heading {
   font-style: normal;
 }
 
+header.masthead .intro-text .down {
+  border-radius: 100%;
+  width: 46px;
+  height: 46px;
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 41vh;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 80px;
-    font-style: italic;
     line-height: 80px;
     margin-bottom: 20px;
   }
@@ -11003,6 +11008,7 @@ section#contact .list-ico i {
 }
 
 section#contact .subjectSelect {
+  font-weight: 400;
   color: #495057;
   border: 1px solid #ced4da;
 }
