@@ -67,4 +67,17 @@
     };
   $.cookieBar(details);
 
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCyNdEinvbeYwpWf0Ty_nShYTzaHM5fD3A",
+        authDomain: "festival-allstedt.firebaseapp.com",
+        databaseURL: "https://festival-allstedt.firebaseio.com",
+        projectId: "festival-allstedt",
+        storageBucket: "festival-allstedt.appspot.com",
+        messagingSenderId: "295566623398",
+        appId: "1:295566623398:web:fd069a7cedd2c6f9262a67"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
 })(jQuery); // End of use strict
