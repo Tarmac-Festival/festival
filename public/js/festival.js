@@ -67,4 +67,7 @@
     };
   $.cookieBar(details);
 
+    // Initialize Firebase
+    firebase.analytics();
+
 })(jQuery); // End of use strict
