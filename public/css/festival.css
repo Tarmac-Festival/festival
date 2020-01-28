@@ -10918,9 +10918,9 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 40px;
   margin-bottom: 25px;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
@@ -10942,9 +10942,9 @@ header.masthead .intro-text .down {
     margin-bottom: 20px;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 42px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 50px;
     margin-bottom: 50px;
   }
 }

@@ -8,6 +8,27 @@
     <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2020. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
     <meta name="author" content="Martin Suckau">
 
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Tarmac Festival">
+    <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2020. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+
+    <!-- Open Graph meta tags-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tarmac-festival.de/">
+    <meta property="og:title" content="Tarmac Festival">
+    <meta property="og:site_name" content="Tarmac Festival">
+    <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2020. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+    <meta property="og:image" content="https://tarmac-festival.de/img/cover.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image:alt" content="Tarmac Festival Cover">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon-16x16.png">
+    <link rel="shortcut icon" href="./favicon.ico">
+
     <title>Tarmac Festival</title>
 
     <!-- Bootstrap Select CSS -->
@@ -66,7 +87,7 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in">Tarmac Festival</div>
-            <div class="intro-heading text-uppercase">Flugplatz Allstedt</div>
+            <div class="intro-heading">Flugplatz Allstedt</div>
             <a class="btn btn-primary down js-scroll-trigger mt-5" href="#about">
                 <i class="fas fa-angle-down fa-2x"></i>
             </a>
@@ -228,6 +249,7 @@
                                                         id="subject" multiple data-max-options="1" title="* Betreff"
                                                         data-style="subjectSelect" required>
                                                     <option>Allgemeine Anfrage</option>
+                                                    <option data-divider="true"></option>
                                                     <option>Ich möchte helfen</option>
                                                 </select>
                                             </div>
@@ -398,8 +420,10 @@
 <script src="js/jquery.cookiebar.js"></script>
 <script src="js/festival.min.js"></script>
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+<!-- Load and init firebase app -->
+<script src="/__/firebase/7.7.0/firebase-app.js"></script>
+<script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
 
 </body>
 </html>
