@@ -10725,6 +10725,10 @@ a:hover {
   color: #f6a300 !important;
 }
 
+.text-muted {
+  color: #495057 !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Favorit Std Light', serif;
@@ -10745,10 +10749,13 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
   text-transform: none;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
+}
+
+section .title-box {
+  margin-bottom: 3rem;
 }
 
 .btn {
@@ -10949,9 +10956,25 @@ header.masthead .intro-text .down {
   }
 }
 
-.info-heading {
-  margin: 15px 0;
-  text-transform: none;
+.info-box {
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box .info-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem 0;
+}
+
+.info-box hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #f6a300;
 }
 
 .collective {

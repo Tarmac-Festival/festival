@@ -19,6 +19,10 @@ a {
   color: $accent !important;
 }
 
+.text-muted {
+  color: $gray-700 !important;
+}
+
 h1,
 h2,
 h3,
@@ -40,9 +44,11 @@ section {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
     text-transform: none;
     @include heading-font;
+  }
+  .title-box {
+    margin-bottom: 3rem;
   }
 }
 
