@@ -70,4 +70,12 @@
     // Initialize Firebase
     firebase.analytics();
 
+    // Initialize reCaptcha and get site token
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d', {action:'validate_captcha'})
+            .then(function(token) {
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+    });
+
 })(jQuery); // End of use strict
