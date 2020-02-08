@@ -11445,6 +11445,11 @@ section#contact .spinner-border-sm {
   height: 1.5rem;
 }
 
+section#contact .btn-primary:disabled {
+  background-color: #ffc85d;
+  border-color: #ffc85d;
+}
+
 footer {
   padding: 50px 0;
   text-align: center;

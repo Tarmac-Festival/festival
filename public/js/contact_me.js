@@ -9,21 +9,27 @@ $(function() {
   var purposeCheck1 = $("#contactForm input#purposeCheck1");
   var purposeCheck2 = $("#contactForm input#purposeCheck2");
   var ageCheck = $("#contactForm input#ageCheck");
+  var alertS = $("#alertSuccess");
+  var alertF = $("#alertFail");
 
   subjectRadio1.change(function(){
     if (this.value === "on") {
-      formHelpSection.addClass('d-none');
-      arrivalDate.removeAttr('required');
-      periodNumber.removeAttr('required');
-      ageCheck.removeAttr('required');
+      $("#contactForm .form-help-section").fadeOut("fast", function () {
+        formHelpSection.addClass('d-none');
+        arrivalDate.removeAttr('required');
+        periodNumber.removeAttr('required');
+        ageCheck.removeAttr('required');
+      });
     }
   });
   subjectRadio2.change(function(){
     if (this.value === "on") {
-      formHelpSection.removeClass('d-none');
-      arrivalDate.attr('required', true);
-      periodNumber.attr('required', true);
-      ageCheck.attr('required', true);
+      $("#contactForm .form-help-section").fadeIn("fast", function () {
+        formHelpSection.removeClass('d-none');
+        arrivalDate.attr('required', true);
+        periodNumber.attr('required', true);
+        ageCheck.attr('required', true);
+      });
     }
   });
 
@@ -31,11 +37,13 @@ $(function() {
     event.preventDefault();
     sendSpinner.removeClass("d-none");
     sendButton.attr("disabled", true);
+    alertS.removeClass("show").addClass("d-none");
+    alertF.removeClass("show").addClass("d-none");
     var token = $("input#g-recaptcha-response").val();
-    // if (token == null || token==='') {
-    //   alert("Unerwarteter Fehler beim Senden deiner Nachricht");
-    //   return;
-    // }
+    if (token == null || token==='') {
+      alert("Unerwarteter Fehler beim Senden deiner Nachricht");
+      return;
+    }
 
     var subjectMail;
     var subjectText;
@@ -70,7 +78,7 @@ $(function() {
         + additionalMessage
         + "<br><br>"
         + $("textarea#message").val();
-    $.ajax({
+    var request = $.ajax({
       type: "POST",
       url: "/checkRecaptcha",
       data: {
@@ -79,36 +87,32 @@ $(function() {
         "name": name,
         "email": subjectMail,
         "message": message
-      },
-      success: function(data) {
-        console.log('response: ' + data.response);
-        if(data.result === 'success') {
-          var alertS = $("#alertSuccess");
-          alertS.addClass("show").removeClass("d-none");
-          alertS.delay(4000).slideUp(200, function() {
-            $(this).alert('close').addClass("d-none");
-          });
-          $("#contactForm").get(0).reset();
-        } else {
-          var alertF = $("#alertFail");
-          alertF.addClass("show").removeClass("d-none");
-          alertF.delay(30000).slideUp(200, function() {
-            $(this).alert('close').addClass("d-none");
-          });
-        }
-        sendSpinner.addClass("d-none");
-        sendButton.attr("disabled", false);
-      },
-      error: function() {
-        console.log('error while sending mail!');
-        var alertF = $("#alertFail");
-        alertF.addClass("show").removeClass("d-none");
-        alertF.delay(30000).slideUp(200, function() {
+      }
+    });
+    request.done(function (response, textStatus, jqXHR){
+      console.log('response: ' + response, textStatus);
+      sendSpinner.addClass("d-none");
+      sendButton.attr("disabled", false);
+      if(response.result === 'success') {
+        alertS.addClass("show").removeClass("d-none");
+        alertS.delay(4000).slideUp(200, function() {
           $(this).alert('close').addClass("d-none");
         });
-        sendSpinner.addClass("d-none");
-        sendButton.attr("disabled", false);
+        $("#contactForm").get(0).reset();
+      } else {
+        alertF.addClass("show").removeClass("d-none");
       }
+    });
+
+    request.fail(function (jqXHR, textStatus, errorThrown){
+      // Log the error to the console
+      console.error(
+          "Error while sending mail: "+
+          textStatus, errorThrown
+      );
+      alertF.addClass("show").removeClass("d-none");
+      sendSpinner.addClass("d-none");
+      sendButton.attr("disabled", false);
     });
     return false;
   });

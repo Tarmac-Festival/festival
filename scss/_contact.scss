@@ -61,4 +61,9 @@ section#contact {
     width: 1.5rem;
     height: 1.5rem;
   }
+
+  .btn-primary:disabled {
+    background-color: lighten($accent, 20);
+    border-color: lighten($accent, 20);
+  }
 }
