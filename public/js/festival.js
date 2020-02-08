@@ -46,7 +46,7 @@
         document.getElementById('map'), {zoom: 13, center: point});
 
     var marker = new google.maps.Marker({position: point, map: map});
-    marker.addListener('click', function() {
+    marker.addEventListener('click', function() {
         window.open('https://www.google.com/maps/@51.380219,11.433763,16z?hl=de', '_blank');
     });
     

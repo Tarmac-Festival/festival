@@ -39,4 +39,26 @@ section#contact {
     color: #495057;
     border: 1px solid #ced4da;
   }
+  .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: $accent;
+    background-color: $accent;
+  }
+
+  .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0;
+    border-color: $accent;
+  }
+
+  .custom-control-label {
+    color: $gray-700;
+  }
+
+  small {
+    color: $gray-600;
+  }
+
+  .spinner-border-sm {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }

@@ -11422,6 +11422,30 @@ section#contact .subjectSelect {
   border: 1px solid #ced4da;
 }
 
+section#contact .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #f6a300;
+  background-color: #f6a300;
+}
+
+section#contact .custom-control-input:focus ~ .custom-control-label::before {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  border-color: #f6a300;
+}
+
+section#contact .custom-control-label {
+  color: #495057;
+}
+
+section#contact small {
+  color: #868e96;
+}
+
+section#contact .spinner-border-sm {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 footer {
   padding: 50px 0;
   text-align: center;
