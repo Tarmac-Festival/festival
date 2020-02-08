@@ -1,19 +1,21 @@
 $(function() {
   var sendButton = $("#contactForm button#send");
   var sendSpinner = $("#contactForm #sendSpinner");
-  var formHelpSection = $("#contactForm #formHelpSection");
+  var formHelpSection = $("#contactForm .form-help-section");
   var subjectRadio1 = $("#contactForm input#subjectRadio1");
   var subjectRadio2 = $("#contactForm input#subjectRadio2");
   var arrivalDate = $("#contactForm input#arrival");
   var periodNumber = $("#contactForm input#period");
   var purposeCheck1 = $("#contactForm input#purposeCheck1");
   var purposeCheck2 = $("#contactForm input#purposeCheck2");
+  var ageCheck = $("#contactForm input#ageCheck");
 
   subjectRadio1.change(function(){
     if (this.value === "on") {
       formHelpSection.addClass('d-none');
       arrivalDate.removeAttr('required');
       periodNumber.removeAttr('required');
+      ageCheck.removeAttr('required');
     }
   });
   subjectRadio2.change(function(){
@@ -21,6 +23,7 @@ $(function() {
       formHelpSection.removeClass('d-none');
       arrivalDate.attr('required', true);
       periodNumber.attr('required', true);
+      ageCheck.attr('required', true);
     }
   });
 
@@ -51,7 +54,9 @@ $(function() {
           + "<br>Helfen beim Aufbau: "
           + purposeCheck1.is(":checked")
           + "<br>Helfen beim Abbau: "
-          + purposeCheck2.is(":checked");
+          + purposeCheck2.is(":checked")
+          + "<br>Ich bin über 18: "
+          + ageCheck.is(":checked");
     }
 
     var name = $("#contactForm input#name").val();

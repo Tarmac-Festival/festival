@@ -263,7 +263,7 @@
                                     Deine Nachricht wurde erfolgreich gesendet - Vielen Dank.
                                 </div>
                                 <div id="alertFail" class="alert alert-danger fade text-justify d-none" role="alert">
-                                    Leider konnte deine Nachricht nicht verarbeitet werden. Bitte sende uns dein Anliegen direkt an <a href="mailto:kontakt@tarmac-festival.de" class="alert-link">kontakt@tarmac-festival.de</a>.
+                                    Leider konnte deine Nachricht nicht verarbeitet werden. Bitte sende dein Anliegen direkt an <a href="mailto:kontakt@tarmac-festival.de" class="alert-link">kontakt@tarmac-festival.de</a>.
                                 </div>
                                 <form action="" method="post" role="form" id="contactForm">
                                     <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
@@ -292,7 +292,7 @@
                                                        placeholder="* E-Mail" required/>
                                             </div>
                                         </div>
-                                        <div id="formHelpSection" class="d-none">
+                                        <div class="form-help-section d-none">
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <div class="form-row text-muted" aria-describedby="arrivalHelpBlock">
@@ -326,6 +326,12 @@
                                             <div class="form-group">
                                                 <textarea class="form-control" name="message" id="message" rows="5"
                                                           placeholder="* Nachricht" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 form-help-section d-none">
+                                            <div class="form-group custom-control custom-checkbox custom-control-inline">
+                                                <input type="checkbox" class="custom-control-input" id="ageCheck" name="ageCheck">
+                                                <label class="custom-control-label" for="ageCheck">Ich bin über 18 Jahre alt</label>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
