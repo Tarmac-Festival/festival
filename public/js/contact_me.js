@@ -37,8 +37,8 @@ $(function() {
     event.preventDefault();
     sendSpinner.removeClass("d-none");
     sendButton.attr("disabled", true);
-    alertS.removeClass("show").addClass("d-none");
-    alertF.removeClass("show").addClass("d-none");
+    alertS.first().slideUp("fast");
+    alertF.first().slideUp("fast");
 
     var subjectMail;
     var subjectText;
@@ -95,20 +95,17 @@ $(function() {
           sendSpinner.addClass("d-none");
           sendButton.attr("disabled", false);
           if(response.result === 'success') {
-            alertS.addClass("show").removeClass("d-none");
-            alertS.delay(4000).slideUp(200, function() {
-              $(this).alert('close').addClass("d-none");
-            });
+            alertS.first().slideDown("fast").delay(5000).slideUp("fast");
             $("#contactForm").get(0).reset();
           } else {
-            alertF.addClass("show").removeClass("d-none");
+            alertF.first().slideDown("fast");
           }
         });
 
         request.fail(function (jqXHR, textStatus, errorThrown){
           // Log the error to the console
           console.error("Error while sending mail: " + textStatus, errorThrown);
-          alertF.addClass("show").removeClass("d-none");
+          alertF.first().slideDown("fast");
           sendSpinner.addClass("d-none");
           sendButton.attr("disabled", false);
         });

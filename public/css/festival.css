@@ -11143,6 +11143,23 @@ section .title-box {
   margin-bottom: 3rem;
 }
 
+ul.social-buttons li a {
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  color: white !important;
+  border-radius: 100%;
+  outline: none;
+  background-color: #f6a300;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #d08a00;
+}
+
 .btn {
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
@@ -11473,26 +11490,14 @@ footer ul.quicklinks {
   font-style: normal;
 }
 
-ul.social-buttons {
+footer ul.social-buttons {
   margin-bottom: 0;
 }
 
-ul.social-buttons li a {
-  font-size: 20px;
+footer ul.social-buttons li a {
   line-height: 50px;
-  display: block;
   width: 50px;
   height: 50px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  color: white !important;
-  border-radius: 100%;
-  outline: none;
-  background-color: #f6a300;
-}
-
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #d08a00;
 }
 
 #cookie-bar {

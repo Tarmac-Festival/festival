@@ -52,6 +52,28 @@ section {
   }
 }
 
+ul.social-buttons {
+  li {
+    a {
+      line-height: 40px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      font-size: 20px;
+      display: block;
+      color: white !important;
+      border-radius: 100%;
+      outline: none;
+      background-color: $accent;
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: darken($accent, 7.5);
+      }
+    }
+  }
+}
+
 // Button Styles
 .btn {
   @include heading-font;
