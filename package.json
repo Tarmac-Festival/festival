@@ -23,7 +23,6 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.6.3",
         "bootstrap": "^4.4.1",
-        "bootstrap-select": "^1.13.12",
         "jquery": "^3.4.1",
         "jquery.easing": "^1.4.1"
     },

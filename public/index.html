@@ -30,9 +30,6 @@
 
     <title>Tarmac Festival</title>
 
-    <!-- Bootstrap Select CSS -->
-    <link href="vendor/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
-
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -218,7 +215,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 offset-lg-3 col-12">
+            <div class="col-md-6 col-12 mb-4 mb-md-0">
                 <div class="info-box">
                     <div class="info-content">
                         <h2 class="info-title">Ticketarten</h2>
@@ -233,6 +230,18 @@
                         <p class="text-muted text-justify mb-0">
                             Der frühe Vogel hat mehr vom Tag... bis 31.05.2020 sind die Earlybird Tickets im Ticket-Shop erhältlich!
                         </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="info-box">
+                    <div class="info-content">
+                        <h2 class="info-title">FAQ</h2>
+                        <hr class="divider">
+                        <p class="lead text-center">Antworten auf Deine Fragen</p>
+                        <a class="text-justify text-muted" href="#" target="_blank" data-toggle="modal" data-target="#modalFaq">
+                            Comming Soon
+                        </a>
                     </div>
                 </div>
             </div>
@@ -263,7 +272,7 @@
                                     Deine Nachricht wurde erfolgreich gesendet - Vielen Dank.
                                 </div>
                                 <div id="alertFail" class="alert alert-danger fade text-justify d-none" role="alert">
-                                    Leider konnte deine Nachricht nicht verarbeitet werden. Bitte sende dein Anliegen direkt an <a href="mailto:kontakt@tarmac-festival.de" class="alert-link">kontakt@tarmac-festival.de</a>.
+                                    Leider konnte deine Nachricht nicht verarbeitet werden. Bitte sende dein Anliegen direkt an <a href="mailto:contact@tarmac-festival.de" class="alert-link">contact@tarmac-festival.de</a>.
                                 </div>
                                 <form action="" method="post" role="form" id="contactForm">
                                     <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
@@ -294,17 +303,20 @@
                                         </div>
                                         <div class="form-help-section d-none">
                                             <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <div class="form-row text-muted" aria-describedby="arrivalHelpBlock">
-                                                        <div class="col-12 col-xl-6 form-inline mb-1 mb-xl-0">
-                                                            <label for="arrival" class="col-form-label mr-3">Anreise</label>
-                                                            <input class="form-control" type="date" id="arrival" placeholder="Anreise" min="2020-08-21" max="2020-09-13">
-                                                        </div>
-                                                        <div class="col-12 col-xl-6">
-                                                            <input class="form-control" type="number" id="period" placeholder="* Dauer" min="1" max="21">
-                                                        </div>
+                                                <div class="form-group text-muted">
+                                                    <div class="form-inline d-flex">
+                                                        <label for="arrival" class="col-form-label mr-3">Anreise:</label>
+                                                        <input class="form-control flex-fill" type="date" id="arrival" placeholder="Anreise" min="2020-08-21" max="2020-09-03">
                                                     </div>
-                                                    <small id="arrivalHelpBlock" class="form-text text-justify">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group text-muted">
+                                                    <div class="form-inline d-flex" aria-describedby="departureHelpBlock">
+                                                        <label for="departure" class="col-form-label mr-3">Abreise:</label>
+                                                        <input class="form-control flex-fill" type="date" id="departure" placeholder="Abreise" min="2020-09-04" max="2020-09-11">
+                                                    </div>
+                                                    <small id="departureHelpBlock" class="form-text text-justify">
                                                         Schon 2 Wochen vor Festivalbeginn ist deine Anreise als Bauhelfer*in möglich. Der Abbau findet in der Woche nach dem Festival statt
                                                     </small>
                                                 </div>
@@ -356,7 +368,7 @@
                                 </p>
                                 <p>
                                     Du hast offene Fragen oder möchtest helfen? Fülle das nebenstehende Kontaktformular
-                                    aus und wir melden uns schnellstmöglich bei dir.
+                                    aus und wir melden uns schnellstmöglich bei dir. Alternativ kannst du uns auch direkt eine Mail an die unten stehenden Adressen senden.
                                 </p>
                                 <ul class="list-ico">
                                     <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1"
@@ -364,7 +376,10 @@
                                                                                                   href="https://www.google.com/maps/@51.380219,11.433763,16z?hl=de">Flugplatz
                                         Allstedt</a></li>
                                     <li><i class="fas fa-envelope text-primary"></i> <a
-                                            href="mailto:kontakt@schreinerei-suckau.de">kontakt@tarmac-festival.de</a>
+                                            href="mailto:contact@schreinerei-suckau.de">contact@tarmac-festival.de</a>
+                                    </li>
+                                    <li><i class="fas fa-envelope text-primary"></i> <a
+                                            href="mailto:booking@schreinerei-suckau.de">booking@tarmac-festival.de</a>
                                     </li>
                                 </ul>
                             </div>
@@ -466,15 +481,38 @@
     </div>
 </div>
 
+<div class="modal fade" id="modalFaq" tabindex="-1" role="dialog" aria-labelledby="modalFaqTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title pl-3" id="modalFaqTitle">FAQ</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-justify">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Comming Soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Schließen</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Bootstrap Select JavaScript -->
-<script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
 
 <!-- Contact form JavaScript -->
 <script src="js/contact_me.min.js"></script>

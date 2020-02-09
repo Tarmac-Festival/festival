@@ -11344,6 +11344,7 @@ header.masthead .intro-text .down {
 .info-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
+  height: 100%;
   border-radius: 1rem;
   -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
