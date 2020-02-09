@@ -40,12 +40,6 @@ $(function() {
     alertS.removeClass("show").addClass("d-none");
     alertF.removeClass("show").addClass("d-none");
 
-    var token = $("input#g-recaptcha-response").val();
-    if (token == null || token==='') {
-      alert("Unerwarteter Fehler beim Senden deiner Nachricht");
-      return;
-    }
-
     var subjectMail;
     var subjectText;
     var additionalMessage;
@@ -79,46 +73,46 @@ $(function() {
         + additionalMessage
         + "<br><br>"
         + $("textarea#message").val();
-    var request = $.ajax({
-      type: "POST",
-      url: "/checkRecaptcha",
-      data: {
-        "token" : token,
-        "subject": subjectText,
-        "name": name,
-        "email": subjectMail,
-        "message": message
-      }
-    });
-    request.done(function (response, textStatus){
-      console.log('response: ' + response, textStatus);
-      sendSpinner.addClass("d-none");
-      sendButton.attr("disabled", false);
-      if(response.result === 'success') {
-        alertS.addClass("show").removeClass("d-none");
-        alertS.delay(4000).slideUp(200, function() {
-          $(this).alert('close').addClass("d-none");
+
+    var result = grecaptcha.execute('6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d', {action:'validate_captcha'})
+      .then(function (token) {
+        console.log('recaptcha token: ' + token);
+
+        var request = $.ajax({
+          type: "POST",
+          url: "/checkRecaptcha",
+          data: {
+            "token": token,
+            "subject": subjectText,
+            "name": name,
+            "email": subjectMail,
+            "message": message
+          }
         });
-        $("#contactForm").get(0).reset();
-      } else {
-        alertF.addClass("show").removeClass("d-none");
-      }
-    });
 
-    request.fail(function (jqXHR, textStatus, errorThrown){
-      // Log the error to the console
-      console.error("Error while sending mail: " + textStatus, errorThrown);
-      alertF.addClass("show").removeClass("d-none");
-      sendSpinner.addClass("d-none");
-      sendButton.attr("disabled", false);
-    });
+        request.done(function (response, textStatus){
+          console.log('response: ' + response, textStatus);
+          sendSpinner.addClass("d-none");
+          sendButton.attr("disabled", false);
+          if(response.result === 'success') {
+            alertS.addClass("show").removeClass("d-none");
+            alertS.delay(4000).slideUp(200, function() {
+              $(this).alert('close').addClass("d-none");
+            });
+            $("#contactForm").get(0).reset();
+          } else {
+            alertF.addClass("show").removeClass("d-none");
+          }
+        });
 
-    request.done(function () {
-      grecaptcha.execute('6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d', {action:'re_validate_captcha'})
-          .then(function(token) {
-            document.getElementById('g-recaptcha-response').value = token;
-          });
-    });
+        request.fail(function (jqXHR, textStatus, errorThrown){
+          // Log the error to the console
+          console.error("Error while sending mail: " + textStatus, errorThrown);
+          alertF.addClass("show").removeClass("d-none");
+          sendSpinner.addClass("d-none");
+          sendButton.attr("disabled", false);
+        });
+      });
     return false;
   });
 
