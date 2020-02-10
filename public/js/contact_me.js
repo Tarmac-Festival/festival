@@ -14,21 +14,23 @@ $(function() {
 
   subjectRadio1.change(function(){
     if (this.value === "on") {
-      $("#contactForm .form-help-section").fadeOut("fast", function () {
-        formHelpSection.addClass('d-none');
-        arrivalDate.removeAttr('required');
-        departureDate.removeAttr('required');
-        ageCheck.removeAttr('required');
+      formHelpSection.each(function () {
+        $(this).slideUp("fast", function () {
+          arrivalDate.removeAttr('required');
+          departureDate.removeAttr('required');
+          ageCheck.removeAttr('required');
+        });
       });
     }
   });
   subjectRadio2.change(function(){
     if (this.value === "on") {
-      $("#contactForm .form-help-section").fadeIn("fast", function () {
-        formHelpSection.removeClass('d-none');
-        arrivalDate.attr('required', true);
-        departureDate.attr('required', true);
-        ageCheck.attr('required', true);
+      formHelpSection.each(function () {
+        $(this).slideDown("fast", function () {
+          arrivalDate.attr('required', true);
+          departureDate.attr('required', true);
+          ageCheck.attr('required', true);
+        });
       });
     }
   });
@@ -43,7 +45,7 @@ $(function() {
     var subjectMail;
     var subjectText;
     var additionalMessage;
-    if (formHelpSection.hasClass('d-none')) {
+    if (!formHelpSection.is(":visible")) {
       subjectMail = "contact@tarmac-festival.de";
       subjectText = "Allgemeine Anfrage";
       additionalMessage = "";
@@ -85,6 +87,8 @@ $(function() {
             "token": token,
             "subject": subjectText,
             "name": name,
+            "userMail": email,
+            "userName": name,
             "email": subjectMail,
             "message": message
           }
@@ -97,6 +101,13 @@ $(function() {
           if(response.result === 'success') {
             alertS.first().slideDown("fast").delay(5000).slideUp("fast");
             $("#contactForm").get(0).reset();
+            formHelpSection.each(function () {
+              $(this).slideUp("fast", function () {
+                arrivalDate.removeAttr('required');
+                departureDate.removeAttr('required');
+                ageCheck.removeAttr('required');
+              });
+            });
           } else {
             alertF.first().slideDown("fast");
           }

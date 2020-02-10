@@ -11313,23 +11313,24 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 35vh;
+  text-transform: uppercase;
+  padding-top: 40vh;
   text-shadow: 2px 2px 3px #8a65a8;
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 70px;
-  margin-bottom: 30px;
+  line-height: 60px;
+  margin-bottom: 25px;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 35px;
   margin-bottom: 25px;
   font-family: 'Favorit Std Light', serif;
   font-style: normal;
@@ -11343,17 +11344,17 @@ header.masthead .intro-text .down {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 41vh;
+    padding-top: 42vh;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 65px;
+    line-height: 65px;
     margin-bottom: 20px;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 40px;
     margin-bottom: 50px;
   }
 }
