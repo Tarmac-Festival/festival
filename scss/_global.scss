@@ -102,6 +102,15 @@ ul.social-buttons {
   }
 }
 
+.modal-header,
+.modal-footer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  > * {
+    margin: 0;
+  }
+}
+
 // Highlight color customization
 ::-moz-selection {
   background: $accent;

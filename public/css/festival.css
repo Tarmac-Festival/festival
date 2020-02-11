@@ -11188,6 +11188,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   box-shadow: 0 0 0 0.2rem #aa7000 !important;
 }
 
+.modal-header,
+.modal-footer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.modal-header > *,
+.modal-footer > * {
+  margin: 0;
+}
+
 ::-moz-selection {
   background: #f6a300;
   text-shadow: none;
