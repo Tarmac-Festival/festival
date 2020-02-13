@@ -20,6 +20,9 @@ section#contact {
     position: relative;
     margin-bottom: 3rem;
   }
+  .form-control {
+    color: #212529;
+  }
   .form-control:focus {
     border-color: $accent;
     box-shadow: none;
@@ -34,11 +37,7 @@ section#contact {
       margin-right: 10px;
     }
   }
-  .subjectSelect {
-    font-weight: 400;
-    color: #495057;
-    border: 1px solid #ced4da;
-  }
+
   .custom-control-input:checked ~ .custom-control-label::before {
     border-color: $accent;
     background-color: $accent;
@@ -47,10 +46,6 @@ section#contact {
   .custom-control-input:focus ~ .custom-control-label::before {
     box-shadow: 0 0 0;
     border-color: $accent;
-  }
-
-  .custom-control-label {
-    color: $gray-700;
   }
 
   small {
@@ -65,5 +60,14 @@ section#contact {
   .btn-primary:disabled {
     background-color: lighten($accent, 20);
     border-color: lighten($accent, 20);
+  }
+
+  .tox-tinymce {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+
+  .mce-content-body  {
+    color: $gray-700;
   }
 }

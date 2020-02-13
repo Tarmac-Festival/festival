@@ -1,57 +1,124 @@
-(function($) {
-  "use strict"; // Start of use strict
+(function ($) {
+    "use strict"; // Start of use strict
 
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 54)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
-
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 56
-  });
-
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    var nav = $("#mainNav");
-    if (nav.offset().top > 100) {
-        nav.addClass("navbar-shrink");
-    } else {
-        nav.removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
-
-  var initMap = function() {
-    var point = {lat: 51.380219, lng: 11.433763};
-    var map = new google.maps.Map(document.getElementById('map'), {zoom: 13, center: point});
-    var marker = new google.maps.Marker({position: point, map: map});
-    marker.addListener('click', function() {
-        window.open('https://www.google.com/maps/@51.380219,11.433763,16z?hl=de', '_blank');
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: (target.offset().top - 54)
+                }, 1000, "easeInOutExpo");
+                return false;
+            }
+        }
     });
 
-    var styles = [{"featureType":"administrative","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","elementType":"all","stylers":[{"saturation":-100},{"lightness":"50"},{"visibility":"simplified"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"lightness":"30"}]},{"featureType":"road.local","elementType":"all","stylers":[{"lightness":"40"}]},{"featureType":"transit","elementType":"all","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]},{"featureType":"water","elementType":"labels","stylers":[{"lightness":-25},{"saturation":-100}]}];
-    map.set('styles', styles);
-  };
-  initMap();
+    // Closes responsive menu when a scroll trigger link is clicked
+    $('.js-scroll-trigger').click(function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+
+    // Activate scrollspy to add active class to navbar items on scroll
+    $('body').scrollspy({
+        target: '#mainNav',
+        offset: 56
+    });
+
+    // Collapse Navbar
+    var navbarCollapse = function () {
+        var nav = $("#mainNav");
+        if (nav.offset().top > 100) {
+            nav.addClass("navbar-shrink");
+        } else {
+            nav.removeClass("navbar-shrink");
+        }
+    };
+    // Collapse now if page is not at top
+    navbarCollapse();
+    // Collapse the navbar when page is scrolled
+    $(window).scroll(navbarCollapse);
+
+    // tinymce.init({
+    //     selector: '#message',
+    //     plugins: 'paste searchreplace autolink autosave link table hr quickbars emoticons',
+    //     menubar: 'file edit insert format table',
+    //     toolbar: 'undo redo | bold italic underline | forecolor removeformat |  numlist bullist | emoticons | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent  | link | ltr rtl',
+    //     toolbar_sticky: true,
+    //     autosave_ask_before_unload: true,
+    //     autosave_interval: "30s",
+    //     autosave_prefix: "{path}{query}-{id}-",
+    //     autosave_restore_when_empty: false,
+    //     autosave_retention: "2m",
+    //     height: "400",
+    //     quickbars_selection_toolbar: 'bold italic | quicklink h2 h3 blockquote',
+    //     quickbars_insert_toolbar: "quicklink quicktable",
+    //     toolbar_drawer: 'sliding',
+    //     content_style: "@font-face { font-family: 'Favorit Std Light'; src: url('./fonts/FavoritStd-Light.woff') format('woff'); } body { font-family: 'Favorit Std Light', serif; color: #212529; }",
+    //     font_formats: "Favorit Std Light='Favorit Std Light',serif; Comic Sans MS=comic sans ms,sans-serif; Helvetica=helvetica;"
+    // });
+
+// Initialize reCaptcha and get site token
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d', {action: 'validate_captcha'})
+            .then(function (token) {
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+    });
+
+    var initMap = function () {
+        var point = {lat: 51.380219, lng: 11.433763};
+        var map = new google.maps.Map(document.getElementById('map'), {zoom: 13, center: point});
+        var marker = new google.maps.Marker({position: point, map: map});
+        marker.addListener('click', function () {
+            window.open('https://www.google.com/maps/@51.380219,11.433763,16z?hl=de', '_blank');
+        });
+
+        var styles = [{
+            "featureType": "administrative",
+            "elementType": "all",
+            "stylers": [{"saturation": "-100"}]
+        }, {
+            "featureType": "administrative.province",
+            "elementType": "all",
+            "stylers": [{"visibility": "off"}]
+        }, {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]
+        }, {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [{"saturation": -100}, {"lightness": "50"}, {"visibility": "simplified"}]
+        }, {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [{"saturation": "-100"}]
+        }, {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [{"visibility": "simplified"}]
+        }, {
+            "featureType": "road.arterial",
+            "elementType": "all",
+            "stylers": [{"lightness": "30"}]
+        }, {
+            "featureType": "road.local",
+            "elementType": "all",
+            "stylers": [{"lightness": "40"}]
+        }, {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [{"saturation": -100}, {"visibility": "simplified"}]
+        }, {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]
+        }, {"featureType": "water", "elementType": "labels", "stylers": [{"lightness": -25}, {"saturation": -100}]}];
+        map.set('styles', styles);
+    };
+    initMap();
 
     var details = {
         message: 'Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung von Cookies zu.',
@@ -63,17 +130,9 @@
         bottom: true, //Force CSS when fixed, so bar appears at bottom of website
         zindex: '9999'
     };
-  $.cookieBar(details);
+    $.cookieBar(details);
 
     // Initialize Firebase
     firebase.analytics();
-
-    // Initialize reCaptcha and get site token
-    grecaptcha.ready(function() {
-        grecaptcha.execute('6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d', {action:'validate_captcha'})
-            .then(function(token) {
-                document.getElementById('g-recaptcha-response').value = token;
-            });
-    });
 
 })(jQuery); // End of use strict

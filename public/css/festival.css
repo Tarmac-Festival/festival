@@ -11114,6 +11114,10 @@ a:hover {
   color: #495057 !important;
 }
 
+.lead {
+  color: #495057;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Favorit Std Light', serif;
@@ -11428,6 +11432,10 @@ section#contact .title-box {
   margin-bottom: 3rem;
 }
 
+section#contact .form-control {
+  color: #212529;
+}
+
 section#contact .form-control:focus {
   border-color: #f6a300;
   -webkit-box-shadow: none;
@@ -11445,12 +11453,6 @@ section#contact .list-ico i {
   margin-right: 10px;
 }
 
-section#contact .subjectSelect {
-  font-weight: 400;
-  color: #495057;
-  border: 1px solid #ced4da;
-}
-
 section#contact .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #f6a300;
   background-color: #f6a300;
@@ -11460,10 +11462,6 @@ section#contact .custom-control-input:focus ~ .custom-control-label::before {
   -webkit-box-shadow: 0 0 0;
   box-shadow: 0 0 0;
   border-color: #f6a300;
-}
-
-section#contact .custom-control-label {
-  color: #495057;
 }
 
 section#contact small {
@@ -11478,6 +11476,15 @@ section#contact .spinner-border-sm {
 section#contact .btn-primary:disabled {
   background-color: #ffc85d;
   border-color: #ffc85d;
+}
+
+section#contact .tox-tinymce {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+section#contact .mce-content-body {
+  color: #495057;
 }
 
 footer {
