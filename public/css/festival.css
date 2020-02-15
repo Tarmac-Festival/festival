@@ -11318,59 +11318,29 @@ img::-moz-selection {
 
 header.masthead {
   height: 100vh;
-  text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background-color: #8966aa;
 }
 
-header.masthead .intro-text {
-  text-transform: uppercase;
-  padding-top: 40vh;
-  text-shadow: 2px 2px 3px #8a65a8;
-}
-
-header.masthead .intro-text .intro-lead-in {
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 60px;
-  margin-bottom: 25px;
-  font-family: 'Favorit Std Light', serif;
-  font-style: normal;
-}
-
-header.masthead .intro-text .intro-heading {
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 35px;
-  margin-bottom: 25px;
-  font-family: 'Favorit Std Light', serif;
-  font-style: normal;
-}
-
-header.masthead .intro-text .down {
+header.masthead .down {
+  position: absolute;
+  left: 46%;
+  bottom: 15%;
   border-radius: 100%;
   width: 46px;
   height: 46px;
 }
 
+header.masthead .cover {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 42vh;
-  }
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 65px;
-    line-height: 65px;
-    margin-bottom: 20px;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 40px;
-    margin-bottom: 50px;
+  header.masthead .down {
+    bottom: 10%;
   }
 }
 

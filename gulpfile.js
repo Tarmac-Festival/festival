@@ -44,14 +44,6 @@ gulp.task('vendor', function() {
       './node_modules/jquery.easing/*.js'
     ])
     .pipe(gulp.dest('./public/vendor/jquery-easing'));
-
-  // Bootstrap Select
-  gulp.src([
-      './node_modules/bootstrap-select/dist/**/*',
-      '!./node_modules/bootstrap-select/dist/js/i18n/*'
-  ])
-    .pipe(gulp.dest('./public/vendor/bootstrap-select'));
-
 });
 
 // Compile SCSS
