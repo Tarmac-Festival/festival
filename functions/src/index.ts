@@ -3,7 +3,7 @@ const admin = require('firebase-admin');
 const rp = require('request-promise');
 const serviceAccount = require("../key/festival-allstedt-firebase-adminsdk-k9w4f-32e9d571b2.json");
 const userMailSubject = "Tarmac Festival: Danke für deine Nachricht";
-const userMailMessage = "<p>Hallo {{name}},</p><p>vielen Dank für deine Nachticht.<br>Wir melden uns so schnell wie möglich bei dir.</p><p>Beste Grüße,<br>Dein Tamrac Festival Team</p>";
+const userMailMessage = "<p>Hallo {{name}},</p><p>vielen Dank für deine Nachricht.<br>Wir melden uns so schnell wie möglich bei dir.</p><p>Beste Grüße,<br>Dein Tarmac Festival Team</p>";
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
@@ -46,11 +46,11 @@ exports.checkRecaptcha = functions.https.onRequest((req, res) => {
             response: token
         },
         json: true
-    }).then(result => {
+    }).then(async result => {
         console.log("recaptcha result", result);
         if (result.success && result.score >= 0.6) {
             let mailCollection = admin.firestore().collection('mail');
-            mailCollection.add({
+            await mailCollection.add({
                 to: [email],
                 message: {
                     html: message,
@@ -59,7 +59,7 @@ exports.checkRecaptcha = functions.https.onRequest((req, res) => {
             }).catch(error => {
                 console.error("Could not save mail", error);
             });
-            mailCollection.add({
+            await mailCollection.add({
                 to: [userMail],
                 message: {
                     html: userMailMessage.replace("{{name}}", userName),

@@ -40,31 +40,19 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
-    // tinymce.init({
-    //     selector: '#message',
-    //     plugins: 'paste searchreplace autolink autosave link table hr quickbars emoticons',
-    //     menubar: 'file edit insert format table',
-    //     toolbar: 'undo redo | bold italic underline | forecolor removeformat |  numlist bullist | emoticons | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent  | link | ltr rtl',
-    //     toolbar_sticky: true,
-    //     autosave_ask_before_unload: true,
-    //     autosave_interval: "30s",
-    //     autosave_prefix: "{path}{query}-{id}-",
-    //     autosave_restore_when_empty: false,
-    //     autosave_retention: "2m",
-    //     height: "400",
-    //     quickbars_selection_toolbar: 'bold italic | quicklink h2 h3 blockquote',
-    //     quickbars_insert_toolbar: "quicklink quicktable",
-    //     toolbar_drawer: 'sliding',
-    //     content_style: "@font-face { font-family: 'Favorit Std Light'; src: url('./fonts/FavoritStd-Light.woff') format('woff'); } body { font-family: 'Favorit Std Light', serif; color: #212529; }",
-    //     font_formats: "Favorit Std Light='Favorit Std Light',serif; Comic Sans MS=comic sans ms,sans-serif; Helvetica=helvetica;"
-    // });
-
-// Initialize reCaptcha and get site token
-    grecaptcha.ready(function () {
-        grecaptcha.execute('6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d', {action: 'validate_captcha'})
-            .then(function (token) {
-                document.getElementById('g-recaptcha-response').value = token;
-            });
+    $('textarea#message').summernote({
+        placeholder: '* Nachricht',
+        tabsize: 2,
+        height: 200,
+        disableDragAndDrop: true,
+        spellCheck: true,
+        dialogsInBody: true,
+        toolbar: [
+            ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
+            ['fontsize', ['fontsize', 'color']],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['insert', ['link', 'table']]
+        ]
     });
 
     var initMap = function () {

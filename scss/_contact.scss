@@ -20,8 +20,9 @@ section#contact {
     position: relative;
     margin-bottom: 3rem;
   }
-  .form-control {
-    color: #212529;
+  .form-control,
+  .note-editing-area{
+    color: #212529 !important;
   }
   .form-control:focus {
     border-color: $accent;
@@ -38,20 +39,6 @@ section#contact {
     }
   }
 
-  .custom-control-input:checked ~ .custom-control-label::before {
-    border-color: $accent;
-    background-color: $accent;
-  }
-
-  .custom-control-input:focus ~ .custom-control-label::before {
-    box-shadow: 0 0 0;
-    border-color: $accent;
-  }
-
-  small {
-    color: $gray-600;
-  }
-
   .spinner-border-sm {
     width: 1.5rem;
     height: 1.5rem;
@@ -62,12 +49,7 @@ section#contact {
     border-color: lighten($accent, 20);
   }
 
-  .tox-tinymce {
+  .note-editor {
     border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-  }
-
-  .mce-content-body  {
-    color: $gray-700;
   }
 }

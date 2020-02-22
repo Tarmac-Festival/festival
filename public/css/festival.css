@@ -1,5 +1,5 @@
 /*!
- * Tarmac Festival - Festival Allstedt v1.1.0 (https://tarmac-festival.de/)
+ * Tarmac Festival - Festival Allstedt v1.2.0 (https://tarmac-festival.de/)
  * Copyright 2019-2020 Martin Suckau
  */
 
@@ -11402,8 +11402,9 @@ section#contact .title-box {
   margin-bottom: 3rem;
 }
 
-section#contact .form-control {
-  color: #212529;
+section#contact .form-control,
+section#contact .note-editing-area {
+  color: #212529 !important;
 }
 
 section#contact .form-control:focus {
@@ -11423,21 +11424,6 @@ section#contact .list-ico i {
   margin-right: 10px;
 }
 
-section#contact .custom-control-input:checked ~ .custom-control-label::before {
-  border-color: #f6a300;
-  background-color: #f6a300;
-}
-
-section#contact .custom-control-input:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
-  border-color: #f6a300;
-}
-
-section#contact small {
-  color: #868e96;
-}
-
 section#contact .spinner-border-sm {
   width: 1.5rem;
   height: 1.5rem;
@@ -11448,13 +11434,8 @@ section#contact .btn-primary:disabled {
   border-color: #ffc85d;
 }
 
-section#contact .tox-tinymce {
+section#contact .note-editor {
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-}
-
-section#contact .mce-content-body {
-  color: #495057;
 }
 
 footer {

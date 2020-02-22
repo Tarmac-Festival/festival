@@ -29,10 +29,8 @@
 
     <title>Tarmac Festival</title>
 
-    <!-- Custom fonts for this template -->
+    <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
     <link href="css/festival.min.css" rel="stylesheet">
 </head>
 
@@ -283,7 +281,7 @@
             <div class="col-sm-12">
                 <div class="box-shadow-full">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <div class="title-box pt-4 pt-md-0">
                                 <h3 class="title-left">
                                     Nachricht senden
@@ -298,16 +296,16 @@
                                 </div>
                                 <form action="" method="post" role="form" id="contactForm">
                                     <div class="row">
-                                        <div class="col-md-12 mt-1">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="subjectRadio1" name="subjectRadio1" class="custom-control-input" checked>
-                                                    <label class="custom-control-label" for="subjectRadio1">Allgemeine Anfrage</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="subjectRadio2" name="subjectRadio1" class="custom-control-input">
-                                                    <label class="custom-control-label" for="subjectRadio2">Ich möchte helfen</label>
-                                                </div>
+                                                <input type="email" class="form-control" name="email" id="email"
+                                                       placeholder="* E-Mail" required/>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" name="name" class="form-control" id="subject"
+                                                       placeholder="* Betreff" minlength="4" required/>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
@@ -318,53 +316,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <input type="email" class="form-control" name="email" id="email"
-                                                       placeholder="* E-Mail" required/>
-                                            </div>
-                                        </div>
-                                        <div class="form-help-section" style="display: none">
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <div class="form-inline d-flex">
-                                                        <label for="arrival" class="col-form-label mr-3">Anreise:</label>
-                                                        <input class="form-control flex-fill" type="date" id="arrival" placeholder="Anreise" min="2020-08-21" max="2020-09-03">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <div class="form-inline d-flex" aria-describedby="departureHelpBlock">
-                                                        <label for="departure" class="col-form-label mr-3">Abreise:</label>
-                                                        <input class="form-control flex-fill" type="date" id="departure" placeholder="Abreise" min="2020-09-04" max="2020-09-11">
-                                                    </div>
-                                                    <small id="departureHelpBlock" class="form-text text-justify">
-                                                        Schon 2 Wochen vor Festivalbeginn ist deine Anreise als Bauhelfer*in möglich. Der Abbau findet in der Woche nach dem Festival statt
-                                                    </small>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                                        <input type="checkbox" class="custom-control-input" id="purposeCheck1" name="purposeCheck1">
-                                                        <label class="custom-control-label" for="purposeCheck1">Helfen beim Aufbau</label>
-                                                    </div>
-                                                    <div class="custom-control custom-checkbox custom-control-inline">
-                                                        <input type="checkbox" class="custom-control-input" id="purposeCheck2" name="purposeCheck1">
-                                                        <label class="custom-control-label" for="purposeCheck2">Helfen beim Abbau</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" name="message" id="message" rows="5"
-                                                          placeholder="* Nachricht" required></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 form-help-section" style="display: none">
-                                            <div class="form-group custom-control custom-checkbox custom-control-inline">
-                                                <input type="checkbox" class="custom-control-input" id="ageCheck" name="ageCheck">
-                                                <label class="custom-control-label" for="ageCheck">Ich bin über 18 Jahre alt</label>
+                                                <textarea class="form-control" name="message" id="message" rows="5"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
@@ -377,7 +329,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <div class="title-box pt-4 pt-md-0">
                                 <h3 class="title-left">
                                     Kontakt aufnehmen
@@ -909,14 +861,14 @@
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/summernote/summernote-bs4.min.js"></script>
 
 <!-- Contact form JavaScript -->
 <script src="js/contact_me.min.js"></script>
-<!--<script src="https://cdn.tiny.cloud/1/f877yw2078drmq04rmwjwc4fu2se3n3hqdim5s4gpojfz9yf/tinymce/5/tinymce.min.js" referrerpolicy="origin"/>-->
 
 <!-- Load and init firebase app -->
-<script src="/__/firebase/7.7.0/firebase-app.js"></script>
-<script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+<script src="/__/firebase/7.9.0/firebase-app.js"></script>
+<script src="/__/firebase/7.9.0/firebase-analytics.js"></script>
 <script src="/__/firebase/init.js"></script>
 
 <!-- Custom scripts -->
