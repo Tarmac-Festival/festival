@@ -3,7 +3,7 @@ const admin = require('firebase-admin');
 const rp = require('request-promise');
 const serviceAccount = require("../key/festival-allstedt-firebase-adminsdk-k9w4f-32e9d571b2.json");
 const userMailSubject = "Tarmac Festival: Danke für deine Nachricht";
-const userMailMessage = "<p>Hallo {{name}},</p><p>vielen Dank für deine Nachricht.<br>Wir melden uns so schnell wie möglich bei dir.</p><p>Beste Grüße,<br>Dein Tarmac Festival Team</p>";
+const userMailMessage = "<p>Hallo {{name}},</p><p>vielen Dank für deine Nachricht.<br>Wir melden uns so schnell wie möglich bei dir.</p><p>Beste Grüße,<br>Dein Tarmac Team</p>";
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
