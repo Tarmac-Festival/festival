@@ -26,7 +26,7 @@ gulp.task('vendor', function () {
     ])
         .pipe(gulp.dest('./public/vendor/bootstrap'));
 
-    // Simditor
+    // Summernote Editor
     gulp.src([
         './node_modules/summernote/dist/summernote-bs4.min.js',
         './node_modules/summernote/dist/summernote-bs4.min.css'
@@ -55,6 +55,15 @@ gulp.task('vendor', function () {
         './node_modules/jquery.easing/*.js'
     ])
         .pipe(gulp.dest('./public/vendor/jquery-easing'));
+
+    // I18Next
+    gulp.src([
+        './node_modules/i18next/i18next*.js',
+        './node_modules/i18next-xhr-backend/i18next*.js',
+        './node_modules/i18next-browser-languagedetector/i18next*.js',
+        './node_modules/jquery-i18next/*i18next*.js'
+    ])
+        .pipe(gulp.dest('./public/vendor/jquery-i18next'));
 });
 
 // Compile SCSS

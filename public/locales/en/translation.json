@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "project": "The project",
+    "artists": "Artists",
+    "info": "Info",
+    "avenue": "Avenue",
+    "contact": "Contact",
+    "tickets": "Tickets"
+  },
+  "about": {
+    "heading": "The project",
+    "text1": "We are united by the idea of creating a festival which is intimate and enthusiastic, brings fun, operates sustainably, is non-commercial, and pursues the goal to create a diverse consciousness for music, culture, and life in our present time. A feast which takes you outside and is still just around the corner. A bit of escapism while at the same time confronting the challenges of reality.",
+    "text2": "We are the Team Tarmac, friends, family, acquaintances and strangers, crew, the curious, the creative, artists and musicians from near and far: Halle and Leipzig, Jena and Berlin, and many more locations from far and wide. We are ready for this! For four days, we want to create an atmosphere with you in which we develop open spaces, self-actualize, and be at ease. The creation process is already part of the goal we are working towards, even though we are uncertain of when it will be achieved. The Tarmac Festival does not convey just one vision; the people who make this project possible are too diverse for this. ",
+    "text3": "We are looking forward to the summer of 2020 with great anticipation. Be a guest, be a friend. Come by and join in!",
+    "text4": "rave hard, be nice",
+    "text5": "racism, sexism, antisemitism and all other forms of discrimination won’t be tolerated and will lead to immediate banishment.",
+    "text6": "savour the moment - no photos, no video, no phones!",
+    "button": "Learn more"
+  },
+  "artists": {
+    "heading": "Artists",
+    "text1": "...",
+    "text2": "– Stay tuned!"
+  },
+  "info": {
+    "heading": "Info",
+    "subheading": "...",
+    "box1": {
+      "heading": "Tickets",
+      "subheading1": "Partybird Ticket (50€)",
+      "text1": "...",
+      "subheading2": "Earlybird Ticket (60€)",
+      "text2": "...",
+      "subheading3": "First Wave Ticket (70€)",
+      "text3": "..."
+    },
+    "box2": {
+      "heading": "Tickets",
+      "subheading1": "Second Wave Ticket (80€)",
+      "text1": "...",
+      "subheading2": "Soliticket (90€)",
+      "text2": "...",
+      "subheading3": "Camper-/ Autopass (10€ - begrenzt)",
+      "text3": "..."
+    },
+    "box3": {
+      "heading": "FAQ",
+      "subheading1": "...",
+      "text1": "Coming Soon"
+    }
+  },
+  "contact": {
+    "form": {
+      "heading": "Send us a message",
+      "alert": {
+        "success": "...",
+        "fail": "... "
+      },
+      "input1": "* Mail",
+      "input2": "* Subject",
+      "input3": "* Name",
+      "textarea": "* Message",
+      "button": "Send"
+    },
+    "display": {
+      "heading": "Contact us",
+      "button": "You want to help? - click here",
+      "subheading": "...",
+      "text": "..."
+    }
+  },
+  "modal": {
+    "common": {
+      "button": "Close",
+      "soon": "Coming Soon"
+    },
+    "chronic": {
+      "heading": "Chronicle",
+      "text1": "In recent years, we have been fascinated by how people move in subcultural space, organize themselves in collectives, really do something, and in doing so, deliberately advocate their values. It turned out that the individual collectives had already perceived each other but rarely organized joint events, also because the diverse musical orientations did not make the process seem evident at first.",
+      "text2": "We agreed that the realization of the project would be particularly successful if we can motivate the already active collectives in Halle and the wider vicinity to become part of an idea. In 2018 we started introducing ourselves as Team Tarmac to the different collectives. We took part in plenary sessions, built a network consisting of various sectors of art and music, and helped to realize open-air raves and other events.",
+      "text3": "At the end of 2018 we had the first talks with the operators of the Allstedt airfield. Good to have landed here: a stretch of forest and concrete. An inspiring airfield ruin. A tarmac that extends to the horizon, close to Halle and Leipzig. Practically reachable by train and bike. In short: The ideal location for us.",
+      "text4": "In 2019 the cooperation was a done deal. This was followed by the continuous use of an aircraft hangar and a lot of work input to make the area suitable for the festival in 2020.",
+      "text5": "In summer 2019, we realized our first private rave on the premises. This showed us what it means to make a project of this size come true through voluntary work, self-determination and self-financing. Your coming gave us strength and confirmation to pursue a real goal with our visions."
+    },
+    "faq": {
+      "heading": "FAQ"
+    },
+    "collectives": {
+      "escape": {
+        "heading": "Escape",
+        "text1": "...",
+        "text2": "...",
+        "text3": "..."
+      },
+      "endlos": {
+        "heading": "Station Endlos",
+        "text1": "...",
+        "text2": "...",
+        "text3": "..."
+      },
+      "l300": {
+        "heading": "L300",
+        "text1": "L300 Decoration & Arts Circle is a growing collective of jung DJs, Artist and event hustler…",
+        "text2": "After a couple excessive festival experience in Europe we decided to bring the vibe of the psychedelic culture to the world! Since 2016 we are on adventures in the cities Halle, Berlin, Leipzig and in outer space… and there is still no end in sight! Boomshakalaka Spaceamigos und -amigas!!!!"
+      },
+      "reihe": {
+        "heading": "II. Reihe",
+        "text1": "..."
+      },
+      "resonant": {
+        "heading": "resonant",
+        "text1": "[Resonánz] - Substantiv, feminin, die",
+        "text2": "It started with spontaneous mettings of friends.Then it became more and more to a established structure. At the beginning we were planning a single unique event. All of a sudden we had weekly events in the summer of 2018. Ever since we are trying to create a room with free space for any kind of electronic music regularly. At the same time it should not follow any comercial rules."
+      },
+      "orgia": {
+        "heading": "Orgia",
+        "text1": "The organised-rave-group-in-aktion (ORGIA) founded in 2018 is specialized in Full-Service-Solutions for dancing events. Very fast they became the leading provider. About 12 employees are active in the cities Halle and Leipzig. Just recently the community achieved sales of 253€.",
+        "text2": "At the Tarmac festival they will organise a hangar with the dancing floor. Therefore the main elements are Acid, Elektro, Rave and Trance."
+      },
+      "teilko": {
+        "heading": "Teilkonversum 7",
+        "text1": "...",
+        "text2": "...",
+        "text3": "..."
+      },
+      "lila": {
+        "heading": "Lila Drache",
+        "text1": "..."
+      },
+      "root": {
+        "heading": "Root",
+        "text1": "..."
+      },
+      "klubska": {
+        "heading": "klubska scena",
+        "text1": "klubska scena is a secret pop-up underground event for audiophiles and freedom fighters against the music industry! It’s guerrilla like nature consists of activities performed in a spontaneous way, without authorisation, on jaw dropping locations."
+      },
+      "nest": {
+        "heading": "Nest",
+        "text1": "Under the blue sky and the green leaves is the NEST. It is framed by wood. The relaxing space is hidden far away from any noise. There you can calm down, cuddle, relax and chill. You can escape and sneak in to the NEST. There’s room for interesting talks and inspirations.",
+        "text2": "Here you can listen to beautiful, exciting, confusing and thoughtful stories from audiobooks or storytellers. Get inspired and be a part of discussions. Take time to enjoy the art of films and send your thoughts on a journey."
+      }
+    }
+  }
+}

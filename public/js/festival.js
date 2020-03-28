@@ -40,20 +40,34 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
-    $('textarea#message').summernote({
-        placeholder: '* Nachricht',
-        tabsize: 2,
-        height: 200,
-        disableDragAndDrop: true,
-        spellCheck: true,
-        dialogsInBody: true,
-        toolbar: [
-            ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
-            ['fontsize', ['fontsize', 'color']],
-            ['para', ['ul', 'ol', 'paragraph']],
-            ['insert', ['link', 'table']]
-        ]
-    });
+    // Translate text
+    i18next
+        .use(i18nextXHRBackend)
+        .use(i18nextBrowserLanguageDetector)
+        .init({
+            backend: {
+                loadPath: './locales/{{lng}}/{{ns}}.json'
+            },
+            fallbackLng: 'en'
+        }, function() {
+            jqueryI18next.init(i18next, $);
+            $(".localized").localize();
+            var textareaPlaceholder = i18next.t('contact.form.textarea', "#")
+            $('textarea#message').summernote({
+                placeholder: textareaPlaceholder,
+                tabsize: 2,
+                height: 200,
+                disableDragAndDrop: true,
+                spellCheck: true,
+                dialogsInBody: true,
+                toolbar: [
+                    ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
+                    ['fontsize', ['fontsize', 'color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['insert', ['link', 'table']]
+                ]
+            });
+        });
 
     var initMap = function () {
         var point = {lat: 51.380219, lng: 11.433763};

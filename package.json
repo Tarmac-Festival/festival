@@ -23,7 +23,11 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.6.3",
         "bootstrap": "^4.4.1",
+        "i18next": "^19.3.4",
+        "i18next-browser-languagedetector": "^4.0.2",
+        "i18next-xhr-backend": "^3.2.2",
         "jquery": "^3.4.1",
+        "jquery-i18next": "^1.2.1",
         "jquery.easing": "^1.4.1",
         "summernote": "^0.8.16"
     },

@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "project": "Das Projekt",
+    "artists": "Künstler*innen",
+    "info": "Info",
+    "avenue": "Anfahrt",
+    "contact": "Kontakt",
+    "tickets": "Tickets"
+  },
+  "about": {
+    "heading": "Das Projekt",
+    "text1": "Uns alle vereint die Vorstellung, ein Festival zu schaffen, das vertraut und enthusiastisch ist, Spaß bringt, nachhaltig agiert und nicht kommerziell ist sowie die Schaffung eines diversen Bewusstseins für Musik, Kultur und Leben in der heutigen Zeit als Ziel verfolgt. Ein Fest, das einen richtig rausbringt und trotzdem um die Ecke ist. Ein wenig Eskapismus bei gleichzeitiger Auseinandersetzung mit den Herausforderungen der Realität.",
+    "text2": "Wir sind das Team-Tarmac, Freundinnen und Freunde, Familie, Bekannte und Unbekannte, Crew, Neugierige, Kreative, Kunst- und Musikschaffende von hier und dort, Halle und Leipzig, Jena und Berlin, der vielen Orte mehr, näher und ferner noch. Und wir haben Bock! Mit Euch wollen wir für vier Tage eine Atmosphäre schaffen, in der wir Freiräume erschließen, uns selbst verwirklichen und wohlfühlen. Schon der Entstehungsprozess ist Teil des Zieles von dem wir nicht wissen, wann es erreicht sein wird. Das Tarmac Festival vermittelt nicht die eine Vision. Dafür sind die Menschen, die dieses Projekt ermöglichen, viel zu divers.",
+    "text3": "Mit großer Vorfreude schauen wir auf den Sommer 2020. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!",
+    "text4": "rave hard, be nice",
+    "text5": "racism, sexism, antisemitism and all other forms of discrimination won’t be tolerated and will lead to immediate banishment.",
+    "text6": "savour the moment - no photos, no video, no phones!",
+    "button": "Mehr Erfahren"
+  },
+  "artists": {
+    "heading": "Künstler*innen",
+    "text1": "Hier veröffentlichen wir für euch DJs, Live-Acts, Artists und Bands, die auf dem Tarmac Festival spielen werden.",
+    "text2": "– Stay tuned!"
+  },
+  "info": {
+    "heading": "Info",
+    "subheading": "Schon bald sind hier weitere Informationen zu Anfahrt, Anreisezeiten, Camping uvm. einsehbar.",
+    "box1": {
+      "heading": "Tickets",
+      "subheading1": "Partybird Ticket (50€)",
+      "text1": "Du warst auf einer unserer Partys oder hast einen 10-stelligen Gewinncode über eine andere Aktion erhalten? Dann besteht für dich die Möglichkeit, eines der Partybird Tickets hier im Shop zu erwerben. Gib bei der Bestellung einfach den 10-stelligen Ticket Code ein und sichere dir ein Partybird Ticket!",
+      "subheading2": "Earlybird Ticket (60€)",
+      "text2": "Der frühe Vogel hat mehr vom Tag! Bis 31.05.2020 sind die Earlybird Tickets im Ticketshop erhältlich!",
+      "subheading3": "First Wave Ticket (70€)",
+      "text3": "Vom 01.06. bis 31.07.2020 sind die First Wave Tickets im Ticketshop erhältlich!"
+    },
+    "box2": {
+      "heading": "Tickets",
+      "subheading1": "Second Wave Ticket (80€)",
+      "text1": "Vom 01.08. bis 01.09.2020 sind die Second Wave Tickets im Ticketshop erhältlich!",
+      "subheading2": "Soliticket (90€)",
+      "text2": "Du findest unser Projekt besonders unterstützenswert? Dann hol dir das Soliticket. Die zusätzliche finanzielle Unterstützung gibt uns die Möglichkeit, dir und euch noch eine eindrücklichere Festivalerfahrung bieten zu können!",
+      "subheading3": "Camper-/ Autopass (10€ - begrenzt)",
+      "text3": "Wenn du mit Camper, Wohnwagen oder dem Auto auf dem Zeltplatz übernachten möchtest, hol dir einen Camper-/ Autopass! Der Pass ermöglicht dir, mit deinem Fahrzeug auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
+    },
+    "box3": {
+      "heading": "FAQ",
+      "subheading1": "Antworten auf Deine Fragen",
+      "text1": "Coming Soon"
+    }
+  },
+  "contact": {
+    "form": {
+      "heading": "Nachricht senden",
+      "alert": {
+        "success": "Deine Nachricht wurde erfolgreich gesendet - Vielen Dank.",
+        "fail": "Leider konnte deine Nachricht nicht verarbeitet werden. Bitte sende dein Anliegen direkt an "
+      },
+      "input1": "* E-Mail",
+      "input2": "* Betreff",
+      "input3": "* Name",
+      "textarea": "* Nachricht",
+      "button": "Senden"
+    },
+    "display": {
+      "heading": "Kontakt aufnehmen",
+      "button": "Du möchtest helfen? - hier klicken",
+      "subheading": "Schreib uns dein Anliegen!",
+      "text": "Du hast offene Fragen? Fülle das nebenstehende Kontaktformular aus und wir melden uns schnellstmöglich bei dir. Alternativ kannst du uns auch direkt eine Mail an die unten stehenden Adressen senden."
+    }
+  },
+  "modal": {
+    "common": {
+      "button": "Schließen",
+      "soon": "Coming Soon"
+    },
+    "chronic": {
+      "heading": "Chronik",
+      "text1": "In den letzten Jahren hat es uns fasziniert, wie sich Menschen im subkulturellen Raum bewegen, sich in Kollektiven organisieren, richtig was reißen und dabei bedächtig ihre Werte vertreten. Es stellte sich heraus, dass die einzelnen Kollektive einander schon wahrgenommen haben, jedoch selten gemeinsame Veranstaltungen organisierten, auch weil die diversen musikalischen Ausrichtungen den Prozess zunächst nicht offensichtlich erschienen ließen.",
+      "text2": "Wir waren uns einig, dass die Realisierung des Projektes dann besonders gut gelingen würde, wenn wir die bereits aktiven Kollektive in Halle und weit gefasster Umgebung motivieren könnten, Teil einer Idee zu werden. 2018 begannen wir damit, uns als Team-Tarmac bei verschiedenen Kollektiven vorzustellen. Wir saßen in Plena, bauten ein verschiedene Kunst- und Musikbereiche umspannendes Netzwerk auf, halfen dabei, Open-Air-Raves und andere Veranstaltungen zu verwirklichen.",
+      "text3": "Ende 2018 führten wir erste Gespräche mit den Betreiber*innen des Flugplatzes Allstedt. Gut, hier gelandet zu sein: Ein Stück Wald und Beton. Eine inspirierende Flugplatzruine. Ein Rollfeld (zu engl. TARMAC), das bis an den Horizont reicht, nahe Halle und Leipzig. Quasi mit Zug und Fahrrad zu erreichen. Kurzum: Die optimale Location für uns.",
+      "text4": "2019 war die Kooperation dann beschlossene Sache. Es folgten die dauerhafte Nutzung eines Flugzeughangars und viele Arbeitseinsätze, um das Gelände für das Jahr 2020 festivaltauglich zu machen.",
+      "text5": "Im Sommer 2019 verwirklichten wir unter vereinten Kräften unseren ersten privaten Rave auf dem Gelände. Dieser hat uns gezeigt, was es bedeutet, ein Projekt dieser Größe durch ehrenamtliche Arbeit, Selbstbestimmtheit und Eigenfinanzierung wahr werden zu lassen. Euer Kommen hat uns Bestätigung und Kraft gegeben, mit unseren Visionen ein richtiges Ziel zu verfolgen."
+    },
+    "faq": {
+      "heading": "FAQ"
+    },
+    "collectives": {
+      "escape": {
+        "heading": "Escape",
+        "text1": "Das ist das Motto des Magdeburger escape//kollektiv. Seit 2017 organisieren ein paar Freunde Raves und Veranstaltungen in ihrer Heimatstadt. Ihre Vision:",
+        "text2": "Neblige Nächte, zerrissen von knallenden Kicks, untermalt von grellen Stroboskopblitzen.",
+        "text3": "Und mittendrin: Du - als zappelnde Silhouette."
+      },
+      "endlos": {
+        "heading": "Station Endlos",
+        "text1": "Ich bin das Endlos und ich erwuchs aus dem Willen, der Schaffenskraft und Kreativität zweier Brüder und deren Freundeskreis. In die Tat getragen wurde ich über die Motivation, nun wie drücke ich mich da am besten aus, um der etwas kargen Tanzkulturlandschaft meiner Heimatstadt Halle (Saale) zu etwas mehr Farbe und Raum zu verhelfen.",
+        "text2": "Ich bin mehr als nur eine Tanzfläche. Ich bin ein sich ständig neu erfindender Mikrokosmos, der viel mehr Rahmen als Fläche ist. In mir lösen sich die steifen Zeiger einer Uhr zu einem Fluss auf, der in dem Moment mündet, wo Zeit nicht länger an ein Ziffern- oder Kalenderblatt gebunden ist. In mir ist die Illusion von Kontrolle einem jeden selbst überlassen.",
+        "text3": "Hier ist alles erlaubt was Freude bringt und bereichert, ohne, dass dabei die Freiheit eines anderen eingeschränkt wird. Tolerantes Verhalten, dialogorientierte Kommunikation und ein respektvoller Umgang untereinander sind grundlegende Voraussetzungen, für jeden, der mich kennen lernen will."
+      },
+      "l300": {
+        "heading": "L300",
+        "text1": "L300 Decoration & Arts Circle ist ein wachsendes Kollektiv junger Djs, Künstler und Eventhustler…",
+        "text2": "Nach einigen exzessiven Festivaltrips in Europa haben wir uns entschlossen, den Vibe der psychedelischen Culture, welchen wir auf unseren Reisen so oft erleben und erfahren durften, in die Welt zu tragen! Nun sind wir mittlerweile seit Anfang 2016 auf Abenteuern unterwegs in Halle, Berlin, Leipzig und im Outer Space...Und bis jetzt ist kein Ende in Sicht! Boomshakalaka Spaceamigos und -amigas!!!!"
+      },
+      "reihe": {
+        "heading": "II. Reihe",
+        "text1": "Wir sind ZWEITE REIHE (II.R), ein Kunst- und Kulturprojekt. ZWEITE REIHE widmet sich Orten, Ereignissen und Menschen. All dem, was nicht offensichtlich scheint, im Verborgenen kreativ ist und entdeckt werden will. ZWEITE REIHE macht den KIOSK, ist Bühne, Raum, Plattform u.v.m.. Ihr seid herzlich eingeladen!"
+      },
+      "resonant": {
+        "heading": "resonant",
+        "text1": "[Resonánz] - Substantiv, feminin, die",
+        "text2": "Was eigentlich als spontane Zusammenkunft von Freund*innen begann, wuchs irgendwann zu einer festen Struktur heran. Was eigentlich als einmaliges Ereignis geplant war, fand im Sommer 2018 plötzlich jede Woche statt. Seither versuchen wir regelmäßig neue Resonanzräume für alle denkbaren Spielarten elektronischer Musik zu (er)schaffen und dabei der gängigen Verwertungslogik zu trotzen."
+      },
+      "orgia": {
+        "heading": "Orgia",
+        "text1": "Die Organisierte-Rave-Gemeinschaft-In-Aktion (ORGIA), gegründet 2018, spezialisiert sich auf Full-Service-Solutions im Tanzveranstaltungsbereich und hat sich innerhalb kürzester Zeit zu einem führenden Dienstleister in diesem Segment etabliert. Mit rund 12 Mitarbeiter*innen in den beiden Standorten Halle-Musterstadt und Leipzig-Beispieldorf erzielte unser Unternehmen zuletzt rund 253 Euro Umsatz!",
+        "text2": "Im Zuge des Tarmac Festivals wurde ORGIA mit der Projektierung eines Hangar Tanzplatzes betraut. Zur Beschallung werden Acid, Elektro, Rave & Trance als stilprägende Elemente eingesetzt."
+      },
+      "teilko": {
+        "heading": "Teilkonversum 7",
+        "text1": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund*innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an „Drinnenpartys“ gefunden haben.",
+        "text2": "Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.",
+        "text3": "Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
+      },
+      "lila": {
+        "heading": "Lila Drache",
+        "text1": "..."
+      },
+      "root": {
+        "heading": "Root",
+        "text1": "Das Root versteht sich als fröhliches Sammelsurium von Freundinnen und Freunden, die sich in allen Bereichen der Kunst ausprobieren wollen. Im Jahr 2016 haben wir in Halle unsere Wurzeln geschlagen. Seitdem arbeiten wir zusammen daran, unsere verschiedenen Talente und Interessen zu einem gemeinsamen Ganzen zu verbinden – egal ob es um Musik, Handwerk, Animation, Video oder Werte geht, die uns wichtig sind. Das Thema Awareness liegt uns dabei besonders am Herzen. Tretet ein in unseren kleinen Kosmos, habt Spaß und macht mit uns die Welt ein klein wenig bunter!"
+      },
+      "klubska": {
+        "heading": "klubska scena",
+        "text1": "..."
+      },
+      "nest": {
+        "heading": "Nest",
+        "text1": "Unter blauem Himmel und grünem Blattwerk liegt das NEST. Gut versteckt, abseits vom Getöse, gerahmt von Astwerk findest du Raum zum Entspannen, zur Ruhe kommen, zum Kuscheln, zum Kopf ausschalten und Nachdenken. Im NEST kannst du dich zurückziehen. Hier kannst du diskutieren. Hier findest du Inspiration.",
+        "text2": "Lausche schönen, aufregenden, verwirrenden, nachdenklichen Geschichten - in Hörspielen, Hörbüchern und von unseren Vorlesestimmen. Sammle neue Impulse bei Lesungen und bring dich in Diskussionen ein. Nimm dir die Zeit, dir kleine und große Filmkunstwerke anzuschauen und schicke deine Gedanken auf die Reise."
+      }
+    }
+  }
+}
