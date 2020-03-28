@@ -1,4 +1,15 @@
 {
+  "cookies": {
+    "message": "Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung von Cookies zu.",
+    "accept": "Akzeptieren",
+    "policy": "Datenschutzerklärung"
+  },
+  "footer": {
+    "policy": "Datenschutzerklärung",
+    "notice": "Impressum",
+    "language": "English",
+    "link": "?lng=en"
+  },
   "nav": {
     "project": "Das Projekt",
     "artists": "Künstler*innen",
@@ -65,7 +76,6 @@
     "display": {
       "heading": "Kontakt aufnehmen",
       "button": "Du möchtest helfen? - hier klicken",
-      "subheading": "Schreib uns dein Anliegen!",
       "text": "Du hast offene Fragen? Fülle das nebenstehende Kontaktformular aus und wir melden uns schnellstmöglich bei dir. Alternativ kannst du uns auch direkt eine Mail an die unten stehenden Adressen senden."
     }
   },
@@ -119,13 +129,13 @@
       },
       "teilko": {
         "heading": "Teilkonversum 7",
-        "text1": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund*innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an „Drinnenpartys“ gefunden haben.",
+        "text1": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund*innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an \"Drinnenpartys\" gefunden haben.",
         "text2": "Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.",
         "text3": "Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
       },
       "lila": {
         "heading": "Lila Drache",
-        "text1": "..."
+        "text1": "Der \"Lila Drache\" ist das Vereinsheim des gemeinnützigen \"Kunst- und Kulturvereins Südliche Innenstadt\". Wir sind eine bunte Gruppe von Menschen, die es sich zur Aufgabe gemacht hat, das Kulturangebot in Halle auszubauen. Die recht unbelebte Südliche Innenstadt rief förmlich danach, ihr neues Leben einzuhauchen, um auch abseits von Paulusviertel und Zentrum Kunst, Kultur und Vielfalt zu erleben. Wir haben im Hallenser Süden eine Plattform etabliert, in der Künstler_innen ihre Werke ausstellen können, Musiker_innen offene Ohren finden, sowie Lesungen und Vorträge ein breites Publikum erreichen."
       },
       "root": {
         "heading": "Root",
@@ -133,12 +143,7 @@
       },
       "klubska": {
         "heading": "klubska scena",
-        "text1": "..."
-      },
-      "nest": {
-        "heading": "Nest",
-        "text1": "Unter blauem Himmel und grünem Blattwerk liegt das NEST. Gut versteckt, abseits vom Getöse, gerahmt von Astwerk findest du Raum zum Entspannen, zur Ruhe kommen, zum Kuscheln, zum Kopf ausschalten und Nachdenken. Im NEST kannst du dich zurückziehen. Hier kannst du diskutieren. Hier findest du Inspiration.",
-        "text2": "Lausche schönen, aufregenden, verwirrenden, nachdenklichen Geschichten - in Hörspielen, Hörbüchern und von unseren Vorlesestimmen. Sammle neue Impulse bei Lesungen und bring dich in Diskussionen ein. Nimm dir die Zeit, dir kleine und große Filmkunstwerke anzuschauen und schicke deine Gedanken auf die Reise."
+        "text1": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer*innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
       }
     }
   }

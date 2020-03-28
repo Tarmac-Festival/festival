@@ -1,14 +1,25 @@
 {
+  "cookies": {
+    "message": "We use cookies on this website. By using our website you consent to the use of cookies.",
+    "accept": "Accept",
+    "policy": "Privacy Policy"
+  },
+  "footer": {
+    "policy": "Privacy Policy",
+    "notice": "Legal Notice",
+    "language": "Deutsch",
+    "link": "?lng=de"
+  },
   "nav": {
-    "project": "The project",
-    "artists": "Artists",
+    "project": "Project",
+    "artists": "Line up",
     "info": "Info",
-    "avenue": "Avenue",
-    "contact": "Contact",
+    "avenue": "Location",
+    "contact": "Contact us",
     "tickets": "Tickets"
   },
   "about": {
-    "heading": "The project",
+    "heading": "Project",
     "text1": "We are united by the idea of creating a festival which is intimate and enthusiastic, brings fun, operates sustainably, is non-commercial, and pursues the goal to create a diverse consciousness for music, culture, and life in our present time. A feast which takes you outside and is still just around the corner. A bit of escapism while at the same time confronting the challenges of reality.",
     "text2": "We are the Team Tarmac, friends, family, acquaintances and strangers, crew, the curious, the creative, artists and musicians from near and far: Halle and Leipzig, Jena and Berlin, and many more locations from far and wide. We are ready for this! For four days, we want to create an atmosphere with you in which we develop open spaces, self-actualize, and be at ease. The creation process is already part of the goal we are working towards, even though we are uncertain of when it will be achieved. The Tarmac Festival does not convey just one vision; the people who make this project possible are too diverse for this. ",
     "text3": "We are looking forward to the summer of 2020 with great anticipation. Be a guest, be a friend. Come by and join in!",
@@ -18,55 +29,54 @@
     "button": "Learn more"
   },
   "artists": {
-    "heading": "Artists",
-    "text1": "...",
-    "text2": "– Stay tuned!"
+    "heading": "Line up",
+    "text1": "coming soon",
+    "text2": "– stay tuned!"
   },
   "info": {
     "heading": "Info",
-    "subheading": "...",
+    "subheading": "Soon you will get more information about the festival.",
     "box1": {
       "heading": "Tickets",
       "subheading1": "Partybird Ticket (50€)",
-      "text1": "...",
+      "text1": "You visited our promo party or at another event you got a code with 10 digits. Then you can get the Partybird Ticket.",
       "subheading2": "Earlybird Ticket (60€)",
-      "text2": "...",
+      "text2": "Until May 31st 2020 you have the option to be an early bird.",
       "subheading3": "First Wave Ticket (70€)",
-      "text3": "..."
+      "text3": "Until July 31st 2020 you can get the First Wave Ticket."
     },
     "box2": {
       "heading": "Tickets",
       "subheading1": "Second Wave Ticket (80€)",
-      "text1": "...",
+      "text1": "Until September 1st 2020 you can get the Second Wave Ticket.",
       "subheading2": "Soliticket (90€)",
-      "text2": "...",
+      "text2": "You want to support our idea. Thank you! With your financial help we have more opportunities to make the festival even nicer.",
       "subheading3": "Camper-/ Autopass (10€ - begrenzt)",
-      "text3": "..."
+      "text3": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper-/ Car Pass. In front of the festival area you can park for free. \n"
     },
     "box3": {
       "heading": "FAQ",
-      "subheading1": "...",
-      "text1": "Coming Soon"
+      "subheading1": "Answers to your questions",
+      "text1": "coming Soon"
     }
   },
   "contact": {
     "form": {
       "heading": "Send us a message",
       "alert": {
-        "success": "...",
-        "fail": "... "
+        "success": "Your message was sent successfully - Thank you for contacting us.",
+        "fail": "Unfortunately we were not able to process your message. Please direct your message directly to "
       },
       "input1": "* Mail",
       "input2": "* Subject",
       "input3": "* Name",
       "textarea": "* Message",
-      "button": "Send"
+      "button": "Submit"
     },
     "display": {
       "heading": "Contact us",
       "button": "You want to help? - click here",
-      "subheading": "...",
-      "text": "..."
+      "text": "If you have any questions then you are welcome to write a message. Therefore you can use this form or you can write an email."
     }
   },
   "modal": {
@@ -87,16 +97,10 @@
     },
     "collectives": {
       "escape": {
-        "heading": "Escape",
-        "text1": "...",
-        "text2": "...",
-        "text3": "..."
+        "heading": "Escape"
       },
       "endlos": {
-        "heading": "Station Endlos",
-        "text1": "...",
-        "text2": "...",
-        "text3": "..."
+        "heading": "Station Endlos"
       },
       "l300": {
         "heading": "L300",
@@ -104,8 +108,7 @@
         "text2": "After a couple excessive festival experience in Europe we decided to bring the vibe of the psychedelic culture to the world! Since 2016 we are on adventures in the cities Halle, Berlin, Leipzig and in outer space… and there is still no end in sight! Boomshakalaka Spaceamigos und -amigas!!!!"
       },
       "reihe": {
-        "heading": "II. Reihe",
-        "text1": "..."
+        "heading": "II. Reihe"
       },
       "resonant": {
         "heading": "resonant",
@@ -118,27 +121,17 @@
         "text2": "At the Tarmac festival they will organise a hangar with the dancing floor. Therefore the main elements are Acid, Elektro, Rave and Trance."
       },
       "teilko": {
-        "heading": "Teilkonversum 7",
-        "text1": "...",
-        "text2": "...",
-        "text3": "..."
+        "heading": "Teilkonversum 7"
       },
       "lila": {
-        "heading": "Lila Drache",
-        "text1": "..."
+        "heading": "Lila Drache"
       },
       "root": {
-        "heading": "Root",
-        "text1": "..."
+        "heading": "Root"
       },
       "klubska": {
         "heading": "klubska scena",
         "text1": "klubska scena is a secret pop-up underground event for audiophiles and freedom fighters against the music industry! It’s guerrilla like nature consists of activities performed in a spontaneous way, without authorisation, on jaw dropping locations."
-      },
-      "nest": {
-        "heading": "Nest",
-        "text1": "Under the blue sky and the green leaves is the NEST. It is framed by wood. The relaxing space is hidden far away from any noise. There you can calm down, cuddle, relax and chill. You can escape and sneak in to the NEST. There’s room for interesting talks and inspirations.",
-        "text2": "Here you can listen to beautiful, exciting, confusing and thoughtful stories from audiobooks or storytellers. Get inspired and be a part of discussions. Take time to enjoy the art of films and send your thoughts on a journey."
       }
     }
   }

@@ -20,6 +20,30 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image:alt" content="Tarmac Festival Cover">
 
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-i18next/i18next.min.js"></script>
+    <script src="vendor/jquery-i18next/i18nextXHRBackend.min.js"></script>
+    <script src="vendor/jquery-i18next/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="vendor/jquery-i18next/jquery-i18next.min.js"></script>
+    <script>
+        // Translate text
+        i18next
+            .use(i18nextXHRBackend)
+            .use(i18nextBrowserLanguageDetector)
+            .init({
+                backend: {
+                    loadPath: './locales/{{lng}}/{{ns}}.json'
+                },
+                fallbackLng: {
+                    'default': ['en'],
+                    'en': ['de']
+                }
+            }, function() {
+                jqueryI18next.init(i18next, $);
+                $(".localized").localize();
+            });
+    </script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="./img/icon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
@@ -302,8 +326,7 @@
                             </div>
                             <div class="more-info localized">
                                 <a class="btn btn-primary w-100" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJlhhNfA9TFceZUY7Tsf6lha0KQs2vyUspztedvlnAfrtZnA/viewform?usp=sf_link" data-i18n="contact.display.button">#</a>
-                                <p class="lead mt-3" data-i18n="contact.display.subheading">#</p>
-                                <p data-i18n="contact.display.text">#</p>
+                                <p class="mt-4" data-i18n="contact.display.text">#</p>
                                 <ul class="list-ico">
                                     <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1"
                                                                                                   target="_blank"
@@ -351,13 +374,16 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 localized">
                 <ul class="list-inline quicklinks">
                     <li class="list-inline-item">
-                        <a href="AGB.html" target="_blank">Impressum</a>
+                        <a href="AGB.html" target="_blank" data-i18n="footer.notice">#</a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="Datenschutz.html" target="_blank">Datenschutzerklärung</a>
+                        <a href="Datenschutz.html" target="_blank" data-i18n="footer.policy">#</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" data-i18n="[href]footer.link;footer.language">#</a>
                     </li>
                 </ul>
             </div>
@@ -490,7 +516,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href=https://soundcloud.com/station-endlos-halle" target="_blank">
+                        <a href="https://soundcloud.com/station-endlos-halle" target="_blank">
                             <i class="fab fa-soundcloud"></i>
                         </a>
                     </li>
@@ -705,7 +731,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 localized">
-                            <p data-i18n="modal.common.soon">#</p>
+                            <p data-i18n="modal.collectives.lila.text1">#</p>
                         </div>
                     </div>
                 </div>
@@ -800,55 +826,11 @@
     </div>
 </div>
 
-<div class="modal fade" id="modalCollNest" tabindex="-1" role="dialog" aria-labelledby="modalCollNestTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title localized" id="modalCollNestTitle" data-i18n="modal.collectives.nest.heading">#</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 localized">
-                            <p data-i18n="modal.collectives.nest.text1">#</p>
-                            <p data-i18n="modal.collectives.nest.text2">#</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <ul class="list-inline social-buttons mr-auto">
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-soundcloud"></i>
-                        </a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="vendor/jquery-i18next/i18next.min.js"></script>
-<script src="vendor/jquery-i18next/i18nextXHRBackend.min.js"></script>
-<script src="vendor/jquery-i18next/i18nextBrowserLanguageDetector.min.js"></script>
-<script src="vendor/jquery-i18next/jquery-i18next.min.js"></script>
 <script src="vendor/summernote/summernote-bs4.min.js"></script>
 
 <!-- Contact form JavaScript -->

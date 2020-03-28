@@ -40,34 +40,34 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
-    // Translate text
-    i18next
-        .use(i18nextXHRBackend)
-        .use(i18nextBrowserLanguageDetector)
-        .init({
-            backend: {
-                loadPath: './locales/{{lng}}/{{ns}}.json'
-            },
-            fallbackLng: 'en'
-        }, function() {
-            jqueryI18next.init(i18next, $);
-            $(".localized").localize();
-            var textareaPlaceholder = i18next.t('contact.form.textarea', "#")
-            $('textarea#message').summernote({
-                placeholder: textareaPlaceholder,
-                tabsize: 2,
-                height: 200,
-                disableDragAndDrop: true,
-                spellCheck: true,
-                dialogsInBody: true,
-                toolbar: [
-                    ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
-                    ['fontsize', ['fontsize', 'color']],
-                    ['para', ['ul', 'ol', 'paragraph']],
-                    ['insert', ['link', 'table']]
-                ]
-            });
+    i18next.on('initialized', function() {
+        $('textarea#message').summernote({
+            placeholder: i18next.t('contact.form.textarea', "#"),
+            tabsize: 2,
+            height: 200,
+            disableDragAndDrop: true,
+            spellCheck: true,
+            dialogsInBody: true,
+            toolbar: [
+                ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
+                ['fontsize', ['fontsize', 'color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['insert', ['link', 'table']]
+            ]
         });
+
+        var details = {
+            message: i18next.t('cookies.message', "#"),
+            acceptText: i18next.t('cookies.accept', "#"),
+            policyButton: true,
+            policyText: i18next.t('cookies.policy', "#"),
+            policyURL: '/Datenschutz.html', //URL of Privacy Policy
+            fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
+            bottom: true, //Force CSS when fixed, so bar appears at bottom of website
+            zindex: '9999'
+        };
+        $.cookieBar(details);
+    });
 
     var initMap = function () {
         var point = {lat: 51.380219, lng: 11.433763};
@@ -121,18 +121,6 @@
         map.set('styles', styles);
     };
     initMap();
-
-    var details = {
-        message: 'Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung von Cookies zu.',
-        acceptText: 'Akzeptieren',
-        policyButton: true,
-        policyText: 'Datenschutzerklärung',
-        policyURL: '/Datenschutz.html', //URL of Privacy Policy
-        fixed: true, //Set to true to add the class "fixed" to the cookie bar. Default CSS should fix the position
-        bottom: true, //Force CSS when fixed, so bar appears at bottom of website
-        zindex: '9999'
-    };
-    $.cookieBar(details);
 
     // Initialize Firebase
     firebase.analytics();
