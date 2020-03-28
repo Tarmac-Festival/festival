@@ -40,7 +40,7 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
-    i18next.on('initialized', function() {
+    var localizeJs = function () {
         $('textarea#message').summernote({
             placeholder: i18next.t('contact.form.textarea', "#"),
             tabsize: 2,
@@ -67,7 +67,14 @@
             zindex: '9999'
         };
         $.cookieBar(details);
-    });
+    };
+    if (i18next.exists('contact.form.textarea')) {
+        localizeJs();
+    } else {
+        i18next.on('initialized', function() {
+            localizeJs();
+        });
+    }
 
     var initMap = function () {
         var point = {lat: 51.380219, lng: 11.433763};
