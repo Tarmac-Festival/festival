@@ -43,16 +43,16 @@
       "subheading2": "Earlybird Ticket (60€)",
       "text2": "Until May 31st 2020 you have the option to be an early bird.",
       "subheading3": "First Wave Ticket (70€)",
-      "text3": "Until July 31st 2020 you can get the First Wave Ticket."
+      "text3": "Until July 31st 2020 you can get the First Wave Ticket.",
+      "subheading4": "Second Wave Ticket (80€)",
+      "text4": "Until September 1st 2020 you can get the Second Wave Ticket."
     },
     "box2": {
       "heading": "Tickets",
-      "subheading1": "Second Wave Ticket (80€)",
-      "text1": "Until September 1st 2020 you can get the Second Wave Ticket.",
-      "subheading2": "Soliticket (90€)",
-      "text2": "You want to support our idea. Thank you! With your financial help we have more opportunities to make the festival even nicer.",
-      "subheading3": "Camper-/ Autopass (10€ - begrenzt)",
-      "text3": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper-/ Car Pass. In front of the festival area you can park for free. \n"
+      "subheading1": "Soliticket (90€)",
+      "text1": "It is important to us to support DJs and other small artists in the difficult situation this year. That's why we offer a soli-ticket, because the worldwide distribution of the Covid-19 virus almost completely destroys the livelihood of many of these people. Anyone who has the opportunity to help can purchase the soli-ticket from now on. The additional amount collected enables us to increase the previously small fees for the artists at the Tarmac-Festival.",
+      "subheading2": "Camper-/ Autopass (10€ - begrenzt)",
+      "text2": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper-/ Car Pass. In front of the festival area you can park for free. \n"
     },
     "box3": {
       "heading": "FAQ",
@@ -97,10 +97,16 @@
     },
     "collectives": {
       "escape": {
-        "heading": "Escape"
+        "heading": "Escape",
+        "text1": "That is the motto of the Magdeburg escape // collective. A few friends have been organizing raves and events in their hometown since 2017. Their vision:",
+        "text2": "Foggy nights, torn apart by exploding kicks, accompanied by strobe light.",
+        "text3" : "And right in the middle: you - as a moving silhouette."
       },
       "endlos": {
-        "heading": "Station Endlos"
+        "heading": "Station Endlos",
+        "text1":  "I'm the Endlos. I’m growing because of the motivation and creativity of two brothers and their friends. How can I say it? I want to spread a colorful dancing culture in my hometown Halle (Saale).",
+        "text2":  "I'm much more than just a dance floor. I'm a constantly reinventing microcosm. The stiff hands of a clock dissolve into a river that flows into the moment when time is no longer countable. The illusion of control is up to everyone.",
+        "text3":  "Here everything that brings joy and enrichment is allowed without restricting the freedom of another. Tolerant behavior, dialog-oriented communication and respectful interaction with each other are fundamental requirements for me."
       },
       "l300": {
         "heading": "L300",
@@ -108,7 +114,8 @@
         "text2": "After a couple excessive festival experience in Europe we decided to bring the vibe of the psychedelic culture to the world! Since 2016 we are on adventures in the cities Halle, Berlin, Leipzig and in outer space… and there is still no end in sight! Boomshakalaka Spaceamigos und -amigas!!!!"
       },
       "reihe": {
-        "heading": "II. Reihe"
+        "heading": "II. Reihe",
+        "text1": "We are an art and culture project. It’s called second row ( ZWEITE REIHE). We are looking after places, event’s and people. Everything what isn’t obvious. Everything what is hidden and creative. Everything what can be discovered. ZWEITE REIHE is organizing the KIOSK. It’s a stage, platform and much more. You are very welcome!"
       },
       "resonant": {
         "heading": "resonant",
@@ -121,13 +128,18 @@
         "text2": "At the Tarmac festival they will organise a hangar with the dancing floor. Therefore the main elements are Acid, Elektro, Rave and Trance."
       },
       "teilko": {
-        "heading": "Teilkonversum 7"
+        "heading": "Teilkonversum 7",
+        "text1":  "We are a music collective from Halle. We are a community of friends and party people, who started with raves in the nature. Now we also celebrate indoor partys.",
+        "text2": "We are playing various styles of music like Discohouse, Breakbeat, Acid-, Industrial- and Hypnotechno. That‘s how we support our local partszene since 2014.",
+        "text3": "For us it is important to be emancipatory and open. That‘s why we are creating party’s without any discrimination. Everybody is invited to celebrate solidaric, free and together with us. So let’s join a colourful world with great beats and hypnotic funky sounds."
       },
       "lila": {
-        "heading": "Lila Drache"
+        "heading": "Lila Drache",
+        "text1": "The \"Lila Drache\" is the club home of a non-profit Art and Culture Association. We are a colorful group of people who have set themselves the task of expanding the cultural offer in the city Halle, especially in the southern city. We established a platform in the south of Halle where artists can exhibit their works, musicians find open ears and readings and lectures reach a wide audience."
       },
       "root": {
-        "heading": "Root"
+        "heading": "Root",
+        "text1": "The Root sees itself as a happy smorgasbord of friends who want to try out all areas of art. In 2016 we started to grow our roots in the city Halle. Since then we have been working together to combine our different talents and interests like music, handicraft, animation, video and social values. The topic of awareness is particularly important to us. Enter our little cosmos, have fun and make the world a little bit more colorful with us!"
       },
       "klubska": {
         "heading": "klubska scena",
