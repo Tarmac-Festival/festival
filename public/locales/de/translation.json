@@ -30,8 +30,7 @@
   },
   "artists": {
     "heading": "Künstler*innen",
-    "text1": "Hier veröffentlichen wir für euch DJs, Live-Acts, Artists und Bands, die auf dem Tarmac Festival spielen werden.",
-    "text2": "– Stay tuned!"
+    "subheading": "Hier veröffentlichen wir für euch DJs, Live-Acts, Artists und Bands, die auf dem Tarmac Festival spielen werden."
   },
   "info": {
     "heading": "Info",
@@ -50,7 +49,7 @@
     "box2": {
       "heading": "Tickets",
       "subheading1": "Soliticket (90€)",
-      "text1": "Da es uns am Herzen liegt, DJs und andere Kleinkünster*innen in der aktuell schwierigen Situation zu unterstützen, bieten wir ein Soli-Ticket an, denn durch die weltweite Verbreitung des Covid-19 Virus bricht die Lebensgrundlage vieler dieser Menschen fast völlig weg. Wer die Möglichkeit hat zu helfen, kann das Soli-Ticket ab sofort erwerben. Der gesammelte Mehrbetrag ermöglicht es uns, die bisher kleinen Gagen für die Artists auf dem Tarmac Festival aufzustocken.",
+      "text1": "Da es uns am Herzen liegt, DJs und andere Kleinkünster*innen in der aktuell schwierigen Situation zu unterstützen, bieten wir ein Soli-Ticket an, denn durch die weltweite Verbreitung des SARS-CoV-2 Corona Virus bricht die Lebensgrundlage vieler dieser Menschen fast völlig weg. Wer die Möglichkeit hat zu helfen, kann das Soli-Ticket ab sofort erwerben. Der gesammelte Mehrbetrag ermöglicht es uns, die bisher kleinen Gagen für die Artists auf dem Tarmac Festival aufzustocken.",
       "subheading2": "Camper-/ Autopass (10€ - begrenzt)",
       "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto auf dem Zeltplatz übernachten möchtest, hol dir einen Camper-/ Autopass! Der Pass ermöglicht dir, mit deinem Fahrzeug auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
     },
@@ -83,6 +82,12 @@
     "common": {
       "button": "Schließen",
       "soon": "Coming Soon"
+    },
+    "important": {
+      "heading": "Wichtige Information",
+      "text1": "Die Lage ist und bleibt schwierig. Für alle, da gibt es keine Ausnahmen. Dass unser Festival im September stattfinden soll, ist hoffentlich unser aller Glück. Mit großem Optimismus planen und werkeln wir weiterhin an der Realisierung des TARMACs.\nMuss das Festival aufgrund der Pandemie verschoben werden, behalten alle erworbenen Tickets automatisch ihre Gültigkeit für das TARMAC 2021! Das gibt uns und allen Beteiligten Planungssicherheit. Ihr könnt im Falle der Verschiebung Euer Ticket aber auch erstatten lassen. Kontaktiert uns dazu per E-Mail. Wir verfolgen das Geschehen ständig, entscheiden verantwortungsbewusst und halten Euch auf dem Laufenden.",
+      "text2": "Danke für euer Vertrauen! Wir freuen uns auf Euch!",
+      "text3": "Bleibt gesund!"
     },
     "chronic": {
       "heading": "Chronik",
@@ -144,6 +149,44 @@
       "klubska": {
         "heading": "klubska scena",
         "text1": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer*innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
+      }
+    },
+    "artists": {
+      "albina": {
+        "heading": "Albina",
+        "text": "Albina verknüpft reichhaltige Texturen und bringt dabei konträre Klänge in Kontext. Gespickt mit rhythmischen Passagen und Songs sind ihre dj sets die perfekte Balance zwischen Ruhe und Puls."
+      },
+      "anna": {
+        "heading": "Anna SchuSchu",
+        "text": "Anna Schuschus experimentelle Performances vereinen Pop mit verschobenen Texturen, häufig basierend auf ihrer eigenen Stimme. Ein weitreichender Sound ist das Ergebnis: von sphärisch entspannt, bis hin zu kantig provokant."
+      },
+      "galaxaura": {
+        "heading": "Galaxaura",
+        "text": "Galaxaura ist seit 2013 Resident DJ im Spartacus Potsdam, produziert Radio Shows für das Freie Radio Potsdam, ist Gründerin des Galaxunity-Movements und organisiert regelmäßig Parties. Ihre Sets sprechen eine intergalaktische Sprache, irgendwo zwischen Breakbeat Electro, Acid, tripped-down Techno, low-fi- und Cosmic House. Mit ihren DJ* empowerment Workshops supportet sie aufkommende Talente."
+      },
+      "glenn": {
+        "heading": "Glenn Astro",
+        "text": "Organisch experimentell bewegt sich Glenn Astro zwischen Elementen aus Hip Hop, Jazz und Broken Beat und entwirft so seine ganz eigenen Interpretation von House und Elecronic. Sowohl in seinen Eigenproduktionen als auch Sets grooved Glenn Astro über Genre-Grenzen hinweg. Zu hören ist das auch bei seinem eigenen Co-Label Money $ex Records, Podcasts für Resident Advisor und seinen Releases unter anderem bei Apollo, Odd Socks und Tartelet."
+      },
+      "illousion": {
+        "heading": "illousion",
+        "text": "illousion verbindet in ihren DJ-Sets eine düster-dystopische Ästhetik mit energetischer, treibender Rhythmik. Am liebsten kombiniert sie dabei ältere Lieblingstracks aus ihren früheren Zeiten als Clubbesucherin mit aktuellen Releases und lässt daraus einen vielseitigen Sound entstehen. Häufig findet man sie im Institut fuer Zukunft, mal in der Booth, mal hinter der Bar, mal als Veranstalterin der NEBULA-Partyreihe dort mit ihrem gleichnamigen Nebula Kollektiv."
+      },
+      "juke": {
+        "heading": "Juke Dordan",
+        "text": "Was Juke Dordan in seinen Sets preisgibt ist eine fundierte Auseinandersetzung mit genreübergreifenden Releases und gekonnte Ineinanderführung verschiedener Klangflächen. Dadurch zeichnet sich ein Bild auf der Tanzfläche ab, welches von Energie, wechselnden Rythmen und positiver Athmosphäre gekennzeichnet ist. Häufig sieht man ihn als Teil der PVC Crew in der DJ Booth oder als Mitveranstalter verschiedener Partyreihen des Kollektivs auf der Tanzfläche."
+      },
+      "naomi": {
+        "heading": "Naomi Dasmoe",
+        "text": "Naomi Dasmoe are two upcoming deejays spreading their mission of true house music in Berlin and beyond. They bring their own flavour to a long-loved genre with Naomi’s soulful approach complemented by Dasmoe’s passion for rhythmic, powerful patterns."
+      },
+      "signal": {
+        "heading": "NO LIFE SIGNAL",
+        "text": "NO LIFE SIGNAL heißt das Projekt von Reka Zalan und THNTS. Beide haben im ://about blank ihr musikalisches Zuhause gefunden. Ihre Podcast-Serie ESCH und die Partyreihe ://Elements sind in der Szene zurecht hoch angesehen. Freut euch mit uns auf Techno à la carte!"
+      },
+      "tereza": {
+        "heading": "TEREZA",
+        "text": "Mit viel Liebe zum Detail und technischer Finesse gleitet Tereza durch ihre eigene eklektische Klanglandschaft und überschreitet dabei die traditionellen Genregrenzen. Das Bindeglied in ihren Sets ist ein gefühlvolles, jazziges Element. Tereza ist DJ, Radiomoderatorin und Kuratorin und veranstaltet ihre eigene Clubnacht BLUE SPACE in der Palomabar (Berlin)."
       }
     }
   }

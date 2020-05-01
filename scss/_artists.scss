@@ -1,0 +1,25 @@
+#artists {
+  span {
+    white-space: nowrap;
+    color: $accent;
+
+    &.active,
+    &:hover {
+      color: darken($accent, 7.5);
+      cursor: pointer;
+    }
+  }
+
+  .dot {
+    font-size: 6px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+#modalArtist img {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}

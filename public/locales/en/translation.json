@@ -30,8 +30,7 @@
   },
   "artists": {
     "heading": "Line up",
-    "text1": "coming soon",
-    "text2": "– stay tuned!"
+    "subheading": "Here we publish DJs, live acts, artists and bands that will play at the Tarmac Festival."
   },
   "info": {
     "heading": "Info",
@@ -50,7 +49,7 @@
     "box2": {
       "heading": "Tickets",
       "subheading1": "Soliticket (90€)",
-      "text1": "It is important to us to support DJs and other small artists in the difficult situation this year. That's why we offer a soli-ticket, because the worldwide distribution of the Covid-19 virus almost completely destroys the livelihood of many of these people. Anyone who has the opportunity to help can purchase the soli-ticket from now on. The additional amount collected enables us to increase the previously small fees for the artists at the Tarmac-Festival.",
+      "text1": "It is important to us to support DJs and other small artists in the difficult situation this year. That's why we offer a soli-ticket, because the worldwide distribution of the SARS-CoV-2 corona virus almost completely destroys the livelihood of many of these people. Anyone who has the opportunity to help can purchase the soli-ticket from now on. The additional amount collected enables us to increase the previously small fees for the artists at the Tarmac Festival.",
       "subheading2": "Camper-/ Autopass (10€ - begrenzt)",
       "text2": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper-/ Car Pass. In front of the festival area you can park for free. \n"
     },
@@ -83,6 +82,12 @@
     "common": {
       "button": "Close",
       "soon": "Coming Soon"
+    },
+    "important": {
+      "heading": "Important Information",
+      "text1": "The current situation is difficult. For everybody, there are no exceptions. We are still working on the realization of the TARMAC with great optimism. Of course we will let you know if something changes about that. If the festival has to be cancelled due to the pandemic, all purchased tickets automatically remain valid for the TARMAC 2021! This gives us and everyone involved security. In case of a postponement, it‘s possible to get a refund on your ticket (send us an E-Mail). We are constantly following the developments, deciding responsibly and keeping you updated.",
+      "text2": "Thanks for your confidence. We are looking forward to see you.",
+      "text3": "Stay healthy."
     },
     "chronic": {
       "heading": "Chronicle",
@@ -125,7 +130,7 @@
       "orgia": {
         "heading": "Orgia",
         "text1": "The organised-rave-group-in-aktion (ORGIA) founded in 2018 is specialized in Full-Service-Solutions for dancing events. Very fast they became the leading provider. About 12 employees are active in the cities Halle and Leipzig. Just recently the community achieved sales of 253€.",
-        "text2": "At the Tarmac festival they will organise a hangar with the dancing floor. Therefore the main elements are Acid, Elektro, Rave and Trance."
+        "text2": "At the Tarmac Festival they will organise a hangar with the dancing floor. Therefore the main elements are Acid, Elektro, Rave and Trance."
       },
       "teilko": {
         "heading": "Teilkonversum 7",
@@ -144,6 +149,44 @@
       "klubska": {
         "heading": "klubska scena",
         "text1": "klubska scena is a secret pop-up underground event for audiophiles and freedom fighters against the music industry! It’s guerrilla like nature consists of activities performed in a spontaneous way, without authorisation, on jaw dropping locations."
+      }
+    },
+    "artists": {
+      "albina": {
+        "heading": "Albina",
+        "text": "Albina merges rich textures and puts contrary sounds into context. By adding rhythmic passages and songs, her dj sets feel like the perfect balance between rest and pulse."
+      },
+      "anna": {
+        "heading": "Anna SchuSchu",
+        "text": "Anna SchuSchu performs experimental pop music live using weird textures which often sample her own voice: At times smooth and spheric, at others bumpy and provocative."
+      },
+      "galaxaura": {
+        "heading": "Galaxaura",
+        "text": "Galaxaura has been resident DJ at Spartacus Potsdam since 2013, produces radio shows for Free Radio Potsdam, is founder of the Galaxunity-Movement and regularly organizes parties. Her sets speak an intergalactic language, somewhere between breakbeat electro, acid, tripped-down techno, low-fi and cosmic house. With her DJ* empowerment workshops she supports emerging talents."
+      },
+      "glenn": {
+        "heading": "Glenn Astro",
+        "text": "Glenn Astro organically and experimentally moves between elements from hip hop, jazz and broken beat, thus creating his very own interpretation of house and electronic. Both in his own productions and in sets Glenn Astro grooves across genre boundaries. This can also be heard on his own co-label Money $ex Records, podcasts for resident advisors and his releases including Apollo, Odd Socks and Tartelet."
+      },
+      "illousion": {
+        "heading": "illousion",
+        "text": "illousion connects in their DJ-sets a gloomy-dystopian aesthetic with energetic, driving rhythms. She prefers to combine older favourite tracks from her earlier days as a club-goer with current releases, resulting in a versatile sound. You will usually find her at Leipzigs Institut für Zukunft, sometimes in the booth, sometimes behind the bar, sometimes as organizer of the NEBULA party series taking place there with her collective, also called Nebula."
+      },
+      "juke": {
+        "heading": "Juke Dordan",
+        "text": "What Juke Dordan reveals in his sets is a well-founded examination of cross-genre releases and a skillful merging of different sound surfaces. This results in a picture on the dance floor that is characterized by energy, changing rhythms and a positive atmosphere. He is often seen as part of the PVC crew in the DJ Booth or as co-organizer of various party series of the collective on the dance floor."
+      },
+      "naomi": {
+        "heading": "Naomi Dasmoe",
+        "text": "Naomi Dasmoe are two upcoming deejays spreading their mission of true house music in Berlin and beyond. They bring their own flavour to a long-loved genre with Naomi’s soulful approach complemented by Dasmoe’s passion for rhythmic, powerful patterns.\n"
+      },
+      "signal": {
+        "heading": "NO LIFE SIGNAL",
+        "text": "NO LIFE SIGNAL is the name of the project by Reka Zalan and THNTS. Both are part of the well known club ://about blank. Their podcast series ESCH and parties ://Elements are highly regarded in the scene. We're glad to have them here. Techno à la carte!"
+      },
+      "tereza": {
+        "heading": "TEREZA",
+        "text": "With true passion for detail and technical finesse Tereza glides through her own eclectic soundscape transcending the traditional genre boundaries. The connecting link in her sets is a soulful, jazzy element. Tereza is a DJ, radio host and curator having her own club night BLUE SPACE at Palomabar (Berlin)."
       }
     }
   }

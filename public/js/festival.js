@@ -56,6 +56,17 @@
             ]
         });
 
+        if (document.cookie.indexOf('importantInformation=opened') < 0) {
+            var date = new Date();
+            date.setTime(date.getTime() + (365*24*60*60*1000));
+            document.cookie = 'importantInformation=opened; expires=' + date.toUTCString() + '; path=/'
+            $('#modalImportant').modal({
+                show: true,
+                backdrop: false,
+                keyboard: false
+            })
+        }
+
         var details = {
             message: i18next.t('cookies.message', "#"),
             acceptText: i18next.t('cookies.accept', "#"),
@@ -75,6 +86,79 @@
             localizeJs();
         });
     }
+
+    jQuery.fn.extend({
+        buildArtistModal:
+            function(titleI18Next, textI18Next, imageName, fbName, scName, igName, ytName, copyright) {
+                $('#modalArtistTitle').html(i18next.t(titleI18Next, "#"))
+                $('#modalArtistText').html(i18next.t(textI18Next, "#"))
+
+                $('#modalArtistImage').attr('src', './img/artists/' + imageName);
+                if (copyright) {
+                    $('#modalArtistCopyright').html('&copy; ' + copyright).removeClass('d-none')
+                } else {
+                    $('#modalArtistCopyright').html('').addClass('d-none')
+                }
+
+                if (fbName) {
+                    $('#modalArtistLinkFb').attr('href', 'https://www.facebook.com/' + fbName);
+                    $('#modalArtistContainerFb').removeClass('d-none')
+                } else {
+                    $('#modalArtistContainerFb').addClass('d-none')
+                }
+                if (scName) {
+                    $('#modalArtistLinkSc').attr('href', 'https://soundcloud.com/' + scName);
+                    $('#modalArtistContainerSc').removeClass('d-none')
+                } else {
+                    $('#modalArtistContainerSc').addClass('d-none')
+                }
+                if (igName) {
+                    $('#modalArtistLinkIg').attr('href', 'https://instagram.com/' + igName);
+                    $('#modalArtistContainerIg').removeClass('d-none')
+                } else {
+                    $('#modalArtistContainerIg').addClass('d-none')
+                }
+                if (ytName) {
+                    $('#modalArtistLinkYt').attr('href', 'https://youtube.com/' + ytName);
+                    $('#modalArtistContainerYt').removeClass('d-none')
+                } else {
+                    $('#modalArtistContainerYt').addClass('d-none')
+                }
+                $('#modalArtist').modal('show');
+                return this;
+            },
+        buildCollModal:
+            function(titleI18Next, text1I18Next, text2I18Next, text3I18Next, fbName, scName) {
+                $('#modalCollTitle').html(i18next.t(titleI18Next, "#"))
+                $('#modalCollText1').html(i18next.t(text1I18Next, "#"))
+
+                if (text2I18Next) {
+                    $('#modalCollText2').removeClass('d-none').html(i18next.t(text2I18Next, "#"))
+                } else {
+                    $('#modalCollText2').addClass('d-none').html('#')
+                }
+                if (text3I18Next) {
+                    $('#modalCollText3').removeClass('d-none').html(i18next.t(text3I18Next, "#"))
+                } else {
+                    $('#modalCollText3').addClass('d-none').html('#')
+                }
+
+                if (fbName) {
+                    $('#modalCollLinkFb').attr('href', 'https://www.facebook.com/' + fbName);
+                    $('#modalCollContainerFb').removeClass('d-none')
+                } else {
+                    $('#modalCollContainerFb').addClass('d-none')
+                }
+                if (scName) {
+                    $('#modalCollLinkSc').attr('href', 'https://soundcloud.com/' + scName);
+                    $('#modalCollContainerSc').removeClass('d-none')
+                } else {
+                    $('#modalCollContainerSc').addClass('d-none')
+                }
+                $('#modalColl').modal('show');
+                return this;
+            }
+    });
 
     var initMap = function () {
         var point = {lat: 51.380219, lng: 11.433763};

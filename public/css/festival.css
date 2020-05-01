@@ -11344,6 +11344,29 @@ header.masthead .cover {
   }
 }
 
+#artists span {
+  white-space: nowrap;
+  color: #f6a300;
+}
+
+#artists span.active, #artists span:hover {
+  color: #d08a00;
+  cursor: pointer;
+}
+
+#artists .dot {
+  font-size: 6px;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#modalArtist img {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
 .info-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -11373,6 +11396,10 @@ header.masthead .cover {
 .collective img {
   max-height: 125px;
   max-width: 125px;
+}
+
+.collective img.active, .collective img:hover {
+  cursor: pointer;
 }
 
 section#contact {
