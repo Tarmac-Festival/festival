@@ -90,10 +90,14 @@
     jQuery.fn.extend({
         buildArtistModal:
             function(titleI18Next, textI18Next, imageName, fbName, scName, igName, ytName, copyright) {
-                $('#modalArtistTitle').html(i18next.t(titleI18Next, "#"))
+                var title = i18next.t(titleI18Next, "#")
+                $('#modalArtistTitle').html(title)
                 $('#modalArtistText').html(i18next.t(textI18Next, "#"))
 
-                $('#modalArtistImage').attr('src', './img/artists/' + imageName);
+                $('#modalArtistImage')
+                    .attr('src', '#')
+                    .attr('src', './img/artists/' + imageName)
+                    .attr('alt', title + ' artist image');
                 if (copyright) {
                     $('#modalArtistCopyright').html('&copy; ' + copyright).removeClass('d-none')
                 } else {
