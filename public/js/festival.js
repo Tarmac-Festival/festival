@@ -56,16 +56,11 @@
             ]
         });
 
-        if (document.cookie.indexOf('importantInformation=opened') < 0) {
-            var date = new Date();
-            date.setTime(date.getTime() + (365*24*60*60*1000));
-            document.cookie = 'importantInformation=opened; expires=' + date.toUTCString() + '; path=/'
-            $('#modalImportant').modal({
-                show: true,
-                backdrop: false,
-                keyboard: false
-            })
-        }
+        $('#modalImportant').modal({
+            show: true,
+            backdrop: false,
+            keyboard: false
+        })
 
         var details = {
             message: i18next.t('cookies.message', "#"),
