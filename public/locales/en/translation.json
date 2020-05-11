@@ -51,7 +51,7 @@
       "subheading1": "Soliticket (90€)",
       "text1": "It is important to us to support DJs and other small artists in the difficult situation this year. That's why we offer a soli-ticket, because the worldwide distribution of the SARS-CoV-2 corona virus almost completely destroys the livelihood of many of these people. Anyone who has the opportunity to help can purchase the soli-ticket from now on. The additional amount collected enables us to increase the previously small fees for the artists at the Tarmac Festival.",
       "subheading2": "Camper-/ Autopass (10€ - begrenzt)",
-      "text2": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper-/ Car Pass. In front of the festival area you can park for free. \n"
+      "text2": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper-/ Car Pass. In front of the festival area you can park for free."
     },
     "box3": {
       "heading": "FAQ",
@@ -152,6 +152,10 @@
       }
     },
     "artists": {
+      "battery": {
+        "heading": "AA Battery Team",
+        "text": "What the guys from the Double A Battery Team bring to the dance floor is more than just a full charge of energy. Alois and Alex (AA) have a long lasting friendship and a passion for electro, trance and breaks of all kinds. As Savour the Moment Residents, for over 2 years, they mostly play at the Wilde Renate in Berlin, where you can find them behind the DJ desk or breakdancing on the floor - often with a glass of wheat beer in their hands."
+      },
       "albina": {
         "heading": "Albina",
         "text": "Albina merges rich textures and puts contrary sounds into context. By adding rhythmic passages and songs, her dj sets feel like the perfect balance between rest and pulse."
@@ -159,6 +163,18 @@
       "anna": {
         "heading": "Anna SchuSchu",
         "text": "Anna SchuSchu performs experimental pop music live using weird textures which often sample her own voice: At times smooth and spheric, at others bumpy and provocative."
+      },
+      "cyan": {
+        "heading": "Cyan 85",
+        "text": "Cyan 85 - in our opinion one of last year's surprises. With two sold-out records on the labels voitax and lunar orbiter so far, he is now also on tour internationally. A mini LP by the Erfurt-born bassist, who also recently founded the label habibi bass together with Turk Turkelton, will follow in autumn. We are looking forward to his raw sound. - shake what your mamas gave ya!"
+      },
+      "hornhaut": {
+        "heading": "DJ Hornhaut",
+        "text": "DJ Hornhaut is a wild mixture of disco, punk, hip-hop and hard tech. Mad basses mix with a soft voice and dadaistic and political textes."
+      },
+      "flexibleheart": {
+        "heading": "Flexibleheart",
+        "text": "Flexibleheart, based in Dresden is member of the feminist Dj collective ProZecco. She played already in venues like About Blank, MenschMeier, IFZ, Objekt Klein A. Her sound is bass driven, energy filled booty shaking acid house and techno, ghetto and electro. Crazy good! Don’t miss her!"
       },
       "galaxaura": {
         "heading": "Galaxaura",
@@ -178,7 +194,7 @@
       },
       "naomi": {
         "heading": "Naomi Dasmoe",
-        "text": "Naomi Dasmoe are two upcoming deejays spreading their mission of true house music in Berlin and beyond. They bring their own flavour to a long-loved genre with Naomi’s soulful approach complemented by Dasmoe’s passion for rhythmic, powerful patterns.\n"
+        "text": "Naomi Dasmoe are two upcoming deejays spreading their mission of true house music in Berlin and beyond. They bring their own flavour to a long-loved genre with Naomi’s soulful approach complemented by Dasmoe’s passion for rhythmic, powerful patterns."
       },
       "signal": {
         "heading": "NO LIFE SIGNAL",

@@ -85,7 +85,7 @@
     },
     "important": {
       "heading": "Wichtige Information",
-      "text1": "Die Lage ist und bleibt schwierig. Für alle, da gibt es keine Ausnahmen. Dass unser Festival im September stattfinden soll, ist hoffentlich unser aller Glück. Mit großem Optimismus planen und werkeln wir weiterhin an der Realisierung des TARMACs.\nMuss das Festival aufgrund der Pandemie verschoben werden, behalten alle erworbenen Tickets automatisch ihre Gültigkeit für das TARMAC 2021! Das gibt uns und allen Beteiligten Planungssicherheit. Ihr könnt im Falle der Verschiebung Euer Ticket aber auch erstatten lassen. Kontaktiert uns dazu per E-Mail. Wir verfolgen das Geschehen ständig, entscheiden verantwortungsbewusst und halten Euch auf dem Laufenden.",
+      "text1": "Die Lage ist und bleibt schwierig. Für alle, da gibt es keine Ausnahmen. Dass unser Festival im September stattfinden soll, ist hoffentlich unser aller Glück. Mit großem Optimismus planen und werkeln wir weiterhin an der Realisierung des TARMACs. Muss das Festival aufgrund der Pandemie verschoben werden, behalten alle erworbenen Tickets automatisch ihre Gültigkeit für das TARMAC 2021! Das gibt uns und allen Beteiligten Planungssicherheit. Ihr könnt im Falle der Verschiebung Euer Ticket aber auch erstatten lassen. Kontaktiert uns dazu per E-Mail. Wir verfolgen das Geschehen ständig, entscheiden verantwortungsbewusst und halten Euch auf dem Laufenden.",
       "text2": "Danke für euer Vertrauen! Wir freuen uns auf Euch!",
       "text3": "Bleibt gesund!"
     },
@@ -152,6 +152,10 @@
       }
     },
     "artists": {
+      "battery": {
+        "heading": "AA Battery Team",
+        "text": "Was die Jungs vom Double A Battery Team auf die Tanzfläche bringen, ist mehr als nur eine volle Ladung Energie. Alois und Alex (AA) verbindet eine jahrelange Freundschaft und die Leidenschaft für Elektro, Trance und Breaks jeglicher Art. Als Savour the Moment Residents, seit über 2 Jahren, spielen sie meist in der Wilden Renate in Berlin, wo man sie hinterm DJ-Pult oder breakdancend auf dem Floor findet – nicht selten mit einem Glas Weißbier in der Hand."
+      },
       "albina": {
         "heading": "Albina",
         "text": "Albina verknüpft reichhaltige Texturen und bringt dabei konträre Klänge in Kontext. Gespickt mit rhythmischen Passagen und Songs sind ihre dj sets die perfekte Balance zwischen Ruhe und Puls."
@@ -159,6 +163,18 @@
       "anna": {
         "heading": "Anna SchuSchu",
         "text": "Anna Schuschus experimentelle Performances vereinen Pop mit verschobenen Texturen, häufig basierend auf ihrer eigenen Stimme. Ein weitreichender Sound ist das Ergebnis: von sphärisch entspannt, bis hin zu kantig provokant."
+      },
+      "cyan": {
+        "heading": "Cyan 85",
+        "text": "Cyan 85 - unserer Meinung nach eine der Überraschungen des letzten Jahres. Mit bisher zwei ausverkauften Platten bei den Labels voitax und lunar orbiter, ist er mittlerweile auch international unterwegs. Im Herbst folgt eine mini LP des gebürtigen Erfurters, der ebenso kürzlich zusammen mit Turk Turkelton das Label habibi bass gegründet hat. Wir freuen uns auf seinen roughen sound. - shake what your mamas gave ya!"
+      },
+      "hornhaut": {
+        "heading": "DJ Hornhaut",
+        "text": "DJ Hornhaut ist eine wilde Mischung aus Disko, Punk, Hip-Hop und Hard-Tech. Böse Bässe mischen sich mit einer sanften Stimme und dadaistischen und politischen Texten."
+      },
+      "flexibleheart": {
+        "heading": "Flexibleheart",
+        "text": "Flexibleheart lebt in Dresden und ist Mitglied des feministischen Dj-Kollektivs ProZecco. Sie spielte bereits im About Blank, MenschMeier, IFZ und Objekt Klein A. Ihr Sound: bassgetriebener- energiegeladener Acid House und Techno, Ghetto und Elektro. Crazy good! Don't miss her!"
       },
       "galaxaura": {
         "heading": "Galaxaura",
