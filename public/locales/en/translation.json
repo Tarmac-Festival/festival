@@ -34,7 +34,6 @@
   },
   "info": {
     "heading": "Info",
-    "subheading": "Soon you will get more information about the festival.",
     "box1": {
       "heading": "Tickets",
       "subheading1": "Partybird Ticket (50€)",
@@ -49,14 +48,114 @@
     "box2": {
       "heading": "Tickets",
       "subheading1": "Soliticket (90€)",
-      "text1": "It is important to us to support DJs and other small artists in the difficult situation this year. That's why we offer a soli-ticket, because the worldwide distribution of the SARS-CoV-2 corona virus almost completely destroys the livelihood of many of these people. Anyone who has the opportunity to help can purchase the soli-ticket from now on. The additional amount collected enables us to increase the previously small fees for the artists at the Tarmac Festival.",
-      "subheading2": "Camper-/ Autopass (10€ - begrenzt)",
-      "text2": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper-/ Car Pass. In front of the festival area you can park for free."
+      "text1": "It is important to us to support DJs and other small artists in the difficult situation this year. That's why we offer a Soliticket, because the worldwide distribution of the SARS-CoV-2 corona virus almost completely destroys the livelihood of many of these people. Anyone who has the opportunity to help can purchase the soli-ticket from now on. The additional amount collected enables us to increase the previously small fees for the artists at the Tarmac Festival.",
+      "subheading2": "Camper / Car ticket (10€ - limited)",
+      "text2": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper / Car ticket. In front of the festival area you can park for free."
     },
-    "box3": {
-      "heading": "FAQ",
-      "subheading1": "Answers to your questions",
-      "text1": "coming Soon"
+    "box4": {
+      "heading": "Arrival & departure",
+      "subheading1": "Admission to site",
+      "question1": "How do I get to the festival site?",
+      "text1": "Arrival is possible from September 03th, 2020 / 1:00 p.m. The event starts on September 4, 2020 at noon 12:00 p.m. You can also travel by public transport: use the \"Deutsche Bahn\" train to Sangerhausen. If you are arriving by car, enter \"Flugplatz Allstedt\" into your navigation system or these coordinates 51.389001, 11.450220.",
+      "subheading2": "Home trip",
+      "question2": "When do I have to start my trip home?",
+      "text2": "The festival ends on April 6th, 2020/ 10:00 p.m. Departure is also possible the next day. Please leave the campsite just like you found it as you arrived. Garbage bags and pocket ashtrays are available at the info point.",
+      "subheading3": "Shuttle service",
+      "question3": "Is there a shuttle service?",
+      "text3": "We are trying to set up a shuttle service from Sangerhausen main station. More detailed information will follow. We also offer guided bike tours (Sangerhausen-Allstedt train station) with luggage service. More information will follow. Please form carpools to preserve the environment! We will set up a carpool on Facebook.<br><br>Numbers of local taxi companies::<br>Taxi Strube: +493464 611313 <br>Taxi Weidemann: +493464 579666 <br>Taxi Lampert: +493464 515860",
+      "subheading4": "Minimum age",
+      "question4": "How old do you have to be to be allowed to enter the festival site?",
+      "text4": "The festival is for adults (P18) only! There will be no exceptions. Only official photo IDs are accepted for proof of age (no student ID cards etc.) Even with a parents note / party slip, entry is not possible.",
+      "subheading5": "Parking",
+      "question5": "What about the parking situation on site?",
+      "text5": "Parking lots are available. For the sake of the environment, please try to increase the capacity of the vehicles as much as possible (e.g. carpooling).",
+      "subheading6": "Car ticket",
+      "question6": "When do I need a car ticket?",
+      "text6": "You need a car ticket if you want to take your vehicle to the campsite (limited number). Otherwise you can park your car on the parking lot for free. The walk to the campsite is about 5 minutes. There are no electricity or water connections for campers on the campsite."
+    },
+    "box5": {
+      "heading": "Camping & food",
+      "subheading1": "Camping",
+      "question1": "Is there a possibility to camp?",
+      "text1": "Camping is included in the ticket price. The camping area is marked. It’s intended as a silent rest area. The best is to leave music systems and power generators at home. Of course, it is not forbidden to listen to music or to make music in the camp (which we prefer). We believe in dealing with each other with respect.",
+      "subheading2": "Shower facilities",
+      "question2": "Are there shower facilities on site?",
+      "text2": "There will be opportunities for showering at the campsite (cold water). We ask you to use the water wisely and only use biodegradable soaps and shampoos. In addition, you can use the sanitary facilities of the <a href=\"https://www.allstedt.de/tourismus/stadtbad.html\">Freibad Allstedt</a>. (admission 3 € / 10-person ticket 20 €; distance: 20 minutes by bike / 1 hour on foot)",
+      "subheading3": "Site plan",
+      "question3": "How can I orientate myself on site?",
+      "text3": "You will receive a map for orientation on the festival site at the entrance when entering the festival area.",
+      "subheading4": "Food & drinks",
+      "question4": "What selection of food and drinks are there?",
+      "text4": "There will be a food corner with different food stalls offering vegan and vegetarian, hot and cold dishes for little money. At our bars you can get chilled drinks. You can also bring your own drinks in normal quantities to the festival area. Please keep in mind that we also depend on the income of the bars to keep our festival going.",
+      "subheading5": "Drinking water",
+      "question5": "Is there free drinking water?",
+      "text5": "Drink plenty of water. This is especially important on warm days. There will be a drinking water point where you can fill up your water bottle for free. Since the capacity of this drinking water point is not sufficient to supply the whole festival with drinking water, there will be cheap bottled water available at the bars. We also recommend that you bring a few bottles of water if possible.",
+      "subheading6": "Barbecue & Fire",
+      "question6": "Can you barbecue and make fire?",
+      "text6": "We are located on an area in the middle of nature. The last summers were very dry and we expect an increased risk of forest fire at the beginning of September. Therefore open fires or barbecues are not allowed. Whoever disregards this, endangers the life of his/her* fellow human beings and must unfortunately be expelled from the premises."
+    },
+    "box6": {
+      "heading": "Security & help",
+      "subheading1": "Awareness structures",
+      "question1": "Are awareness structures maintained?",
+      "text1": "There will be a trained awareness team, which can be recognized by markings and can help you in situations where you feel uncomfortable. If there is no team around, please contact the staff at the nearest bar.",
+      "subheading2": "Security & Safety",
+      "question2": "Is the event supervised by security personnel?",
+      "text2": "Obey and respect the orders of the security, paramedics & festival crew. Anyone who harasses or discriminates other people will be fired without discussion. The same applies to people who are caught stealing. In the event of being expelled from the festival site, there is no right to a refund of the ticket price.",
+      "subheading3": "Photos & Videos",
+      "question3": "Can I take photos and videos?",
+      "text3": "The taking of photos & videos is not allowed. Respect the privacy of others and enjoy the weekend without your smartphone and co. There will be a media team who will take photos and videos with respect for your privacy.",
+      "subheading4": "Behavior during storms",
+      "question4": "What happens in a storm?",
+      "text4": "If there is a storm, follow the announcements of the security and the festival crew. Get yourselves and others to safety. Stay away from trees or stage setups.",
+      "subheading5": "Illegal drugs",
+      "question5": "What about illegal drugs?",
+      "text5": "The sale and consumption of illegal drugs is not allowed. Dealers are expelled from the festival and receive a criminal complaint.",
+      "subheading6": "First aid",
+      "question6": "Can I be treated by first aiders in an emergency?",
+      "text6": "A medical service will be available at the festival area. Take care and help each other.<br>If you notice a person who may need help, immediately let the awareness team, bar staff or other crew members know about it. Medications that you have to take regularly must also be brought along and you are responsible for your hangover.<br><br>In case of doubt: go to the first aid and have a look!"
+    },
+    "box7": {
+      "heading": "Festival site",
+      "subheading1": "Info Point",
+      "question1": "Where can I get information and consumer goods?",
+      "text1": "At the info point you will not only get all the information you need, but you will also find a small selection of items such as a replacement for a forgotten toothbrush, tobacco, condoms, tampons etc.",
+      "subheading2": "Lost & Found",
+      "question2": "Who should I contact if I lose something?",
+      "text2": "Please be fair and hand in lost property at the info point or one of the bars. If you have lost something, please contact the info point during the festival or send an exact description to <a href=\"mailto:contact@tarmac-festival.de\">contact@tarmac-festival.de</a>.",
+      "subheading3": "Mobile network",
+      "question3": "Can I connect to mobile network on site?",
+      "text3": "Allstedt airport is located in a radio dead zone. Arrangements are best made in advance. There is only a very limited network on site.",
+      "subheading4": "Garbage",
+      "question4": "Where can I dispose of my trash?",
+      "text4": "Please try to avoid garbage if possible. Garbage bags and pocket ashtrays are available at the Infopoint. Everyone will also get a small garbage bag at the entrance. Please use the containers at the garbage stations. For us and our environment it is best to separate the garbage already at the festival. We want to work out a concept for this and will keep you up to date.<br><br>In fact: There is no place for your garbage in the forest, on paths or in front of stages. With little effort we can keep our festival clean."
+    },
+    "box8": {
+      "heading": "Liability",
+      "subheading1": "Domestic Authority",
+      "question1": "Is there a domestic authority during the event?",
+      "text1": "During the festival we are tenants of the airfield. Racism, sexism, anti-semitism and other forms of discrimination are not tolerated by us. In such cases we reserve the right to make use of our domestic authority.",
+      "subheading2": "Objects of value",
+      "question2": "Who is liable for lost / stolen valuables?",
+      "text2": "Take care of your valuables and take only the bare essentials with you. We cannot accept liability for lost or stolen items.",
+      "subheading3": "Damage caused",
+      "question3": "Who is responsible for damage I caused?",
+      "text3": "Every visitor must behave in such a way that any danger to other visitors or third parties is excluded. You are responsible for any damage you cause."
+    },
+    "box9": {
+      "heading": "Miscellaneous",
+      "subheading1": "Fireworks",
+      "question1": "Is firework allowed?",
+      "text1": "Fireworks are also strictly prohibited due to the danger of forest fires. Whoever disregards this prohibition risks the life of the festival community and the existence of the festival. In case of disregard, you will be expelled from the festival grounds.",
+      "subheading2": "Confetti",
+      "question2": "What about confetti?",
+      "text2": "We want to leave the place the way we found it. None of us wants to spend hours fiddling with confetti from the meadow. Please abstain from this.",
+      "subheading3": "Graffiti & tags",
+      "question3": "Can I spray or make graffiti tags?",
+      "text3": "Whoever \"embellishes\" borrowed technology & infrastructure or stages with tags or graffiti, will get kicked out and have to pay for the damage caused. We have to clean these things afterwards at great expense or in the worst case pay for them completely.<br>There will be a lot of possibilities to let your creativity run free. Therefore we have no understanding for people who have to leave their tags on every corner.",
+      "subheading4": "Pets",
+      "question4": "Is it allowed to bring my pet with me?",
+      "text4": "A festival is not a place for pets. So just leave your favourite four-legged friends at home."
     }
   },
   "contact": {
@@ -103,52 +202,43 @@
     "collectives": {
       "escape": {
         "heading": "Escape",
-        "text1": "That is the motto of the Magdeburg escape // collective. A few friends have been organizing raves and events in their hometown since 2017. Their vision:",
-        "text2": "Foggy nights, torn apart by exploding kicks, accompanied by strobe light.",
-        "text3" : "And right in the middle: you - as a moving silhouette."
+        "text": "escape the order,<br>escape the system,<br>escape reality.<br><br>That is the motto of the Magdeburg escape // collective. A few friends have been organizing raves and events in their hometown since 2017. Their vision:<br><br>Foggy nights, torn apart by exploding kicks, accompanied by strobe light.<br>And right in the middle: you - as a moving silhouette."
       },
       "endlos": {
         "heading": "Station Endlos",
-        "text1":  "I'm the Endlos. I’m growing because of the motivation and creativity of two brothers and their friends. How can I say it? I want to spread a colorful dancing culture in my hometown Halle (Saale).",
-        "text2":  "I'm much more than just a dance floor. I'm a constantly reinventing microcosm. The stiff hands of a clock dissolve into a river that flows into the moment when time is no longer countable. The illusion of control is up to everyone.",
-        "text3":  "Here everything that brings joy and enrichment is allowed without restricting the freedom of another. Tolerant behavior, dialog-oriented communication and respectful interaction with each other are fundamental requirements for me."
+        "text":  "I'm the Endlos. I’m growing because of the motivation and creativity of two brothers and their friends. How can I say it? I want to spread a colorful dancing culture in my hometown Halle (Saale).<br><br>I'm much more than just a dance floor. I'm a constantly reinventing microcosm. The stiff hands of a clock dissolve into a river that flows into the moment when time is no longer countable. The illusion of control is up to everyone.<br><br>Here everything that brings joy and enrichment is allowed without restricting the freedom of another. Tolerant behavior, dialog-oriented communication and respectful interaction with each other are fundamental requirements for me."
       },
       "l300": {
         "heading": "L300",
-        "text1": "L300 Decoration & Arts Circle is a growing collective of jung DJs, Artist and event hustler…",
-        "text2": "After a couple excessive festival experience in Europe we decided to bring the vibe of the psychedelic culture to the world! Since 2016 we are on adventures in the cities Halle, Berlin, Leipzig and in outer space… and there is still no end in sight! Boomshakalaka Spaceamigos und -amigas!!!!"
+        "text": "L300 Decoration & Arts Circle is a growing collective of jung DJs, Artist and event hustler...<br><br>After a couple excessive festival experience in Europe we decided to bring the vibe of the psychedelic culture to the world! Since 2016 we are on adventures in the cities Halle, Berlin, Leipzig and in outer space… and there is still no end in sight!<br>Boomshakalaka Spaceamigos und -amigas!!!!"
       },
       "reihe": {
         "heading": "II. Reihe",
-        "text1": "We are an art and culture project. It’s called second row ( ZWEITE REIHE). We are looking after places, event’s and people. Everything what isn’t obvious. Everything what is hidden and creative. Everything what can be discovered. ZWEITE REIHE is organizing the KIOSK. It’s a stage, platform and much more. You are very welcome!"
+        "text": "We are an art and culture project. It’s called second row ( ZWEITE REIHE). We are looking after places, event’s and people. Everything what isn’t obvious. Everything what is hidden and creative. Everything what can be discovered. ZWEITE REIHE is organizing the KIOSK. It’s a stage, platform and much more.<br>You are very welcome!"
       },
       "resonant": {
         "heading": "resonant",
-        "text1": "[Resonánz] - Substantiv, feminin, die",
-        "text2": "It started with spontaneous mettings of friends.Then it became more and more to a established structure. At the beginning we were planning a single unique event. All of a sudden we had weekly events in the summer of 2018. Ever since we are trying to create a room with free space for any kind of electronic music regularly. At the same time it should not follow any comercial rules."
+        "text": "[Resonánz] - Substantiv, feminin, die<br><br>It started with spontaneous mettings of friends.Then it became more and more to a established structure. At the beginning we were planning a single unique event. All of a sudden we had weekly events in the summer of 2018. Ever since we are trying to create a room with free space for any kind of electronic music regularly. At the same time it should not follow any comercial rules."
       },
       "orgia": {
         "heading": "Orgia",
-        "text1": "The organised-rave-group-in-aktion (ORGIA) founded in 2018 is specialized in Full-Service-Solutions for dancing events. Very fast they became the leading provider. About 12 employees are active in the cities Halle and Leipzig. Just recently the community achieved sales of 253€.",
-        "text2": "At the Tarmac Festival they will organise a hangar with the dancing floor. Therefore the main elements are Acid, Elektro, Rave and Trance."
+        "text": "The organised-rave-group-in-aktion (ORGIA) founded in 2018 is specialized in Full-Service-Solutions for dancing events. Very fast they became the leading provider. About 12 employees are active in the cities Halle and Leipzig. Just recently the community achieved sales of 253€.<br><br>At the Tarmac Festival they will organise a hangar with the dancing floor. Therefore the main elements are Acid, Elektro, Rave and Trance."
       },
       "teilko": {
         "heading": "Teilkonversum 7",
-        "text1":  "We are a music collective from Halle. We are a community of friends and party people, who started with raves in the nature. Now we also celebrate indoor partys.",
-        "text2": "We are playing various styles of music like Discohouse, Breakbeat, Acid-, Industrial- and Hypnotechno. That‘s how we support our local partszene since 2014.",
-        "text3": "For us it is important to be emancipatory and open. That‘s why we are creating party’s without any discrimination. Everybody is invited to celebrate solidaric, free and together with us. So let’s join a colourful world with great beats and hypnotic funky sounds."
+        "text":  "We are a music collective from Halle. We are a community of friends and party people, who started with raves in the nature. Now we also celebrate indoor partys.<br><br>We are playing various styles of music like Discohouse, Breakbeat, Acid-, Industrial- and Hypnotechno. That‘s how we support our local partszene since 2014.<br><br>For us it is important to be emancipatory and open. That‘s why we are creating party’s without any discrimination. Everybody is invited to celebrate solidaric, free and together with us. So let’s join a colourful world with great beats and hypnotic funky sounds."
       },
       "lila": {
         "heading": "Lila Drache",
-        "text1": "The \"Lila Drache\" is the club home of a non-profit Art and Culture Association. We are a colorful group of people who have set themselves the task of expanding the cultural offer in the city Halle, especially in the southern city. We established a platform in the south of Halle where artists can exhibit their works, musicians find open ears and readings and lectures reach a wide audience."
+        "text": "The \"Lila Drache\" is the club home of a non-profit Art and Culture Association. We are a colorful group of people who have set themselves the task of expanding the cultural offer in the city Halle, especially in the southern city. We established a platform in the south of Halle where artists can exhibit their works, musicians find open ears and readings and lectures reach a wide audience."
       },
       "root": {
         "heading": "Root",
-        "text1": "The Root sees itself as a happy smorgasbord of friends who want to try out all areas of art. In 2016 we started to grow our roots in the city Halle. Since then we have been working together to combine our different talents and interests like music, handicraft, animation, video and social values. The topic of awareness is particularly important to us. Enter our little cosmos, have fun and make the world a little bit more colorful with us!"
+        "text": "The Root sees itself as a happy smorgasbord of friends who want to try out all areas of art. In 2016 we started to grow our roots in the city Halle. Since then we have been working together to combine our different talents and interests like music, handicraft, animation, video and social values. The topic of awareness is particularly important to us. Enter our little cosmos, have fun and make the world a little bit more colorful with us!"
       },
       "klubska": {
         "heading": "klubska scena",
-        "text1": "klubska scena is a secret pop-up underground event for audiophiles and freedom fighters against the music industry! It’s guerrilla like nature consists of activities performed in a spontaneous way, without authorisation, on jaw dropping locations."
+        "text": "klubska scena is a secret pop-up underground event for audiophiles and freedom fighters against the music industry! It’s guerrilla like nature consists of activities performed in a spontaneous way, without authorisation, on jaw dropping locations."
       }
     },
     "artists": {

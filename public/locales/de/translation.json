@@ -34,7 +34,6 @@
   },
   "info": {
     "heading": "Info",
-    "subheading": "Schon bald sind hier weitere Informationen zu Anfahrt, Anreisezeiten, Camping uvm. einsehbar.",
     "box1": {
       "heading": "Tickets",
       "subheading1": "Partybird Ticket (50€)",
@@ -53,10 +52,110 @@
       "subheading2": "Camper-/ Autopass (10€ - begrenzt)",
       "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto auf dem Zeltplatz übernachten möchtest, hol dir einen Camper-/ Autopass! Der Pass ermöglicht dir, mit deinem Fahrzeug auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
     },
-    "box3": {
-      "heading": "FAQ",
-      "subheading1": "Antworten auf Deine Fragen",
-      "text1": "Coming Soon"
+    "box4": {
+      "heading": "An- & Abreise",
+      "subheading1": "Einlass Festivalgelände",
+      "question1": "Wie komme ich zum Festivalgelände?",
+      "text1": "Die Anreise ist ab dem 03.09.2020 um 13:00 Uhr möglich. Die Veranstaltung beginnt am 04.09.2020 um 12:00 Uhr. Die Anreise ist auch mit öffentlichen Verkehrsmitteln möglich: Nutzt hierfür die Regional-Bahn bis zum Hauptbahnhof Sangerhausen. Falls ihr mit dem Auto anreisen werdet, gebt als Ziel in das Navi \"Flugplatz Allstedt\" oder die Koordinaten 51.389001, 11.450220 ein. Es gibt nur eine Zufahrtsmöglichkeit.",
+      "subheading2": "Heimreise",
+      "question2": "Wann muss ich meine Heimreise antreten?",
+      "text2": "Die Veranstaltung endet am 06.09. 22:00 Uhr. Eine Abreise am nächsten Tag ist auch noch möglich. Bitte hinterlasst euren Campingplatz genauso, wie ihr ihn vorgefunden habt. Müllsäcke und Taschenaschenbecher gibt es am Infopoint.",
+      "subheading3": "Shuttleservice",
+      "question3": "Gibt es einen Shuttleservice?",
+      "text3": "Wir sind bemüht, vom Hauptbahnhof Sangerhausen einen Shuttleservice einzurichten. Genauere Informationen dazu folgen. Weiterhin bieten wir geleitete Fahrradtouren (Bahnhof Sangerhausen-Allstedt) mit Gepäckservice an. Weitere Informationen dazu folgen. Schont die Umwelt und bildet Fahrgemeinschaften! Wir werden auf Facebook eine Mitfahrzentrale einrichten.<br><br>Nummern lokaler Taxiunternehmen:<br>Taxi Strube: +493464 611313<br>Taxi Weidemann: +493464 579666<br>Taxi Lampert: +493464 515860",
+      "subheading4": "Mindestalter",
+      "question4": "Wie alt muss man sein, um das Festivalgelände betreten zu dürfen?",
+      "text4": "Das Festival ist ausnahmslos für Erwachsene (P18). Zum Altersnachweis akzeptiert werden ausschließlich amtliche Lichtbildausweise (keine Studienausweise, Krankenkarten, usw.).",
+      "subheading5": "Parkmöglichkeiten",
+      "question5": "Wie sieht es mit der Parkplatzsituation vor Ort aus?",
+      "text5": "Parkplätze sind vorhanden. Bitte versucht der Umwelt zuliebe die Kapazitäten der Fahrzeuge möglichst auszulasten und Fahrgemeinschaften zu bilden.",
+      "subheading6": "Autopass",
+      "question6": "Wann benötige ich einen Autopass?",
+      "text6": "Ihr braucht einen Autopass, falls ihr euer Fahrzeug mit auf den Campingplatz nehmen möchtet (begrenzte Anzahl). Andernfalls könnt ihr euer Auto auf dem Parkplatz kostenlos abstellen. Der Fußweg zum Campingplatz beträgt von dort noch etwa 5 Minuten. Für Wohnmobile o. Ä. gibt es keine Strom- oder Wasseranschlussmöglichkeiten."
+    },
+    "box5": {
+      "heading": "Camping & Imbiss",
+      "subheading1": "Campingplatz",
+      "question1": "Gibt es die Möglichkeit zu campen?",
+      "text1": "Campen ist in den ausgewiesenen Flächen möglich. Die Kosten hierfür sind bereits im Ticketpreis enthalten. Der Campingplatz ist als Ruhezone gedacht. Große Musikanlagen und Stromgeneratoren bleiben deshalb am besten zu Hause. Natürlich ist es nicht verboten im Camp Musik zu hören und/oder selbst zu machen (was uns noch lieber ist). Wir setzen auf einen respektvollen Umgang miteinander.",
+      "subheading2": "Duschmöglichkeiten",
+      "question2": "Sind auf dem Gelände Duschmöglichkeiten vorhanden?",
+      "text2": "Am Campingplatz wird es Möglichkeiten zum Duschen geben (Kaltwasser). Wir bitten euch, mit dem Wasser sparsam umzugehen und nur biologisch abbaubare Seifen/Shampoos zu verwenden. Zusätzlich könnt ihr die Sanitären Anlagen des <a href=\"https://www.allstedt.de/tourismus/stadtbad.html\">Freibad Allstedt</a>. nutzen (Eintritt 3€/ 10ner-Karte 20€; Entfernung: 20 Minuten mit dem Fahrrad/1h zu Fuß)",
+      "subheading3": "Orientierung",
+      "question3": "Wie kann ich mich auf dem Gelände orientieren?",
+      "text3": "Einen Lageplan zur Orientierung auf dem Gelände erhaltet ihr am Einlass beim Betreten des Festivalgeländes und/ oder über die Tarmac Festival-App. ",
+      "subheading4": "Speisen & Getränke",
+      "question4": "Welche Auswahl an Speisen und Tränken gibt es vor Ort?",
+      "text4": "Es wird eine Food-Corner mit verschiedenen Essensständen geben, welche vegane und vegetarische, warme und kalte Gerichte für kleines Geld anbieten. An unseren Bars bekommt Ihr gekühlte Getränke. Ihr könnt auch eigene Getränke in normalen Mengen mit auf das Festivalgelände nehmen. Bitte bedenkt, dass wir zur Erhaltung unseres Festivals auch auf die Einnahmen der Bars angewiesen sind.<br><br>Sprich: Ein paar Bier im Rucki: easygoing.<br>Mit Kästen zu den Bühnen ziehen: No-Go.",
+      "subheading5": "Trinkwasserstationen",
+      "question5": "Gibt es kostenfreie Trinkwasserstationen?",
+      "text5": "Trinkt ausreichend Wasser. Gerade an warmen Tagen ist das besonders wichtig. Es wird eine Trinkwasserstelle geben, wo ihr eure Wasserflasche kostenlos auffüllen könnt. Da die Kapazität dieser Trinkwasserstelle nicht ausreicht, um das gesamte Festival mit Trinkwasser zu versorgen, wird es an den Bars günstiges Trinkwasser in Flaschen geben. Wir empfehlen euch außerdem - wenn möglich - auch ein paar Flaschen Wasser mitzubringen.",
+      "subheading6": "Grillen & Feuer",
+      "question6": "Darf man Grillen und Feuer machen?",
+      "text6": "Wir befinden uns auf einem Gelände inmitten der Natur. Die letzten Sommer waren sehr trocken und wir rechnen damit, dass Anfang September eine erhöhte Waldbrandgefahr bestehen wird. Offenes Feuer oder Grillen ist deshalb nicht erlaubt. Wer dies missachtet, gefährdet das Leben seiner/ihrer Mitmenschen und muss leider des Geländes verwiesen werden."
+    },
+    "box6": {
+      "heading": "Sicherheit & Hilfe",
+      "subheading1": "Awarenessstrukturen",
+      "question1": "Werden Awarenessstrukturen vorgehalten?",
+      "text1": "Auf dem Festival wird es ein geschultes Awareness-Team geben, welches durch Markierungen erkennbar ist und euch in Situationen helfen kann, in denen ihr euch unwohl und/ oder belästigt fühlt. Sollte gerade kein Team in der Nähe sein, meldet euch bitte an die nächste Bar.",
+      "subheading2": "Sicherheitspersonal",
+      "question2": "Wird die Veranstaltung von Sicherheitspersonal betreut?",
+      "text2": "Befolgt und respektiert die Anordnungen der Security, Sanitäter*innen & der Festivalcrew. Wer andere Menschen belästigt oder diskriminiert, fliegt ohne Diskussion vom Platz. Selbiges gilt für Personen, die beim Klauen erwischt werden. Bei einem Platzverweis besteht kein Anspruch auf eine Rückerstattung des Ticketpreises.",
+      "subheading3": "Fotos & Videos",
+      "question3": "Darf ich Fotos und Videos aufnehmen?",
+      "text3": "Das Anfertigen von Fotos & Videos ist nicht erlaubt. Respektiert die Privatsphäre der anderen und genießt das Wochenende ohne Smartphone. Es wird ein von uns beauftragtes Team - mit Rücksicht auf eure Privatsphäre - Fotos und Filmaufnahmen anfertigen.",
+      "subheading4": "Verhalten bei Unwetter",
+      "question4": "Was geschieht bei einem Unwetter?",
+      "text4": "Sollte es zu einem Unwetter kommen, befolgt die Ansagen der Security und der Festivalcrew. Bringt euch und andere in Sicherheit. Haltet Abstand von Bäumen oder Bühnenaufbauten.",
+      "subheading5": "Illegale Drogen",
+      "question5": "Wie sieht es mit illegalen Drogen aus?",
+      "text5": "Der Verkauf und Konsum von illegalen Drogen ist nicht erlaubt. Personen, die Drogen verkaufen, werden vom Gelände verwiesen und müssen mit einer Strafanzeige rechnen.",
+      "subheading6": "Erste Hilfe",
+      "question6": "Kann ich im Notfall von Ersthelfer*innen behandelt werden?",
+      "text6": "Ein Sanitätsdienst ist vor Ort um im Notfall helfen zu können. Damit es nicht so weit kommt:<br>Gebt aufeinander acht und helft euch gegenseitig. Gebt im Zweifelsfall sofort dem Awareness-Team, dem Barpersonal oder anderen Crewmitgliedern Bescheid, wenn euch eine Person auffällt, die möglicherweise Hilfe benötigt.<br>Die Sanis sind für Notfälle vor Ort. Medikamente, die Ihr regelmäßig Einnehmen müsst, müssen auch selbst mitgebracht werden. Für euren Kater seid ihr selbst verantwortlich.<br><br>Im Zweifel gilt aber: Ab zu den Sanis und durchchecken lassen!"
+    },
+    "box7": {
+      "heading": "Gelände",
+      "subheading1": "Infopoint",
+      "question1": "Wo kann ich Informationen und Gebrauchsgüter erhalten?",
+      "text1": "Am Infopoint erhaltet ihr nicht nur alle Informationen die ihr braucht, sondern findet auch eine kleine Auswahl von Dingen, wie zum Beispiel einen Ersatz für die vergessene Zahnbürste, Tabak, Kondome, Tampons u.a. .",
+      "subheading2": "Verlorene Gegenstände",
+      "question2": "An wen wende ich mich, sollte ich etwas verlieren?",
+      "text2": "Bitte sei fair und gib Fundsachen am Infopoint oder einer der Bars ab. Wenn du etwas verloren hast, melde Dich noch während des Festivals am Infopoint oder mit einer genauen Beschreibung unter <a href=\"mailto:contact@tarmac-festival.de\">contact@tarmac-festival.de</a>.",
+      "subheading3": "Internet & Handynetz",
+      "question3": "Gibt es auf dem Veranstaltungsgelände Handynetz?",
+      "text3": "Der Flugplatz Allstedt (das Veranstaltungsgelände) liegt zum Großteil  in einem Funkloch. Absprachen trefft ihr am besten vorher. Vor Ort gibt es nur sehr eingeschränkt Netz.",
+      "subheading4": "Müllentsorgung",
+      "question4": "Wo kann ich meinen Müll entsorgen?",
+      "text4": "Bitte versucht Müll gutestgehend zu vermeiden. Müllsäcke und Taschenaschenbecher gibt es am Infopoint. Jeder bekommt außerdem am Einlass einen kleinen Müllsack. Bitte nutzt die Behälter an den Abfallstationen. Für uns und unsere Umwelt ist es am besten, wenn wir den entstandenen Müll schon auf dem Festival trennen. Dazu erarbeiten wir ein Konzept und halten euch auf dem Laufenden.<br><br>Fakt ist: Im Wald, auf Wegen oder vor Bühnen hat dein Müll nichts verloren. Mit geringem Aufwand können wir gemeinsam unser Festival sauber halten."
+    },
+    "box8": {
+      "heading": "Haftung",
+      "subheading1": "Hausrecht",
+      "question1": "Wem obliegt das Hausrecht während der Veranstaltung?",
+      "text1": "Während des Festivals sind wir Mieter*innen des Flugplatzes. Rassismus, Sexismus, Antisemitismus und andere Formen der Diskriminierung werden von uns nicht toleriert. Wir behalten uns vor, in solchen Fällen von unserem Hausrecht gebrauch zu machen.",
+      "subheading2": "Haftung Wertgegenstände",
+      "question2": "Wer haftet für verlorene/ geklaute Wertgegenstände?",
+      "text2": "Achtet auf Eure Wertgegenstände und nehmt nur das Nötigste mit. Wir können keine Haftung für verlorene oder gestohlene Sachen übernehmen.",
+      "subheading3": "Verursachte Schäden",
+      "question3": "Wer haftet für einen Schaden, den ich verursacht habe?",
+      "text3": "Jede(r) Besucher*in hat sich so zu verhalten, dass eine Gefährdung von anderen Besucher*innen oder Dritten ausgeschlossen ist. Für Schäden, die Ihr verursacht, seid Ihr auch verantwortlich."
+    },
+    "box9": {
+      "heading": "Sonstiges",
+      "subheading1": "Feuerwerkskörper",
+      "question1": "Ist das Entzünden von Feuerwerk erlaubt?",
+      "text1": "Feuerwerk ist aufgrund der Waldbrandgefahr ebenfalls strikt verboten. Wer dieses Verbot missachtet, riskiert das Leben der Festival-Community und den Weiterbestand des Festivals. Bei Missachtung erfolgt der Verweis zum Verlassen des Geländes.",
+      "subheading2": "Konfetti",
+      "question2": "Wie ist das mit dem Konfetti?",
+      "text2": "Wir wollen Veranstaltungsort so zurücklassen, wie wir in vorgefunden haben. Niemand von uns hat Lust, stundenlang Konfetti aus der Wiese, der Technik oder vom Waldboden zu fummeln. Bitte verzichtet darauf, man kann auch ohne Konfetti fett feiern.",
+      "subheading3": "Graffiti-Tags",
+      "question3": "Darf ich sprayen oder Graffiti-Tags anfertigen?",
+      "text3": "Wer geliehene Technik & Infrastruktur oder Bühnen mit Tags oder Graffiti ohne Absprache \"verschönert\", fliegt und muss für den entstandenen Schaden aufkommen. Wir müssen diese Dinge im Nachhinein aufwändig reinigen und schlimmstenfalls komplett bezahlen.<br>Es wird eine vielzahl an Möglichkeiten geben, eurer Kreativität freien Lauf zu lassen. Wir haben deshalb kein Verständnis für Leute, die an jeder Ecke Ihre Tags hinterlassen müssen.",
+      "subheading4": "Haustiere",
+      "question4": "Ist es gestattet, mein Haustier mitzubringen?",
+      "text4": "Ein Festival ist kein Ort für Haustiere. Lasst eure liebsten Vierbeiner deshalb einfach zuhause."
     }
   },
   "contact": {
@@ -103,52 +202,43 @@
     "collectives": {
       "escape": {
         "heading": "Escape",
-        "text1": "Das ist das Motto des Magdeburger escape//kollektiv. Seit 2017 organisieren ein paar Freunde Raves und Veranstaltungen in ihrer Heimatstadt. Ihre Vision:",
-        "text2": "Neblige Nächte, zerrissen von knallenden Kicks, untermalt von grellen Stroboskopblitzen.",
-        "text3": "Und mittendrin: Du - als zappelnde Silhouette."
+        "text": "escape the order,<br>escape the system,<br>escape reality.<br><br>Das ist das Motto des Magdeburger escape//kollektiv. Seit 2017 organisieren ein paar Freunde Raves und Veranstaltungen in ihrer Heimatstadt. Ihre Vision:<br><br>Neblige Nächte, zerrissen von knallenden Kicks, untermalt von grellen Stroboskopblitzen.<br>Und mittendrin: Du - als zappelnde Silhouette."
       },
       "endlos": {
         "heading": "Station Endlos",
-        "text1": "Ich bin das Endlos und ich erwuchs aus dem Willen, der Schaffenskraft und Kreativität zweier Brüder und deren Freundeskreis. In die Tat getragen wurde ich über die Motivation, nun wie drücke ich mich da am besten aus, um der etwas kargen Tanzkulturlandschaft meiner Heimatstadt Halle (Saale) zu etwas mehr Farbe und Raum zu verhelfen.",
-        "text2": "Ich bin mehr als nur eine Tanzfläche. Ich bin ein sich ständig neu erfindender Mikrokosmos, der viel mehr Rahmen als Fläche ist. In mir lösen sich die steifen Zeiger einer Uhr zu einem Fluss auf, der in dem Moment mündet, wo Zeit nicht länger an ein Ziffern- oder Kalenderblatt gebunden ist. In mir ist die Illusion von Kontrolle einem jeden selbst überlassen.",
-        "text3": "Hier ist alles erlaubt was Freude bringt und bereichert, ohne, dass dabei die Freiheit eines anderen eingeschränkt wird. Tolerantes Verhalten, dialogorientierte Kommunikation und ein respektvoller Umgang untereinander sind grundlegende Voraussetzungen, für jeden, der mich kennen lernen will."
+        "text": "Ich bin das Endlos und ich erwuchs aus dem Willen, der Schaffenskraft und Kreativität zweier Brüder und deren Freundeskreis. In die Tat getragen wurde ich über die Motivation, nun wie drücke ich mich da am besten aus, um der etwas kargen Tanzkulturlandschaft meiner Heimatstadt Halle (Saale) zu etwas mehr Farbe und Raum zu verhelfen.<br><br>Ich bin mehr als nur eine Tanzfläche. Ich bin ein sich ständig neu erfindender Mikrokosmos, der viel mehr Rahmen als Fläche ist. In mir lösen sich die steifen Zeiger einer Uhr zu einem Fluss auf, der in dem Moment mündet, wo Zeit nicht länger an ein Ziffern- oder Kalenderblatt gebunden ist. In mir ist die Illusion von Kontrolle einem jeden selbst überlassen.<br><br>Hier ist alles erlaubt was Freude bringt und bereichert, ohne, dass dabei die Freiheit eines anderen eingeschränkt wird. Tolerantes Verhalten, dialogorientierte Kommunikation und ein respektvoller Umgang untereinander sind grundlegende Voraussetzungen, für jeden, der mich kennen lernen will."
       },
       "l300": {
         "heading": "L300",
-        "text1": "L300 Decoration & Arts Circle ist ein wachsendes Kollektiv junger Djs, Künstler und Eventhustler…",
-        "text2": "Nach einigen exzessiven Festivaltrips in Europa haben wir uns entschlossen, den Vibe der psychedelischen Culture, welchen wir auf unseren Reisen so oft erleben und erfahren durften, in die Welt zu tragen! Nun sind wir mittlerweile seit Anfang 2016 auf Abenteuern unterwegs in Halle, Berlin, Leipzig und im Outer Space...Und bis jetzt ist kein Ende in Sicht! Boomshakalaka Spaceamigos und -amigas!!!!"
+        "text": "L300 Decoration & Arts Circle ist ein wachsendes Kollektiv junger Djs, Künstler und Eventhustler...<br><br>Nach einigen exzessiven Festivaltrips in Europa haben wir uns entschlossen, den Vibe der psychedelischen Culture, welchen wir auf unseren Reisen so oft erleben und erfahren durften, in die Welt zu tragen! Nun sind wir mittlerweile seit Anfang 2016 auf Abenteuern unterwegs in Halle, Berlin, Leipzig und im Outer Space...Und bis jetzt ist kein Ende in Sicht!<br>Boomshakalaka Spaceamigos und -amigas!!!!"
       },
       "reihe": {
         "heading": "II. Reihe",
-        "text1": "Wir sind ZWEITE REIHE (II.R), ein Kunst- und Kulturprojekt. ZWEITE REIHE widmet sich Orten, Ereignissen und Menschen. All dem, was nicht offensichtlich scheint, im Verborgenen kreativ ist und entdeckt werden will. ZWEITE REIHE macht den KIOSK, ist Bühne, Raum, Plattform u.v.m.. Ihr seid herzlich eingeladen!"
+        "text": "Wir sind ZWEITE REIHE (II.R), ein Kunst- und Kulturprojekt. ZWEITE REIHE widmet sich Orten, Ereignissen und Menschen. All dem, was nicht offensichtlich scheint, im Verborgenen kreativ ist und entdeckt werden will. ZWEITE REIHE macht den KIOSK, ist Bühne, Raum, Plattform u.v.m..<br>Ihr seid herzlich eingeladen!"
       },
       "resonant": {
         "heading": "resonant",
-        "text1": "[Resonánz] - Substantiv, feminin, die",
-        "text2": "Was eigentlich als spontane Zusammenkunft von Freund*innen begann, wuchs irgendwann zu einer festen Struktur heran. Was eigentlich als einmaliges Ereignis geplant war, fand im Sommer 2018 plötzlich jede Woche statt. Seither versuchen wir regelmäßig neue Resonanzräume für alle denkbaren Spielarten elektronischer Musik zu (er)schaffen und dabei der gängigen Verwertungslogik zu trotzen."
+        "text": "[Resonánz] - Substantiv, feminin, die<br><br>Was eigentlich als spontane Zusammenkunft von Freund*innen begann, wuchs irgendwann zu einer festen Struktur heran. Was eigentlich als einmaliges Ereignis geplant war, fand im Sommer 2018 plötzlich jede Woche statt. Seither versuchen wir regelmäßig neue Resonanzräume für alle denkbaren Spielarten elektronischer Musik zu (er)schaffen und dabei der gängigen Verwertungslogik zu trotzen."
       },
       "orgia": {
         "heading": "Orgia",
-        "text1": "Die Organisierte-Rave-Gemeinschaft-In-Aktion (ORGIA), gegründet 2018, spezialisiert sich auf Full-Service-Solutions im Tanzveranstaltungsbereich und hat sich innerhalb kürzester Zeit zu einem führenden Dienstleister in diesem Segment etabliert. Mit rund 12 Mitarbeiter*innen in den beiden Standorten Halle-Musterstadt und Leipzig-Beispieldorf erzielte unser Unternehmen zuletzt rund 253 Euro Umsatz!",
-        "text2": "Im Zuge des Tarmac Festivals wurde ORGIA mit der Projektierung eines Hangar Tanzplatzes betraut. Zur Beschallung werden Acid, Elektro, Rave & Trance als stilprägende Elemente eingesetzt."
+        "text": "Die Organisierte-Rave-Gemeinschaft-In-Aktion (ORGIA), gegründet 2018, spezialisiert sich auf Full-Service-Solutions im Tanzveranstaltungsbereich und hat sich innerhalb kürzester Zeit zu einem führenden Dienstleister in diesem Segment etabliert. Mit rund 12 Mitarbeiter*innen in den beiden Standorten Halle-Musterstadt und Leipzig-Beispieldorf erzielte unser Unternehmen zuletzt rund 253 Euro Umsatz!<br><br>Im Zuge des Tarmac Festivals wurde ORGIA mit der Projektierung eines Hangar Tanzplatzes betraut. Zur Beschallung werden Acid, Elektro, Rave & Trance als stilprägende Elemente eingesetzt."
       },
       "teilko": {
         "heading": "Teilkonversum 7",
-        "text1": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund*innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an \"Drinnenpartys\" gefunden haben.",
-        "text2": "Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.",
-        "text3": "Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
+        "text": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund*innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an \"Drinnenpartys\" gefunden haben.<br><br>Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.<br><br>Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
       },
       "lila": {
         "heading": "Lila Drache",
-        "text1": "Der \"Lila Drache\" ist das Vereinsheim des gemeinnützigen \"Kunst- und Kulturvereins Südliche Innenstadt\". Wir sind eine bunte Gruppe von Menschen, die es sich zur Aufgabe gemacht hat, das Kulturangebot in Halle auszubauen. Die recht unbelebte Südliche Innenstadt rief förmlich danach, ihr neues Leben einzuhauchen, um auch abseits von Paulusviertel und Zentrum Kunst, Kultur und Vielfalt zu erleben. Wir haben im Hallenser Süden eine Plattform etabliert, in der Künstler_innen ihre Werke ausstellen können, Musiker_innen offene Ohren finden, sowie Lesungen und Vorträge ein breites Publikum erreichen."
+        "text": "Der \"Lila Drache\" ist das Vereinsheim des gemeinnützigen \"Kunst- und Kulturvereins Südliche Innenstadt\". Wir sind eine bunte Gruppe von Menschen, die es sich zur Aufgabe gemacht hat, das Kulturangebot in Halle auszubauen. Die recht unbelebte Südliche Innenstadt rief förmlich danach, ihr neues Leben einzuhauchen, um auch abseits von Paulusviertel und Zentrum Kunst, Kultur und Vielfalt zu erleben. Wir haben im Hallenser Süden eine Plattform etabliert, in der Künstler_innen ihre Werke ausstellen können, Musiker_innen offene Ohren finden, sowie Lesungen und Vorträge ein breites Publikum erreichen."
       },
       "root": {
         "heading": "Root",
-        "text1": "Das Root versteht sich als fröhliches Sammelsurium von Freundinnen und Freunden, die sich in allen Bereichen der Kunst ausprobieren wollen. Im Jahr 2016 haben wir in Halle unsere Wurzeln geschlagen. Seitdem arbeiten wir zusammen daran, unsere verschiedenen Talente und Interessen zu einem gemeinsamen Ganzen zu verbinden – egal ob es um Musik, Handwerk, Animation, Video oder Werte geht, die uns wichtig sind. Das Thema Awareness liegt uns dabei besonders am Herzen. Tretet ein in unseren kleinen Kosmos, habt Spaß und macht mit uns die Welt ein klein wenig bunter!"
+        "text": "Das Root versteht sich als fröhliches Sammelsurium von Freundinnen und Freunden, die sich in allen Bereichen der Kunst ausprobieren wollen. Im Jahr 2016 haben wir in Halle unsere Wurzeln geschlagen. Seitdem arbeiten wir zusammen daran, unsere verschiedenen Talente und Interessen zu einem gemeinsamen Ganzen zu verbinden – egal ob es um Musik, Handwerk, Animation, Video oder Werte geht, die uns wichtig sind. Das Thema Awareness liegt uns dabei besonders am Herzen. Tretet ein in unseren kleinen Kosmos, habt Spaß und macht mit uns die Welt ein klein wenig bunter!"
       },
       "klubska": {
         "heading": "klubska scena",
-        "text1": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer*innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
+        "text": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer*innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
       }
     },
     "artists": {

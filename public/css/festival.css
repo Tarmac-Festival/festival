@@ -11118,6 +11118,13 @@ a:hover {
   color: #495057;
 }
 
+.dot {
+  font-size: 6px;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: 'Favorit Std Light', serif;
@@ -11352,13 +11359,6 @@ header.masthead .cover {
 #artists span.active, #artists span:hover {
   color: #d08a00;
   cursor: pointer;
-}
-
-#artists .dot {
-  font-size: 6px;
-  vertical-align: middle;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 #modalArtist img {
