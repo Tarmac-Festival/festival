@@ -243,8 +243,12 @@
     },
     "artists": {
       "battery": {
-        "heading": "AA Battery Team",
+        "heading": "Double A Battery Team",
         "text": "Was die Jungs vom Double A Battery Team auf die Tanzfläche bringen, ist mehr als nur eine volle Ladung Energie. Alois und Alex (AA) verbindet eine jahrelange Freundschaft und die Leidenschaft für Elektro, Trance und Breaks jeglicher Art. Als Savour the Moment Residents, seit über 2 Jahren, spielen sie meist in der Wilden Renate in Berlin, wo man sie hinterm DJ-Pult oder breakdancend auf dem Floor findet – nicht selten mit einem Glas Weißbier in der Hand."
+      },
+      "ada": {
+        "heading": "Ada Luvv",
+        "text": "and so the story goes: ada fell in luvv with electronic dance music. forever heartbroken, she lost herself in djing. blowing boundaries of genre and speed, she provides a highly diverse while still very consistent sound. while feeling at home at the decks of fettschmelze (karlsruhe), she has been recently guesting at drama bar (tbilisi, georgia), transmediale festival (berlin) and points (freiburg). as a part of the karlsruhe-based BLEX crew, she shares hearts and decks with chaos angel, super venus, double u cc and JWLRY. BLEX hosts parties which can be experienced with all senses and invite one to rethink club culture."
       },
       "albina": {
         "heading": "Albina",
@@ -258,9 +262,21 @@
         "heading": "Cyan 85",
         "text": "Cyan 85 - unserer Meinung nach eine der Überraschungen des letzten Jahres. Mit bisher zwei ausverkauften Platten bei den Labels voitax und lunar orbiter, ist er mittlerweile auch international unterwegs. Im Herbst folgt eine mini LP des gebürtigen Erfurters, der ebenso kürzlich zusammen mit Turk Turkelton das Label habibi bass gegründet hat. Wir freuen uns auf seinen roughen sound. - shake what your mamas gave ya!"
       },
+      "detox": {
+        "heading": "DJ Detox",
+        "text": "DJ Detox aka Gnista – ein junges Urgestein aus der Dresdner Clubszene, mag Thermalbäder nicht so sehr wie der Name vermuten lässt. Sein Sound findet Platz auf den Labels FTP, Ghettoraid und auch bald auf Rand Muzik. Andere Projekte mit Releases bei Brokn Toys und Uncally Valley sind nicht weniger erfolgreich.<br>DJ Detox lädt mit seinen LiveSets nicht gerade zur Entspannung ein und vitalisiert uns trotzdem mit Breakz, House und Acid! - Looking forward!"
+      },
       "hornhaut": {
         "heading": "DJ Hornhaut",
         "text": "DJ Hornhaut ist eine wilde Mischung aus Disko, Punk, Hip-Hop und Hard-Tech. Böse Bässe mischen sich mit einer sanften Stimme und dadaistischen und politischen Texten."
+      },
+      "yumyum": {
+        "heading": "DJ YumYum b2b Shane Lizard",
+        "text": "Shane Lizard und DJ YumYum machen modernen, experimentellen und ravigen Sound. Sie sind Maschinen, dazu verdammt, den digitalen Äther nach freshsten Releases zu durchleuchten und sie dann in veränderter Form auf Raves zu werfen. Mit ihrer Leipziger Reihe \"Aeolian\" holen sie dafür regelmäßig ihre liebsten Musiknerds zusammen."
+      },
+      "dmrk": {
+        "heading": "DMRK",
+        "text": "⁴⋅⁵ Und von den Membranen gingen aus Blitze, Stimmen und Donner; Und Nebel erfüllte den Raum.<br>⁴⋅⁶ Und auf dem Beton war ein Meer aus flüssigem Stahl, gleich einem Vulkan; Und über dem Pult schwebten vier Augen, gerichtet nach vorn.<br>⁴⋅⁸ Und sie hatten keine Ruhe Tag und Nacht."
       },
       "flexibleheart": {
         "heading": "Flexibleheart",
@@ -281,6 +297,14 @@
       "juke": {
         "heading": "Juke Dordan",
         "text": "Was Juke Dordan in seinen Sets preisgibt ist eine fundierte Auseinandersetzung mit genreübergreifenden Releases und gekonnte Ineinanderführung verschiedener Klangflächen. Dadurch zeichnet sich ein Bild auf der Tanzfläche ab, welches von Energie, wechselnden Rythmen und positiver Athmosphäre gekennzeichnet ist. Häufig sieht man ihn als Teil der PVC Crew in der DJ Booth oder als Mitveranstalter verschiedener Partyreihen des Kollektivs auf der Tanzfläche."
+      },
+      "lukov": {
+        "heading": "Lukov",
+        "text": "Als Resident der Parzelle 56 und Gründungsmitglied des Resonant e.V. ist Lukov mittlerweile fester Bestandteil der Jenaer Technoszene. In seinen Sets erschafft er eine deepe und vocalaffine Ästhetik, die seine Liebe zur elektronischen Tanzmusik zelebriert."
+      },
+      "monarch": {
+        "heading": "Mønarch",
+        "text": "Aus dem südwestlichsten Punkt Badens entsprungen, hat sich Mønarch dem dunklen Sound verschrieben. In seiner Wahlheimat Jena ist er eines der Gründungsmitglieder des resonant e.V.. Mønarch überzeugt stets durch ein Equilibrium aus Härte und Groove, welches er auf dem Dancefloor erklingen lässt. Immer auf den Punkt und gleichzeitig nicht uniform, wird er sicherlich auch beim TARMAC alle Tanzwütigen zu einer gemeinsamen, außergewöhnlichen Resonanzerfahrung führen können."
       },
       "naomi": {
         "heading": "Naomi Dasmoe",

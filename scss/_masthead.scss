@@ -4,8 +4,10 @@ header.masthead {
   background-color: #8966aa;
   .down {
     position: absolute;
-    left: 46%;
+    left: 0;
+    right: 0;
     bottom: 15%;
+    margin: 0 auto;
     border-radius: 100%;
     width: 46px;
     height: 46px;

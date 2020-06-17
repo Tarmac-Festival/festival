@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.2'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -210,7 +210,9 @@
         <div class="row">
             <div class="col-12">
                 <p class="text-center text-justify lead">
-                    <span onclick="$(this).buildArtistModal('modal.artists.battery.heading', 'modal.artists.battery.text', 'battery.jpg', null, 'doubleabatteryteam');">AA Battery Team</span>
+                    <span onclick="$(this).buildArtistModal('modal.artists.battery.heading', 'modal.artists.battery.text', 'battery.jpg', null, 'doubleabatteryteam');">Double A Battery Team</span>
+                    <i class="fas fa-circle dot"></i>
+                    <span onclick="$(this).buildArtistModal('modal.artists.ada.heading', 'modal.artists.ada.text', 'ada.jpg', null, null);">Ada Luvv</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.albina.heading', 'modal.artists.albina.text', 'albina.jpg', null, 'albinamalina');">Albina</span>
                     <i class="fas fa-circle dot"></i>
@@ -218,7 +220,13 @@
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.cyan.heading', 'modal.artists.cyan.text', 'cyan.jpg', null, 'cyan85');">Cyan 85</span>
                     <i class="fas fa-circle dot"></i>
+                    <span onclick="$(this).buildArtistModal('modal.artists.detox.heading', 'modal.artists.detox.text', 'detox.jpg', null, 'deejaydetox');">DJ Detox</span>
+                    <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.hornhaut.heading', 'modal.artists.hornhaut.text', 'hornhaut.jpg', null, 'dj-hornhaut');">DJ Hornhaut</span>
+                    <i class="fas fa-circle dot"></i>
+                    <span onclick="$(this).buildArtistModal('modal.artists.yumyum.heading', 'modal.artists.yumyum.text', 'yumyum.jpg', null, 'radiorasclat/valentines-special-shane-lizard-dj-yumyum');">DJ YumYum b2b Shane Lizard</span>
+                    <i class="fas fa-circle dot"></i>
+                    <span onclick="$(this).buildArtistModal('modal.artists.dmrk.heading', 'modal.artists.dmrk.text', 'dmrk.jpg', null, null);">DMRK</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.flexibleheart.heading', 'modal.artists.flexibleheart.text', 'flexibleheart.jpg', null, 'flexible-heart');">Flexibleheart</span>
                     <i class="fas fa-circle dot"></i>
@@ -229,6 +237,10 @@
                     <span onclick="$(this).buildArtistModal('modal.artists.illousion.heading', 'modal.artists.illousion.text', 'illousion.jpg', 'illousion8', 'illousion8', null, null, 'Henry Laurisch');">illousion</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.juke.heading', 'modal.artists.juke.text', 'juke.jpg', null, 'jukedordan');">Juke Dordan</span>
+                    <i class="fas fa-circle dot"></i>
+                    <span onclick="$(this).buildArtistModal('modal.artists.lukov.heading', 'modal.artists.lukov.text', 'lukov.jpg', null, null);">Lukov</span>
+                    <i class="fas fa-circle dot"></i>
+                    <span onclick="$(this).buildArtistModal('modal.artists.monarch.heading', 'modal.artists.monarch.text', 'monarch.jpg', null, null);">Mønarch</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.naomi.heading', 'modal.artists.naomi.text', 'naomi.jpg', 'NaomiDasmoe', 'naomidasmoe', 'naomi_dasmoe');">Naomi Dasmoe</span>
                     <i class="fas fa-circle dot"></i>
@@ -506,7 +518,7 @@
                                 <h3 class="title-left localized" data-i18n="contact.display.heading">#</h3>
                             </div>
                             <div class="more-info localized">
-                                <a class="btn btn-primary w-100" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJlhhNfA9TFceZUY7Tsf6lha0KQs2vyUspztedvlnAfrtZnA/viewform?usp=sf_link" data-i18n="contact.display.button">#</a>
+                                <a class="btn btn-primary w-100 d-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJlhhNfA9TFceZUY7Tsf6lha0KQs2vyUspztedvlnAfrtZnA/viewform?usp=sf_link" data-i18n="contact.display.button">#</a>
                                 <p class="mt-4" data-i18n="contact.display.text">#</p>
                                 <ul class="list-ico">
                                     <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1"
