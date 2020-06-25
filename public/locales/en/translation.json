@@ -38,9 +38,9 @@
       "heading": "Tickets",
       "subheading1": "Partybird Ticket (50€)",
       "text1": "You visited our promo party or at another event you got a code with 10 digits. Then you can get the Partybird Ticket.",
-      "subheading2": "Earlybird Ticket (60€)",
+      "subheading2": "Earlybird Ticket (60€) - SOLD OUT",
       "text2": "Until May 31st 2020 you have the option to be an early bird.",
-      "subheading3": "First Wave Ticket (70€)",
+      "subheading3": "First Wave Ticket (70€) - SOLD OUT",
       "text3": "Until July 31st 2020 you can get the First Wave Ticket.",
       "subheading4": "Second Wave Ticket (80€)",
       "text4": "Until September 1st 2020 you can get the Second Wave Ticket."
@@ -184,9 +184,7 @@
     },
     "important": {
       "heading": "Important Information",
-      "text1": "The current situation is difficult. For everybody, there are no exceptions. We are still working on the realization of the TARMAC with great optimism. Of course we will let you know if something changes about that. If the festival has to be cancelled due to the pandemic, all purchased tickets automatically remain valid for the TARMAC 2021! This gives us and everyone involved security. In case of a postponement, it‘s possible to get a refund on your ticket (send us an E-Mail). We are constantly following the developments, deciding responsibly and keeping you updated.",
-      "text2": "Thanks for your confidence. We are looking forward to see you.",
-      "text3": "Stay healthy."
+      "text": "Dear friends,<br>Today we would like to give you an TARMAC Festival 2020 Update based on current developments: Ticket sales for the TARMAC Festival are being provisionally discontinued today. Many of you have probably already noticed: On June 30, 2020 the state government in Saxony-Anhalt will pass the 7th Corona Containment Ordinance. In a press conference yesterday they presented information for events, among other things.<br>The state of Saxony-Anhalt plans to allow events with up to 1000 participants under certain conditions. It has not yet been determined whether artists and helpers will be included in this group of people. To ensure that we do not exceed this number through ticket sales, we are currently ceasing ticket sales from today. If after the publication of the regulation and discussions with the responsible authorities we still have capacity for further participants, we may reopen the ticket shop for a remaining contingent. You will find out about this at this point.<br><br>Please note:<br>This message is for your information only, it is NOT an acceptance or cancellation of the event. However, we would like to wait for the regulation and any requirements to be met before we can decide whether we can carry out the Tarmac Festival 2020 under these conditions.<br>Tickets that have already been ordered can still be paid for and remain valid. Camper tickets can still be purchased. Please note that the camper ticket only allows you to enter the site in combination with a regular festival ticket.<br>If the festival has to be cancelled due to the pandemic, all purchased tickets automatically remain valid for the TARMAC 2021! This gives us and everyone involved security. In case of a postponement, it‘s possible to get a refund on your ticket.<br><br>As soon as we have new information, we will contact you again.<br><strong>Stay healthy!</strong>"
     },
     "chronic": {
       "heading": "Chronicle",

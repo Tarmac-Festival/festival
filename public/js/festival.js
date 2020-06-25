@@ -56,6 +56,7 @@
             ]
         });
 
+        $('#modalImportantText').html(i18next.t("modal.important.text", "#"))
         $('#modalImportant').modal({
             show: true,
             backdrop: false,

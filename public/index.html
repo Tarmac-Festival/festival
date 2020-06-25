@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.2'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.3'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -55,7 +55,7 @@
 
     <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="css/festival.min.css?v=1.1" rel="stylesheet">
+    <link href="css/festival.min.css?v=1.2" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -212,7 +212,7 @@
                 <p class="text-center text-justify lead">
                     <span onclick="$(this).buildArtistModal('modal.artists.battery.heading', 'modal.artists.battery.text', 'battery.jpg', null, 'doubleabatteryteam');">Double A Battery Team</span>
                     <i class="fas fa-circle dot"></i>
-                    <span onclick="$(this).buildArtistModal('modal.artists.ada.heading', 'modal.artists.ada.text', 'ada.jpg', null, null);">Ada Luvv</span>
+                    <span onclick="$(this).buildArtistModal('modal.artists.ada.heading', 'modal.artists.ada.text', 'ada.jpg', null, 'adalovvve');">Ada Luvv</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.albina.heading', 'modal.artists.albina.text', 'albina.jpg', null, 'albinamalina');">Albina</span>
                     <i class="fas fa-circle dot"></i>
@@ -628,8 +628,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 localized">
-                            <p data-i18n="modal.important.text1">#</p>
-                            <p><span data-i18n="modal.important.text2">#</span><br/><strong><span data-i18n="modal.important.text3">#</span></strong></p>
+                            <p id="modalImportantText">#</p>
                         </div>
                     </div>
                 </div>
@@ -809,7 +808,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
 <script src="js/jquery.cookiebar.js"></script>
-<script src="js/festival.min.js?v=1.3"></script>
+<script src="js/festival.min.js?v=1.4"></script>
 
 </body>
 </html>
