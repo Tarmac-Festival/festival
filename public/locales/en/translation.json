@@ -36,20 +36,21 @@
     "heading": "Info",
     "box1": {
       "heading": "Tickets",
-      "subheading1": "Partybird Ticket (50€)",
+      "subheading1": "Partybird Ticket (50€)  - SOLD OUT",
       "text1": "You visited our promo party or at another event you got a code with 10 digits. Then you can get the Partybird Ticket.",
       "subheading2": "Earlybird Ticket (60€) - SOLD OUT",
       "text2": "Until May 31st 2020 you have the option to be an early bird.",
       "subheading3": "First Wave Ticket (70€) - SOLD OUT",
       "text3": "Until July 31st 2020 you can get the First Wave Ticket.",
       "subheading4": "Second Wave Ticket (80€)",
+      "subheading5": "- currently not available",
       "text4": "Until September 1st 2020 you can get the Second Wave Ticket."
     },
     "box2": {
       "heading": "Tickets",
-      "subheading1": "Soliticket (90€)",
+      "subheading1": "Soliticket (90€) - SOLD OUT",
       "text1": "It is important to us to support DJs and other small artists in the difficult situation this year. That's why we offer a Soliticket, because the worldwide distribution of the SARS-CoV-2 corona virus almost completely destroys the livelihood of many of these people. Anyone who has the opportunity to help can purchase the soli-ticket from now on. The additional amount collected enables us to increase the previously small fees for the artists at the Tarmac Festival.",
-      "subheading2": "Camper / Car ticket (10€ - limited)",
+      "subheading2": "Camper / Car ticket (10€)  - SOLD OUT",
       "text2": "Do you want to sleep in your camper or car on the campground? Then you need to buy a Camper / Car ticket. In front of the festival area you can park for free."
     },
     "box4": {
@@ -89,7 +90,7 @@
       "text4": "There will be a food corner with different food stalls offering vegan and vegetarian, hot and cold dishes for little money. At our bars you can get chilled drinks. You can also bring your own drinks in normal quantities to the festival area. Please keep in mind that we also depend on the income of the bars to keep our festival going.",
       "subheading5": "Drinking water",
       "question5": "Is there free drinking water?",
-      "text5": "Drink plenty of water. This is especially important on warm days. There will be a drinking water point where you can fill up your water bottle for free. Since the capacity of this drinking water point is not sufficient to supply the whole festival with drinking water, there will be cheap bottled water available at the bars. We also recommend that you bring a few bottles of water if possible.",
+      "text5": "No, unfortunately this is not possible due to the current situation. However, it is important to drink enough water. This is particularly important on warm days. To supply the entire festival with sufficient water, there will be cheap drinking water in bottles at the bars. We also recommend that you bring a few bottles of water with you.",
       "subheading6": "Barbecue & Fire",
       "question6": "Can you barbecue and make fire?",
       "text6": "We are located on an area in the middle of nature. The last summers were very dry and we expect an increased risk of forest fire at the beginning of September. Therefore open fires or barbecues are not allowed. Whoever disregards this, endangers the life of his/her* fellow human beings and must unfortunately be expelled from the premises."
@@ -182,10 +183,6 @@
       "button": "Close",
       "soon": "Coming Soon"
     },
-    "important": {
-      "heading": "Important Information",
-      "text": "Dear friends,<br>Today we would like to give you an TARMAC Festival 2020 Update based on current developments: Ticket sales for the TARMAC Festival are being provisionally discontinued today. Many of you have probably already noticed: On June 30, 2020 the state government in Saxony-Anhalt will pass the 7th Corona Containment Ordinance. In a press conference yesterday they presented information for events, among other things.<br>The state of Saxony-Anhalt plans to allow events with up to 1000 participants under certain conditions. It has not yet been determined whether artists and helpers will be included in this group of people. To ensure that we do not exceed this number through ticket sales, we are currently ceasing ticket sales from today. If after the publication of the regulation and discussions with the responsible authorities we still have capacity for further participants, we may reopen the ticket shop for a remaining contingent. You will find out about this at this point.<br><br>Please note:<br>This message is for your information only, it is NOT an acceptance or cancellation of the event. However, we would like to wait for the regulation and any requirements to be met before we can decide whether we can carry out the Tarmac Festival 2020 under these conditions.<br>Tickets that have already been ordered can still be paid for and remain valid. Camper tickets can still be purchased. Please note that the camper ticket only allows you to enter the site in combination with a regular festival ticket.<br>If the festival has to be cancelled due to the pandemic, all purchased tickets automatically remain valid for the TARMAC 2021! This gives us and everyone involved security. In case of a postponement, it‘s possible to get a refund on your ticket.<br><br>As soon as we have new information, we will contact you again.<br><strong>Stay healthy!</strong>"
-    },
     "chronic": {
       "heading": "Chronicle",
       "text1": "In recent years, we have been fascinated by how people move in subcultural space, organize themselves in collectives, really do something, and in doing so, deliberately advocate their values. It turned out that the individual collectives had already perceived each other but rarely organized joint events, also because the diverse musical orientations did not make the process seem evident at first.",
@@ -198,10 +195,6 @@
       "heading": "FAQ"
     },
     "collectives": {
-      "escape": {
-        "heading": "Escape",
-        "text": "escape the order,<br>escape the system,<br>escape reality.<br><br>That is the motto of the Magdeburg escape // collective. A few friends have been organizing raves and events in their hometown since 2017. Their vision:<br><br>Foggy nights, torn apart by exploding kicks, accompanied by strobe light.<br>And right in the middle: you - as a moving silhouette."
-      },
       "endlos": {
         "heading": "Station Endlos",
         "text":  "I'm the Endlos. I’m growing because of the motivation and creativity of two brothers and their friends. How can I say it? I want to spread a colorful dancing culture in my hometown Halle (Saale).<br><br>I'm much more than just a dance floor. I'm a constantly reinventing microcosm. The stiff hands of a clock dissolve into a river that flows into the moment when time is no longer countable. The illusion of control is up to everyone.<br><br>Here everything that brings joy and enrichment is allowed without restricting the freedom of another. Tolerant behavior, dialog-oriented communication and respectful interaction with each other are fundamental requirements for me."
@@ -309,7 +302,7 @@
         "text": "'Karakum' - das ist handgemachter Techno, live performt von vier Musikern die Sequenzer und Drumcomputer durch ihre analogen Vorbilder ersetzen. Hierbei verschmelzen melodische Synth- und Gitarrenklänge mit einem treibenden Fundament aus Bass und Schlagzeug. Der satte genrecharakteristische Sound eines durchproduzierten Technotracks trifft auf den Charme und Groove einer Liveband."
       },
       "kontinum": {
-        "heading": "Kontinum B2B t_nsaye",
+        "heading": "Kontinum b2b t_nsaye",
         "text": "Both are residents from the well known Nebula Collective from Leipzig. After establishing Nebula in 2017 they made their way from raves up to the top clubs of the city and beyond. Besides of deejaying Kontinum is producing music as well as releasing for labels such as Circular Limited, Oslated, Proselytizing and Lowless.<br>The two DJs convince the crowd with driving hypnotic sound - made for excessive closings."
       },
       "lukov": {

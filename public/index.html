@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.4'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.6'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -145,11 +145,6 @@
         </div>
         <div class="row">
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.escape.heading', 'modal.collectives.escape.text', 'escape.kollektiv', 'escape-kollektiv');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/escape.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-2 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
                 </a>
@@ -174,22 +169,22 @@
                     <img class="img-fluid d-block mx-auto" src="img/logos/l300.png" alt="collective image">
                 </a>
             </div>
-            <div class="collective col-xl-2 col-md-4 col-6">
+            <div class="collective col-xl-3 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.reihe.heading', 'modal.collectives.reihe.text', 'ZWEITE-REIHE-446423509465185', 'zweitereihe');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/reihe.png" alt="collective image">
                 </a>
             </div>
-            <div class="collective col-xl-2 col-md-4 col-6">
+            <div class="collective col-xl-3 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.root.heading', 'modal.collectives.root.text', 'globalrootcollective', 'root-collective');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/root.png" alt="collective image">
                 </a>
             </div>
-            <div class="collective col-xl-2 col-md-4 col-6">
+            <div class="collective col-xl-3 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.orgia.heading', 'modal.collectives.orgia.text', 'orgiadreitausend', 'orgia3000');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/orgia.png" alt="collective image">
                 </a>
             </div>
-            <div class="collective col-xl-2 col-md-12 col-6">
+            <div class="collective col-xl-3 col-md-4 col-12">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.resonant.heading', 'modal.collectives.resonant.text', 'resonantKollektiv', null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/resonant.png" alt="collective image">
                 </a>
@@ -215,8 +210,6 @@
                     <span onclick="$(this).buildArtistModal('modal.artists.ada.heading', 'modal.artists.ada.text', 'ada.jpg', null, 'adalovvve');">Ada Luvv</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://www.facebook.com/Adamsontechno/')">Adamson</span>
-                    <i class="fas fa-circle dot"></i>
-                    <span onclick="window.open('https://soundcloud.com/agapi_mou')">Agapi Mou</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://soundcloud.com')">agent mushroom</span>
                     <i class="fas fa-circle dot"></i>
@@ -248,8 +241,6 @@
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.dmrk.heading', 'modal.artists.dmrk.text', 'dmrk.jpg', null, null);">dmrk</span>
                     <i class="fas fa-circle dot"></i>
-                    <span onclick="window.open('https://soundcloud.com/dogpatrolinaction')">dogpatrol</span>
-                    <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.battery.heading', 'modal.artists.battery.text', 'battery.jpg', null, 'doubleabatteryteam');">Double A Battery Team</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.dsompa.heading', 'modal.artists.dsompa.text', 'dsompa.jpg', null, 'dsompa');">dsompa</span>
@@ -270,7 +261,7 @@
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.illousion.heading', 'modal.artists.illousion.text', 'illousion.jpg', 'illousion8', 'illousion8', null, null, 'Henry Laurisch');">illousion</span>
                     <i class="fas fa-circle dot"></i>
-                    <span onclick="window.open('https://soundcloud.com/raverpik/sachsentrance2-zur-klappe')">Jakob Sisterz b2b Raverpik (Sachsentrance)</span>
+                    <span onclick="window.open('https://soundcloud.com/raverpik/sachsentrance2-zur-klappe')">The Jakob Sisterz b2b RaverPik (Sachsentrance)</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://soundcloud.com/jochen-lomidhigh/tracks')">Jochen LoMidHigh</span>
                     <i class="fas fa-circle dot"></i>
@@ -282,9 +273,11 @@
                     <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://soundcloud.com')">Klanglabyrint</span>
                     <i class="fas fa-circle dot"></i>
-                    <span onclick="$(this).buildArtistModal('modal.artists.kontinum.heading', 'modal.artists.kontinum.text', 'kontinum.jpg', null, 'kontinum', 'kontinum.lpz');">Kontinum B2B t_nsaye</span>
+                    <span onclick="$(this).buildArtistModal('modal.artists.kontinum.heading', 'modal.artists.kontinum.text', 'kontinum.jpg', null, 'kontinum', 'kontinum.lpz');">Kontinum b2b t_nsaye</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://soundcloud.com/lowvelocitysoundsystem/tracks')">Low Velocity Soundsystem</span>
+                    <i class="fas fa-circle dot"></i>
+                    <span onclick="window.open('https://soundcloud.com/lucievuittong')">Lucie Vuittong</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.lukov.heading', 'modal.artists.lukov.text', 'lukov.jpg', null, null);">Lukov</span>
                     <i class="fas fa-circle dot"></i>
@@ -373,7 +366,8 @@
                         <p class="text-justify" data-i18n="info.box1.text2">#</p>
                         <p class="lead text-center" data-i18n="info.box1.subheading3">#</p>
                         <p class="text-justify" data-i18n="info.box1.text3">#</p>
-                        <p class="lead text-center" data-i18n="info.box1.subheading4">#</p>
+                        <p class="lead text-center mb-0" data-i18n="info.box1.subheading4">#</p>
+                        <p class="text-center text-muted" data-i18n="info.box1.subheading5">#</p>
                         <p class="text-justify mb-0" data-i18n="info.box1.text4">#</p>
                     </div>
                 </div>
@@ -714,44 +708,6 @@
     </div>
 </div>
 
-<div class="modal fade" id="modalImportant" tabindex="-1" role="dialog" aria-labelledby="modalImportantTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.heading">#</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 localized">
-                            <p id="modalImportantText">#</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <ul class="list-inline social-buttons mr-auto">
-                    <li class="list-inline-item">
-                        <a href="mailto:contact@tarmac-festival.de" target="_blank">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="modal fade" id="modalFaq" tabindex="-1" role="dialog" aria-labelledby="modalFaqTitle"
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -908,7 +864,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
 <script src="js/jquery.cookiebar.js"></script>
-<script src="js/festival.min.js?v=1.4"></script>
+<script src="js/festival.min.js?v=1.5"></script>
 
 </body>
 </html>

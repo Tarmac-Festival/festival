@@ -56,13 +56,6 @@
             ]
         });
 
-        $('#modalImportantText').html(i18next.t("modal.important.text", "#"))
-        $('#modalImportant').modal({
-            show: true,
-            backdrop: false,
-            keyboard: false
-        })
-
         var details = {
             message: i18next.t('cookies.message', "#"),
             acceptText: i18next.t('cookies.accept', "#"),
