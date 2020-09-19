@@ -42,8 +42,7 @@
       "text2": "Until May 31st 2020 you have the option to be an early bird.",
       "subheading3": "First Wave Ticket (70€) - SOLD OUT",
       "text3": "Until July 31st 2020 you can get the First Wave Ticket.",
-      "subheading4": "Second Wave Ticket (80€)",
-      "subheading5": "- currently not available",
+      "subheading4": "Second Wave Ticket (80€) - SOLD OUT",
       "text4": "Until September 1st 2020 you can get the Second Wave Ticket."
     },
     "box2": {
@@ -64,12 +63,6 @@
       "subheading3": "Shuttle service",
       "question3": "Is there a shuttle service?",
       "text3": "We are trying to set up a shuttle service from Sangerhausen main station. More detailed information will follow. We also offer guided bike tours (Sangerhausen-Allstedt train station) with luggage service. More information will follow. Please form carpools to preserve the environment! We will set up a carpool on Facebook.<br><br>Numbers of local taxi companies::<br>Taxi Strube: +493464 611313 <br>Taxi Weidemann: +493464 579666 <br>Taxi Lampert: +493464 515860",
-      "subheading4": "Minimum age",
-      "question4": "How old do you have to be to be allowed to enter the festival site?",
-      "text4": "The festival is for adults (P18) only! There will be no exceptions. Only official photo IDs are accepted for proof of age (no student ID cards etc.) Even with a parents note / party slip, entry is not possible.",
-      "subheading5": "Parking",
-      "question5": "What about the parking situation on site?",
-      "text5": "Parking lots are available. For the sake of the environment, please try to increase the capacity of the vehicles as much as possible (e.g. carpooling).",
       "subheading6": "Car ticket",
       "question6": "When do I need a car ticket?",
       "text6": "You need a car ticket if you want to take your vehicle to the campsite (limited number). Otherwise you can park your car on the parking lot for free. The walk to the campsite is about 5 minutes. There are no electricity or water connections for campers on the campsite."
@@ -129,7 +122,10 @@
       "text3": "Allstedt airport is located in a radio dead zone. Arrangements are best made in advance. There is only a very limited network on site.",
       "subheading4": "Garbage",
       "question4": "Where can I dispose of my trash?",
-      "text4": "Please try to avoid garbage if possible. Garbage bags and pocket ashtrays are available at the Infopoint. Everyone will also get a small garbage bag at the entrance. Please use the containers at the garbage stations. For us and our environment it is best to separate the garbage already at the festival. We want to work out a concept for this and will keep you up to date.<br><br>In fact: There is no place for your garbage in the forest, on paths or in front of stages. With little effort we can keep our festival clean."
+      "text4": "Please try to avoid garbage if possible. Garbage bags and pocket ashtrays are available at the Infopoint. Everyone will also get a small garbage bag at the entrance. Please use the containers at the garbage stations. For us and our environment it is best to separate the garbage already at the festival. We want to work out a concept for this and will keep you up to date.<br><br>In fact: There is no place for your garbage in the forest, on paths or in front of stages. With little effort we can keep our festival clean.",
+      "subheading5": "Parking",
+      "question5": "What about the parking situation on site?",
+      "text5": "Parking lots are available. For the sake of the environment, please try to increase the capacity of the vehicles as much as possible (e.g. carpooling)."
     },
     "box8": {
       "heading": "Liability",
@@ -141,7 +137,10 @@
       "text2": "Take care of your valuables and take only the bare essentials with you. We cannot accept liability for lost or stolen items.",
       "subheading3": "Damage caused",
       "question3": "Who is responsible for damage I caused?",
-      "text3": "Every visitor must behave in such a way that any danger to other visitors or third parties is excluded. You are responsible for any damage you cause."
+      "text3": "Every visitor must behave in such a way that any danger to other visitors or third parties is excluded. You are responsible for any damage you cause.",
+      "subheading4": "Minimum age",
+      "question4": "How old do you have to be to be allowed to enter the festival site?",
+      "text4": "The festival is for adults (P18) only! There will be no exceptions. Only official photo IDs are accepted for proof of age (no student ID cards etc.) Even with a parents note / party slip, entry is not possible."
     },
     "box9": {
       "heading": "Miscellaneous",
@@ -182,6 +181,10 @@
     "common": {
       "button": "Close",
       "soon": "Coming Soon"
+    },
+    "important": {
+      "heading": "Important Information",
+      "text": "Dear friends,<br>we know that under the given circumstances it is very difficult to get together, to exchange ideas and to leave room for happiness.<br>Because we want to guarantee the greatest possible level of security for all guests during the event, we have developed a far-reaching HYGIENE CONCEPT, which is also available to the authorities.<br><br>Ticket holders will receive an information email before the start of the event.<br><br>We are looking forward to you,<br>Team Tarmac"
     },
     "chronic": {
       "heading": "Chronicle",
@@ -271,7 +274,7 @@
       },
       "dsompa": {
         "heading": "dsompa",
-        "text": "Dsompa is the Tibetan meaning for “flowing together”, and is the project of Philipp based in Hamburg, Germany.<br>Dsompa discovered electronic music in the late 90′s, and was bewitched with the culture, art and the sound of the psychedelic subculture. Encouraged by friends of the Ruigoord Community in Amsterdam, he played his first DJ set in the squatted church turned dance-temple, of Ruigoord early 2007.<br>His debut EP „Shinan“ came out on Sangoma Records in 2014, followed by tracks and collabs on labels as Looney Moon, Sonica, Forestdelic, Hypnotique and Believe Lab. He became part of the Italy based Believe Lab Family in early 2016. In March his EP „4 more drops\" is out on Believe Lab."
+        "text": "Dsompa is the Tibetan meaning for \"flowing together\", and is the project of Philipp based in Hamburg, Germany.<br>Dsompa discovered electronic music in the late 90′s, and was bewitched with the culture, art and the sound of the psychedelic subculture. Encouraged by friends of the Ruigoord Community in Amsterdam, he played his first DJ set in the squatted church turned dance-temple, of Ruigoord early 2007.<br>His debut EP „Shinan\" came out on Sangoma Records in 2014, followed by tracks and collabs on labels as Looney Moon, Sonica, Forestdelic, Hypnotique and Believe Lab. He became part of the Italy based Believe Lab Family in early 2016. In March his EP „4 more drops\" is out on Believe Lab."
       },
       "flexibleheart": {
         "heading": "Flexibleheart",
@@ -285,9 +288,9 @@
         "heading": "Galaxaura",
         "text": "Galaxaura has been resident DJ at Spartacus Potsdam since 2013, produces radio shows for Free Radio Potsdam, is founder of the Galaxunity-Movement and regularly organizes parties. Her sets speak an intergalactic language, somewhere between breakbeat electro, acid, tripped-down techno, low-fi and cosmic house. With her DJ* empowerment workshops she supports emerging talents."
       },
-      "glenn": {
-        "heading": "Glenn Astro",
-        "text": "Glenn Astro organically and experimentally moves between elements from hip hop, jazz and broken beat, thus creating his very own interpretation of house and electronic. Both in his own productions and in sets Glenn Astro grooves across genre boundaries. This can also be heard on his own co-label Money $ex Records, podcasts for resident advisors and his releases including Apollo, Odd Socks and Tartelet."
+      "qnete": {
+        "heading": "Qnete",
+        "text": ""
       },
       "illousion": {
         "heading": "illousion",
@@ -311,7 +314,7 @@
       },
       "mico": {
         "heading": "Mico X",
-        "text": "Mico-X (Miodrag Radeljak) originally from Croatia and now based in Germany. Since the age of 13 he lives in Frankfurt am Main. In early childhood he got fascinated with electronical sounds and already at the age of 16 he had his first Gigs.<br>In the glory time of 1997 he discovered Psychedelic Goa Trance - a life changing experience because he as a DJ could identify with this music immediantly. Since then the name Mico-X grew to a well known legend among the Frankfurt Goa Scene.<br>What followed were countless gigs back to back with the biggest names of the scene.<br>Today Mico X plays his DJ-Sets all around Europe on different international Festivals and Partys, he is also an ambassador for MO:DEM Festival in Croatia.<br>He reestablished the „Hypnopulse“ Events in Limburg and is part of the \"PsyArmy\" DJ-Team aswell as a resident DJ at the \"Unterholz\" forest gatherings in Wiesbaden.<br>People love his deeply energized and all-time forward pumping psychedelic bassmusic because of his magical track selection and the intense feeling for the groovin' crowd!<br>Full Power Night Psy, Twilight & Forest Trance are gonna be styles which he will present to your ears at the next edition of MO:DEM  2020/2021 Festival."
+        "text": "Mico-X (Miodrag Radeljak) originally from Croatia and now based in Germany. Since the age of 13 he lives in Frankfurt am Main. In early childhood he got fascinated with electronical sounds and already at the age of 16 he had his first Gigs.<br>In the glory time of 1997 he discovered Psychedelic Goa Trance - a life changing experience because he as a DJ could identify with this music immediantly. Since then the name Mico-X grew to a well known legend among the Frankfurt Goa Scene.<br>What followed were countless gigs back to back with the biggest names of the scene.<br>Today Mico X plays his DJ-Sets all around Europe on different international Festivals and Partys, he is also an ambassador for MO:DEM Festival in Croatia.<br>He reestablished the „Hypnopulse\" Events in Limburg and is part of the \"PsyArmy\" DJ-Team aswell as a resident DJ at the \"Unterholz\" forest gatherings in Wiesbaden.<br>People love his deeply energized and all-time forward pumping psychedelic bassmusic because of his magical track selection and the intense feeling for the groovin' crowd!<br>Full Power Night Psy, Twilight & Forest Trance are gonna be styles which he will present to your ears at the next edition of MO:DEM  2020/2021 Festival."
       },
       "monarch": {
         "heading": "Mønarch",
@@ -339,7 +342,7 @@
       },
       "sequoya": {
         "heading": "Sequoya",
-        "text": "Sequoya is the project of Yan Krassowski, born in 1979 in Darmstadt, Germany. His love and passion for electronic music started back in the mid 90`s with the young age of 15, where he discovered the local techno scene. Early influences where DJ`s like Sven Väth or DJ Dag and first experiences in technoclubs, like the legendary Omen or Dorian Gray in Frankfurt A.M.<br>He started to spin techno tunes at small parties until the psytrance virus changed his musical direction. With a bunch of friends – the Gecko Crew \u00AD he organised a couple of small parties in his home area, and begann to play progressive/psytrance Dj sets under the alias Yan Gecko. After a couple of years, with lots of national and some international gigs, he joined BMSS Records and released a few tracks on different compilations.<br>Yans favourite was always rather deep and mystical sound. After some life changing dancefloor experiences at big festivals, he fell completely in love with forest psy and more nighttime orientated music\u00AD 2012 the Sequoya project was born. The debut EP “Nomad” came out in 2013 on BMSS Records, 2015 the “Singularity EP” on Sangoma, followed by tracks on various Compilations from different Labels. His music can be described as deep and driving forest psy with a unique style of storytelling and remarkable sounddesign, resulting from Yans love for modular Synthesizers."
+        "text": "Sequoya is the project of Yan Krassowski, born in 1979 in Darmstadt, Germany. His love and passion for electronic music started back in the mid 90`s with the young age of 15, where he discovered the local techno scene. Early influences where DJ`s like Sven Väth or DJ Dag and first experiences in technoclubs, like the legendary Omen or Dorian Gray in Frankfurt A.M.<br>He started to spin techno tunes at small parties until the psytrance virus changed his musical direction. With a bunch of friends – the Gecko Crew \u00AD he organised a couple of small parties in his home area, and begann to play progressive/psytrance Dj sets under the alias Yan Gecko. After a couple of years, with lots of national and some international gigs, he joined BMSS Records and released a few tracks on different compilations.<br>Yans favourite was always rather deep and mystical sound. After some life changing dancefloor experiences at big festivals, he fell completely in love with forest psy and more nighttime orientated music\u00AD 2012 the Sequoya project was born. The debut EP \"Nomad\" came out in 2013 on BMSS Records, 2015 the \"Singularity EP\" on Sangoma, followed by tracks on various Compilations from different Labels. His music can be described as deep and driving forest psy with a unique style of storytelling and remarkable sounddesign, resulting from Yans love for modular Synthesizers."
       },
       "sevensol": {
         "heading": "Sevensol",

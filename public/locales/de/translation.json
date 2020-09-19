@@ -42,8 +42,7 @@
       "text2": "Der frühe Vogel hat mehr vom Tag! Bis 31.05.2020 sind die Earlybird Tickets im Ticketshop erhältlich!",
       "subheading3": "First Wave Ticket (70€) - SOLD OUT",
       "text3": "Vom 01.06. bis 31.07.2020 sind die First Wave Tickets im Ticketshop erhältlich!",
-      "subheading4": "Second Wave Ticket (80€)",
-      "subheading5": "- Vorrübergehend nicht verfügbar",
+      "subheading4": "Second Wave Ticket (80€) - SOLD OUT",
       "text4": "Vom 01.08. bis 01.09.2020 sind die Second Wave Tickets im Ticketshop erhältlich!"
     },
     "box2": {
@@ -57,19 +56,19 @@
       "heading": "An- & Abreise",
       "subheading1": "Einlass Festivalgelände",
       "question1": "Wie komme ich zum Festivalgelände?",
-      "text1": "Die Anreise ist ab dem 03.09.2020 um 13:00 Uhr möglich. Die Veranstaltung beginnt am 04.09.2020 um 12:00 Uhr. Die Anreise ist auch mit öffentlichen Verkehrsmitteln möglich: Nutzt hierfür die Regional-Bahn bis zum Hauptbahnhof Sangerhausen. Falls ihr mit dem Auto anreisen werdet, gebt als Ziel in das Navi \"Flugplatz Allstedt\" oder die Koordinaten 51.389001, 11.450220 ein. Es gibt nur eine Zufahrtsmöglichkeit.",
+      "text1": "<strong>Der Camping-Platz öffnet Donnerstag, den 3.9.2020 13 Uhr.</strong><br><br><strong>Das Festival-Programm beginnt Freitag 14 Uhr.</strong><br><br>Die Anreise ist auch mit öffentlichen Verkehrsmitteln möglich: Nutzt hierfür die Regional-Bahn bis zum Hauptbahnhof Sangerhausen. Falls ihr mit dem Auto anreisen werdet, gebt als Ziel in das Navi \"Flugplatz Allstedt\" oder die Koordinaten 51.389001, 11.450220 ein. Es gibt nur eine Zufahrtsmöglichkeit.",
       "subheading2": "Heimreise",
       "question2": "Wann muss ich meine Heimreise antreten?",
-      "text2": "Die Veranstaltung endet am 06.09. 22:00 Uhr. Eine Abreise am nächsten Tag ist auch noch möglich. Bitte hinterlasst euren Campingplatz genauso, wie ihr ihn vorgefunden habt. Müllsäcke und Taschenaschenbecher gibt es am Infopoint.",
+      "text2": "<strong>Das Festival-Programm endet Sonntag, den 6.9.2020 18 Uhr.</strong><br><br><strong>Abreise ist bis spätestens Montag, den 7.9.2020 14 Uhr möglich.</strong>",
       "subheading3": "Shuttleservice",
       "question3": "Gibt es einen Shuttleservice?",
-      "text3": "Wir sind bemüht, vom Hauptbahnhof Sangerhausen einen Shuttleservice einzurichten. Genauere Informationen dazu folgen. Weiterhin bieten wir geleitete Fahrradtouren (Bahnhof Sangerhausen-Allstedt) mit Gepäckservice an. Weitere Informationen dazu folgen. Schont die Umwelt und bildet Fahrgemeinschaften! Wir werden auf Facebook eine Mitfahrzentrale einrichten.<br><br>Nummern lokaler Taxiunternehmen:<br>Taxi Strube: +493464 611313<br>Taxi Weidemann: +493464 579666<br>Taxi Lampert: +493464 515860",
-      "subheading4": "Mindestalter",
-      "question4": "Wie alt muss man sein, um das Festivalgelände betreten zu dürfen?",
-      "text4": "Das Festival ist ausnahmslos für Erwachsene (P18). Zum Altersnachweis akzeptiert werden ausschließlich amtliche Lichtbildausweise (keine Studienausweise, Krankenkarten, usw.).",
-      "subheading5": "Parkmöglichkeiten",
-      "question5": "Wie sieht es mit der Parkplatzsituation vor Ort aus?",
-      "text5": "Parkplätze sind vorhanden. Bitte versucht der Umwelt zuliebe die Kapazitäten der Fahrzeuge möglichst auszulasten und Fahrgemeinschaften zu bilden.",
+      "text3": "Den Shuttle können wir leider nicht anbieten, da in den Bussen nicht genügend Abstand gehalten werden kann. Stattdessen bieten wir geführte Radtouren an. Weiterhin gibt es ein Portal, um Fahrgemeinschaften zu bilden.<br><br>Nummern lokaler Taxiunternehmen:<br>Taxi Strube: +493464 611313<br>Taxi Weidemann: +493464 579666<br>Taxi Lampert: +493464 515860",
+      "subheading4": "Mitfahrgelegenheiten",
+      "question4": "Wo kann ich Mitfahrgelegenheiten organisieren?",
+      "text4": "Es gibt die Möglichkeit über das Portal \"Movaco\" Fahrgemeinschaften zu bilden. Zum registrieren klickt bitte auf folgenden Link:<br><a href=\"https://app.movaco.de/sign-up/eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE2MDA0MjQ0NDYsImlhdCI6MTU5NzgzMjQ0NiwidGVuYW50IjoidGFybWFjIn0.YK0oGG-W9hTpXREwTOTlr45IwL6S6it0B9IQIJ6yPbnc-n8xUKLeLqwyEvf_F8i_9PdH4idrZdDI1GdiwuwACw\">https://app.movaco.de</a><br><br>Ihr könnt das Angebot im Browser oder auf eurem Telefon nutzen (ältere Smartphones werden u.U. nicht unterstützt. Es sind ausschließlich Fahrten zum oder vom Flugplatz buchbar. Ihr könnt Fahrten anbieten oder freie Sitzplätze buchen.",
+      "subheading5": "Begleitete Radtouren",
+      "question5": "Wie funktioniert das mit den begleiteten Radtouren?",
+      "text5": "Ab Sangerhausen gibt es begleitete Radtouren mit Gepäckservice (nur für Personen mit Festival-Ticket). Das Team von der \"Flotten Lotte\" hat sich zusammen mit uns was einfallen lassen, wie ihr gut geleitet und entspannt mit dem Rad zum Flugplatz fahren könnt. Das Gepäck wird ab Sangerhausen bis zum Flugplatz von uns kostenfrei transportiert. Die Fahrzeit beträgt ca 1,5 h, inklusive 2 Pausen und 6% Steigung im letzten Streckenabschnitt. Die Strecke verläuft überwiegend auf Radwegen, teilweise auf der Landstraße ohne Radweg.<br><br>Eine Anmeldung ist nicht notwendig. Für unsere Planung schreibt uns bitte dennoch vorher eine Mail an <a href=\"mail:anfahrt.tarmac@gmail.com\">anfahrt.tarmac@gmail.com</a> mit der Info, wann und mit wie vielen Personen ihr an der Radtour teilnehmen wollt.<br><br><strong>Bitte beachtet:</strong> Die Fahrradstellplätze in den Zügen zwischen Halle und Sangerhausen sind begrenzt. Sind die Züge voll, könnt ihr nicht mitfahren und müsst auf den nächsten Zug warten. Bitte plant ein, dass ihr ggf. mit einer oder zwei Stunden Verspätung in Sangerhausen ankommt.<br><br>Begleitete Radtouren mit der \"Flotten Lotte\" starten von <strong>Sangerhausen Bahnhof</strong> nach <strong>Allstedt Flugplatz</strong> zu folgenden Zeiten:<ul><li>Donnerstag: 13:00Uhr, 15:00Uhr, 17:00Uhr, 19:00Uhr</li><li>Freitag: 14:00Uhr, 16:00Uhr, 19:00Uhr</li></ul>Begleitete Radtouren mit der \"Flotten Lotte\" starten von <strong>Allstedt Flugplatz</strong> nach <strong>Sangerhausen Bahnhof</strong> zu folgenden Zeiten:<ul><li>Sonntag: 15:30Uhr, 17:30Uhr, 19:30Uhr</li></ul>",
       "subheading6": "Autopass",
       "question6": "Wann benötige ich einen Autopass?",
       "text6": "Ihr braucht einen Autopass, falls ihr euer Fahrzeug mit auf den Campingplatz nehmen möchtet (begrenzte Anzahl). Andernfalls könnt ihr euer Auto auf dem Parkplatz kostenlos abstellen. Der Fußweg zum Campingplatz beträgt von dort noch etwa 5 Minuten. Für Wohnmobile o. Ä. gibt es keine Strom- oder Wasseranschlussmöglichkeiten."
@@ -81,7 +80,7 @@
       "text1": "Campen ist in den ausgewiesenen Flächen möglich. Die Kosten hierfür sind bereits im Ticketpreis enthalten. Der Campingplatz ist als Ruhezone gedacht. Große Musikanlagen und Stromgeneratoren bleiben deshalb am besten zu Hause. Natürlich ist es nicht verboten im Camp Musik zu hören und/oder selbst zu machen (was uns noch lieber ist). Wir setzen auf einen respektvollen Umgang miteinander.",
       "subheading2": "Duschmöglichkeiten",
       "question2": "Sind auf dem Gelände Duschmöglichkeiten vorhanden?",
-      "text2": "Am Campingplatz wird es Möglichkeiten zum Duschen geben (Kaltwasser). Wir bitten euch, mit dem Wasser sparsam umzugehen und nur biologisch abbaubare Seifen/Shampoos zu verwenden. Zusätzlich könnt ihr die Sanitären Anlagen des <a href=\"https://www.allstedt.de/tourismus/stadtbad.html\">Freibad Allstedt</a>. nutzen (Eintritt 3€/ 10ner-Karte 20€; Entfernung: 20 Minuten mit dem Fahrrad/1h zu Fuß)",
+      "text2": "Es gibt auf dem Camping-Platz Kaltwasser-Duschen unter freiem Himmel. Um die Duschen nutzen zu können, verwendet ausschließlich biologisch abbaubare Duschgele/ Seifen. Die Duschen sind nicht für ausgiebige Duschrituale sondern nur zur schnellen Erfrischung/ Körperhygiene mit geringem Wasserverbrauch konstruiert. Zusätzlich könnt ihr die Sanitären Anlagen des <a href=\"https://www.allstedt.de/tourismus/stadtbad.html\">Freibad Allstedt</a>. nutzen (Eintritt 3€/ 10ner-Karte 20€; Entfernung: 20 Minuten mit dem Fahrrad/1h zu Fuß)",
       "subheading3": "Orientierung",
       "question3": "Wie kann ich mich auf dem Gelände orientieren?",
       "text3": "Einen Lageplan zur Orientierung auf dem Gelände erhaltet ihr am Einlass beim Betreten des Festivalgeländes und/ oder über die Tarmac Festival-App. ",
@@ -90,7 +89,7 @@
       "text4": "Es wird eine Food-Corner mit verschiedenen Essensständen geben, welche vegane und vegetarische, warme und kalte Gerichte für kleines Geld anbieten. An unseren Bars bekommt Ihr gekühlte Getränke. Ihr könnt auch eigene Getränke in normalen Mengen mit auf das Festivalgelände nehmen. Bitte bedenkt, dass wir zur Erhaltung unseres Festivals auch auf die Einnahmen der Bars angewiesen sind.<br><br>Sprich: Ein paar Bier im Rucki: easygoing.<br>Mit Kästen zu den Bühnen ziehen: No-Go.",
       "subheading5": "Trinkwasserstationen",
       "question5": "Gibt es kostenfreie Trinkwasserstationen?",
-      "text5": "Nein, aufgrund der aktuellen Situation ist dies leider nicht möglich. Dennoch ist es wichtig aureichend Wasser zu trinken. Gerade an warmen Tagen ist das besonders wichtig. Zur Versorgung das gesamte Festivals ausreichend Wasser, wird es an den Bars günstiges Trinkwasser in Flaschen geben. Wir empfehlen euch außerdem - wenn möglich - auch ein paar Flaschen Wasser mitzubringen.",
+      "text5": "Grundsätzlich gibt es auf unserem Festival-Gelände leider keinen Anschluss an eine Trinkwasserleitung. Aus hygiene-technischen Gründen können wir auch <strong>keine kostenlosen, mobilen Trinkwasserstationen</strong> zur Verfügung stellen, da das Ansteckungsrisiko an solchen Spots sehr hoch ist. Es gibt aber die Möglichkeit, am Infopoint Trinkwasserflaschen zu einem fairen Preis zu kaufen. Somit ist eine grundlegende Wasserversorgung auf dem Gelände gesichert. Wenn möglich, bringt euch selbst einen Wasservorrat mit.",
       "subheading6": "Grillen & Feuer",
       "question6": "Darf man Grillen und Feuer machen?",
       "text6": "Wir befinden uns auf einem Gelände inmitten der Natur. Die letzten Sommer waren sehr trocken und wir rechnen damit, dass Anfang September eine erhöhte Waldbrandgefahr bestehen wird. Offenes Feuer oder Grillen ist deshalb nicht erlaubt. Wer dies missachtet, gefährdet das Leben seiner/ihrer Mitmenschen und muss leider des Geländes verwiesen werden."
@@ -99,10 +98,10 @@
       "heading": "Sicherheit & Hilfe",
       "subheading1": "Awarenessstrukturen",
       "question1": "Werden Awarenessstrukturen vorgehalten?",
-      "text1": "Auf dem Festival wird es ein geschultes Awareness-Team geben, welches durch Markierungen erkennbar ist und euch in Situationen helfen kann, in denen ihr euch unwohl und/ oder belästigt fühlt. Sollte gerade kein Team in der Nähe sein, meldet euch bitte an die nächste Bar.",
+      "text1": "Auch unser Awareness-Team wird das ganze Festival über im Einsatz sein und euch unterstützen, wenn ihr selbst Hilfe oder Unterstützung beim Helfen benötigt. Sollte gerade kein Team in der Nähe sein, meldet euch bitte an die nächste Bar.",
       "subheading2": "Sicherheitspersonal",
       "question2": "Wird die Veranstaltung von Sicherheitspersonal betreut?",
-      "text2": "Befolgt und respektiert die Anordnungen der Security, Sanitäter*innen & der Festivalcrew. Wer andere Menschen belästigt oder diskriminiert, fliegt ohne Diskussion vom Platz. Selbiges gilt für Personen, die beim Klauen erwischt werden. Bei einem Platzverweis besteht kein Anspruch auf eine Rückerstattung des Ticketpreises.",
+      "text2": "Wir freuen uns auf die Zusammenarbeit mit der professionellen Sicherheitsfirma \"Movement\" aus Leipzig. In enger Abstimmung mit uns sind sie beauftragt, unser Sicherheits- und Hygienekonzept durchzusetzen. Die Mitarbeiter*innen sind über alle wichtigen Facts, die wir mit euch vereinbart haben, informiert und handeln auch dementsprechend. Bei renitentem Verhalten helfen sie, unser Hausrecht durchzusetzen. Wenn ihr Probleme habt oder euch unsicher fühlt, wendet euch gern auch an das Team von Movement.",
       "subheading3": "Fotos & Videos",
       "question3": "Darf ich Fotos und Videos aufnehmen?",
       "text3": "Das Anfertigen von Fotos & Videos ist nicht erlaubt. Respektiert die Privatsphäre der anderen und genießt das Wochenende ohne Smartphone. Es wird ein von uns beauftragtes Team - mit Rücksicht auf eure Privatsphäre - Fotos und Filmaufnahmen anfertigen.",
@@ -113,8 +112,8 @@
       "question5": "Wie sieht es mit illegalen Drogen aus?",
       "text5": "Der Verkauf und Konsum von illegalen Drogen ist nicht erlaubt. Personen, die Drogen verkaufen, werden vom Gelände verwiesen und müssen mit einer Strafanzeige rechnen.",
       "subheading6": "Erste Hilfe",
-      "question6": "Kann ich im Notfall von Ersthelfer*innen behandelt werden?",
-      "text6": "Ein Sanitätsdienst ist vor Ort um im Notfall helfen zu können. Damit es nicht so weit kommt:<br>Gebt aufeinander acht und helft euch gegenseitig. Gebt im Zweifelsfall sofort dem Awareness-Team, dem Barpersonal oder anderen Crewmitgliedern Bescheid, wenn euch eine Person auffällt, die möglicherweise Hilfe benötigt.<br>Die Sanis sind für Notfälle vor Ort. Medikamente, die Ihr regelmäßig Einnehmen müsst, müssen auch selbst mitgebracht werden. Für euren Kater seid ihr selbst verantwortlich.<br><br>Im Zweifel gilt aber: Ab zu den Sanis und durchchecken lassen!"
+      "question6": "Kann ich im Notfall medizinisch behandelt werden?",
+      "text6": "Während des gesamten Festivals wird ein professioneller Sanitäts-Dienst mit Rettungswagen auf dem Festival-Gelände sein. Um Hilfe zu rufen, wendet euch an das Personal an den Bühnen oder geht direkt zum Sani-Standort."
     },
     "box7": {
       "heading": "Gelände",
@@ -126,10 +125,13 @@
       "text2": "Bitte sei fair und gib Fundsachen am Infopoint oder einer der Bars ab. Wenn du etwas verloren hast, melde Dich noch während des Festivals am Infopoint oder mit einer genauen Beschreibung unter <a href=\"mailto:contact@tarmac-festival.de\">contact@tarmac-festival.de</a>.",
       "subheading3": "Internet & Handynetz",
       "question3": "Gibt es auf dem Veranstaltungsgelände Handynetz?",
-      "text3": "Der Flugplatz Allstedt (das Veranstaltungsgelände) liegt zum Großteil  in einem Funkloch. Absprachen trefft ihr am besten vorher. Vor Ort gibt es nur sehr eingeschränkt Netz.",
+      "text3": "Der Flugplatz liegt in einem Gebiet mit schwacher Netzabdeckung. Telefonieren und mobiles Internet funktionieren nur schlecht bis gar nicht. SMS sind i.d.R. aber kein Problem. Trefft wichtige Absprachen am besten vor eurer An- bzw. Abreise.",
       "subheading4": "Müllentsorgung",
-      "question4": "Wo kann ich meinen Müll entsorgen?",
-      "text4": "Bitte versucht Müll gutestgehend zu vermeiden. Müllsäcke und Taschenaschenbecher gibt es am Infopoint. Jeder bekommt außerdem am Einlass einen kleinen Müllsack. Bitte nutzt die Behälter an den Abfallstationen. Für uns und unsere Umwelt ist es am besten, wenn wir den entstandenen Müll schon auf dem Festival trennen. Dazu erarbeiten wir ein Konzept und halten euch auf dem Laufenden.<br><br>Fakt ist: Im Wald, auf Wegen oder vor Bühnen hat dein Müll nichts verloren. Mit geringem Aufwand können wir gemeinsam unser Festival sauber halten."
+      "question4": "Was muss ich bei meinem Restmüll beachten?",
+      "text4": "<strong>Naturschutzgebiet:</strong> Unser Festival-Gelände ist umgeben von Wald, der unter Naturschutz steht. Bitte haltet euch nicht abseits der Wege auf und hinterlasst keinen Müll. Mit eurem Festival-Bändchen erhaltet ihr eine Mülltüte. Hier könnt ihr euren und anderen Müll, der sonst rumfliegt, entsorgen. Helft uns, das Festival sauber zu halten.<br><br><strong>Müllpfand:</strong> Beim Einlass erhaltet ihr gegen einen Pfand von 5€ eure Mülltüte, die ihr am Ende des Festivals befüllt an eine unserer Müllabgabe-Stellen zurückgeben könnt. <strong>Wegen pandemiebedingt erhöhter Ausgaben zur Sicherstellung der Hygiene- und Sicherheitsstandards freuen wir uns, wenn ihr auf die Erstattung des Müllpfandes verzichtet und die 5€ an das TARMAC spendet.</strong> Wir danken euch vorab!",
+      "subheading5": "Parkmöglichkeiten",
+      "question5": "Wie sieht es mit der Parkplatzsituation vor Ort aus?",
+      "text5": "Parkplätze sind vorhanden. Bitte versucht der Umwelt zuliebe die Kapazitäten der Fahrzeuge möglichst auszulasten und Fahrgemeinschaften zu bilden."
     },
     "box8": {
       "heading": "Haftung",
@@ -141,7 +143,10 @@
       "text2": "Achtet auf Eure Wertgegenstände und nehmt nur das Nötigste mit. Wir können keine Haftung für verlorene oder gestohlene Sachen übernehmen.",
       "subheading3": "Verursachte Schäden",
       "question3": "Wer haftet für einen Schaden, den ich verursacht habe?",
-      "text3": "Jede(r) Besucher*in hat sich so zu verhalten, dass eine Gefährdung von anderen Besucher*innen oder Dritten ausgeschlossen ist. Für Schäden, die Ihr verursacht, seid Ihr auch verantwortlich."
+      "text3": "Jede(r) Besucher*in hat sich so zu verhalten, dass eine Gefährdung von anderen Besucher*innen oder Dritten ausgeschlossen ist. Für Schäden, die Ihr verursacht, seid Ihr auch verantwortlich.",
+      "subheading4": "Mindestalter",
+      "question4": "Wie alt muss man sein, um das Festivalgelände betreten zu dürfen?",
+      "text4": "Das Festival ist ausnahmslos für Erwachsene (P18). Zum Altersnachweis akzeptiert werden ausschließlich amtliche Lichtbildausweise (keine Studienausweise, Krankenkarten, usw.)."
     },
     "box9": {
       "heading": "Sonstiges",
@@ -157,6 +162,30 @@
       "subheading4": "Haustiere",
       "question4": "Ist es gestattet, mein Haustier mitzubringen?",
       "text4": "Ein Festival ist kein Ort für Haustiere. Lasst eure liebsten Vierbeiner deshalb einfach zuhause."
+    },
+    "box10": {
+      "heading": "Hygiene- und Coronamaßnahmen",
+      "subheading1": "Grundsätzliches",
+      "question1": "Grundsätzliches",
+      "text1": "<strong>Eines vorneweg:</strong> Festivals unter freiem Himmel auf einem weitläufigen Gelände sind möglich und wir freuen uns darauf.<br><strong>ABER:</strong> Die Entwicklung der Infektionszahlen macht einmal mehr deutlich, wie wichtig der verantwortungsvolle Umgang mit den Risiken der Pandemie ist und dass ein Festival nur mit unser aller Unterstützung gelingen kann. Unterstützung heißt, ihr befolgt unsere Hygienevorschriften und die Anweisungen des TARMAC-Teams. An dieser Stelle sei betont: Das fahrlässige oder vorsätzliche Nichtbefolgen gefährdet nicht nur die Gesundheit vieler, sondern u.a. das Bestehen der Subkultur im Allgemeinen und unseres Festivals im Speziellen. Wenn wir den Eindruck gewinnen, dass die Beteiligung unserer Gäste an den Hygienemaßnahmen trotz unserer Bitten zu gering ist, werden wir in Einzelfällen von unserem Hausrecht Gebrauch machen, vorsätzlich zuwiderhandelnde Personen vom Gelände verweisen und im schlimmsten Fall das Festival abbrechen müssen. Zu alldem verpflichtet uns die Corona-Verordnung und gibt gleichzeitig die rechtliche Grundlage dafür. Wir gehen davon aus, dass es in unser aller Sinn ist, das Festival stattfinden zu lassen und zählen also auf eure Mitarbeit. Weist andere darauf hin, wenn ihr den Eindruck habt, sie setzen unsere Bemühungen leichtsinnig aufs Spiel. Wer keine Lust darauf hat, kommt am besten erst gar nicht. Alle anderen sind herzlich willkommen!",
+      "subheading2": "Kein Zutritt mit Symptomen",
+      "question2": "Kein Zutritt für Menschen mit Covid-19-Symptomen",
+      "text2": "Kein Zutritt für Menschen, die in den letzten 14 Tagen vor Festivalbeginn aus einem Risikogebiet eingereist sind und nicht negativ getestet wurden.<br><br>Kein Zutritt für Menschen, die in den letzten 10 Tagen vor Festivalbeginn Kontakt zu einem positiv getesteten Menschen hatten und selbst nicht negativ getestet wurden.",
+      "subheading3": "Kontaktinformationen",
+      "question3": "Muss ich Kontaktinformationen hinterlassen?",
+      "text3": "Am Einlass werden wir die <strong>per E-Mail an alle Ticketholder versendeten Corona-Fragebögen</strong> einsammeln. <strong>Füllt diese möglichst zuhause aus. Die Unterschrift aber erst vor Ort am Tag der Anreise darunter setzen!</strong> Bitte tragt auch ein, mit wem ihr beabsichtigt, in einem Zelt zu schlafen. Uns ist bewusst, dass sich diese Absichten während des Festivals ändern können. Darüber müsst ihr uns dann nicht informieren.",
+      "subheading4": "Abstand halten",
+      "question4": "Muss ich Abstand halten zu anderen?",
+      "text4": "Haltet 1,5 Meter Mindestabstand zueinander. Markierungen vor den Toiletten, Bars und Essensständen werden euch dabei helfen.",
+      "subheading5": "Mund-Nase-Bedeckung",
+      "question5": "Gibt es ein Pflicht zum Tragen von Mund-Nase-Bedeckungen?",
+      "text5": "Überall dort, wo der Mindestabstand nicht eingehalten werden kann, herrscht die Pflicht des Tragens ein Mund-Nase-Bedeckung. Darüber hinaus gilt dies an den Bars, Essensständen und in all jenen Bereichen, die wir entsprechend markiert oder mit Hinweisschildern ausgewiesen haben. Denkt also daran, eure selbstgenähte Maske, ein Tuch oder etwas vergleichbares mitzubringen und immer mit euch zu führen.",
+      "subheading6": "Auf der Tanzfläche",
+      "question6": "Wie können trotz Corona Menschen zusammen auf einer Tanzfläche sein?",
+      "text6": "Jede Bühne hat eine eingegrenzte Fläche, an deren Größe sich die maximal zulässige Personenzahl auf der Tanzfläche bemisst. Diese Personenzahl darf nicht überschritten werden, damit rechnerisch jede Person den Mindestabstand einhalten kann. Zur Orientierung werden wir hier für den richtigen Mindestabstand Markierungen anbringen. Jede Bühne hat einen separaten Zugang und Ausgang. Hier kontrolliert unser Team die Einhaltung der maximalen Personenzahl. Bei 6 Bühnen für 1000 Gäste gehen wir von einer Dynamik aus, die diese Grenze höchst selten erreichen lassen wird und wir alle immer genügend Platz haben werden.",
+      "subheading7": "Hand-Desinfektion",
+      "question7": "Wo kann ich meine Hände desinfizieren/ reinigen?",
+      "text7": "Wir haben auf dem Gelände Handwasch-Stationen verteilt. Diese enthalten eine Handreinigungs- und Desinfektionslotion. Wasser wird nicht benötigt. Zur Wasserentnahme wird es Möglichkeiten geben. Hier bekommt ihr Wasser zum Reinigen (kein Trinkwasser!)."
     }
   },
   "contact": {
@@ -182,6 +211,10 @@
     "common": {
       "button": "Schließen",
       "soon": "Coming Soon"
+    },
+    "important": {
+      "heading": "Wichtige Information",
+      "text": "Liebe Freund*innen,<br>wir wissen, dass es unter den gegebenen Umständen sehr schwer ist, zusammenzukommen, sich auszutauschen und der Fröhlichkeit Raum zu lassen.<br>Wir haben ein weitreichendes <a href=\"#infocorona\" class=\"js-scroll-trigger\">HYGIENEKONZEPT</a> erarbeitet, was auch den Behörden vorliegt. Denn wir wollen für alle Gäste ein größtmögliches Maß an Sicherheit während der Veranstaltung gewährleisten.<br><br>Ticketholder*innen bekommen dazu eine Informationsmail vor Veranstaltungsbeginn.<br><br>Wir freuen uns schon auf euch,<br>Team Tarmac"
     },
     "chronic": {
       "heading": "Chronik",
@@ -271,7 +304,7 @@
       },
       "dsompa": {
         "heading": "dsompa",
-        "text": "Dsompa is the Tibetan meaning for “flowing together”, and is the project of Philipp based in Hamburg, Germany.<br>Dsompa discovered electronic music in the late 90′s, and was bewitched with the culture, art and the sound of the psychedelic subculture. Encouraged by friends of the Ruigoord Community in Amsterdam, he played his first DJ set in the squatted church turned dance-temple, of Ruigoord early 2007.<br>His debut EP „Shinan“ came out on Sangoma Records in 2014, followed by tracks and collabs on labels as Looney Moon, Sonica, Forestdelic, Hypnotique and Believe Lab. He became part of the Italy based Believe Lab Family in early 2016. In March his EP „4 more drops\" is out on Believe Lab."
+        "text": "Dsompa is the Tibetan meaning for \"flowing together\", and is the project of Philipp based in Hamburg, Germany.<br>Dsompa discovered electronic music in the late 90′s, and was bewitched with the culture, art and the sound of the psychedelic subculture. Encouraged by friends of the Ruigoord Community in Amsterdam, he played his first DJ set in the squatted church turned dance-temple, of Ruigoord early 2007.<br>His debut EP „Shinan\" came out on Sangoma Records in 2014, followed by tracks and collabs on labels as Looney Moon, Sonica, Forestdelic, Hypnotique and Believe Lab. He became part of the Italy based Believe Lab Family in early 2016. In March his EP „4 more drops\" is out on Believe Lab."
       },
       "flexibleheart": {
         "heading": "Flexibleheart",
@@ -285,9 +318,9 @@
         "heading": "Galaxaura",
         "text": "Galaxaura ist seit 2013 Resident DJ im Spartacus Potsdam, produziert Radio Shows für das Freie Radio Potsdam, ist Gründerin des Galaxunity-Movements und organisiert regelmäßig Parties. Ihre Sets sprechen eine intergalaktische Sprache, irgendwo zwischen Breakbeat Electro, Acid, tripped-down Techno, low-fi- und Cosmic House. Mit ihren DJ* empowerment Workshops supportet sie aufkommende Talente."
       },
-      "glenn": {
-        "heading": "Glenn Astro",
-        "text": "Organisch experimentell bewegt sich Glenn Astro zwischen Elementen aus Hip Hop, Jazz und Broken Beat und entwirft so seine ganz eigenen Interpretation von House und Elecronic. Sowohl in seinen Eigenproduktionen als auch Sets grooved Glenn Astro über Genre-Grenzen hinweg. Zu hören ist das auch bei seinem eigenen Co-Label Money $ex Records, Podcasts für Resident Advisor und seinen Releases unter anderem bei Apollo, Odd Socks und Tartelet."
+      "qnete": {
+        "heading": "Qnete",
+        "text": ""
       },
       "illousion": {
         "heading": "illousion",
@@ -311,7 +344,7 @@
       },
       "mico": {
         "heading": "Mico X",
-        "text": "Mico-X (Miodrag Radeljak) originally from Croatia and now based in Germany. Since the age of 13 he lives in Frankfurt am Main. In early childhood he got fascinated with electronical sounds and already at the age of 16 he had his first Gigs.<br>In the glory time of 1997 he discovered Psychedelic Goa Trance - a life changing experience because he as a DJ could identify with this music immediantly. Since then the name Mico-X grew to a well known legend among the Frankfurt Goa Scene.<br>What followed were countless gigs back to back with the biggest names of the scene.<br>Today Mico X plays his DJ-Sets all around Europe on different international Festivals and Partys, he is also an ambassador for MO:DEM Festival in Croatia.<br>He reestablished the „Hypnopulse“ Events in Limburg and is part of the \"PsyArmy\" DJ-Team aswell as a resident DJ at the \"Unterholz\" forest gatherings in Wiesbaden.<br>People love his deeply energized and all-time forward pumping psychedelic bassmusic because of his magical track selection and the intense feeling for the groovin' crowd!<br>Full Power Night Psy, Twilight & Forest Trance are gonna be styles which he will present to your ears at the next edition of MO:DEM  2020/2021 Festival."
+        "text": "Mico-X (Miodrag Radeljak) originally from Croatia and now based in Germany. Since the age of 13 he lives in Frankfurt am Main. In early childhood he got fascinated with electronical sounds and already at the age of 16 he had his first Gigs.<br>In the glory time of 1997 he discovered Psychedelic Goa Trance - a life changing experience because he as a DJ could identify with this music immediantly. Since then the name Mico-X grew to a well known legend among the Frankfurt Goa Scene.<br>What followed were countless gigs back to back with the biggest names of the scene.<br>Today Mico X plays his DJ-Sets all around Europe on different international Festivals and Partys, he is also an ambassador for MO:DEM Festival in Croatia.<br>He reestablished the „Hypnopulse\" Events in Limburg and is part of the \"PsyArmy\" DJ-Team aswell as a resident DJ at the \"Unterholz\" forest gatherings in Wiesbaden.<br>People love his deeply energized and all-time forward pumping psychedelic bassmusic because of his magical track selection and the intense feeling for the groovin' crowd!<br>Full Power Night Psy, Twilight & Forest Trance are gonna be styles which he will present to your ears at the next edition of MO:DEM  2020/2021 Festival."
       },
       "monarch": {
         "heading": "Mønarch",
@@ -339,7 +372,7 @@
       },
       "sequoya": {
         "heading": "Sequoya",
-        "text": "Sequoya is the project of Yan Krassowski, born in 1979 in Darmstadt, Germany. His love and passion for electronic music started back in the mid 90`s with the young age of 15, where he discovered the local techno scene. Early influences where DJ`s like Sven Väth or DJ Dag and first experiences in technoclubs, like the legendary Omen or Dorian Gray in Frankfurt A.M.<br>He started to spin techno tunes at small parties until the psytrance virus changed his musical direction. With a bunch of friends – the Gecko Crew \u00AD he organised a couple of small parties in his home area, and begann to play progressive/psytrance Dj sets under the alias Yan Gecko. After a couple of years, with lots of national and some international gigs, he joined BMSS Records and released a few tracks on different compilations.<br>Yans favourite was always rather deep and mystical sound. After some life changing dancefloor experiences at big festivals, he fell completely in love with forest psy and more nighttime orientated music\u00AD 2012 the Sequoya project was born. The debut EP “Nomad” came out in 2013 on BMSS Records, 2015 the “Singularity EP” on Sangoma, followed by tracks on various Compilations from different Labels. His music can be described as deep and driving forest psy with a unique style of storytelling and remarkable sounddesign, resulting from Yans love for modular Synthesizers."
+        "text": "Sequoya is the project of Yan Krassowski, born in 1979 in Darmstadt, Germany. His love and passion for electronic music started back in the mid 90`s with the young age of 15, where he discovered the local techno scene. Early influences where DJ`s like Sven Väth or DJ Dag and first experiences in technoclubs, like the legendary Omen or Dorian Gray in Frankfurt A.M.<br>He started to spin techno tunes at small parties until the psytrance virus changed his musical direction. With a bunch of friends – the Gecko Crew \u00AD he organised a couple of small parties in his home area, and begann to play progressive/psytrance Dj sets under the alias Yan Gecko. After a couple of years, with lots of national and some international gigs, he joined BMSS Records and released a few tracks on different compilations.<br>Yans favourite was always rather deep and mystical sound. After some life changing dancefloor experiences at big festivals, he fell completely in love with forest psy and more nighttime orientated music\u00AD 2012 the Sequoya project was born. The debut EP \"Nomad\" came out in 2013 on BMSS Records, 2015 the \"Singularity EP\" on Sangoma, followed by tracks on various Compilations from different Labels. His music can be described as deep and driving forest psy with a unique style of storytelling and remarkable sounddesign, resulting from Yans love for modular Synthesizers."
       },
       "sevensol": {
         "heading": "Sevensol",

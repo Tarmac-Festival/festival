@@ -56,6 +56,27 @@
             ]
         });
 
+        $('#modalImportantText').html(i18next.t("modal.important.text", "#"))
+        $('#modalImportant').on('show.bs.modal', function () {
+            $('#modalImportant a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: (target.offset().top - 54)
+                        }, 1000, "easeInOutExpo");
+                        $('#modalImportant').modal('hide');
+                        return false;
+                    }
+                }
+            });
+        }).modal({
+            show: true,
+            backdrop: false,
+            keyboard: false
+        })
+
         var details = {
             message: i18next.t('cookies.message', "#"),
             acceptText: i18next.t('cookies.accept', "#"),

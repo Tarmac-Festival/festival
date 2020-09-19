@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.6'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.8'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -255,13 +255,11 @@
                     <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://soundcloud.com/user-514217127/diskopeitschen-i')">Giorgio Inkasso</span>
                     <i class="fas fa-circle dot"></i>
-                    <span onclick="$(this).buildArtistModal('modal.artists.glenn.heading', 'modal.artists.glenn.text', 'glenn.jpg', 'GlennAstro', 'glenn-astro');">Glenn Astro</span>
-                    <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://soundcloud.com/hansfromspace')">Hans from Space</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.illousion.heading', 'modal.artists.illousion.text', 'illousion.jpg', 'illousion8', 'illousion8', null, null, 'Henry Laurisch');">illousion</span>
                     <i class="fas fa-circle dot"></i>
-                    <span onclick="window.open('https://soundcloud.com/raverpik/sachsentrance2-zur-klappe')">The Jakob Sisterz b2b RaverPik (Sachsentrance)</span>
+                    <span onclick="window.open('https://soundcloud.com/raverpik/sachsentrance2-zur-klappe')">The Jakob Sisterz b2b RaverPik</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="window.open('https://soundcloud.com/jochen-lomidhigh/tracks')">Jochen LoMidHigh</span>
                     <i class="fas fa-circle dot"></i>
@@ -319,6 +317,8 @@
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.ritar.heading', 'modal.artists.ritar.text', 'ritar.jpg', null, 'r1tar29');">Ritar</span>
                     <i class="fas fa-circle dot"></i>
+                    <span onclick="$(this).buildArtistModal('modal.artists.qnete.heading', 'modal.artists.qnete.text', 'qnete.jpg', null, 'r1tar29');">Qnete</span>
+                    <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.sequoya.heading', 'modal.artists.sequoya.text', 'sequoya.jpg', 'SequoyaPsytrance', 'sequoyapsytrance');">Sequoya</span>
                     <i class="fas fa-circle dot"></i>
                     <span onclick="$(this).buildArtistModal('modal.artists.sevensol.heading', 'modal.artists.sevensol.text', 'sevensol.jpg', null, 'sevensol', 'sevensol___');">Sevensol</span>
@@ -366,8 +366,7 @@
                         <p class="text-justify" data-i18n="info.box1.text2">#</p>
                         <p class="lead text-center" data-i18n="info.box1.subheading3">#</p>
                         <p class="text-justify" data-i18n="info.box1.text3">#</p>
-                        <p class="lead text-center mb-0" data-i18n="info.box1.subheading4">#</p>
-                        <p class="text-center text-muted" data-i18n="info.box1.subheading5">#</p>
+                        <p class="lead text-center" data-i18n="info.box1.subheading4">#</p>
                         <p class="text-justify mb-0" data-i18n="info.box1.text4">#</p>
                     </div>
                 </div>
@@ -497,9 +496,13 @@
                             <a href="#" onclick="return $(this).buildInfoModal('info.box7.question3', 'info.box7.text3');"
                                data-i18n="info.box7.subheading3">#</a>
                         </p>
-                        <p class="lead text-center mb-0">
+                        <p class="lead text-center">
                             <a href="#" onclick="return $(this).buildInfoModal('info.box7.question4', 'info.box7.text4');"
                                data-i18n="info.box7.subheading4">#</a>
+                        </p>
+                        <p class="lead text-center mb-0">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box7.question5', 'info.box7.text5');"
+                               data-i18n="info.box7.subheading5">#</a>
                         </p>
                     </div>
                 </div>
@@ -517,9 +520,13 @@
                             <a href="#" onclick="return $(this).buildInfoModal('info.box8.question2', 'info.box8.text2');"
                                data-i18n="info.box8.subheading2">#</a>
                         </p>
-                        <p class="lead text-center mb-0">
+                        <p class="lead text-center">
                             <a href="#" onclick="return $(this).buildInfoModal('info.box8.question3', 'info.box8.text3');"
                                data-i18n="info.box8.subheading3">#</a>
+                        </p>
+                        <p class="lead text-center mb-0">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question4', 'info.box8.text4');"
+                               data-i18n="info.box8.subheading4">#</a>
                         </p>
                     </div>
                 </div>
@@ -544,6 +551,42 @@
                         <p class="lead text-center mb-0">
                             <a href="#" onclick="return $(this).buildInfoModal('info.box9.question4', 'info.box9.text4');"
                                data-i18n="info.box9.subheading4">#</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="infocorona" class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
+                <div class="info-box">
+                    <div class="info-content localized">
+                        <h2 class="info-title" data-i18n="info.box10.heading">#</h2>
+                        <hr class="divider">
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box10.question1', 'info.box10.text1');"
+                               data-i18n="info.box10.subheading1">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box10.question2', 'info.box10.text2');"
+                               data-i18n="info.box10.subheading2">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box10.question3', 'info.box10.text3');"
+                               data-i18n="info.box10.subheading3">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box10.question4', 'info.box10.text4');"
+                               data-i18n="info.box10.subheading4">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box10.question5', 'info.box10.text5');"
+                               data-i18n="info.box10.subheading5">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box10.question6', 'info.box10.text6');"
+                               data-i18n="info.box10.subheading6">#</a>
+                        </p>
+                        <p class="lead text-center mb-0">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box10.question7', 'info.box10.text7');"
+                               data-i18n="info.box10.subheading7">#</a>
                         </p>
                     </div>
                 </div>
@@ -708,6 +751,44 @@
     </div>
 </div>
 
+<div class="modal fade" id="modalImportant" tabindex="-1" role="dialog" aria-labelledby="modalImportantTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.heading">#</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-justify">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 localized">
+                            <p id="modalImportantText">#</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <ul class="list-inline social-buttons mr-auto">
+                    <li class="list-inline-item">
+                        <a href="mailto:contact@tarmac-festival.de" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="modal fade" id="modalFaq" tabindex="-1" role="dialog" aria-labelledby="modalFaqTitle"
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -864,7 +945,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
 <script src="js/jquery.cookiebar.js"></script>
-<script src="js/festival.min.js?v=1.5"></script>
+<script src="js/festival.min.js?v=1.7"></script>
 
 </body>
 </html>
