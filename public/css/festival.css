@@ -1,11 +1,16 @@
 /*!
  * Tarmac Festival - Festival Allstedt v1.2.0 (https://tarmac-festival.de/)
- * Copyright 2019-2020 Martin Suckau
+ * Copyright 2019-2021 Martin Suckau
  */
 
 @font-face {
   font-family: "Favorit Std Light";
   src: url("../fonts/FavoritStd-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Fundamental Brigade";
+  src: url("../fonts/Fundamental-Brigade.ttf") format("truetype");
 }
 
 /*!
@@ -11090,7 +11095,8 @@ template {
 
 body {
   overflow-x: hidden;
-  font-family: 'Favorit Std Light', serif;
+  font-size: 1.1rem;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
@@ -11099,15 +11105,15 @@ p {
 }
 
 a {
-  color: #f6a300;
+  color: #fab021;
 }
 
 a:hover {
-  color: #c38100;
+  color: #e39705;
 }
 
 .text-primary {
-  color: #f6a300 !important;
+  color: #fab021 !important;
 }
 
 .text-muted {
@@ -11116,6 +11122,7 @@ a:hover {
 
 .lead {
   color: #495057;
+  font-size: 1.3rem;
 }
 
 .dot {
@@ -11127,7 +11134,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Favorit Std Light', serif;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
@@ -11136,17 +11143,17 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 2.4rem;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
   text-transform: none;
-  font-family: 'Favorit Std Light', serif;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
@@ -11164,15 +11171,15 @@ ul.social-buttons li a {
   color: white !important;
   border-radius: 100%;
   outline: none;
-  background-color: #f6a300;
+  background-color: #fab021;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #d08a00;
+  background-color: #efa005;
 }
 
 .btn {
-  font-family: 'Favorit Std Light', serif;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
   font-weight: 700;
 }
@@ -11184,19 +11191,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .btn-primary {
   color: #fff !important;
-  background-color: #f6a300;
-  border-color: #f6a300;
+  background-color: #fab021;
+  border-color: #fab021;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   color: #fff;
-  background-color: #d08a00 !important;
-  border-color: #d08a00 !important;
+  background-color: #efa005 !important;
+  border-color: #efa005 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem #aa7000 !important;
-  box-shadow: 0 0 0 0.2rem #aa7000 !important;
+  -webkit-box-shadow: 0 0 0 0.2rem #ca8705 !important;
+  box-shadow: 0 0 0 0.2rem #ca8705 !important;
 }
 
 .modal-header,
@@ -11211,12 +11218,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 ::-moz-selection {
-  background: #f6a300;
+  background: #fab021;
   text-shadow: none;
 }
 
 ::selection {
-  background: #f6a300;
+  background: #fab021;
   text-shadow: none;
 }
 
@@ -11237,7 +11244,7 @@ img::-moz-selection {
     padding: 150px 0;
   }
   section h2.section-heading {
-    font-size: 45px;
+    font-size: 2.8rem;
   }
   .btn-xl {
     padding: 20px 40px;
@@ -11255,19 +11262,19 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #f6a300;
-  font-family: 'Favorit Std Light', serif;
+  background-color: #fab021;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
 #mainNav .navbar-brand {
-  color: #f6a300;
-  font-family: 'Favorit Std Light', serif;
+  color: #fab021;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #d08a00;
+  color: #efa005;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -11276,12 +11283,12 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Favorit Std Light', serif;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #f6a300;
+  color: #fab021;
 }
 
 #mainNav .navbar-nav .nav-item .nav-btn {
@@ -11325,7 +11332,7 @@ img::-moz-selection {
 
 header.masthead {
   height: 100vh;
-  background-color: #8966aa;
+  background-color: #553d6d;
 }
 
 header.masthead .down {
@@ -11355,11 +11362,11 @@ header.masthead .cover {
 
 #artists span {
   white-space: nowrap;
-  color: #f6a300;
+  color: #fab021;
 }
 
 #artists span.active, #artists span:hover {
-  color: #d08a00;
+  color: #efa005;
   cursor: pointer;
 }
 
@@ -11379,7 +11386,7 @@ header.masthead .cover {
 }
 
 .info-box .info-title {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
@@ -11388,7 +11395,7 @@ header.masthead .cover {
 .info-box hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f6a300;
+  border-color: #fab021;
 }
 
 .collective {
@@ -11421,7 +11428,7 @@ section#contact .title-left:before {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #f6a300;
+  background-color: #fab021;
   width: 100px;
   bottom: -12px;
 }
@@ -11437,7 +11444,7 @@ section#contact .note-editing-area {
 }
 
 section#contact .form-control:focus {
-  border-color: #f6a300;
+  border-color: #fab021;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -11459,8 +11466,8 @@ section#contact .spinner-border-sm {
 }
 
 section#contact .btn-primary:disabled {
-  background-color: #ffc85d;
-  border-color: #ffc85d;
+  background-color: #fcd385;
+  border-color: #fcd385;
 }
 
 section#contact .note-editor {
@@ -11476,7 +11483,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Favorit Std Light', serif;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
@@ -11485,7 +11492,7 @@ footer ul.quicklinks {
   line-height: 50px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Favorit Std Light', serif;
+  font-family: 'Fundamental Brigade', serif;
   font-style: normal;
 }
 
@@ -11535,11 +11542,11 @@ footer ul.social-buttons li a {
 }
 
 #cookie-bar .cb-enable {
-  background: #f6a300;
+  background: #fab021;
 }
 
 #cookie-bar .cb-enable:hover {
-  background: #d08a00;
+  background: #efa005;
 }
 
 #cookie-bar .cb-disable {
