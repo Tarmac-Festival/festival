@@ -36,12 +36,14 @@
     "heading": "Info",
     "box1": {
       "heading": "Tickets",
-      "subheading1": "Early Booker Ticket (limited) ",
+      "subheading1": "Early Booker Ticket",
       "text1": "It is worth making an early decision. Get one of the first tickets for 109€ and extend the anticipation.",
       "subheading2": "Regular Booker Ticket",
       "text2": "For those who decide later, there are Regular Booker Tickets for 129€. This ticket level will start after the early booker tickets have been sold.",
-      "subheading3": "Camp & Fly Ticket (limited)",
-      "text3": "If you want to access the campsite with a camper, caravan or car, you need such a ticket. The pass allows you to enter the event site with your vehicle / trailer. Parking in front of the event site is free of charge."
+      "subheading3": "Camp & Fly Ticket",
+      "text3": "If you want to access the campsite with a camper, caravan or car, you need such a ticket. The pass allows you to enter the event site with your vehicle / trailer. Parking in front of the event site is free of charge.",
+      "subheading4":"Important notice:",
+      "text4":"We offer our tickets exclusively at our webshop provider III000III INDEPENDENT TICKETING. Offers from other ticketing sites are fakes! Fake tickets will be recognized by us at the entrance at the latest and will unfortunately not allow you to enter the festival. So please do not buy anything there! :)"
     },
     "box2": {
       "heading": "Tickets",
@@ -54,16 +56,25 @@
       "heading": "Arrival & departure",
       "subheading1": "Admission to site",
       "question1": "How do I get to the festival site?",
-      "text1": "Arrival is possible from September 03th, 2020 / 1:00 p.m. The event starts on September 4, 2020 at noon 12:00 p.m. You can also travel by public transport: use the \"Deutsche Bahn\" train to Sangerhausen. If you are arriving by car, enter \"Flugplatz Allstedt\" into your navigation system or these coordinates 51.389001, 11.450220.",
+      "text1": "<strong>The camping site opens September 02th, 2021, 2 pm.</strong><br><br><strong>The festival program starts September  03th, 2021, 12 pm.</strong><br><br>You can also travel by public transport: use the \"Deutsche Bahn\" train to Sangerhausen. If you are arriving by car, enter \"Flugplatz Allstedt\" into your navigation system or these coordinates 51.389001, 11.450220.",
       "subheading2": "Home trip",
       "question2": "When do I have to start my trip home?",
-      "text2": "The festival ends on April 6th, 2020/ 10:00 p.m. Departure is also possible the next day. Please leave the campsite just like you found it as you arrived. Garbage bags and pocket ashtrays are available at the info point.",
+      "text2": "<strong>The festival program ends September 05th 2021, 6 pm.</strong><br><br><strong>Departure is possible until September 06th 2021, 2 pm at the latest.</strong>",
       "subheading3": "Shuttle service",
       "question3": "Is there a shuttle service?",
-      "text3": "We are trying to set up a shuttle service from Sangerhausen main station. More detailed information will follow. We also offer guided bike tours (Sangerhausen-Allstedt train station) with luggage service. More information will follow. Please form carpools to preserve the environment! We will set up a carpool on Facebook.<br><br>Numbers of local taxi companies::<br>Taxi Strube: +493464 611313 <br>Taxi Weidemann: +493464 579666 <br>Taxi Lampert: +493464 515860",
+      "text3": "Unfortunately, we cannot offer a shuttle as there is not enough space in the buses to keep the required distance (see also \"Hygiene and Corona Measures (Status 2020)\"). Instead we offer guided bike tours. Furthermore, there will be a portal to form carpools.<br><br>Numbers of local taxi companies::<br>Taxi Strube: +493464 611313 <br>Taxi Weidemann: +493464 579666 <br>Taxi Lampert: +493464 515860",
+      "subheading4":"Carpooling",
+      "question4":"Where can I arrange carpooling?",
+      "text4":"<strong>(as of 2020)</strong>There will again be the possibility to form carpools via the portal \"Movaco\". We will provide the link here soon.",
+      "subheading5":"Accompanied bike tours",
+      "question5":"How does it work with the accompanied bike tours?",
+      "text5": "From Sangerhausen there are accompanied bike tours with luggage service (only for people with festival ticket). We have come up with something, how you can ride well guided and relaxed by bike to the airport. The luggage will be transported free of charge from Sangerhausen to the airport. The journey takes about 1.5 hours, including 2 breaks and 6% incline in the last section. The route runs mainly on bike paths, partly on the country road without a bike path.<br><br>Registration is not necessary.<br><br><strong>Please note:</strong> The bicycle parking spaces in the trains between Halle and Sangerhausen are limited. If the trains are full, you will not be able to take part and will have to wait for the next train. Please plan to arrive one or two hours late in Halle.",
       "subheading6": "Car ticket",
       "question6": "When do I need a car ticket?",
-      "text6": "You need a car ticket if you want to take your vehicle to the campsite (limited number). Otherwise you can park your car on the parking lot for free. The walk to the campsite is about 5 minutes. There are no electricity or water connections for campers on the campsite."
+      "text6": "You need a car ticket if you want to take your vehicle to the campsite (limited number). Otherwise you can park your car on the parking lot for free. The walk to the campsite is about 5 minutes. There are no electricity or water connections for campers on the campsite.",
+      "subheading7": "No Ticket - No Entry",
+      "question7": "Will there be Tickets sold at the site?",
+      "text7": "If the festival is sold out and you don't have a ticket, your journey will not be worth it. Unfortunately there will be no box office or daysaver tickets available. Should we still meet \"guests\" who do not have a wristband and who cannot prove that they have purchased a ticket, we will make use of our domiciliary rights and throw these people out. Without discussion! Please have your wristbands ready at all times. We will check your wristband at the entrance, every time you enter the dance floor, when you order at the bar and randomly during the whole festival. Any attempt to enter the festival area without a ticket will be considered as an intention to disturb our festival. We will counter this decisively with house bans."
     },
     "box5": {
       "heading": "Camping & food",
@@ -72,19 +83,22 @@
       "text1": "Camping is included in the ticket price. The camping area is marked. It’s intended as a silent rest area. The best is to leave music systems and power generators at home. Of course, it is not forbidden to listen to music or to make music in the camp (which we prefer). We believe in dealing with each other with respect.",
       "subheading2": "Shower facilities",
       "question2": "Are there shower facilities on site?",
-      "text2": "There will be opportunities for showering at the campsite (cold water). We ask you to use the water wisely and only use biodegradable soaps and shampoos. In addition, you can use the sanitary facilities of the <a href=\"https://www.allstedt.de/tourismus/stadtbad.html\">Freibad Allstedt</a>. (admission 3 € / 10-person ticket 20 €; distance: 20 minutes by bike / 1 hour on foot)",
+      "text2": "There will be opportunities for showering at the campsite (cold water). We ask you to use the water wisely and only use <u>biodegradable soaps and shampoos</u>. In addition, you can use the sanitary facilities of the <a href=\"https://www.allstedt.de/tourismus/stadtbad.html\">Freibad Allstedt</a>. (admission 3 € / 10-person ticket 20 €; distance: 20 minutes by bike / 1 hour on foot)",
       "subheading3": "Site plan",
       "question3": "How can I orientate myself on site?",
       "text3": "You will receive a map for orientation on the festival site at the entrance when entering the festival area.",
       "subheading4": "Food & drinks",
-      "question4": "What selection of food and drinks are there?",
-      "text4": "There will be a food corner with different food stalls offering vegan and vegetarian, hot and cold dishes for little money. At our bars you can get chilled drinks. You can also bring your own drinks in normal quantities to the festival area. Please keep in mind that we also depend on the income of the bars to keep our festival going.",
+      "question4": "What food and drink choices will be available on site?",
+      "text4": "There will be a food corner with various food stands offering vegan and vegetarian, hot and cold dishes for small budget. At our bars you can get chilled drinks. You can also bring your own drinks in reasonable quantities to the festival area. Please keep in mind that we also depend on the income of the bars to maintain our festival.<br><br>Say: A few beers in your Rucki: easygoing.<br><br>Dragging crates to the stages: No-Go.",
       "subheading5": "Drinking water",
       "question5": "Is there free drinking water?",
-      "text5": "No, unfortunately this is not possible due to the current situation. However, it is important to drink enough water. This is particularly important on warm days. To supply the entire festival with sufficient water, there will be cheap drinking water in bottles at the bars. We also recommend that you bring a few bottles of water with you.",
+      "text5": "We are doing our best to provide access to free drinking water on the festival area. In any case, there will be again the possibility to buy drinking water bottles at a fair price at our bars. This will ensure a basic water supply on the grounds. If possible, bring your own water supply.",
       "subheading6": "Barbecue & Fire",
       "question6": "Can you barbecue and make fire?",
-      "text6": "We are located on an area in the middle of nature. The last summers were very dry and we expect an increased risk of forest fire at the beginning of September. Therefore open fires or barbecues are not allowed. Whoever disregards this, endangers the life of his/her* fellow human beings and must unfortunately be expelled from the premises."
+      "text6": "We are located on an area in the middle of nature. The last summers were very dry and we expect an increased risk of forest fire at the beginning of September. Therefore open fires or barbecues are not allowed. Whoever disregards this, endangers the life of his/her* fellow human beings and must unfortunately be expelled from the premises.",
+      "subheading7":"Convenience goods",
+      "question7":"Where do I get information about necessities and convenience goods?",
+      "text7":"On out market place you will find information about necessities and also a brief collection of goods, such as toothbrushes, tobaco, condoms, tampons, etc."
     },
     "box6": {
       "heading": "Security & help",
@@ -93,16 +107,16 @@
       "text1": "There will be a trained awareness team, which can be recognized by markings and can help you in situations where you feel uncomfortable. If there is no team around, please contact the staff at the nearest bar.",
       "subheading2": "Security & Safety",
       "question2": "Is the event supervised by security personnel?",
-      "text2": "Obey and respect the orders of the security, paramedics & festival crew. Anyone who harasses or discriminates other people will be fired without discussion. The same applies to people who are caught stealing. In the event of being expelled from the festival site, there is no right to a refund of the ticket price.",
+      "text2": "Yes, it will. In accordance with us, the security company is in charge of enforcing our security and hygiene concept. The employees are informed about all important facts that we have agreed with you and act accordingly. In the case of unruly behavior, they will help to enforce our house rules. If you have problems or feel unsafe, you are welcome to contact the labeled security staff.",
       "subheading3": "Photos & Videos",
-      "question3": "Can I take photos and videos?",
-      "text3": "The taking of photos & videos is not allowed. Respect the privacy of others and enjoy the weekend without your smartphone and co. There will be a media team who will take photos and videos with respect for your privacy.",
+      "question3": "Am I allowed to take photos and videos that clearly show other people?",
+      "text3": "Taking photos & videos is not allowed. Respect the privacy of others and enjoy the weekend without your smartphone. There will be a team assigned by us - with respect for your privacy - taking photos and filming.",
       "subheading4": "Behavior during storms",
-      "question4": "What happens in a storm?",
-      "text4": "If there is a storm, follow the announcements of the security and the festival crew. Get yourselves and others to safety. Stay away from trees or stage setups.",
+      "question4": "What happens in case of a severe weather?",
+      "text4": "If there is a severe weather, follow the announcements of the security and the festival crew. Get yourself and others to safety. Keep your distance from trees or stage structures.",
       "subheading5": "Illegal drugs",
       "question5": "What about illegal drugs?",
-      "text5": "The sale and consumption of illegal drugs is not allowed. Dealers are expelled from the festival and receive a criminal complaint.",
+      "text5": "The sale and consumption of illegal drugs is not permitted. Persons who sell drugs will be expelled from the premises and must expect to be charged with a complaint.",
       "subheading6": "First aid",
       "question6": "Can I be treated by first aiders in an emergency?",
       "text6": "A medical service will be available at the festival area. Take care and help each other.<br>If you notice a person who may need help, immediately let the awareness team, bar staff or other crew members know about it. Medications that you have to take regularly must also be brought along and you are responsible for your hangover.<br><br>In case of doubt: go to the first aid and have a look!"
@@ -120,7 +134,7 @@
       "text3": "Allstedt airport is located in a radio dead zone. Arrangements are best made in advance. There is only a very limited network on site.",
       "subheading4": "Garbage",
       "question4": "Where can I dispose of my trash?",
-      "text4": "Please try to avoid garbage if possible. Garbage bags and pocket ashtrays are available at the Infopoint. Everyone will also get a small garbage bag at the entrance. Please use the containers at the garbage stations. For us and our environment it is best to separate the garbage already at the festival. We want to work out a concept for this and will keep you up to date.<br><br>In fact: There is no place for your garbage in the forest, on paths or in front of stages. With little effort we can keep our festival clean.",
+      "text4": "<strong>Natural reserve:</strong> Our festival area is surrounded by forest, which is under nature reserve. Please do not stay off the paths and do not leave trash. With your festival wristband you will receive a trash bag. Here you can dispose of your trash and any other trash that might be found flying around. Help us to keep the festival clean.",
       "subheading5": "Parking",
       "question5": "What about the parking situation on site?",
       "text5": "Parking lots are available. For the sake of the environment, please try to increase the capacity of the vehicles as much as possible (e.g. carpooling)."
@@ -138,7 +152,7 @@
       "text3": "Every visitor must behave in such a way that any danger to other visitors or third parties is excluded. You are responsible for any damage you cause.",
       "subheading4": "Minimum age",
       "question4": "How old do you have to be to be allowed to enter the festival site?",
-      "text4": "The festival is for adults (P18) only! There will be no exceptions. Only official photo IDs are accepted for proof of age (no student ID cards etc.) Even with a parents note / party slip, entry is not possible."
+      "text4": "The festival is for adults only (P18). Only official photo IDs are accepted as proof of age (no student IDs, medical cards, etc.)."
     },
     "box9": {
       "heading": "Miscellaneous",
@@ -154,6 +168,30 @@
       "subheading4": "Pets",
       "question4": "Is it allowed to bring my pet with me?",
       "text4": "A festival is not a place for pets. So just leave your favourite four-legged friends at home."
+    },
+    "box10": {
+      "heading": "Hygiene- und Corona Measures",
+      "subheading1": "General",
+      "question1": "General",
+      "text1": "Again, we are preparing to hold a festival with extended hygiene and corona measures. We are not yet able to say exactly what the scope of these will be. We are observing the situation and will constantly adapt our hygiene concept in close collaboration with the local health authorities until the start of the festival. It can be assumed that at least the requirements of last year will be applied. Until we can update you here, you will find below which requirements applied in 2020:",
+      "subheading2": "No entry for people with Covid 19 symptoms",
+      "question2": "No entry for people with Covid 19 symptoms",
+      "text2": "<strong>(as of 2020)</strong> No entry for people who have entered from a risk area in the 14 days prior to the start of the festival and have not tested negative.<br><br>No entry for people who have had contact with someone who has tested positive in the 10 days prior to the start of the festival and have not tested negative themselves.",
+      "subheading3": "Contact Information",
+      "question3": "Do I need to leave contact information?",
+      "text3": "<strong>(as of 2020)</strong> At the entrance we will collect the Corona questionnaires sent by e-mail to all ticketholders. Please fill them out at home if possible. Please do not sign them until the day of your arrival! Please also fill in with whom you intend to sleep in a tent. We are aware that these intentions can change during the festival. You do not have to inform us about this",
+      "subheading4": "Distancing",
+      "question4": "Do I have to keep distance to others?",
+      "text4": "<strong>(as of 2020)</strong> Keep a minimum distance of 1.5 meters from each other. Markers in front of the toilets, bars and food stalls will help you with this.",
+      "subheading5": "wearing Masks",
+      "question5": "Is there an obligation to wear mouth-to-nose coverings?",
+      "text5": "<strong>(as of 2020)</strong> Wherever the minimum distance cannot be maintained, there is an obligation to wear a mouth-nose covering. In addition, this applies at the bars, food stands and in all those areas that we have marked accordingly or indicated with signs. So remember to bring your self-made mask, a scarf or something similar and to carry it with you at all times.",
+      "subheading6": "On the dance floors",
+      "question6": "How can people be together on one dance floor despite Corona?",
+      "text6": "<strong>(as of 2020)</strong> Each stage has a delimited area, the size of which determines the maximum number of people allowed on the dance floor. This number of people may not be exceeded, so that mathematically each person can keep the minimum distance. For orientation purposes, we will place markings here for the correct minimum distance. Each stage has a separate entrance and exit. Here our team controls the compliance with the maximum number of people. With 6 stages for 1000 guests, we assume a dynamic that will allow this limit to be reached very rarely and we all will always have enough space.",
+      "subheading7": "Disinfection",
+      "question7": "Where can I disinfect/clean my hands?",
+      "text7": "<strong>(as of 2020)</strong> We have distributed hand washing stations on the grounds. These contain hand cleansing and disinfecting lotion. Water will not be required. There will be opportunities for water withdrawal. You can get water for cleaning here (not drinking water!)"
     }
   },
   "contact": {
@@ -181,9 +219,9 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "Ticket sales start on February 12, 2021 from 6 pm here in our webshop!",
-      "text": "Hi Friends,<br>the launch of our festival last year was a success! Because of you we could all experience for a few days what we had missed for a long time and now miss again. At the same time we took the pandemic challenges seriously and showed a possibility for subculture in spite of the pandemic.<br><br>We want to keep building on this and get you to know: the 2nd TARMAC festival will take place from September 3-5, 2021.<br><br>The diversity of six stages for even 1000 guests should continue to be our key to holding a festival with distance in the open air in 2021.This and other measures (e.g. the expansion of sanitary infrastructure, covering financial advances from 2020, etc.) make it necessary to adjust our ticket prices to the current and omni present challenges.<br><br>So this year there will be two ticket levels in total: Early Booker 109 € and Regular Booker 129 €. In the course of February you can also apply to become a helper again. More information about this and the festival can be found on our homepage from 12.2.2021.<br><br>The updated details and terms and conditions can also be found on our homepage from 12.2.2021.<br><br>See you later!<br>Your Team Tarmac"
-    },
+      "heading": "Tickets available now here in our shop!",
+      "text": "Hi Friends,<br><br>the launch of our festival last year was a success! Because of you we could all experience for a few days what we had missed for a long time and now miss again. At the same time we took the pandemic challenges seriously and showed a possibility for subculture in spite of the pandemic.<br><br><strong>We want to keep building on this and get you to know: the 2nd TARMAC festival will take place from September 3-5, 2021.</strong><br><br>The diversity of six stages for even 1000 guests should continue to be our key to holding a festival with distance in the open air in 2021.This and other measures (e.g. the expansion of sanitary infrastructure, covering financial advances from 2020, etc.) make it necessary to adjust our ticket prices to the current and omni present challenges.<br><br>So this year there will be two ticket levels in total: Early Booker 109 € and Regular Booker 129 €. In the course of February you can also apply to become a helper again. More information about this and the festival can be found on our homepage.<br><br><strong>Important notice:</strong> We offer our tickets exclusively at our webshop provider III000III INDEPENDENT TICKETING. Offers from other ticketing sites are fakes! Fake tickets will be recognized by us at the entrance at the latest and will unfortunately not allow you to enter the festival. So please do not buy anything there! :)<br><br>See you later!<br><br>Your Team Tarmac"
+      },
     "chronic": {
       "heading": "Chronicle",
       "text1": "In recent years, we have been fascinated by how people move in subcultural space, organize themselves in collectives, really do something, and in doing so, deliberately advocate their values. It turned out that the individual collectives had already perceived each other but rarely organized joint events, also because the diverse musical orientations did not make the process seem evident at first.",
