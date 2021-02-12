@@ -48,3 +48,7 @@ node_modules
 # Webstorm
 .idea
 .firebase
+
+#vs files
+.vs
+.vscode
