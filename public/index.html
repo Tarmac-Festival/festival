@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.13'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.14'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -101,7 +101,7 @@
 
 <!-- Header -->
 <header class="masthead d-flex">
-    <div class="container-fluid d-flex px-0">
+    <div class="container-fluid d-flex px-0 header__bgimg">
         <img alt="Tarmac Festival cover" src="img/header-bg.jpg" class="cover" />
         <a class="btn btn-primary down js-scroll-trigger" href="#about">
             <i class="fas fa-angle-down fa-2x"></i>
@@ -156,7 +156,7 @@
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.lila.heading', 'modal.collectives.lila.text', 'LDrache', null);">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/drache.png" alt="collective image">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/drache_bw_small.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">

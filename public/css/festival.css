@@ -11565,3 +11565,10 @@ footer ul.social-buttons li a {
 #cookie-bar .cb-policy:hover {
   background: #d9d9d9;
 }
+
+.header__bgimg {
+  background-image: url(img/header-bg.jpg);
+  background-position: 93%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
