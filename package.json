@@ -21,25 +21,25 @@
         "url": "https://github.com/He1md4ll/festival.git"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.6.3",
+        "@fortawesome/fontawesome-free": "5.15.2",
         "@popperjs/core": "^2.7.0",
-        "bootstrap": "^4.4.1",
-        "i18next": "^19.3.4",
-        "i18next-browser-languagedetector": "^4.0.2",
+        "bootstrap": "^4.6.0",
+        "i18next": "^19.8.9",
+        "i18next-browser-languagedetector": "^6.0.1",
         "i18next-xhr-backend": "^3.2.2",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.1",
         "jquery-i18next": "^1.2.1",
         "jquery.easing": "^1.4.1",
-        "summernote": "^0.8.16"
+        "summernote": "^0.8.18"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.7",
-        "gulp": "^3.9.1",
-        "gulp-autoprefixer": "6.0.0",
-        "gulp-clean-css": "4.0.0",
-        "gulp-header": "2.0.7",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.1"
+        "browser-sync": "^2.26.14",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "7.0.1",
+        "gulp-clean-css": "4.3.0",
+        "gulp-header": "2.0.9",
+        "gulp-rename": "2.0.0",
+        "gulp-sass": "4.1.0",
+        "gulp-uglify": "3.0.2"
     }
 }
