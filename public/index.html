@@ -8,14 +8,14 @@
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Tarmac Festival">
-    <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2020. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+    <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2021. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
 
     <!-- Open Graph meta tags-->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tarmac-festival.de/">
     <meta property="og:title" content="Tarmac Festival">
     <meta property="og:site_name" content="Tarmac Festival">
-    <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2020. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+    <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2021. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
     <meta property="og:image" content="https://tarmac-festival.de/img/cover.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image:alt" content="Tarmac Festival Cover">
@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.17'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.21'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -43,6 +43,8 @@
                 $(".localized").localize();
             });
     </script>
+    
+    
 
     <link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="./img/icon/android-icon-192x192.png">
@@ -94,6 +96,14 @@
                            target="_blank" data-i18n="nav.tickets">#</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
+                     <ul class="dropdown-menu">
+                        
+                        <li><a class="dropdown-item " href="/artists.html?year=2020" target="_blank">2020</a></li>
+                     </ul>
+                 </li>
+                
             </ul>
         </div>
     </div>
@@ -192,11 +202,15 @@
 <section class="" id="artists">
     <div class="container">
         <div class="row">
+            
+        </div>
+        <div class="row">
             <div class="col-lg-12 text-center title-box localized">
                 <h2 class="section-heading text-uppercase" data-i18n="artists.heading">#</h2>
             </div>
         </div>
         <div class="row">
+            
             <div class="col-12">
                 <p class="text-center text-justify lead">
                     tba

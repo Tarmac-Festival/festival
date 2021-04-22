@@ -14,7 +14,8 @@
     "license": "GPLv3",
     "author": "Martin Suckau",
     "contributors": [
-        "Martin Suckau"
+        "Martin Suckau",
+        "Lucas Roschig"
     ],
     "repository": {
         "type": "git",

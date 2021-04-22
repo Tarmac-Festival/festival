@@ -11405,8 +11405,23 @@ img::-moz-selection {
   }
 }
 
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
 header.masthead {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #553d6d;
 }
 

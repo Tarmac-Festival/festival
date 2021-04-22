@@ -16,7 +16,8 @@
     "info": "Info",
     "avenue": "Anfahrt",
     "contact": "Kontakt",
-    "tickets": "Tickets"
+    "tickets": "Tickets",
+    "archive": "Rückblick"
   },
   "about": {
     "heading": "Das Projekt",
@@ -30,7 +31,8 @@
   },
   "artists": {
     "heading": "Künstler*innen",
-    "subheading": "(bisher bestätigt - weitere folgen in Kürze)"
+    "subheading": "(bisher bestätigt - weitere folgen in Kürze)",
+    "years":["2020", "2021"]
   },
   "info": {
     "heading": "Info",
@@ -222,7 +224,7 @@
     },
     "important": {
       "heading": "+++TARMAC 2021 ausverkauft+++",
-      "text": "Hi Friends,<br><br>wir sind immer noch überwältigt von der großen Resonanz auf den Ticketverkaufsstart vor einer Woche. Trotz unserer Euphorie und Freude auf den Sommer mit euch ist uns bewusst, dass wir mit der Planung und möglichen Durchführung des TARMAC-Festivals eine große Verantwortung gegenüber unseren Mitmenschen tragen. Es wird, so wie auch letztes Jahr, an einem ausführlichen Hygienekonzept gearbeitet, um die Sicherheit aller Festival Teilnehmer:innen und Mitwirkenden zu gewährleisten. Dabei können wir aus dem letzten Festival viel mitnehmen, aber auch noch dazulernen.<br><br>Das Hygienekonzept werden wir natürlich, sobald es fertig ist, mit euch teilen. Außerdem werden wir alle aktuellen Informationen und Auflagen rund um die Corona Pandemie verfolgen und notwendige Maßnahmen umsetzen. Über unsere Social-Media-Kanäle und unsere Website werdet ihr über alle Entwicklungen informiert!<br><br>Muss das Festival aufgrund der Pandemie verschoben werden, behalten alle erworbenen Tickets automatisch ihre Gültigkeit für das Tarmac 2022. Ihr könnt im Fall der Verschiebung Euer Ticket aber auch erstatten lassen.<br><br>Wir hoffen auf das Beste. Bleibt gesund und achtet auf euch und andere.<br><br>Euer Team Tarmac<br><br><strong>Wichtiger Hinweis:</strong> Wir bieten unsere Tickets ausschließlich über unseren <strong>Webshop-Anbieter III000III INDEPENDENT TICKETING</strong> an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt."
+      "text": "Hi Friends,<br><br>die Pandemie dauert an. Die Planung für das TARMAC-Festival 2021 geht weiter. Bis wir euch im September auf dem Flugplatz Allstedt wieder sehen werden, kann viel passieren, das auf unser finales Hygiene- und Sicherheitskonzept einwirken wird. Inzwischen haben die verschiedensten kulturschaffenden Akteure Initiative ergriffen, um an kreativen Strategien zu arbeiten, die so dringend notwendig für eine verantwortbare Rückkehr aus dem Lockdown sind. Wir verfolgen diese Entwicklungen optimistisch und versuchen unsererseits mit eigenen Ideen und verschiedenen Planungs-Szenarien dazu einen Beitrag zu leisten. Sobald unser Hygienekonzept fertig ist, könnt Ihr euch hier auf unserer Website darüber informieren.<br><br>Auch auf unseren Social-Media-Kanälen halten wir euch über alle Entwicklungen rund um unser Festival auf dem Laufenden. Muss das Festival aufgrund der Pandemie verschoben werden, behalten alle erworbenen Tickets automatisch ihre Gültigkeit für das Tarmac 2022. Ihr könnt im Fall der Verschiebung Euer Ticket aber auch erstatten lassen.<br><br>Wir hoffen auf das Beste. Bleibt gesund!<br><br>Euer Team Tarmac<br><br><strong>Wichtiger Hinweis:</strong> Alle Tickets für das TARMAC-Festival sind ausverkauft. Wir bieten unsere Tickets ausschließlich über unseren <strong>Webshop-Anbieter III000III INDEPENDENT TICKETING</strong> an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt."
     },
     "chronic": {
       "heading": "Chronik",

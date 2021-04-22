@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Tarmac Festival">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Tarmac Festival">
+    <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2021. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+
+    <!-- Open Graph meta tags-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tarmac-festival.de/Artists">
+    <meta property="og:title" content="Tarmac Festival">
+    <meta property="og:site_name" content="Tarmac Festival">
+    <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2021. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+    <meta property="og:image" content="https://tarmac-festival.de/img/cover.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image:alt" content="Tarmac Festival Cover">
+
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-i18next/i18next.min.js"></script>
+    <script src="vendor/jquery-i18next/i18nextXHRBackend.min.js"></script>
+    <script src="vendor/jquery-i18next/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="vendor/jquery-i18next/jquery-i18next.min.js"></script>
+    <script>
+        // Translate text
+        i18next
+            .use(i18nextXHRBackend)
+            .use(i18nextBrowserLanguageDetector)
+            .init({
+                backend: {
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.20'
+                },
+                fallbackLng: {
+                    'default': ['en'],
+                    'en': ['de']
+                }
+            }, function() {
+                jqueryI18next.init(i18next, $);
+                $(".localized").localize();
+            });
+    </script>
+    <script src="js/artistload.js"></script>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon-16x16.png">
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <title>Tarmac Festival</title>
+
+    <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/festival.min.css?v=1.4" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString)
+        const year = urlParams.get('year')
+
+        $(document).ready(function(){
+            fillDOM(year);
+        });
+        
+    </script>
+<h1 class="d-none">Tarmac Festival</h1>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">03. - 05.09.2021</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" href="/#about" data-i18n="nav.project">#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" href="/#artists" data-i18n="nav.artists">#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" href="/#info" data-i18n="nav.info">#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" href="/#avenue" data-i18n="nav.avenue">#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" href="/#contact" data-i18n="nav.contact">#</a>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link nav-btn">
+                        <a class="btn btn-primary localized" href="https://111000111.de/A2/39/index.php"
+                           target="_blank" data-i18n="nav.tickets">#</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
+                     <ul class="dropdown-menu">
+                        
+                        <li><a class="dropdown-item " href="artists.html?year=2020" target="_blank">2020</a></li>
+                     </ul>
+                 </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="masthead d-flex">
+    <div class="container-fluid px-0 ">
+        <div class="row m-4 mt-5"></div>
+        <div class="row m-4 mt-5"></div>
+        <div class="row m-4 mt-5">
+            <h1 class="my-5 mx-auto text-primary" id="lineupArchive">#</h1>
+        </div>
+        <div class="row  my-2">
+            <div class="d-flex flex-wrap justify-content-between m-4 text-center text-primary jus" id="acts">
+    
+            </div>
+        </div>
+        
+        
+    
+    
+    
+    
+    </div>
+</header>
+
+
+<!-- Footer -->
+<footer class="bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; Tarmac Festival 2021</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/tarmacfestival" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://soundcloud.com/tarmac-festival" target="_blank">
+                            <i class="fab fa-soundcloud"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 localized">
+                <ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        <a href="AGB.html" target="_blank" data-i18n="footer.notice">#</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="Datenschutz.html" target="_blank" data-i18n="footer.policy">#</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" data-i18n="[href]footer.link;footer.language">#</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/summernote/summernote-bs4.min.js"></script>
+
+<!-- Contact form JavaScript -->
+<script src="js/contact_me.min.js?v=1.0"></script>
+
+<!-- Load and init firebase app -->
+<script src="/__/firebase/7.9.0/firebase-app.js"></script>
+<script src="/__/firebase/7.9.0/firebase-analytics.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+<!-- Custom scripts -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
+<script src="js/jquery.cookiebar.js"></script>
+<script src="js/festival.min.js?v=1.8"></script>
+
+</body>
+</html>

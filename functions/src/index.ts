@@ -10,7 +10,7 @@ admin.initializeApp({
     databaseURL: "https://festival-allstedt.firebaseio.com"
 });
 
-exports.checkRecaptcha = functions.https.onRequest((req, res) => {
+exports.checkRecaptcha = functions.https.onRequest((req :any, res:any) => {
     if (!req.body.token) {
         throw new functions.https.HttpsError('invalid-argument');
     }
@@ -46,7 +46,7 @@ exports.checkRecaptcha = functions.https.onRequest((req, res) => {
             response: token
         },
         json: true
-    }).then(async result => {
+    }).then(async (result : any )=> {
         console.log("recaptcha result", result);
         if (result.success && result.score >= 0.6) {
             let mailCollection = admin.firestore().collection('mail');
@@ -56,7 +56,7 @@ exports.checkRecaptcha = functions.https.onRequest((req, res) => {
                     html: message,
                     subject: subject
                 }
-            }).catch(error => {
+            }).catch((error : any) => {
                 console.error("Could not save mail", error);
             });
             await mailCollection.add({
@@ -65,7 +65,7 @@ exports.checkRecaptcha = functions.https.onRequest((req, res) => {
                     html: userMailMessage.replace("{{name}}", userName),
                     subject: userMailSubject
                 }
-            }).catch(error => {
+            }).catch((error : any) => {
                 console.error("Could not save user mail", error);
             });
             res.json({result: 'success'});
@@ -73,7 +73,7 @@ exports.checkRecaptcha = functions.https.onRequest((req, res) => {
         else {
             res.json({result: 'failed'});
         }
-    }).catch(reason => {
+    }).catch((reason : any) => {
         console.log("Recaptcha request failure", reason);
         res.json({result: 'error'});
     })
