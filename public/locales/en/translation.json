@@ -16,6 +16,7 @@
     "info": "Info",
     "avenue": "Location",
     "contact": "Contact us",
+    "helpers": "Support",
     "archive": "Archive"
   },
   "about": {
@@ -214,6 +215,11 @@
       "text": "If you have any questions then you are welcome to write a message. Therefore you can use this form or you can write an email."
     }
   },
+  "helpers":{
+    "heading":"Apply for a supporter ticket",
+    "button": "To the form",
+    "closed" : "Thank you for your support. Currently we got enouqh requests to meet our support demand."
+  },
   "modal": {
     "common": {
       "button": "Close",
@@ -266,6 +272,14 @@
       "klubska": {
         "heading": "klubska scena",
         "text": "klubska scena is a secret pop-up underground event for audiophiles and freedom fighters against the music industry! It’s guerrilla like nature consists of activities performed in a spontaneous way, without authorisation, on jaw dropping locations."
+      },
+      "nautilux": {
+        "heading": "Nautilux",
+        "text": "Is an art-collective and a circle of friends based in Halle. The love for parties and electronic music unites us. The medium light plays an important role for us, as we desire to reinterpret and develop spaces. Since 2018 we carried out various projects and we feel lucky to be a part of our hometowns nightlife."
+      },
+      "kvhz": {
+        "heading": "Kinder von der Haltestelle Zoo",
+        "text": "Kinder von der Haltestelle Zoo is a collective from Halle, which consists of producers, djs* and creatives. This colouful bunch of people is connected through long friendships, the love to the music and beautiful danceflloors. 2018 they organized their first open airs and started to become a part of the local psytrance scene."
       }
     },
     "artists": {

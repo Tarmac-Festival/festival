@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.21'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.25'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -88,8 +88,14 @@
                     <a class="nav-link js-scroll-trigger localized" href="#avenue" data-i18n="nav.avenue">#</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" href="#helpers" data-i18n="nav.helpers">#</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger localized" href="#contact" data-i18n="nav.contact">#</a>
                 </li>
+                
+                
+
                 <li class="nav-item">
                     <div class="nav-link nav-btn">
                         <a class="btn btn-primary localized" href="https://111000111.de/A2/39/index.php"
@@ -100,9 +106,10 @@
                     <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
                      <ul class="dropdown-menu">
                         
-                        <li><a class="dropdown-item " href="/artists.html?year=2020" target="_blank">2020</a></li>
+                        <li><a class="dropdown-item " href="Artists.html?year=2020" target="_blank">2020</a></li>
                      </ul>
                  </li>
+                
                 
             </ul>
         </div>
@@ -112,10 +119,10 @@
 <!-- Header -->
 <header class="masthead d-flex">
     <div class="container-fluid d-flex px-0 header__bgimg">
-        
-        <a class="btn btn-primary down js-scroll-trigger" href="#about">
-            <i class="fas fa-angle-down fa-2x"></i>
-        </a>
+
+    <a class="btn btn-primary down js-scroll-trigger" href="#about">
+        <i class="fas fa-angle-down fa-2x"></i>
+    </a> 
     </div>
 </header>
 
@@ -153,7 +160,7 @@
                 <h3 class="section-subheading text-muted">presented by...</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-4">
             <div class="collective col-xl-3 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
@@ -166,14 +173,10 @@
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.lila.heading', 'modal.collectives.lila.text', 'LDrache', null);">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/drache_bw_small.png" alt="collective image">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/drache.png" alt="collective image">
                 </a>
             </div>
-            <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.klubska.heading', 'modal.collectives.klubska.text', 'klubskascenalitija', 'klubskascenalitija');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/ks.png" alt="collective image">
-                </a>
-            </div>
+            
             <div class="collective col-xl-3 col-md-4 col-6">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.l300.heading', 'modal.collectives.l300.text', 'L300DecArt', 'l300decart');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/l300.png" alt="collective image">
@@ -194,6 +197,34 @@
                     <img class="img-fluid d-block mx-auto" src="img/logos/resonant.png" alt="collective image">
                 </a>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center title-box">
+                <h3 class="section-subheading text-muted">supported by...</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="collective col-xl-3 col-md-4 col-6">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.nautilux.heading', 'modal.collectives.nautilux.text', null, 'nautilux');">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/nautilux.png" alt="collective image">
+                </a>
+            </div>
+            <div class="collective col-xl-3 col-md-4 col-6">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.klubska.heading', 'modal.collectives.klubska.text', 'klubskascenalitija', 'klubskascenalitija');">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/ks.png" alt="collective image">
+                </a>
+            </div>
+            <div class="collective col-xl-3 col-md-4 col-6">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.kvhz.heading', 'modal.collectives.kvhz.text', null, null);">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/kvhz.png" alt="collective image">
+                </a>
+            </div>
+            <div class="collective col-xl-3 col-md-4 col-6">
+               
+                    <img class="img-fluid d-block mx-auto" src="img/logos/mjut.png" alt="collective image">
+                </a>
+            </div>
+            
         </div>
     </div>
 </section>
@@ -481,7 +512,24 @@
 <section class="p-0 bg-primary" id="avenue">
     <div id="map" style="height: 400px"></div>
 </section>
+<!--Helpers-->
+<section id="helpers" class="pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center title-box localized">
+                
+                <h2 class="section-heading" data-i18n="helpers.closed">#</h2> 
+                <!--
+                    <h2 class="section-heading text-uppercase" data-i18n="helpers.heading">#</h2>
+                <a href="https://docs.google.com/forms/d/1WGT4m635cqD2fOVDHk_fvJclY5knYJNzQl2S_0KsgEU/edit" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="helpers.button">#</a>
 
+                -->
+                
+            </div>
+        </div>
+        
+    </div>
+</section>
 <!-- Contact -->
 <section id="contact" class="pb-0">
     <div class="container">

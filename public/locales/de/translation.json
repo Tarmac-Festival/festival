@@ -16,6 +16,7 @@
     "info": "Info",
     "avenue": "Anfahrt",
     "contact": "Kontakt",
+    "helpers": "Helfer:in",
     "tickets": "Tickets",
     "archive": "Rückblick"
   },
@@ -217,6 +218,11 @@
       "text": "Du hast offene Fragen? Fülle das nebenstehende Kontaktformular aus und wir melden uns schnellstmöglich bei dir. Alternativ kannst du uns auch direkt eine Mail an die unten stehenden Adressen senden."
     }
   },
+  "helpers":{
+    "heading":"Bewirb dich als Helfer:in",
+    "button": "Zum Formular",
+    "closed" : "Vielen Dank für eure Unterstützung. Wir haben vorerst genug Anfragen erhalten, um das benötigte Helfer:innenkontingent zu füllen."
+  },
   "modal": {
     "common": {
       "button": "Schließen",
@@ -269,6 +275,18 @@
       "klubska": {
         "heading": "klubska scena",
         "text": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer*innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
+      },
+      "nautilux": {
+        "heading": "Nautilux",
+        "text": "ist ein Kollektiv und Freundeskreis aus Halle. Uns vereint die Liebe zu Partys und elektronischer Musik. Das Medium Licht spielt für uns eine wichtige Rolle, ebenso wie der Anspruch, Räume neu zu erschließen und zu interpretieren. Seit 2018 realisieren wir verschiedenste Projekte und freuen uns, das Nachtleben unserer Heimatstadt mitgestalten zu können."
+      },
+      "kvhz": {
+        "heading": "Kinder von der Haltestelle Zoo",
+        "text": "Die Kinder von der Haltestelle Zoo sind ein Veranstaltungskollektiv aus Halle, bestehend aus Producern, DJs*, Bastler:innen und Technikbegeisterten. Diesen bunten Haufen verbinden jahrelange Bekanntschaften und Freundschaften, aber vor allem die Liebe zu lauter Musik und zum Tanzen. Daher fing man im Sommer 2018 an gemeinsam Partys zu schmeißen und etablierte sich seitdem in der halleschen Raveszene. Nun sind die Kinder von der Haltestelle auch beim Tarmac-Festival mit dabei, um ihre Freunde, die L300 Crew, bei der Gestaltung und Bespielung der Planetenweide-Stage zu unterstützen."
+      },
+      "mjut": {
+        "heading": "mjut",
+        "text": "Die Kinder von der Haltestelle Zoo sind ein Veranstaltungskollektiv aus Halle, bestehend aus Producern, DJs*, Bastler:innen und Technikbegeisterten. Diesen bunten Haufen verbinden jahrelange Bekanntschaften und Freundschaften, aber vor allem die Liebe zu lauter Musik und zum Tanzen. Daher fing man im Sommer 2018 an gemeinsam Partys zu schmeißen und etablierte sich seitdem in der halleschen Raveszene. Nun sind die Kinder von der Haltestelle auch beim Tarmac-Festival mit dabei, um ihre Freunde, die L300 Crew, bei der Gestaltung und Bespielung der Planetenweide-Stage zu unterstützen."
       }
     },
     "artists": {

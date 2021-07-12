@@ -26,6 +26,7 @@ function fillDOM(year){
                         var artist = document.createElement("a");
                         artist.innerHTML = acts[i].Artists[j].Name;
                         artist.href = acts[i].Artists[j].Link;
+                        artist.target="_blank";
                         actName.appendChild(artist);
                         if(j!=acts[i].Artists.length-1){
                             actName.append(" b2b ");
@@ -38,6 +39,7 @@ function fillDOM(year){
                         var artist = document.createElement("a");
                         artist.innerHTML = acts[i].Artists[j].Name;
                         artist.href = acts[i].Artists[j].Link;
+                        artist.target="_blank";
                         actName.appendChild(artist);
                         if(j!=acts[i].Artists.length-1){
                             actName.append(" & ");
@@ -53,6 +55,7 @@ function fillDOM(year){
                         var artist = document.createElement("a");
                         artist.innerHTML = acts[i].Artists[j].Name;
                         artist.href = acts[i].Artists[j].Link;
+                        artist.target="_blank";
                         var NamePos = Name.search(acts[i].Artists[j].Name)
                         actName.innerHTML = actName.innerHTML.replace(acts[i].Artists[j].Name, artist.outerHTML);
                         //actName.innerHTML = Name;
@@ -64,6 +67,7 @@ function fillDOM(year){
                     var a = document.createElement("a");
                     a.innerHTML = acts[i].Name;
                     a.href = acts[i].Link;
+                    a.target="_blank";
                     a.id=actDiv.id+i;
                     actName.appendChild(a);
                     break;
