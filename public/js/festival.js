@@ -96,53 +96,163 @@
             localizeJs();
         });
     }
-
+    const linkType = {
+        facebook: 1,
+        soundcloud: 2,
+        instagram: 3,
+        youtube: 4,
+        bandcamp: 5,
+        mixcloud: 6,
+        default: 7
+    }
+    var getLinkType = function(lt){
+        if(!lt || lt.langth===0) return null;
+        if(lt.includes("soundcloud")){
+            return linkType.soundcloud;
+        }else if(lt.includes("instagram")){
+            return linkType.instagram;
+        }else if(lt.includes("facebook")){
+            return linkType.facebook;
+        }else if(lt.includes("youtube")){
+            return linkType.youtube;
+        }else if(lt.includes("bandcamp")){
+            return linkType.bandcamp;
+        }else if(lt.includes("mixcloud")){
+            return linkType.mixcloud;
+        }else{
+            return linkType.default;
+        }
+    }
+    
     jQuery.fn.extend({
         buildArtistModal:
-            function(titleI18Next, textI18Next, imageName, fbName, scName, igName, ytName, copyright) {
-                var title = i18next.t(titleI18Next, "#")
-                $('#modalArtistTitle').html(title)
-                $('#modalArtistText').html(i18next.t(textI18Next, "#"))
-
-                $('#modalArtistImage')
+            function(name, link,imageName, text, copyright, year) {
+                console.log("build Artist Modal");
+                $('#modalArtistContainerFb').addClass('d-none');
+                $('#modalArtistContainerSc').addClass('d-none');
+                $('#modalArtistContainerIg').addClass('d-none');
+                $('#modalArtistContainerYt').addClass('d-none');
+                $('#modalArtistContainerBc').addClass('d-none');
+                $('#modalArtistContainerMc').addClass('d-none');
+                $('#modalArtistContainerDefault').addClass('d-none');
+                $('#modalArtistImage').removeAttr('scr').removeAttr('alt').addClass('d-none');
+                $('#modalArtistImageLink').removeAttr('href');
+                $('#modalArtistTitle').html(name)
+                $('#modalArtistBody').removeClass('d-none');
+                var links = link.split(',');
+                if(imageName){
+                    $('#modalArtistImage')
                     .attr('src', '#')
-                    .attr('src', './img/artists/' + imageName)
-                    .attr('alt', title + ' artist image');
+                    .attr('src', './img/artists/'+ year+'/'+ imageName)
+                    .attr('alt', name + ' artist image')
+                    .removeClass('d-none');
+                    if(links[0]){
+                        $('#modalArtistImageLink').attr('href',links[0])
+                        .attr('target','_blank');
+                    }
+                }else{
+                    
+                    $('#modalArtistBody').addClass('d-none');
+                }
+                
                 if (copyright) {
                     $('#modalArtistCopyright').html('&copy; ' + copyright).removeClass('d-none')
                 } else {
                     $('#modalArtistCopyright').html('').addClass('d-none')
                 }
+                if(!text.length===0){
+                    $('#modalArtistText').html(text).removeClass('d-none')
+                } else {
+                    $('#modalArtistText').html('').addClass('d-none')
+                }
+                
+                //no link provided -> LinkType null
+                //prep set all d-none
+                
+                
+                if(links){
+                    console.log(name);
+                    console.log(link);
+                    console.log(LinkType);
+                    var LinkType = linkType.default;
+                    links.forEach(element=> {
+                        LinkType = getLinkType(element);
 
-                if (fbName) {
-                    $('#modalArtistLinkFb').attr('href', 'https://www.facebook.com/' + fbName);
-                    $('#modalArtistContainerFb').removeClass('d-none')
-                } else {
-                    $('#modalArtistContainerFb').addClass('d-none')
-                }
-                if (scName) {
-                    $('#modalArtistLinkSc').attr('href', 'https://soundcloud.com/' + scName);
-                    $('#modalArtistContainerSc').removeClass('d-none')
-                } else {
-                    $('#modalArtistContainerSc').addClass('d-none')
-                }
-                if (igName) {
-                    $('#modalArtistLinkIg').attr('href', 'https://instagram.com/' + igName);
-                    $('#modalArtistContainerIg').removeClass('d-none')
-                } else {
-                    $('#modalArtistContainerIg').addClass('d-none')
-                }
-                if (ytName) {
-                    $('#modalArtistLinkYt').attr('href', 'https://youtube.com/' + ytName);
-                    $('#modalArtistContainerYt').removeClass('d-none')
-                } else {
-                    $('#modalArtistContainerYt').addClass('d-none')
-                }
-                $('#modalArtist').modal('show');
-                return this;
-            },
+                        switch(LinkType){
+                            
+                            case linkType.facebook:
+                                if (element) {
+                                    $('#modalArtistLinkFb').attr('href', element);
+                                    $('#modalArtistContainerFb').removeClass('d-none')
+                                } else {
+                                    $('#modalArtistContainerFb').addClass('d-none')
+                                }
+                                break;
+                            case linkType.soundcloud:
+                                if (element) {
+                                    $('#modalArtistLinkSc').attr('href', element);
+                                    $('#modalArtistContainerSc').removeClass('d-none')
+                                } else {
+                                    $('#modalArtistContainerSc').addClass('d-none')
+                                }
+                                break;
+                            case linkType.instagram:
+                                if (element) {
+                                    $('#modalArtistLinkIg').attr('href', element);
+                                    $('#modalArtistContainerIg').removeClass('d-none')
+                                } else {
+                                    $('#modalArtistContainerIg').addClass('d-none')
+                                }
+                                break;
+                            case linkType.youtube:
+                                if (element) {
+                                    $('#modalArtistLinkYt').attr('href', element);
+                                    $('#modalArtistContainerYt').removeClass('d-none')
+                                } else {
+                                    $('#modalArtistContainerYt').addClass('d-none')
+                                }
+                                break;
+                            case linkType.bandcamp:
+                                if (element) {
+                                    $('#modalArtistLinkBc').attr('href', element);
+                                    $('#modalArtistContainerBc').removeClass('d-none')
+                                } else {
+                                    $('#modalArtistContainerBc').addClass('d-none')
+                                }
+                                break;
+                            case linkType.mixcloud:
+                                if (element) {
+                                    $('#modalArtistLinkMc').attr('href', element);
+                                    $('#modalArtistContainerMc').removeClass('d-none')
+                                } else {
+                                    $('#modalArtistContainerMc').addClass('d-none')
+                                }
+                                break;
+                            case linkType.default:
+                                if (element) {
+                                    $('#modalArtistLinkDefault').attr('href', element);
+                                    $('#modalArtistContainerDefault').removeClass('d-none')
+                                } else {
+                                    $('#modalArtistContainerDefault').addClass('d-none')
+                                }
+                                break;
+                            default:
+                                if(element){
+                                    $('#modalArtistLinkDefault').attr('href',element);
+                                    $('#modalArtistContainerDefault').removeClass('d-none')
+                                }
+                                else{
+                                    $('#modalArtistContainerDefault').addClass('d-none');
+                                }
+                            }
+                        });
+                                    
+                    }
+                    $('#modalArtist').modal('show');
+                    return this;
+                },
         buildCollModal:
-            function(titleI18Next, textI18Next, fbName, scName) {
+            function(titleI18Next, textI18Next, fbName, scName, instName) {
                 $('#modalCollTitle').html(i18next.t(titleI18Next, "#"))
                 $('#modalCollText').html(i18next.t(textI18Next, "#"))
 
@@ -157,6 +267,12 @@
                     $('#modalCollContainerSc').removeClass('d-none')
                 } else {
                     $('#modalCollContainerSc').addClass('d-none')
+                }
+                if (instName) {
+                    $('#modalCollLinkInst').attr('href', 'https://www.instagram.com/' + instName);
+                    $('#modalCollContainerInst').removeClass('d-none')
+                } else {
+                    $('#modalCollContainerInst').addClass('d-none')
                 }
                 $('#modalColl').modal('show');
                 return this;

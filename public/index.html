@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v1.25'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v2.2'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -43,7 +43,7 @@
                 $(".localized").localize();
             });
     </script>
-    
+    <script src="js/artistload.js"></script>
     
 
     <link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-icon-180x180.png">
@@ -61,6 +61,14 @@
 </head>
 
 <body id="page-top">
+    <script>
+        
+
+        $(document).ready(function(){
+            fillArtists(2021);
+        });
+        
+    </script>
 <h1 class="d-none">Tarmac Festival</h1>
 
 <!-- Navigation -->
@@ -162,38 +170,38 @@
         </div>
         <div class="row mb-4">
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle');">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.teilko.heading', 'modal.collectives.teilko.text', 'Teil7', 'teilkonversum7');">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.teilko.heading', 'modal.collectives.teilko.text', 'Teil7', 'teilkonversum7',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/teilkonversum.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.lila.heading', 'modal.collectives.lila.text', 'LDrache', null);">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.lila.heading', 'modal.collectives.lila.text', 'LDrache', null,null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/drache.png" alt="collective image">
                 </a>
             </div>
             
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.l300.heading', 'modal.collectives.l300.text', 'L300DecArt', 'l300decart');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/l300.png" alt="collective image">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.l300.heading', 'modal.collectives.l300.text', 'L300DecArt', 'l300decart',null);">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/l300l.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.reihe.heading', 'modal.collectives.reihe.text', 'ZWEITE-REIHE-446423509465185', 'zweitereihe');">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.reihe.heading', 'modal.collectives.reihe.text', 'ZWEITE-REIHE-446423509465185', 'zweitereihe',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/reihe.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-6 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.orgia.heading', 'modal.collectives.orgia.text', 'orgiadreitausend', 'orgia3000');">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.orgia.heading', 'modal.collectives.orgia.text', 'orgiadreitausend', 'orgia3000',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/orgia.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-6 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.resonant.heading', 'modal.collectives.resonant.text', 'resonantKollektiv', null);">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.resonant.heading', 'modal.collectives.resonant.text', 'resonantKollektiv', null,null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/resonant.png" alt="collective image">
                 </a>
             </div>
@@ -205,18 +213,28 @@
         </div>
         <div class="row">
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.nautilux.heading', 'modal.collectives.nautilux.text', null, 'nautilux');">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.nautilux.heading', 'modal.collectives.nautilux.text', null, 'nautilux',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/nautilux.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.klubska.heading', 'modal.collectives.klubska.text', 'klubskascenalitija', 'klubskascenalitija');">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.klubska.heading', 'modal.collectives.klubska.text', 'klubskascenalitija', 'klubskascenalitija',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/ks.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.kvhz.heading', 'modal.collectives.kvhz.text', null, null);">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.kvhz.heading', 'modal.collectives.kvhz.text', null, null,'kvhz061');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/kvhz.png" alt="collective image">
+                </a>
+            </div>
+            <div class="collective col-xl-3 col-md-4 col-6">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.wert.heading', 'modal.collectives.wert.text', null, null,null);">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/wert.png" alt="collective image">
+                </a>
+            </div>
+            <div class="collective col-xl-3 col-md-4 col-6">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.material.heading', 'modal.collectives.material.text', null, null,'materialbuffet_ev');">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/material.png" alt="collective image">
                 </a>
             </div>
             <div class="collective col-xl-3 col-md-4 col-6">
@@ -240,13 +258,24 @@
                 <h2 class="section-heading text-uppercase" data-i18n="artists.heading">#</h2>
             </div>
         </div>
-        <div class="row">
-            
-            <div class="col-12">
-                <p class="text-center text-justify lead">
-                    tba
-                </p>
+        <div class="row text-center" >
+            <div class="d-flex flex-wrap justify-content-between m-4 text-center text-primary jus" id="artistsLineup">
+    
             </div>
+            <!--
+                <div class="col-12">
+                    <p class="text-center text-justify lead">
+                        tba
+                    </p>
+                </div>
+                <div class="artist col-xl-3 col-md-4 col-6">
+                    <a target="_blank" onclick="$(this).buildArtistModal('modal.artists.ada.heading', 'modal.artists.ada.text', null, 'ada',null);">
+                        <img class="img-fluid d-block mx-auto" src="img/artists/ada.jpg" alt="artist image">
+                    </a>
+                </div>
+
+            -->
+            
         </div>
     </div>
 </section>
@@ -780,6 +809,11 @@
                             <i class="fab fa-soundcloud"></i>
                         </a>
                     </li>
+                    <li id="modalCollContainerInst" class="list-inline-item">
+                        <a id="modalCollLinkInst" href="#" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
                 </ul>
                 <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
             </div>
@@ -797,15 +831,17 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body text-justify">
+            <div id="modalArtistBody" class="modal-body text-justify">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
-                            <img id="modalArtistImage" class="img-fluid" alt="artist image" src="#"/>
+                            <a id="modalArtistImageLink">
+                                <img id="modalArtistImage" class="img-fluid" alt="artist image" src="#"/>
+                            </a>
                             <small id="modalArtistCopyright" class="d-none"></small>
                         </div>
                         <div class="col-12 mt-3">
-                            <p id="modalArtistText" class="mb-0">#</p>
+                            <p id="modalArtistText" class="mb-0 d-none">#</p>
                         </div>
                     </div>
                 </div>
@@ -830,6 +866,21 @@
                     <li id="modalArtistContainerYt" class="list-inline-item d-none">
                         <a id="modalArtistLinkYt" href="#" target="_blank">
                             <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerBc" class="list-inline-item d-none">
+                        <a id="modalArtistLinkBc" href="#" target="_blank">
+                            <i class="fab fa-bandcamp"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerMc" class="list-inline-item d-none">
+                        <a id="modalArtistLinkMc" href="#" target="_blank">
+                            <i class="fab fa-mixcloud"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerDefault" class="list-inline-item d-none">
+                        <a id="modalArtistLinkDefault" href="#" target="_blank">
+                            <i class="fas fa-globe"></i>
                         </a>
                     </li>
                 </ul>

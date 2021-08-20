@@ -10,9 +10,19 @@
     }
   }
 }
-
+#modalArtist{
+  
+}
 #modalArtist img {
   max-width: 70%;
   margin: 0 auto;
   display: block;
+  
+}
+.artistLink{
+  cursor: pointer;
+  color: $accent;
+}
+.artist h2{
+  color: $accent;
 }
