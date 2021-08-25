@@ -12,7 +12,7 @@
   },
   "nav": {
     "project": "Das Projekt",
-    "artists": "Künstler*innen",
+    "artists": "Künstler:innen",
     "info": "Info",
     "avenue": "Anfahrt",
     "contact": "Kontakt",
@@ -31,7 +31,7 @@
     "button": "Mehr Erfahren"
   },
   "artists": {
-    "heading": "Künstler*innen",
+    "heading": "Künstler:innen",
     "subheading": "(bisher bestätigt - weitere folgen in Kürze)",
     "years":["2020", "2021"]
   },
@@ -52,7 +52,7 @@
     "box2": {
       "heading": "Tickets",
       "subheading1": "Soliticket (90€) - SOLD OUT",
-      "text1": "Da es uns am Herzen liegt, DJs und andere Kleinkünster*innen in der aktuell schwierigen Situation zu unterstützen, bieten wir ein Soli-Ticket an, denn durch die weltweite Verbreitung des SARS-CoV-2 Corona Virus bricht die Lebensgrundlage vieler dieser Menschen fast völlig weg. Wer die Möglichkeit hat zu helfen, kann das Soli-Ticket ab sofort erwerben. Der gesammelte Mehrbetrag ermöglicht es uns, die bisher kleinen Gagen für die Artists auf dem Tarmac Festival aufzustocken.",
+      "text1": "Da es uns am Herzen liegt, DJs und andere Kleinkünster:innen in der aktuell schwierigen Situation zu unterstützen, bieten wir ein Soli-Ticket an, denn durch die weltweite Verbreitung des SARS-CoV-2 Corona Virus bricht die Lebensgrundlage vieler dieser Menschen fast völlig weg. Wer die Möglichkeit hat zu helfen, kann das Soli-Ticket ab sofort erwerben. Der gesammelte Mehrbetrag ermöglicht es uns, die bisher kleinen Gagen für die Artists auf dem Tarmac Festival aufzustocken.",
       "subheading2": "Camper-/ Autopass (10€) - SOLD OUT",
       "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto auf dem Zeltplatz übernachten möchtest, hol dir einen Camper-/ Autopass! Der Pass ermöglicht dir, mit deinem Fahrzeug auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
     },
@@ -60,25 +60,25 @@
       "heading": "An- & Abreise",
       "subheading1": "Einlass Festivalgelände",
       "question1": "Wie komme ich zum Festivalgelände?",
-      "text1": "<strong>Der Camping-Platz öffnet Donnerstag, den 2.9.2021 14 Uhr.</strong><br><br><strong>Das Festival-Programm beginnt Freitag, den 3.9.2021 12 Uhr.</strong><br><br>Die Anreise ist auch mit öffentlichen Verkehrsmitteln möglich: Nutzt hierfür die Regional-Bahn bis zum Hauptbahnhof Sangerhausen. Falls ihr mit dem Auto anreisen werdet, gebt als Ziel in das Navi \"Flugplatz Allstedt\" oder die Koordinaten 51.389001, 11.450220 ein. Es gibt nur eine Zufahrtsmöglichkeit.",
+      "text1": "<strong>Der Camping-Platz öffnet Donnerstag, den 2.9.2021 14 Uhr.</strong><br><br><strong>Das Festival-Programm beginnt Freitag, den 3.9.2021 12 Uhr.</strong><br><br>Die Anreise ist auch mit öffentlichen Verkehrsmitteln möglich: Nutzt hierfür die Regional-Bahn bis zum Hauptbahnhof Sangerhausen oder Querfurth mit Umstieg in Merseburg (aus Halle kommend). Achtung: zwischen Halle und Sangerhausen besteht zwischen Halle und Teutschenthal/ Röblingen am See Schienenersatzverker (SEV). Die Fahrradmitnahme ist dadurch leider sehr stark eingeschränkt (siehe “Begleitete Radtouren).  Falls ihr mit dem Auto anreisen wollt, gebt als Ziel in das Navi \"Flugplatz Allstedt\" oder die Koordinaten 51.389001, 11.450220 ein. Es gibt nur eine Zufahrtsmöglichkeit.",
       "subheading2": "Heimreise",
       "question2": "Wann muss ich meine Heimreise antreten?",
-      "text2": "<strong>Das Festival-Programm endet Sonntag, den 5.9.2021 18 Uhr.</strong><br><br><strong>Abreise ist bis spätestens Montag, den 6.9.2021 14 Uhr möglich.</strong>",
+      "text2": "<strong>Das Festival-Programm endet Sonntag, den 5.9.2021 20 Uhr.</strong><br><br><strong>Abreise ist bis spätestens Montag, den 6.9.2021 14 Uhr möglich.</strong>",
       "subheading3": "Shuttleservice",
       "question3": "Gibt es einen Shuttleservice?",
-      "text3": "Einen Shuttle können wir leider nicht anbieten, da in den Bussen nicht genügend Abstand gehalten werden kann (siehe auch Hygiene- und Coronamaßnahmen (Stand 2020)) . Stattdessen bieten wir geführte Radtouren an. Weiterhin wird es ein Portal geben, um Fahrgemeinschaften zu bilden.<br><br>Nummern lokaler Taxiunternehmen:<br>Taxi Strube: +493464 611313<br>Taxi Weidemann: +493464 579666<br>Taxi Lampert: +493464 515860",
+      "text3": "Einen Shuttle können wir leider nicht anbieten, da in den Bussen nicht genügend Abstand gehalten werden kann. Stattdessen bieten wir geführte Radtouren an.<br><br>Nummern lokaler Taxiunternehmen:<br>Taxi Strube: +493464 611313<br>Taxi Weidemann: +493464 579666<br>Taxi Lampert: +493464 515860",
       "subheading4": "Mitfahrgelegenheiten",
       "question4": "Wo kann ich Mitfahrgelegenheiten organisieren?",
-      "text4": "Es wird wieder die Möglichkeit geben, über das Portal “Movaco” Fahrgemeinschaften zu bilden. Den Link dazu werden wir bald hier bereitstellen.",
-      "subheading5": "Begleitete Radtouren",
+      "text4": "Es gibt eine Telegram-Gruppe, in der ihr euch über Mitfahrgelegenheiten austauschen könnt. Den Zugangs-Link dazu erhaltet ihr mit einer allgemeinen Info-E-Mail vom Tarmac.",
+      "subheading5": "Mit dem Fahrrad und Zug zum Tarmac",
       "question5": "Wie funktioniert das mit den begleiteten Radtouren?",
-      "text5": "Ab Sangerhausen gibt es begleitete Radtouren mit Gepäckservice (nur für Personen mit Festival-Ticket). Wir haben uns was einfallen lassen, wie ihr gut geleitet und entspannt mit eurem eigenen Rad zum Flugplatz fahren könnt. Das Gepäck wird ab Sangerhausen bis zum Flugplatz von uns kostenfrei transportiert. Die Fahrzeit beträgt ca 1,5 h, inklusive 2 Pausen und 6% Steigung im letzten Streckenabschnitt. Die Strecke verläuft überwiegend auf Radwegen, teilweise auf der Landstraße ohne Radweg. <br><br>Die Fahrpläne (Sangerhausen Bahnhof - Allstedt Flugplatz / Allstedt Flugplatz - Sangerhausen Bahnhof) werden zu gegebener Zeit an dieser Stelle bekannt gegeben. Eine Anmeldung ist nicht notwendig.<br><br><strong>Bitte beachtet:</strong> Die Fahrradstellplätze in den Zügen zwischen Halle und Sangerhausen sind begrenzt. Sind die Züge voll, könnt ihr nicht mitfahren und müsst auf den nächsten Zug warten. Bitte plant ein, dass ihr ggf. mit einer oder zwei Stunden Verspätung in Sangerhausen ankommt.",
+      "text5": "Dieses Jahr bieten wir euch wieder eine Möglichkeit, mit den öffentlichen Verkehrsmitteln plus eurem Fahrrad ab Halle zum Tarmac zu kommen. Aufgrund einer Sperrung der Bahn-Strecke und SEV zwischen Halle und Teutschenthal, haben wir die geführte Radtouren etwas umorganisiert.<br><br>Die Flotte Lotte Reisegruppe transportiert kostenlos euer Gepäck aufs Festivalgelände, damit ihr entspannt mit dem Fahrrad fahren könnt. Jeweils Donnerstag (2.9.21) und Freitag (3.9.21) gibt's die Möglichkeit, euer Gepäck bei uns abzugeben.<br><br><strong>Wo: asphaltierter Vorplatz am Peißnitzhaus in Halle</strong><br><br><strong>Wann: 12-16 Uhr</strong><br><br>Nach der Gepäckabgabe könnt ihr euch selbstständig auf eure Reiseroute gen Festivalgelände begeben. Wir empfehlen: Mit dem Fahrrad in 45 Minuten bis Teutschenthal. Dort nehmt ihr den Zug nach Sangerhausen (Achtung: Begrenzte Fahrradstellplätze in den Zügen zwischen Teutschenthal und Sangerhausen!  Bedenkt bitte, dass ihr unter Umständen nicht den gewünschten Zug nehmen könnt und es für euch zu zeitlichen Verzögerungen kommen kann). Von Sangerhausen aus sind es nochmal knappe 1,5 Stunden Fahrradtour mit einer 6% Steigung kurz vorm Ziel.<br><br>Wir sorgen auf der Route zwischen Sangerhausen und Allstedt-Flugplatz für gute Laune, Pause, Snacks und Drinks. Die Strecke Halle - Teutschenthal müsstet ihr auf eigene Faust gestalten. Dafür bekommt ihr bei der Gepäckabgabe einen Routenplan von uns ausgehändigt.<br><br>Donnerstag und Freitag könnt ihr dann jeweils ab 18 Uhr euer Gepäck am Infopoint auf dem Festivalgelände abholen.<br><br>Zur besseren Koordinierung der Reisegruppe haben wir eine Telegram-Gruppe aufgemacht. Den Link dazu haben alle Ticketinhaber:innen mit einer Info-E-Mail vom Tarmac zugesendet bekommen.<br><br>Für die Rücktouren von Allstedt nach Halle transportieren wir auch wieder euer Gepäck. Die Radtouren müsst ihr jedoch selbst organisieren. Diese werden nicht begleitet sein. Die Gepäckabgabe ist wieder am Infopoint. Das abgegebene Gepäck könnt ihr dann Montag, den 6.9. zwischen 16 und 18 Uhr in Halle abholen. Den Ort dafür geben wir noch bekannt.",
       "subheading6": "Autopass",
       "question6": "Wann benötige ich einen Autopass?",
       "text6": "Ihr braucht einen Autopass, falls ihr euer Fahrzeug mit auf den Campingplatz nehmen möchtet (begrenzte Anzahl). Andernfalls könnt ihr euer Auto auf dem Parkplatz kostenlos abstellen. Der Fußweg zum Campingplatz beträgt von dort noch etwa 5 Minuten. Für Wohnmobile o. Ä. gibt es keine Strom- oder Wasseranschlussmöglichkeiten.",
       "subheading7":"No Ticket - No Entry",
       "question7":"Gibt es eine Tages- oder Abendkasse?",
-      "text7":"Ist das Festival ausverkauft und Ihr habt kein Ticket, lohnt die Anreise nicht. Es wird leider keine Tages- und Abendkasse geben können. Sollten wir dennoch \"Gäste\" antreffen, die kein Bändchen haben und diese nicht nachweisen können, dass sie ein Ticket erworben haben, machen wir von unserem Hausrecht Gebrauch und werfen diese Personen raus. Ohne Diskussion! Bitte haltet eure Bändchen stets zum Vorzeigen bereit. Bändchen-Kontrollen gibt es beim Einlass, bei jedem Zutritt zur Tanzfläche, beim Bestellen an der Bar und stichprobenartig während des gesamten Festivals. Jeden Versuch, das Festivalgelände ohne Ticket zu betreten, werten wir als Absicht, unser Festival stören zu wollen. Dem entgegnen wir entschieden mit Hausverboten."
+      "text7":"Das Festival ist ausverkauft und es wird leider keine Tages- und Abendkasse geben können. Wenn ihr kein Ticket habt, lohnt die Anreise nicht. Sollten wir dennoch \"Gäste\" antreffen, die kein Bändchen haben und diese nicht nachweisen können, dass sie ein Ticket erworben haben, machen wir von unserem Hausrecht Gebrauch und werfen diese Personen raus. Ohne Diskussion! Bitte haltet eure Bändchen stets zum Vorzeigen bereit. Bändchen-Kontrollen gibt es beim Einlass, bei jedem Zutritt zur Tanzfläche, beim Bestellen an der Bar und stichprobenartig während des gesamten Festivals. Jeden Versuch, das Festivalgelände ohne Ticket zu betreten, werten wir als Absicht, unser Festival stören zu wollen. Dem entgegnen wir entschieden mit Hausverboten."
    
     },
     "box5": {
@@ -108,14 +108,14 @@
     "box6": {
       "heading": "Sicherheit & Hilfe",
       "subheading1": "Awarenessstrukturen",
-      "question1": "Werden Awarenessstrukturen vorgehalten?",
-      "text1": "Auch unser Awareness-Team wird das ganze Festival über im Einsatz sein und euch unterstützen, wenn ihr selbst Hilfe oder Unterstützung beim Helfen benötigt. Sollte gerade kein Team in der Nähe sein, meldet euch bitte an der nächsten Bar.",
+      "question1": "Gibt es Awarenessstrukturen?",
+      "text1": "Unser Awareness-Team wird das ganze Festival von Donnerstag 16 bis Sonntag 16 Uhr über im Einsatz sein und euch unterstützen, wenn ihr selbst Hilfe oder Unterstützung beim Helfen benötigt.<br><br>Wir tolerieren kein diskriminierendes Verhalten und streben einen Schutzraum für alle auf dem Festival an, daher bitten wir euch im Gegenzug ebenfalls um Unterstützung, falls wir nicht direkt vor Ort sein können. Sollte gerade kein Team in der Nähe sein, meldet euch bitte an der nächsten Bar oder dem Stand der Awareness-Struktur.  Allerdings (gern auch anders formuliert) funktioniert Awareness nicht nur durch eine Awarenessstruktur, daher sind wir auch auf eure mithilfe angewiesen. Bitte gebt aufeinander acht und seid respektvoll miteinander, damit wir alle gemeinsam ein schönes Tarmac haben können.",
       "subheading2": "Sicherheitspersonal",
       "question2": "Wird die Veranstaltung von Sicherheitspersonal betreut?",
-      "text2": "Ja. In enger Abstimmung mit uns ist die Sicherheitsfirma beauftragt, unser Sicherheits- und Hygienekonzept durchzusetzen. Die Mitarbeiter*innen sind über alle wichtigen Facts, die wir mit euch vereinbart haben, informiert und handeln auch dementsprechend. Bei renitentem Verhalten helfen sie, unser Hausrecht durchzusetzen. Wenn ihr Probleme habt oder euch unsicher fühlt, wendet euch gern auch an das gekennzeichnete Sicherheitspersonal.",
+      "text2": "Ja. Wir freuen uns auf die Zusammenarbeit mit der professionellen Sicherheitsfirma “Movement” aus Leipzig. In enger Abstimmung mit uns ist die Sicherheitsfirma beauftragt, unser Sicherheits- und Hygienekonzept durchzusetzen. Die Mitarbeiter:innen sind über alle wichtigen Facts, die wir mit euch vereinbart haben, informiert und handeln auch dementsprechend. Bei renitentem Verhalten helfen sie, unser Hausrecht durchzusetzen. Wenn ihr Probleme habt oder euch unsicher fühlt, wendet euch gern auch an das gekennzeichnete Sicherheitspersonal.",
       "subheading3": "Fotos & Videos",
       "question3": "Darf ich Fotos und Videos machen, auf denen andere Menschen eindeutig zu erkennen sind?",
-      "text3": "Das Anfertigen von Fotos & Videos ist nicht erlaubt. Respektiert die Privatsphäre der anderen und genießt das Wochenende ohne Smartphone. Es wird ein von uns beauftragtes Team - mit Rücksicht auf eure Privatsphäre - Fotos und Filmaufnahmen zur Dokumentation anfertigen.",
+      "text3": "Das Anfertigen von Fotos & Videos ist nicht erlaubt. Respektiert die Privatsphäre der anderen und genießt das Wochenende ohne Smartphone. Es wird ein von uns beauftragtes Team - mit Rücksicht auf eure Privatsphäre - Fotos und Filmaufnahmen zur Dokumentation anfertigen. Dieses Team wird für euch ersichtlich gekennzeichnet sein.",
       "subheading4": "Verhalten bei Unwetter",
       "question4": "Was geschieht bei einem Unwetter?",
       "text4": "Sollte es zu einem Unwetter kommen, befolgt die Ansagen der Security und der Festivalcrew. Bringt euch und andere in Sicherheit. Haltet Abstand von Bäumen oder Bühnenaufbauten.",
@@ -124,7 +124,10 @@
       "text5": "Der Verkauf und Konsum von illegalen Drogen ist nicht erlaubt. Personen, die Drogen verkaufen, werden vom Gelände verwiesen und müssen mit einer Strafanzeige rechnen. ",
       "subheading6": "Erste Hilfe",
       "question6": "Kann ich im Notfall medizinisch behandelt werden?",
-      "text6": "Während des gesamten Festivals wird ein professioneller Sanitäts-Dienst mit Rettungswagen auf dem Festival-Gelände sein. Um Hilfe zu rufen, wendet euch an das Personal an den Bühnen oder geht direkt zum Sani-Standort."
+      "text6": "Während des gesamten Festivals wird ein professioneller Sanitäts-Dienst mit Rettungswagen auf dem Festival-Gelände sein. Um Hilfe zu rufen, wendet euch an das Personal an den Bühnen oder geht direkt zum Sani-Standort.",
+      "subheading7": "PsyCare",
+      "question7": "Fragen rund um das Thema Drogen?",
+      "text7": "Unser PsyCare-Team beantwortet sie dir und deinen Freunden gern an unserem Infostand. Zudem werden wir Nachts ein kleines Team zur Begleitung haben. Heißt, wenn der Trip komisch wird, die Pille zu stark schiebt, oder ihr auf Menschen stoßt die Hilfe brauchen: Sagt uns gern bescheid!<br><br>Oder kommt einfach zu unserem kleinen Chill Out Space, und genießt einen leckeren Chai mit uns."
        },
     "box7": {
       "heading": "Gelände",
@@ -148,13 +151,13 @@
       "heading": "Haftung",
       "subheading1": "Hausrecht",
       "question1": "Wem obliegt das Hausrecht während der Veranstaltung?",
-      "text1": "Während des Festivals sind wir Mieter*innen des Flugplatzes. Rassismus, Sexismus, Antisemitismus und andere Formen der Diskriminierung werden von uns nicht toleriert. Wir behalten uns vor, in solchen Fällen von unserem Hausrecht gebrauch zu machen.",
+      "text1": "Während des Festivals sind wir Mieter:innen des Flugplatzes. Rassismus, Sexismus, Antisemitismus und andere Formen der Diskriminierung werden von uns nicht toleriert. Wir behalten uns vor, in solchen Fällen von unserem Hausrecht gebrauch zu machen.",
       "subheading2": "Haftung Wertgegenstände",
       "question2": "Wer haftet für verlorene/ geklaute Wertgegenstände?",
       "text2": "Achtet auf Eure Wertgegenstände und nehmt nur das Nötigste mit. Wir können keine Haftung für verlorene oder gestohlene Sachen übernehmen.",
       "subheading3": "Verursachte Schäden",
       "question3": "Wer haftet für einen Schaden, den ich verursacht habe?",
-      "text3": "Jede(r) Besucher*in hat sich so zu verhalten, dass eine Gefährdung von anderen Besucher*innen oder Dritten ausgeschlossen ist. Für Schäden, die Ihr verursacht, seid Ihr auch verantwortlich.",
+      "text3": "Jede(r) Besucher:in hat sich so zu verhalten, dass eine Gefährdung von anderen Besucher:innen oder Dritten ausgeschlossen ist. Für Schäden, die Ihr verursacht, seid Ihr auch verantwortlich.",
       "subheading4": "Mindestalter",
       "question4": "Wie alt muss man sein, um das Festivalgelände betreten zu dürfen?",
       "text4": "Das Festival ist ausnahmslos für Erwachsene (P18). Zum Altersnachweis akzeptiert werden ausschließlich amtliche Lichtbildausweise (keine Studienausweise, Krankenkarten, usw.)."
@@ -176,27 +179,27 @@
     },
     "box10": {
       "heading": "Hygiene- und Coronamaßnahmen",
-      "subheading1": "Grundsätzliches",
-      "question1": "Grundsätzliches",
-      "text1": "Wir stellen uns wieder darauf ein, ein Festival mit erweiterten Hygiene- und Corona-Maßnahmen durchzuführen. Welchen Umfang diese haben werden, können wir heute noch nicht genau sagen. Wir beobachten die Lage und werden bis zum Festival-Beginn in enger Abstimmung mit der lokalen Gesundheitsbehörde unser Hygienekonzept stetig anpassen. Es ist davon auszugehen, dass mindestens die Anforderungen vom letzten Jahr gelten werden. Bis wir euch hier auf den neuesten Stand bringen können, findet ihr folgend, welche Anforderungen das 2020 waren:",
+      "subheading1": "Grundsätzliches und 3 G-Regelung",
+      "question1": "Grundsätzliches und 3 G-Regelung",
+      "text1": "Einlass zur Veranstaltung wird gemäß der geltenden Verordnung nur Besucher:innen gewährt die getestet, geimpft oder genesen sind.<br><br>Eine Besucher:in gilt als getestet, wenn ein Testzertifikat aus einem öffentlichen Testzentrum vorgelegt wird.<br><br>Eine Besucher:in gilt als geimpft, wenn der Impfstatus gemäß der geltenden Verordnung vollständig ist.<br><br>Eine Besucher:in gilt als genesen, wenn eine Bescheinigung über eine überstandene Corona Infektion vorgelegt wird. Die Bescheinigung darf nicht älter als 6 Monate sein.<br><br>Der jeweilige Nachweis ist am Einlass vorzulegen. Die Art des Nachweises wird am Einlass im Rahmen der Kontaktnachverfolgung dokumentiert.<br><br>Sollte kein geeigneter Nachweis vorliegen ist eine Testung durch den ASB Mansfeld-Südharz vor Ort möglich.",
       "subheading2": "Kein Zutritt mit Symptomen",
       "question2": "Kein Zutritt für Menschen mit Covid-19-Symptomen",
-      "text2": "<strong>(Stand 2020)</strong> Kein Zutritt für Menschen, die in den letzten 14 Tagen vor Festivalbeginn aus einem Risikogebiet eingereist sind und nicht negativ getestet wurden.<br><br>Kein Zutritt für Menschen, die in den letzten 10 Tagen vor Festivalbeginn Kontakt zu einem positiv getesteten Menschen hatten und selbst nicht negativ getestet wurden.",
+      "text2": "Kein Zutritt für Menschen, die in den letzten 14 Tagen vor Festivalbeginn aus einem Risikogebiet eingereist sind und nicht negativ getestet wurden.<br><br>Kein Zutritt für Menschen, die in den letzten 10 Tagen vor Festivalbeginn Kontakt zu einem positiv getesteten Menschen hatten und selbst nicht negativ getestet wurden.",
       "subheading3": "Kontaktinformationen",
       "question3": "Muss ich Kontaktinformationen hinterlassen?",
-      "text3": "<strong>(Stand 2020)</strong> Am Einlass werden wir die <u>per E-Mail an alle Ticketholder versendeten Corona-Fragebögen</u> einsammeln. <strong>Füllt diese möglichst zuhause aus. Die Unterschrift aber erst vor Ort am Tag der Anreise darunter setzen!</strong> Bitte tragt auch ein, mit wem ihr beabsichtigt, in einem Zelt zu schlafen. Uns ist bewusst, dass sich diese Absichten während des Festivals ändern können. Darüber müsst ihr uns dann nicht informieren.",
+      "text3": "Am Einlass werden wir die <u>per E-Mail an alle Ticketinhaber:innen versendeten Corona-Fragebögen</u> einsammeln. <strong>Füllt diese möglichst zuhause aus. Die Unterschrift aber erst vor Ort am Tag der Anreise darunter setzen!</strong> Bitte tragt auch ein, mit wem ihr beabsichtigt, in einem Zelt zu schlafen. Uns ist bewusst, dass sich diese Absichten während des Festivals ändern können. Darüber müsst ihr uns dann nicht informieren.",
       "subheading4": "Abstand halten",
       "question4": "Muss ich Abstand halten zu anderen?",
-      "text4": "<strong>(Stand 2020)</strong> Haltet 1,5 Meter Mindestabstand zueinander. Markierungen vor den Toiletten, Bars und Essensständen werden euch dabei helfen.",
+      "text4": "Haltet 1,5 Meter Mindestabstand zueinander. Markierungen vor den Toiletten, Bars und Essensständen werden euch dabei helfen.",
       "subheading5": "Mund-Nase-Bedeckung",
       "question5": "Gibt es ein Pflicht zum Tragen von Mund-Nase-Bedeckungen?",
-      "text5": "<strong>(Stand 2020)</strong> Überall dort, wo der Mindestabstand nicht eingehalten werden kann, herrscht die Pflicht des Tragens ein Mund-Nase-Bedeckung. Darüber hinaus gilt dies an den Bars, Essensständen und in all jenen Bereichen, die wir entsprechend markiert oder mit Hinweisschildern ausgewiesen haben. Denkt also daran, eure selbstgenähte Maske, ein Tuch oder etwas vergleichbares mitzubringen und immer mit euch zu führen.",
+      "text5": "Überall dort, wo der Mindestabstand nicht eingehalten werden kann, herrscht die Pflicht des Tragens einer Maske. Darüber hinaus gilt dies an den Bars, Essensständen und in all jenen Bereichen, die wir entsprechend markiert oder mit Hinweisschildern ausgewiesen haben.",
       "subheading6": "Auf der Tanzfläche",
       "question6": "Wie können trotz Corona Menschen zusammen auf einer Tanzfläche sein?",
-      "text6": "<strong>(Stand 2020)</strong> Jede Bühne hat eine eingegrenzte Fläche, an deren Größe sich die maximal zulässige Personenzahl auf der Tanzfläche bemisst. Diese Personenzahl darf nicht überschritten werden, damit rechnerisch jede Person den Mindestabstand einhalten kann. Zur Orientierung werden wir hier für den richtigen Mindestabstand Markierungen anbringen. Jede Bühne hat einen separaten Zugang und Ausgang. Hier kontrolliert unser Team die Einhaltung der maximalen Personenzahl. Bei 6 Bühnen für 1000 Gäste gehen wir von einer Dynamik aus, die diese Grenze höchst selten erreichen lassen wird und wir alle immer genügend Platz haben werden.",
+      "text6": "Jede Bühne hat eine eingegrenzte Fläche, an deren Größe sich die maximal zulässige Personenzahl auf der Tanzfläche bemisst. Diese Personenzahl darf nicht überschritten werden, damit rechnerisch jede Person den Mindestabstand einhalten kann. Jede Bühne hat einen separaten Zugang und Ausgang. Hier kontrolliert unser Team die Einhaltung der maximalen Personenzahl. Bei 7 Bühnen für 1000 Gäste gehen wir von einer Dynamik aus, die diese Grenze höchst selten erreichen lassen wird und wir alle immer genügend Platz haben werden.",
       "subheading7": "Hand-Desinfektion",
       "question7": "Wo kann ich meine Hände desinfizieren/ reinigen?",
-      "text7": "<strong>(Stand 2020)</strong> Wir haben auf dem Gelände Handwasch-Stationen verteilt. Diese enthalten eine Handreinigungs- und Desinfektionslotion. Wasser wird hierfür nicht benötigt."
+      "text7": "Es wird an mehreren Orten eine Möglichkeit zum Händewaschen mit Seife und zum Desinfizieren zur Verfügung gestellt."
     }
   },
   "contact": {
@@ -236,7 +239,7 @@
       "heading": "Chronik",
       "text1": "In den letzten Jahren hat es uns fasziniert, wie sich Menschen im subkulturellen Raum bewegen, sich in Kollektiven organisieren, richtig was reißen und dabei bedächtig ihre Werte vertreten. Es stellte sich heraus, dass die einzelnen Kollektive einander schon wahrgenommen haben, jedoch selten gemeinsame Veranstaltungen organisierten, auch weil die diversen musikalischen Ausrichtungen den Prozess zunächst nicht offensichtlich erschienen ließen.",
       "text2": "Wir waren uns einig, dass die Realisierung des Projektes dann besonders gut gelingen würde, wenn wir die bereits aktiven Kollektive in Halle und weit gefasster Umgebung motivieren könnten, Teil einer Idee zu werden. 2018 begannen wir damit, uns als Team-Tarmac bei verschiedenen Kollektiven vorzustellen. Wir saßen in Plena, bauten ein verschiedene Kunst- und Musikbereiche umspannendes Netzwerk auf, halfen dabei, Open-Air-Raves und andere Veranstaltungen zu verwirklichen.",
-      "text3": "Ende 2018 führten wir erste Gespräche mit den Betreiber*innen des Flugplatzes Allstedt. Gut, hier gelandet zu sein: Ein Stück Wald und Beton. Eine inspirierende Flugplatzruine. Ein Rollfeld (zu engl. TARMAC), das bis an den Horizont reicht, nahe Halle und Leipzig. Quasi mit Zug und Fahrrad zu erreichen. Kurzum: Die optimale Location für uns.",
+      "text3": "Ende 2018 führten wir erste Gespräche mit den Betreiber:innen des Flugplatzes Allstedt. Gut, hier gelandet zu sein: Ein Stück Wald und Beton. Eine inspirierende Flugplatzruine. Ein Rollfeld (zu engl. TARMAC), das bis an den Horizont reicht, nahe Halle und Leipzig. Quasi mit Zug und Fahrrad zu erreichen. Kurzum: Die optimale Location für uns.",
       "text4": "2019 war die Kooperation dann beschlossene Sache. Es folgten die dauerhafte Nutzung eines Flugzeughangars und viele Arbeitseinsätze, um das Gelände für das Jahr 2020 festivaltauglich zu machen.",
       "text5": "Im Sommer 2019 verwirklichten wir unter vereinten Kräften unseren ersten privaten Rave auf dem Gelände. Dieser hat uns gezeigt, was es bedeutet, ein Projekt dieser Größe durch ehrenamtliche Arbeit, Selbstbestimmtheit und Eigenfinanzierung wahr werden zu lassen. Euer Kommen hat uns Bestätigung und Kraft gegeben, mit unseren Visionen ein richtiges Ziel zu verfolgen."
     },
@@ -258,15 +261,15 @@
       },
       "resonant": {
         "heading": "resonant",
-        "text": "[Resonánz] - Substantiv, feminin, die<br><br>Was eigentlich als spontane Zusammenkunft von Freund*innen begann, wuchs irgendwann zu einer festen Struktur heran. Was eigentlich als einmaliges Ereignis geplant war, fand im Sommer 2018 plötzlich jede Woche statt. Seither versuchen wir regelmäßig neue Resonanzräume für alle denkbaren Spielarten elektronischer Musik zu (er)schaffen und dabei der gängigen Verwertungslogik zu trotzen."
+        "text": "[Resonánz] - Substantiv, feminin, die<br><br>Was eigentlich als spontane Zusammenkunft von Freund:innen begann, wuchs irgendwann zu einer festen Struktur heran. Was eigentlich als einmaliges Ereignis geplant war, fand im Sommer 2018 plötzlich jede Woche statt. Seither versuchen wir regelmäßig neue Resonanzräume für alle denkbaren Spielarten elektronischer Musik zu (er)schaffen und dabei der gängigen Verwertungslogik zu trotzen."
       },
       "orgia": {
         "heading": "Orgia",
-        "text": "Die Organisierte-Rave-Gemeinschaft-In-Aktion (ORGIA), gegründet 2018, spezialisiert sich auf Full-Service-Solutions im Tanzveranstaltungsbereich und hat sich innerhalb kürzester Zeit zu einem führenden Dienstleister in diesem Segment etabliert. Mit rund 12 Mitarbeiter*innen in den beiden Standorten Halle-Musterstadt und Leipzig-Beispieldorf erzielte unser Unternehmen zuletzt rund 253 Euro Umsatz!<br><br>Im Zuge des Tarmac Festivals wurde ORGIA mit der Projektierung eines Hangar Tanzplatzes betraut. Zur Beschallung werden Acid, Elektro, Rave & Trance als stilprägende Elemente eingesetzt."
+        "text": "Die Organisierte-Rave-Gemeinschaft-In-Aktion (ORGIA), gegründet 2018, spezialisiert sich auf Full-Service-Solutions im Tanzveranstaltungsbereich und hat sich innerhalb kürzester Zeit zu einem führenden Dienstleister in diesem Segment etabliert. Mit rund 12 Mitarbeiter:innen in den beiden Standorten Halle-Musterstadt und Leipzig-Beispieldorf erzielte unser Unternehmen zuletzt rund 253 Euro Umsatz!<br><br>Im Zuge des Tarmac Festivals wurde ORGIA mit der Projektierung eines Hangar Tanzplatzes betraut. Zur Beschallung werden Acid, Elektro, Rave & Trance als stilprägende Elemente eingesetzt."
       },
       "teilko": {
         "heading": "Teilkonversum 7",
-        "text": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund*innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an \"Drinnenpartys\" gefunden haben.<br><br>Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.<br><br>Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
+        "text": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund:innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an \"Drinnenpartys\" gefunden haben.<br><br>Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.<br><br>Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
       },
       "lila": {
         "heading": "Lila Drache",
@@ -274,7 +277,7 @@
       },
       "klubska": {
         "heading": "klubska scena",
-        "text": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer*innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
+        "text": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer:innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
       },
       "nautilux": {
         "heading": "Nautilux",
@@ -286,7 +289,7 @@
       },
       "mjut": {
         "heading": "mjut",
-        "text": "Die Kinder von der Haltestelle Zoo sind ein Veranstaltungskollektiv aus Halle, bestehend aus Producern, DJs*, Bastler:innen und Technikbegeisterten. Diesen bunten Haufen verbinden jahrelange Bekanntschaften und Freundschaften, aber vor allem die Liebe zu lauter Musik und zum Tanzen. Daher fing man im Sommer 2018 an gemeinsam Partys zu schmeißen und etablierte sich seitdem in der halleschen Raveszene. Nun sind die Kinder von der Haltestelle auch beim Tarmac-Festival mit dabei, um ihre Freunde, die L300 Crew, bei der Gestaltung und Bespielung der Planetenweide-Stage zu unterstützen."
+        "text": ""
       },
       "wert": {
         "heading": "Wert der Dinge",

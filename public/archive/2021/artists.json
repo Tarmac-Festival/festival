@@ -35,7 +35,7 @@
 	  "Name": "Kaskadeur",
 	  "Image": "KASKADEUR_promo_by_DenisLaner.jpg",
 	  "Text": "",
-	  "Link": "www.kaskadeur.net,www.instagram.com/kaskadeur.band/,www.facebook.com/kaskadeur,kaskadeur.bandcamp.com/",
+	  "Link": "https://www.kaskadeur.net/,https://www.instagram.com/kaskadeur.band/,https://www.facebook.com/kaskadeur,https://kaskadeur.bandcamp.com/",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -350,7 +350,7 @@
 	  }]
 	},
 	{
-	  "Name": "Düsentrieb",
+	  "Name": "Käptn 12 & Düsentrieb",
 	  "Image": "Käptn12Düsentrieb.jpg",
 	  "Text": "",
 	  "Link": "https://www.facebook.com/Kaeptn12Duesentrieb,https://soundcloud.com/12imhaus",
@@ -369,7 +369,7 @@
 	  "Name": "Glenn Shaw",
 	  "Image": "GlennShaw.JPG",
 	  "Text": "",
-	  "Link": "",
+	  "Link": "https://soundcloud.com/glenn_shaw",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -377,7 +377,7 @@
 	  "Name": "slow revolt",
 	  "Image": "",
 	  "Text": "",
-	  "Link": "https://soundcloud.com/glenn_shaw",
+	  "Link": "https://soundcloud.com/slowrevolt",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -385,7 +385,7 @@
 	  "Name": "Pavelo Promillo",
 	  "Image": "PaveloPromillo.jpg",
 	  "Text": "",
-	  "Link": "https://soundcloud.com/slowrevolt",
+	  "Link": "https://www.instagram.com/pavelo.promillo",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -393,7 +393,7 @@
 	  "Name": "Boris Schnell",
 	  "Image": "BorisSchnell.png",
 	  "Text": "",
-	  "Link": "https://www.instagram.com/pavelo.promillo",
+	  "Link": "",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -508,6 +508,7 @@
 	  "Type": "multiple",
 	  "Artists": [{
 		  "Name": "Delia Plangg",
+		  "Image": "",
 		  "Text": "",
 		  "Link": "soundcloud.com/delia-plangg,facebook.com/delia-plangg",
 		  "Type": "",
@@ -516,6 +517,7 @@
 	  {
 			"Name": "Martin Saupe",
 			"Text": "",
+			"Image": "",
 			"Link": "soundcloud.com/msaupe,facebook.com/msaupe",
 			"Type": "",
 			"Artists": ""
@@ -525,7 +527,7 @@
 	  "Name": "Nina Hepburn",
 	  "Image": "NinaHepburn.jpg",
 	  "Text": "",
-	  "Link": "https://www.instagram.com/ninahepburn_/,https://soundcloud.com/nina-hepburn,www.ninahepburn.com",
+	  "Link": "https://www.instagram.com/ninahepburn_/,https://soundcloud.com/nina-hepburn,http://ninahepburn.com/",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -533,7 +535,7 @@
 	  "Name": "Schense",
 	  "Image": "",
 	  "Text": "",
-	  "Link": "SoundCloud.com/Schense",
+	  "Link": "https://soundcloud.com/Schense",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -849,7 +851,7 @@
 	  }]
 	},
 	{
-	  "Name": "Kontantin Unwohl",
+	  "Name": "Konstantin Unwohl",
 	  "Image": "KonstantinUnwohl.jpg",
 	  "Text": "",
 	  "Link": "https://konstantinunwohl.bandcamp.com/,http://orden-agency.com/",
