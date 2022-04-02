@@ -25,7 +25,7 @@ function fillDOM(year){
                         console.log(acts[i].Artists[j].Name);
                         var artist = document.createElement("a");
                         artist.innerHTML = acts[i].Artists[j].Name;
-                        artist.href = acts[i].Artists[j].Link;
+                        artist.href = acts[i].Artists[j].Link.split(",")[0];
                         artist.target="_blank";
                         actName.appendChild(artist);
                         if(j!=acts[i].Artists.length-1){
@@ -38,7 +38,7 @@ function fillDOM(year){
                         console.log(acts[i].Artists[j].Name);
                         var artist = document.createElement("a");
                         artist.innerHTML = acts[i].Artists[j].Name;
-                        artist.href = acts[i].Artists[j].Link;
+                        artist.href = acts[i].Artists[j].Link.split(",")[0];
                         artist.target="_blank";
                         actName.appendChild(artist);
                         if(j!=acts[i].Artists.length-1){
@@ -54,7 +54,7 @@ function fillDOM(year){
                         
                         var artist = document.createElement("a");
                         artist.innerHTML = acts[i].Artists[j].Name;
-                        artist.href = acts[i].Artists[j].Link;
+                        artist.href = acts[i].Artists[j].Link.split(",")[0];
                         artist.target="_blank";
                         var NamePos = Name.search(acts[i].Artists[j].Name)
                         actName.innerHTML = actName.innerHTML.replace(acts[i].Artists[j].Name, artist.outerHTML);
@@ -66,7 +66,7 @@ function fillDOM(year){
                     //creating link for one artist    
                     var a = document.createElement("a");
                     a.innerHTML = acts[i].Name;
-                    a.href = acts[i].Link;
+                    a.href = acts[i].Link.split(",")[0];
                     a.target="_blank";
                     a.id=actDiv.id+i;
                     actName.appendChild(a);

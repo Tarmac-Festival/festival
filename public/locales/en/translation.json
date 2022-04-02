@@ -38,15 +38,8 @@
     "heading": "Info",
     "box1": {
       "heading": "Tickets",
-      "subheading1": "Early Booker Ticket",
-      "text1": "It is worth making an early decision. Get one of the first tickets for 109€ and extend the anticipation.",
-      "subheading2": "Regular Booker Ticket",
-      "text2": "For those who decide later, there are Regular Booker Tickets for 129€. This ticket level will start after the early booker tickets have been sold.",
-      "subheading3": "Camp & Fly Ticket",
-      "text3": "If you want to access the campsite with a camper, caravan or car, you need such a ticket. The pass allows you to enter the event site with your vehicle / trailer. Parking in front of the event site is free of charge.",
-      "subheading4":"Important notice:",
-      "text4":"We offer our tickets exclusively at our webshop provider III000III INDEPENDENT TICKETING. Offers from other ticketing sites are fakes! Fake tickets will be recognized by us at the entrance at the latest and will unfortunately not allow you to enter the festival. So please do not buy anything there! :)"
-    },
+      "subheading1": "Ticketshop"
+      },
     "box2": {
       "heading": "Tickets",
       "subheading1": "Soliticket (90€) - SOLD OUT",
@@ -229,8 +222,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "TARMAC 2022",
-      "text": "The TARMAC Festival at Allstedt Airport will take place in 2022 from 2nd till 4th September. Don't panic: ticket sales haven't started yet. We'll let you know in advance here and on our social media channels when and where you can buy tickets. Our website is currently under construction and can only be used to a very restricted extent until tickets go on sale. See you soon!"
+      "heading": "+++ Tarmac 2022 Sold Out +++",
+      "text": "That was fast - unfortunately we are sold out!<br><br>No ticket yet?<br><br>In a few weeks, our ticket provider's marketplace will open, and tickets can be resold there. We will inform you about this via our channels.<br><br>Would you like to help? All information about the application as a helper:In can be found here and on our website from mid-May.<br><br>Important NOTE:<br><br>We offer our tickets exclusively through our webshop provider TixforGigs. Offers from other ticketing sites are fake! Fake tickets will be recognized by us at the entrance at the latest and will unfortunately mean that you will not be able to enter the festival. You can only resell your personalized tickets via the TixforGigs marketplace."
       },
     "chronic": {
       "heading": "Chronicle",

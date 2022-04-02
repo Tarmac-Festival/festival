@@ -8,14 +8,14 @@
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Tarmac Festival">
-    <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2021. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+    <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2022. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
 
     <!-- Open Graph meta tags-->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tarmac-festival.de/">
     <meta property="og:title" content="Tarmac Festival">
     <meta property="og:site_name" content="Tarmac Festival">
-    <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2021. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+    <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2022. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
     <meta property="og:image" content="https://tarmac-festival.de/img/cover.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image:alt" content="Tarmac Festival Cover">
@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v3.0'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v3.4'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -65,7 +65,7 @@
         
 
         $(document).ready(function(){
-            fillArtists(2021);
+            fillArtists(2022);
         });
         
     </script>
@@ -106,7 +106,7 @@
 
                 <li class="nav-item">
                     <div class="nav-link nav-btn">
-                        <a class="btn btn-primary localized disabled" href="https://111000111.de/A2/39/index.php"
+                        <a class="btn btn-primary localized" href="https://www.tixforgigs.com/Event/41504"
                            target="_blank" data-i18n="nav.tickets">#</a>
                     </div>
                 </li>
@@ -148,9 +148,12 @@
                 <p data-i18n="about.text1">#</p>
                 <p data-i18n="about.text2">#</p>
                 <p data-i18n="about.text3">#</p>
-                <p class="lead text-center font-italic" data-i18n="about.text4">#</p>
-                <p class="text-center" data-i18n="about.text5">#</p>
-                <p class="text-center" data-i18n="about.text6">#</p>
+                <p data-i18n="about.text4">#</p>
+                <p data-i18n="about.text5">#</p>
+                <p data-i18n="about.text6">#</p>
+                <p class="lead text-center font-italic" data-i18n="about.text7">#</p>
+                <p class="text-center" data-i18n="about.text8">#</p>
+                <p class="text-center" data-i18n="about.text9">#</p>
             </div>
         </div>
         <div class="row text-center mt-3">
@@ -291,19 +294,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 mb-4 d-none">
+            <div class="col-12 mb-4">
                 <div class="info-box">
                     <div class="info-content localized">
                         <h2 class="info-title" data-i18n="info.box1.heading">#</h2>
                         <hr class="divider">
-                        <p class="lead text-center"><a href="https://111000111.de/A2/39/index.php" target="_blank" data-i18n="info.box1.subheading1">#</a></p>
-                        <p class="text-justify text-center" data-i18n="info.box1.text1">#</p>
-                        <p class="lead text-center"><a href="https://111000111.de/A2/39/index.php" target="_blank" data-i18n="info.box1.subheading2">#</a></p>
+                        <p class="lead text-center"><a href="https://www.tixforgigs.com/Event/41504" target="_blank" data-i18n="info.box1.subheading1">#</a></p>
+                        <!--<p class="text-justify text-center" data-i18n="info.box1.text1">#</p>-->
+                        <p class="lead text-center"><a href="https://www.tixforgigs.com/Event/41504" target="_blank" data-i18n="info.box1.subheading2">#</a></p>
                         <p class="text-justify text-center" data-i18n="info.box1.text2">#</p>
-                        <p class="lead text-center"><a href="https://111000111.de/A2/39/index.php" target="_blank" data-i18n="info.box1.subheading3">#</a></p>
+                        <p class="lead text-center" data-i18n="info.box1.subheading3">#</p>
                         <p class="text-justify text-center" data-i18n="info.box1.text3">#</p>
-                        <p class="lead text-center" data-i18n="info.box1.subheading4">#</p>
-                        <p class="text-justify text-center" data-i18n="info.box1.text4">#</p>
                     </div>
                 </div>
             </div>
@@ -501,9 +502,14 @@
                             <a href="#" onclick="return $(this).buildInfoModal('info.box9.question4', 'info.box9.text4');"
                                data-i18n="info.box9.subheading4">#</a>
                         </p>
+                        <p class="lead text-center mb-0">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question5', 'info.box9.text5');"
+                               data-i18n="info.box9.subheading5">#</a>
+                        </p>
                     </div>
                 </div>
             </div>
+            <!--
             <div id="infocorona" class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
                 <div class="info-box">
                     <div class="info-content localized">
@@ -540,30 +546,30 @@
                     </div>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </section>
 
 <!-- Avenue -->
-<section class="p-0 bg-primary" id="avenue">
+<!--
+    Currently not working
+-->
+<section class="p-0 bg-primary d-none" id="avenue">
     <div id="map" style="height: 400px"></div>
 </section>
 <!--Helpers-->
-<section id="helpers" class="pb-0">
+<section id="helpers" class="">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center title-box localized">
-                
-                <h2 class="section-heading" data-i18n="helpers.closed">#</h2> 
+                <h4 class="section-heading" data-i18n="helpers.closed">#</h4> 
                 <!--
                     <h2 class="section-heading text-uppercase" data-i18n="helpers.heading">#</h2>
                 <a href="https://docs.google.com/forms/d/1WGT4m635cqD2fOVDHk_fvJclY5knYJNzQl2S_0KsgEU/edit" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="helpers.button">#</a>
-
                 -->
-                
             </div>
         </div>
-        
     </div>
 </section>
 <!-- Contact -->
@@ -626,7 +632,7 @@
                                 <ul class="list-ico">
                                     <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1"
                                                                                                   target="_blank"
-                                                                                                  href="https://www.google.com/maps/@51.380219,11.433763,16z?hl=de">Flugplatz
+                                                                                                  href="https://www.google.com/maps/@51.3885371,11.4506664,18.92z?hl=de">Flugplatz
                                         Allstedt</a></li>
                                     <li><i class="fas fa-envelope text-primary"></i> <a
                                             href="mailto:contact@tarmac-festival.de">contact@tarmac-festival.de</a>
@@ -649,7 +655,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Tarmac Festival 2021</span>
+                <span class="copyright">Copyright &copy; TARMAC Festival 2022</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
