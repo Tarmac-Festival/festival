@@ -1,8 +1,8 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
-  (global = global || self, global.i18nextBrowserLanguageDetector = factory());
-}(this, (function () { 'use strict';
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.i18nextBrowserLanguageDetector = factory());
+})(this, (function () { 'use strict';
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -23,6 +23,9 @@
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps) _defineProperties(Constructor.prototype, protoProps);
     if (staticProps) _defineProperties(Constructor, staticProps);
+    Object.defineProperty(Constructor, "prototype", {
+      writable: false
+    });
     return Constructor;
   }
 
@@ -40,18 +43,90 @@
     return obj;
   }
 
+  // eslint-disable-next-line no-control-regex
+  var fieldContentRegExp = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/;
+
+  var serializeCookie = function serializeCookie(name, val, options) {
+    var opt = options || {};
+    opt.path = opt.path || '/';
+    var value = encodeURIComponent(val);
+    var str = name + '=' + value;
+
+    if (opt.maxAge > 0) {
+      var maxAge = opt.maxAge - 0;
+      if (isNaN(maxAge)) throw new Error('maxAge should be a Number');
+      str += '; Max-Age=' + Math.floor(maxAge);
+    }
+
+    if (opt.domain) {
+      if (!fieldContentRegExp.test(opt.domain)) {
+        throw new TypeError('option domain is invalid');
+      }
+
+      str += '; Domain=' + opt.domain;
+    }
+
+    if (opt.path) {
+      if (!fieldContentRegExp.test(opt.path)) {
+        throw new TypeError('option path is invalid');
+      }
+
+      str += '; Path=' + opt.path;
+    }
+
+    if (opt.expires) {
+      if (typeof opt.expires.toUTCString !== 'function') {
+        throw new TypeError('option expires is invalid');
+      }
+
+      str += '; Expires=' + opt.expires.toUTCString();
+    }
+
+    if (opt.httpOnly) str += '; HttpOnly';
+    if (opt.secure) str += '; Secure';
+
+    if (opt.sameSite) {
+      var sameSite = typeof opt.sameSite === 'string' ? opt.sameSite.toLowerCase() : opt.sameSite;
+
+      switch (sameSite) {
+        case true:
+          str += '; SameSite=Strict';
+          break;
+
+        case 'lax':
+          str += '; SameSite=Lax';
+          break;
+
+        case 'strict':
+          str += '; SameSite=Strict';
+          break;
+
+        case 'none':
+          str += '; SameSite=None';
+          break;
+
+        default:
+          throw new TypeError('option sameSite is invalid');
+      }
+    }
+
+    return str;
+  };
+
   var cookie = {
     create: function create(name, value, minutes, domain) {
-      var expires;
+      var cookieOptions = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {
+        path: '/',
+        sameSite: 'strict'
+      };
 
       if (minutes) {
-        var date = new Date();
-        date.setTime(date.getTime() + minutes * 60 * 1000);
-        expires = '; expires=' + date.toGMTString();
-      } else expires = '';
+        cookieOptions.expires = new Date();
+        cookieOptions.expires.setTime(cookieOptions.expires.getTime() + minutes * 60 * 1000);
+      }
 
-      domain = domain ? 'domain=' + domain + ';' : '';
-      document.cookie = name + '=' + value + expires + ';' + domain + 'path=/';
+      if (domain) cookieOptions.domain = domain;
+      document.cookie = serializeCookie(name, encodeURIComponent(value), cookieOptions);
     },
     read: function read(name) {
       var nameEQ = name + '=';
@@ -87,7 +162,7 @@
     },
     cacheUserLanguage: function cacheUserLanguage(lng, options) {
       if (options.lookupCookie && typeof document !== 'undefined') {
-        cookie.create(options.lookupCookie, lng, options.cookieMinutes, options.cookieDomain);
+        cookie.create(options.lookupCookie, lng, options.cookieMinutes, options.cookieDomain, options.cookieOptions);
       }
     }
   };
@@ -98,7 +173,13 @@
       var found;
 
       if (typeof window !== 'undefined') {
-        var query = window.location.search.substring(1);
+        var search = window.location.search;
+
+        if (!window.location.search && window.location.hash && window.location.hash.indexOf('?') > -1) {
+          search = window.location.hash.substring(window.location.hash.indexOf('?'));
+        }
+
+        var query = search.substring(1);
         var params = query.split('&');
 
         for (var i = 0; i < params.length; i++) {
@@ -118,23 +199,29 @@
     }
   };
 
-  var hasLocalStorageSupport;
+  var hasLocalStorageSupport = null;
 
-  try {
-    hasLocalStorageSupport = window !== 'undefined' && window.localStorage !== null;
-    var testKey = 'i18next.translate.boo';
-    window.localStorage.setItem(testKey, 'foo');
-    window.localStorage.removeItem(testKey);
-  } catch (e) {
-    hasLocalStorageSupport = false;
-  }
+  var localStorageAvailable = function localStorageAvailable() {
+    if (hasLocalStorageSupport !== null) return hasLocalStorageSupport;
+
+    try {
+      hasLocalStorageSupport = window !== 'undefined' && window.localStorage !== null;
+      var testKey = 'i18next.translate.boo';
+      window.localStorage.setItem(testKey, 'foo');
+      window.localStorage.removeItem(testKey);
+    } catch (e) {
+      hasLocalStorageSupport = false;
+    }
+
+    return hasLocalStorageSupport;
+  };
 
   var localStorage = {
     name: 'localStorage',
     lookup: function lookup(options) {
       var found;
 
-      if (options.lookupLocalStorage && hasLocalStorageSupport) {
+      if (options.lookupLocalStorage && localStorageAvailable()) {
         var lng = window.localStorage.getItem(options.lookupLocalStorage);
         if (lng) found = lng;
       }
@@ -142,8 +229,44 @@
       return found;
     },
     cacheUserLanguage: function cacheUserLanguage(lng, options) {
-      if (options.lookupLocalStorage && hasLocalStorageSupport) {
+      if (options.lookupLocalStorage && localStorageAvailable()) {
         window.localStorage.setItem(options.lookupLocalStorage, lng);
+      }
+    }
+  };
+
+  var hasSessionStorageSupport = null;
+
+  var sessionStorageAvailable = function sessionStorageAvailable() {
+    if (hasSessionStorageSupport !== null) return hasSessionStorageSupport;
+
+    try {
+      hasSessionStorageSupport = window !== 'undefined' && window.sessionStorage !== null;
+      var testKey = 'i18next.translate.boo';
+      window.sessionStorage.setItem(testKey, 'foo');
+      window.sessionStorage.removeItem(testKey);
+    } catch (e) {
+      hasSessionStorageSupport = false;
+    }
+
+    return hasSessionStorageSupport;
+  };
+
+  var sessionStorage = {
+    name: 'sessionStorage',
+    lookup: function lookup(options) {
+      var found;
+
+      if (options.lookupSessionStorage && sessionStorageAvailable()) {
+        var lng = window.sessionStorage.getItem(options.lookupSessionStorage);
+        if (lng) found = lng;
+      }
+
+      return found;
+    },
+    cacheUserLanguage: function cacheUserLanguage(lng, options) {
+      if (options.lookupSessionStorage && sessionStorageAvailable()) {
+        window.sessionStorage.setItem(options.lookupSessionStorage, lng);
       }
     }
   };
@@ -236,22 +359,20 @@
 
   function getDefaults() {
     return {
-      order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag'],
+      order: ['querystring', 'cookie', 'localStorage', 'sessionStorage', 'navigator', 'htmlTag'],
       lookupQuerystring: 'lng',
       lookupCookie: 'i18next',
       lookupLocalStorage: 'i18nextLng',
+      lookupSessionStorage: 'i18nextLng',
       // cache user language
       caches: ['localStorage'],
-      excludeCacheFor: ['cimode'],
-      //cookieMinutes: 10,
+      excludeCacheFor: ['cimode'] //cookieMinutes: 10,
       //cookieDomain: 'myDomain'
-      checkWhitelist: true
+
     };
   }
 
-  var Browser =
-  /*#__PURE__*/
-  function () {
+  var Browser = /*#__PURE__*/function () {
     function Browser(services) {
       var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
@@ -275,6 +396,7 @@
         this.addDetector(cookie$1);
         this.addDetector(querystring);
         this.addDetector(localStorage);
+        this.addDetector(sessionStorage);
         this.addDetector(navigator$1);
         this.addDetector(htmlTag);
         this.addDetector(path);
@@ -300,28 +422,9 @@
             if (lookup) detected = detected.concat(lookup);
           }
         });
-        var found;
-        detected.forEach(function (lng) {
-          if (found) return;
+        if (this.services.languageUtils.getBestMatchFromCodes) return detected; // new i18next v19.5.0
 
-          var cleanedLng = _this.services.languageUtils.formatLanguageCode(lng);
-
-          if (!_this.options.checkWhitelist || _this.services.languageUtils.isWhitelisted(cleanedLng)) found = cleanedLng;
-        });
-
-        if (!found) {
-          var fallbacks = this.i18nOptions.fallbackLng;
-          if (typeof fallbacks === 'string') fallbacks = [fallbacks];
-          if (!fallbacks) fallbacks = [];
-
-          if (Object.prototype.toString.apply(fallbacks) === '[object Array]') {
-            found = fallbacks[0];
-          } else {
-            found = fallbacks[0] || fallbacks["default"] && fallbacks["default"][0];
-          }
-        }
-
-        return found;
+        return detected.length > 0 ? detected[0] : null; // a little backward compatibility
       }
     }, {
       key: "cacheUserLanguage",
@@ -344,4 +447,4 @@
 
   return Browser;
 
-})));
+}));

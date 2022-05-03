@@ -11,7 +11,7 @@
 	  "Name": "Liquid Silk",
 	  "Image": "LiquidSilk.jpg",
 	  "Text": "",
-	  "Link": "liquidsilk.bandcamp.com",
+	  "Link": "https://liquidsilk.bandcamp.com/",
 	  "Type": "",
 	  "Artists": ""
 	},
@@ -336,7 +336,7 @@
 		"Name": "Frida Darko",
 		"Image": "",
 		"Text": "",
-		"Link": "https://soundcloud.com/frida-darko,https://.spotify.com/artist/6aRhznYRuDprkHf1z0Jgws",
+		"Link": "https://soundcloud.com/frida-darko,https://spotify.com/artist/6aRhznYRuDprkHf1z0Jgws",
 		"Type": "",
 		"Artists": ""
 	  },
@@ -344,7 +344,7 @@
 		"Name": "Atric",
 		"Image": "",
 		"Text": "",
-		"Link": "https://soundcloud.com/casanova_tony,https://.spotify.com/artist/5nvhpnFpC7rsQ0mWDNx4bn",
+		"Link": "https://soundcloud.com/casanova_tony,https://spotify.com/artist/5nvhpnFpC7rsQ0mWDNx4bn",
 		"Type": "",
 		"Artists": ""
 	  }]
@@ -1105,7 +1105,7 @@
 	  "Name": "Loy Bonheur",
 	  "Image": "LoyBonheur.jpg",
 	  "Text": "",
-	  "Link": "www.soundcloud.com/loybonheur",
+	  "Link": "https://www.soundcloud.com/loybonheur",
 	  "Type": "",
 	  "Artists": ""
 	},

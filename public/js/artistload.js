@@ -14,6 +14,10 @@ function fillDOM(year){
             var actDiv = document.createElement("div");
             actDiv.classList.add("py-2");
             actDiv.classList.add("px-3");
+            actDiv.classList.add("artist");
+            
+            var actModalLink= document.createElement("a");
+            
             
             var actName =document.createElement("h2");
             //actName.style.color= "primary";
@@ -22,12 +26,19 @@ function fillDOM(year){
             switch(acts[i].Type){
                 case "b2b":
                     for(var j=0; j<acts[i].Artists.length;j++){
-                        console.log(acts[i].Artists[j].Name);
-                        var artist = document.createElement("a");
-                        artist.innerHTML = acts[i].Artists[j].Name;
-                        artist.href = acts[i].Artists[j].Link.split(",")[0];
-                        artist.target="_blank";
-                        actName.appendChild(artist);
+                        //console.log(acts[i].Artists[j].Name);
+                        if(acts[i].Artists[j].Link !=""){
+                            var artist = document.createElement("a");
+                            artist.innerHTML = acts[i].Artists[j].Name;
+                            artist.target="_blank";
+                            artist.classList.add("artistLink");
+                            artist.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
+                            artist.id=actDiv.id+i+j;
+                            artist.target="_blank";
+                            actName.appendChild(artist);
+                        }else{
+                            actName.append(acts[i].Artists[j].Name);
+                        }
                         if(j!=acts[i].Artists.length-1){
                             actName.append(" b2b ");
                         }
@@ -35,12 +46,20 @@ function fillDOM(year){
                     break;
                 case "&":
                     for(var j=0; j<acts[i].Artists.length;j++){
-                        console.log(acts[i].Artists[j].Name);
-                        var artist = document.createElement("a");
-                        artist.innerHTML = acts[i].Artists[j].Name;
-                        artist.href = acts[i].Artists[j].Link.split(",")[0];
-                        artist.target="_blank";
-                        actName.appendChild(artist);
+                        //console.log(acts[i].Artists[j].Name);
+                        if(acts[i].Artists[j].Link !=""){
+                            var artist = document.createElement("a");
+                            artist.innerHTML = acts[i].Artists[j].Name;
+                            
+                            artist.classList.add("artistLink");
+    
+                            artist.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
+                            artist.id=actDiv.id+i+j;
+                            artist.target="_blank";
+                            actName.appendChild(artist);
+                        }else{
+                            actName.append(acts[i].Artists[j].Name);
+                        }
                         if(j!=acts[i].Artists.length-1){
                             actName.append(" & ");
                         }
@@ -50,26 +69,36 @@ function fillDOM(year){
                     var Name = acts[i].Name;
                     actName.innerHTML = Name;
                     for(var j=0; j<acts[i].Artists.length;j++){
-                        console.log(acts[i].Artists[j].Name);
-                        
-                        var artist = document.createElement("a");
-                        artist.innerHTML = acts[i].Artists[j].Name;
-                        artist.href = acts[i].Artists[j].Link.split(",")[0];
-                        artist.target="_blank";
-                        var NamePos = Name.search(acts[i].Artists[j].Name)
-                        actName.innerHTML = actName.innerHTML.replace(acts[i].Artists[j].Name, artist.outerHTML);
-                        //actName.innerHTML = Name;
-                        
+                        //console.log(acts[i].Artists[j].Name);
+                        if(acts[i].Artists[j].Link !=""){
+                            var artist = document.createElement("a");
+                            artist.classList.add("artistLink");
+                            artist.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
+                            artist.id=actDiv.id+i+j;
+                            artist.target="_blank";
+                            artist.innerHTML = acts[i].Artists[j].Name;
+                            artist.target="_blank";
+                            var NamePos = Name.search(acts[i].Artists[j].Name)
+                            actName.innerHTML = actName.innerHTML.replace(acts[i].Artists[j].Name, artist.outerHTML);
+                        }else{
+                            //stays plain
+                        }
                     }
                     break;
                 default:
-                    //creating link for one artist    
-                    var a = document.createElement("a");
-                    a.innerHTML = acts[i].Name;
-                    a.href = acts[i].Link.split(",")[0];
-                    a.target="_blank";
-                    a.id=actDiv.id+i;
-                    actName.appendChild(a);
+                    //creating link for one artist
+                    
+                    if(acts[i].Link !=""){
+                        var a = document.createElement("a");
+                        a.innerHTML = acts[i].Name;
+                        a.target="_blank";
+                        a.classList.add("artistLink");
+                        a.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Name+"', '"+acts[i].Link+"','"+acts[i].Image+"','','','"+year+"');"); 
+                        a.id=actDiv.id+i;
+                        actName.appendChild(a);
+                    }else{
+                        actName.innerHTML = acts[i].Name;
+                    }
                     break;
             }
             actDiv.appendChild(actName);
@@ -112,7 +141,7 @@ function fillArtists(year){
                         artist.innerHTML = acts[i].Artists[j].Name;
                         artist.target="_blank";
                         artist.classList.add("artistLink");
-                        artist.setAttribute("onclick","$(this).buildArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
+                        artist.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
                         artist.id=actDiv.id+i+j;
                         artist.target="_blank";
                         actName.appendChild(artist);
@@ -128,7 +157,7 @@ function fillArtists(year){
                         artist.innerHTML = acts[i].Artists[j].Name;
                         
                         artist.classList.add("artistLink");
-                        artist.setAttribute("onclick","$(this).buildArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
+                        artist.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
                         artist.id=actDiv.id+i+j;
                         artist.target="_blank";
                         actName.appendChild(artist);
@@ -144,7 +173,7 @@ function fillArtists(year){
                         console.log(acts[i].Artists[j].Name);
                         var artist = document.createElement("a");
                         artist.classList.add("artistLink");
-                        artist.setAttribute("onclick","$(this).buildArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
+                        artist.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Artists[j].Name+"', '"+acts[i].Artists[j].Link+"','"+acts[i].Artists[j].Image+"','','','"+year+"');"); 
                         artist.id=actDiv.id+i+j;
                         artist.target="_blank";
                         artist.innerHTML = acts[i].Artists[j].Name;
@@ -160,7 +189,7 @@ function fillArtists(year){
                     a.innerHTML = acts[i].Name;
                     a.target="_blank";
                     a.classList.add("artistLink");
-                    a.setAttribute("onclick","$(this).buildArtistModal('"+acts[i].Name+"', '"+acts[i].Link+"','"+acts[i].Image+"','','','"+year+"');"); 
+                    a.setAttribute("onclick","$(this).buildArchivedArtistModal('"+acts[i].Name+"', '"+acts[i].Link+"','"+acts[i].Image+"','','','"+year+"');"); 
                     a.id=actDiv.id+i;
                     actName.appendChild(a);
                     break;
