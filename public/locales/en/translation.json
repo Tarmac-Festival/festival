@@ -38,7 +38,13 @@
     "heading": "Info",
     "box1": {
       "heading": "Tickets",
-      "subheading1": "Ticketshop"
+      "subheading1": "Ticket 140 € + shop fee (sold out)",
+      "text1": "",
+      "subheading2": "Camping ticket 20 € + shop fee",
+      "text2": "If you want to stay at the festival site with your caravan or car, you need to purchase this ticket. This ticket allows you to park your vehicle on the camping site. Parking areas outsite the festival and camping site are free.",
+      "subheading3": "Important:",
+      "text3": "Tickets are exclusively sold by our webshop provider TixforGigs. Offers from other sites and shops are fraudulent and will be not be accepted for entrance. Your personalized tickets can be sold via the market at TixforGigs."
+    
       },
     "box2": {
       "heading": "Tickets",
@@ -165,7 +171,11 @@
       "text3": "Whoever \"embellishes\" borrowed technology & infrastructure or stages with tags or graffiti, will get kicked out and have to pay for the damage caused. We have to clean these things afterwards at great expense or in the worst case pay for them completely.<br>There will be a lot of possibilities to let your creativity run free. Therefore we have no understanding for people who have to leave their tags on every corner.",
       "subheading4": "Pets",
       "question4": "Is it allowed to bring my pet with me?",
-      "text4": "A festival is not a place for pets. So just leave your favourite four-legged friends at home."
+      "text4": "A festival is not a place for pets. So just leave your favourite four-legged friends at home.",
+      "subheading5": "Hygiene- und Corona Measures",
+      "question5": "What measurements are being taken concerning the COVID-19 pandemic?",
+      "text5": "Whether there should be measurements applied in september is still unclear at this point. Updates on this topic are being made available here as soon as possbile and on our social media accounts."
+    
     },
     "box10": {
       "heading": "Hygiene- und Corona Measures",
@@ -222,8 +232,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "+++ Tarmac 2022 Sold Out +++",
-      "text": "That was fast - unfortunately we are sold out!<br><br>No ticket yet?<br><br>In a few weeks, our ticket provider's marketplace will open, and tickets can be resold there. We will inform you about this via our channels.<br><br>Would you like to help? All information about the application as a helper:In can be found here and on our website from mid-May.<br><br>Important NOTE:<br><br>We offer our tickets exclusively through our webshop provider TixforGigs. Offers from other ticketing sites are fake! Fake tickets will be recognized by us at the entrance at the latest and will unfortunately mean that you will not be able to enter the festival. You can only resell your personalized tickets via the TixforGigs marketplace."
+      "heading": "market for tickets",
+      "text": "The <a href=\"https://www.tixforgigs.com/Event/41504\">ticket market</a> starts on Monday, 16.5.22.<br><br> You will be able to sell your personalized tickets and are also able to set a preferred buyer."
       },
     "chronic": {
       "heading": "Chronicle",
