@@ -1,7 +1,7 @@
 const functions = require('firebase-functions');
-const admin = require('firebase-admin');
+const admin = require('firebase-admin/app');
 const rp = require('request-promise');
-const serviceAccount = require("../key/festival-allstedt-firebase-adminsdk-k9w4f-32e9d571b2.json");
+const serviceAccount = require("../key/festival-allstedt-firebase-adminsdk-k9w4f-18e9b52ae2.json");
 const userMailSubject = "Tarmac Festival: Danke für deine Nachricht";
 const userMailMessage = "<p>Hallo {{name}},</p><p>vielen Dank für deine Nachricht.<br>Wir melden uns so schnell wie möglich bei dir.</p><p>Beste Grüße,<br>Dein Tarmac Team</p>";
 
