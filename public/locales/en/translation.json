@@ -220,6 +220,11 @@
       "heading": "Contact us",
       "button": "You want to help? - click here",
       "text": "If you have any questions then you are welcome to write a message. Therefore you can use this form or you can write an email."
+    },
+    "newsletter":{
+      "heading": "Newsletter abonnieren",
+      "button":"Subscribe",
+      "text": "You don’t want to miss out on any updates? Be informed when important dates are coming up; for example when ticket sales are coming up, applications for supporters are going to be open or announcements concerning the TARMAC are made? You are now able to subscribe to our TARMAC newsletter."
     }
   },
   "helpers":{
@@ -233,8 +238,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "market for tickets",
-      "text": "The <a href=\"https://www.tixforgigs.com/Event/41504\">ticket market</a> starts on Monday, 16.5.22.<br><br> You will be able to sell your personalized tickets and are also able to set a preferred buyer."
+      "heading": "Newsletter",
+      "text": "You don’t want to miss out on any updates? Be informed when important dates are coming up; for example when ticket sales are coming up, applications for supporters are going to be open or announcements concerning the TARMAC are made?<br><br>You are now able to subscribe to our TARMAC newsletter. Fill out the form on our website, or follow the <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">link</a>  and don’t miss any of the aforementioned topics."
       },
     "chronic": {
       "heading": "Chronicle",

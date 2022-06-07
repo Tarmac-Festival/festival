@@ -223,6 +223,11 @@
       "heading": "Kontakt aufnehmen",
       "button": "Du möchtest helfen? - hier klicken",
       "text": "Du hast offene Fragen? Fülle das nebenstehende Kontaktformular aus und wir melden uns schnellstmöglich bei dir. Alternativ kannst du uns auch direkt eine Mail an die unten stehenden Adressen senden."
+    },
+    "newsletter":{
+      "heading": "Newsletter abonnieren",
+      "button":"Zum Formular",
+      "text": "Du willst auf dem laufenden bleiben? Keine Updates zu Ticketverkauf, Helfer-Bewerbungen oder Stellungnahmen und sonstigen Ankündigungen verpassen? Dann abonniert den TARMAC-Newsletter und lasst euch die Informationen ins Postfach schicken."
     }
   },
   "helpers":{
@@ -236,8 +241,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "Ticketbörse",
-      "text": "Start <a href=\"https://www.tixforgigs.com/Event/41504\">Ticket-Marktplatz</a> am Montag den 16.05.2022 im laufe des tages. <br><br>Tickets können zum gleichen Preis angeboten und Verkauft werden <br><br>Tickets können auch an Wunschpersonen verkauft werden."
+      "heading": "Newsletter",
+      "text": "Ihr wollt auf dem laufenden bleiben? Keine Updates zu Ticketverkauf, Helfer-Bewerbungen oder Stellungnahmen und sonstigen Ank&uuml;ndigungen verpassen?<br>Dann abonniert den TARMAC-Newsletter und lasst euch die Informationen ins Postfach schicken. Einfach das Anmeldeformular auf der Website ausf&uuml;llen oder diesem <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> Link </a>folgen und keine Termine mehr verpassen."
     },
     "chronic": {
       "heading": "Chronik",
