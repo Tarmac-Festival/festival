@@ -18,7 +18,8 @@
     "contact": "Kontakt",
     "helpers": "Helfer:in",
     "tickets": "Tickets",
-    "archive": "Rückblick"
+    "archive": "Rückblick",
+    "newsletter": "Newsletter"
   },
   "about": {
     "heading": "Leitbild des TARMAC e.V.",
@@ -248,6 +249,10 @@
     },
     "faq": {
       "heading": "FAQ"
+    },
+    "newsletter":{
+      "heading": "Newsletter",
+      "form": "l3u2htire1egjeuwx8f"
     },
     "collectives": {
       "endlos": {

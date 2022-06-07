@@ -41,7 +41,21 @@
             }, function() {
                 jqueryI18next.init(i18next, $);
                 $(".localized").localize();
+                $("#newsletterForm").attr("data-sender-form-id",i18next.t("modal.newsletter.form", "#"));
+                (function (s, e, n, d, er) {
+          s['Sender'] = er;
+          s[er] = s[er] || function () {
+            (s[er].q = s[er].q || []).push(arguments)
+          }, s[er].l = 1 * new Date();
+          var a = e.createElement(n),
+              m = e.getElementsByTagName(n)[0];
+          a.async = 1;
+          a.src = d;
+          m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js?', 'sender');
+        sender('48424b2f421657')
             });
+
     </script>
     <script src="/js/artistload.js"></script>
     
@@ -59,28 +73,21 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="css/festival.min.css?v=1.4" rel="stylesheet">
     <script>
-        (function (s, e, n, d, er) {
-          s['Sender'] = er;
-          s[er] = s[er] || function () {
-            (s[er].q = s[er].q || []).push(arguments)
-          }, s[er].l = 1 * new Date();
-          var a = e.createElement(n),
-              m = e.getElementsByTagName(n)[0];
-          a.async = 1;
-          a.src = d;
-          m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
-        sender('48424b2f421657')
+        
+      </script>
+      <script>
+          
       </script>
 </head>
 
 <body id="page-top">
     <script>
         
-
         $(document).ready(function(){
             fillArtists(2022);
+            
         });
+        
         
     </script>
 <h1 class="d-none">Tarmac Festival</h1>
@@ -114,6 +121,10 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger localized" href="#contact" data-i18n="nav.contact">#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" target="_blank" onclick="return $(this).showNewsletterModal();"
+                               data-i18n="nav.newsletter">#</a>
                 </li>
                 
                 
@@ -943,6 +954,31 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="modalNewsletterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title localized" id="modalNewsletterTitle" data-i18n="modal.newsletter.heading">#</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-justify">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center" id="modalNewsletterForm">
+                            <div id="newsletterForm" style="text-align: left" class="sender-form-field " data-sender-form-id="#"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -964,6 +1000,7 @@
 <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
 <script src="js/jquery.cookiebar.js"></script>
 <script src="js/festival.min.js?v=1.8"></script>
+
 
 </body>
 </html>

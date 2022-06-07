@@ -17,7 +17,8 @@
     "avenue": "Location",
     "contact": "Contact us",
     "helpers": "Support",
-    "archive": "Archive"
+    "archive": "Archive",
+    "newsletter": "Newsletter"
   },
   "about": {
     "heading": "Project",
@@ -245,6 +246,10 @@
     },
     "faq": {
       "heading": "FAQ"
+    },
+    "newsletter":{
+      "heading": "Newsletter",
+      "form": "3dd85e3d8d353c12n9c"
     },
     "collectives": {
       "endlos": {

@@ -40,6 +40,8 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
+    
+
     var localizeJs = function () {
         $('textarea#message').summernote({
             placeholder: i18next.t('contact.form.textarea', "#"),
@@ -380,6 +382,11 @@
                 $('#modalInfoText').html(i18next.t(textI18Next, "#"))
                 $('#modalInfo').modal('show');
                 return false;
+            },
+        showNewsletterModal:
+            function(){
+                $('#modalNewsletter').modal('show');
+                return false;
             }
     });
 
@@ -435,7 +442,6 @@
         map.set('styles', styles);
     };
     initMap();
-
     // Initialize Firebase
     firebase.analytics();
 
