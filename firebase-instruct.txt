@@ -1,0 +1,7 @@
+Deploy channel:
+firebase hosting:channel:deploy new-awesome-feature --expires 7d
+
+SOURCE_SITE_ID: festival-allstedt
+firebase hosting:clone SOURCE_SITE_ID:SOURCE_CHANNEL_ID TARGET_SITE_ID:TARGET_CHANNEL_ID
+
+firebase deploy --only hosting
