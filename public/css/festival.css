@@ -11540,6 +11540,8 @@ header.masthead .cover {
 .collective img {
   max-height: 125px;
   max-width: 125px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .collective img.active, .collective img:hover {

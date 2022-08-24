@@ -99,16 +99,18 @@
         });
     }
     const linkType = {
+        default: 0,
         facebook: 1,
         soundcloud: 2,
         instagram: 3,
         youtube: 4,
         bandcamp: 5,
         mixcloud: 6,
-        default: 7
+        twitter:7
+        
     }
     var getLinkType = function(lt){
-        if(!lt || lt.langth===0) return null;
+        if(!lt || lt.length===0) return linkType.default;
         if(lt.includes("soundcloud")){
             return linkType.soundcloud;
         }else if(lt.includes("instagram")){
@@ -121,6 +123,8 @@
             return linkType.bandcamp;
         }else if(lt.includes("mixcloud")){
             return linkType.mixcloud;
+        }else if(lt.includes("twitter")){
+            return linkType.twitter;
         }else{
             return linkType.default;
         }
@@ -136,12 +140,13 @@
                 $('#modalArtistContainerYt').addClass('d-none');
                 $('#modalArtistContainerBc').addClass('d-none');
                 $('#modalArtistContainerMc').addClass('d-none');
+                $('#modalArtistContainerTw').addClass('d-none');
                 $('#modalArtistContainerDefault').addClass('d-none');
                 $('#modalArtistImage').removeAttr('scr').removeAttr('alt').addClass('d-none');
                 $('#modalArtistImageLink').removeAttr('href');
                 $('#modalArtistTitle').html(name)
                 $('#modalArtistBody').removeClass('d-none');
-                var links = link.split(',');
+                var links = link.split(',').filter(Boolean);
                 if(imageName){
                     $('#modalArtistImage')
                     .attr('src', '#')
@@ -230,12 +235,12 @@
                                     $('#modalArtistContainerMc').addClass('d-none')
                                 }
                                 break;
-                            case linkType.default:
+                            case linkType.twitter:
                                 if (element) {
-                                    $('#modalArtistLinkDefault').attr('href', element);
-                                    $('#modalArtistContainerDefault').removeClass('d-none')
+                                    $('#modalArtistLinkTw').attr('href', element);
+                                    $('#modalArtistContainerTw').removeClass('d-none')
                                 } else {
-                                    $('#modalArtistContainerDefault').addClass('d-none')
+                                    $('#modalArtistContainerTw').addClass('d-none')
                                 }
                                 break;
                             default:
@@ -262,9 +267,10 @@
         $('#modalArtistContainerYt').addClass('d-none');
         $('#modalArtistContainerBc').addClass('d-none');
         $('#modalArtistContainerMc').addClass('d-none');
+        $('#modalArtistContainerTw').addClass('d-none');
         $('#modalArtistContainerDefault').addClass('d-none');
         
-        var links = link.split(',');
+        var links = link.split(',').filter(Boolean);
         //no link provided -> LinkType null
         //prep set all d-none
         
@@ -327,12 +333,12 @@
                             $('#modalArtistContainerMc').addClass('d-none')
                         }
                         break;
-                    case linkType.default:
+                        case linkType.twitter:
                         if (element) {
-                            $('#modalArtistLinkDefault').attr('href', element);
-                            $('#modalArtistContainerDefault').removeClass('d-none')
+                            $('#modalArtistLinkTw').attr('href', element);
+                            $('#modalArtistContainerTw').removeClass('d-none')
                         } else {
-                            $('#modalArtistContainerDefault').addClass('d-none')
+                            $('#modalArtistContainerTw').addClass('d-none')
                         }
                         break;
                     default:
