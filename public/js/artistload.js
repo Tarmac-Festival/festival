@@ -44,20 +44,28 @@ function fillDOM(year){
                 actName.append(" (");
                 for(var j=0; j<acts[i].acts.length;j++){
                     var act = acts[i].acts[j];
-                    var childAct = document.createElement("a");
-                    childAct.innerHTML = act.name;
-                    childAct.target="_blank";
-                    childAct.classList.add("artistLink");
-                    var links = "";
-                    act.links.forEach(element => {
-                        links = links+element.url+",";
-                    });
-                    childAct.setAttribute("onclick","$(this).buildArchivedArtistModal('"+act.name+"', '"+links+"','','','','"+year+"');");
-                    childAct.id=actDiv.id+i+j;
-                    childAct.target="_blank";
-                    actName.appendChild(childAct);
-                    if(j!=acts[i].acts.length-1){
-                        actName.append(", ");
+                    if(act.links.length>0){
+
+                        var childAct = document.createElement("a");
+                        childAct.innerHTML = act.name;
+                        childAct.target="_blank";
+                        childAct.classList.add("artistLink");
+                        var links = "";
+                        act.links.forEach(element => {
+                            links = links+element.url+",";
+                        });
+                        childAct.setAttribute("onclick","$(this).buildArchivedArtistModal('"+act.name+"', '"+links+"','','','','"+year+"');");
+                        childAct.id=actDiv.id+i+j;
+                        childAct.target="_blank";
+                        actName.appendChild(childAct);
+                        if(j<acts[i].acts.length-1){
+                            actName.append(", ");
+                        }
+                    }else{
+                        actName.appent(act.name);
+                        if(j<acts[i].acts.length-1){
+                            actname.append(", ");
+                        }
                     }
                 }
                 actName.append(")");
@@ -115,20 +123,27 @@ function fillArtists(year){
                 actName.append(" (");
                 for(var j=0; j<acts[i].acts.length;j++){
                     var act = acts[i].acts[j];
-                    var childAct = document.createElement("a");
-                    childAct.innerHTML = act.name;
-                    childAct.target="_blank";
-                    childAct.classList.add("artistLink");
-                    var links = "";
-                    act.links.forEach(element => {
-                        links = links+element.url+",";
-                    });
-                    childAct.setAttribute("onclick","$(this).buildArchivedArtistModal('"+act.name+"', '"+links+"','','','','"+year+"');");
-                    childAct.id=actDiv.id+i+j;
-                    childAct.target="_blank";
-                    actName.appendChild(childAct);
-                    if(j!=acts[i].acts.length-1){
-                        actName.append(", ");
+                    if(act.links.length>0){
+                        var childAct = document.createElement("a");
+                        childAct.innerHTML = act.name;
+                        childAct.target="_blank";
+                        childAct.classList.add("artistLink");
+                        var links = "";
+                        act.links.forEach(element => {
+                            links = links+element.url+",";
+                        });
+                        childAct.setAttribute("onclick","$(this).buildArchivedArtistModal('"+act.name+"', '"+links+"','','','','"+year+"');");
+                        childAct.id=actDiv.id+i+j;
+                        childAct.target="_blank";
+                        actName.appendChild(childAct);
+                        if(j<acts[i].acts.length-1){
+                            actName.append(", ");
+                        }
+                    }else{
+                        actName.append(act.name);
+                        if(j<acts[i].acts.length-1){
+                            actName.append(", ");
+                        }
                     }
                 }
                 actName.append(")");
