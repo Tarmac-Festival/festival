@@ -397,11 +397,11 @@
     });
 
     var initMap = function () {
-        var point = {lat: 51.380219, lng: 11.433763};
+        var point = {lat: 51.389023, lng: 11.450221};
         var map = new google.maps.Map(document.getElementById('map'), {zoom: 13, center: point});
         var marker = new google.maps.Marker({position: point, map: map});
         marker.addListener('click', function () {
-            window.open('https://www.google.com/maps/@51.380219,11.433763,16z?hl=de', '_blank');
+            window.open('https://www.google.com/maps/@51.389023,11.450221,16z?hl=de', '_blank');
         });
 
         var styles = [{

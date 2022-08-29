@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v3.8'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v3.10'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -575,12 +575,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center title-box localized">
+                <h4 class="section-heading" data-i18n="helpers.closed.heading">#</h4>
+                <p class="" data-i18n="helpers.closed.text">#</p> 
                 <!--
-                    <h4 class="section-heading" data-i18n="helpers.closed">#</h4> 
-                -->
-                    <h2 class="section-heading text-uppercase" data-i18n="helpers.heading">#</h2>
-                <a href="https://forms.gle/GZ8dp6ieRt6S7MLWA" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="helpers.button">#</a>
-            </div>
+                    
+                    <h2 class="section-heading text-uppercase" data-i18n="helpers.open.heading">#</h2>
+                    <p class="" data-i18n="helpers.open.text">#</p>
+                    <a href="https://forms.gle/GZ8dp6ieRt6S7MLWA" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="helpers.open.button">#</a>
+                </div>
+            -->
         </div>
     </div>
 </section>
@@ -1049,7 +1052,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
 <script src="js/jquery.cookiebar.js"></script>
-<script src="js/festival.min.js?v=1.9"></script>
+<script src="js/festival.min.js?v=1.10"></script>
 <script src="/js/artistload.min.js?v=1.2"></script>
 
 
