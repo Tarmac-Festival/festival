@@ -230,6 +230,7 @@
   "helpers":{
     "heading":"Apply for a supporter ticket",
     "button": "To the form",
+    "pre": "You are interested in helping and supporting on the venue? Starting on Mai, there will be further information on the application procedure.",
     "closed" : "Thank you for your support. Currently we got enouqh requests to meet our support demand."
   },
   "modal": {
@@ -238,8 +239,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "Helping at the TARMAC Festival and Newsletter ",
-      "text": "Also in this year we need your support. You can apply to be a festival helper from June 13, 6 p.m. We will open a different position each day to make the process as fair as possible. As places are limited, it is first come first serve. At the end of the week there will be an opportunity to add yourself to the waiting list. You will find the link to the application form under Support.<br>The forms for the respective positions go online at 6 p.m. on the following days:      <br>June 13 - stewards<br>June 14th - Admission, parking, rubbish & deposit<br>June 15 - Toilet shifts<br>June 16 - jumpers<br>June 17 - waiting list<br><br>You don’t want to miss out on any updates? Be informed when important dates are coming up; for example when ticket sales are coming up, applications for supporters are going to be open or announcements concerning the TARMAC are made?<br><br>You are now able to subscribe to our TARMAC newsletter. Fill out the form on our website, or follow the <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">link</a>  and don’t miss any of the aforementioned topics."
+      "heading": "Newsletter ",
+      "text": "You don’t want to miss out on any updates? Be informed when important dates are coming up; for example when ticket sales are coming up, applications for supporters are going to be open or announcements concerning the TARMAC are made?<br><br>You are now able to subscribe to our TARMAC newsletter. Fill out the form on our website, or follow the <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">link</a>  and don’t miss any of the aforementioned topics."
       },
     "chronic": {
       "heading": "Chronicle",
