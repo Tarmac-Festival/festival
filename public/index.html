@@ -57,7 +57,7 @@
             });
 
     </script>
-    <script src="/js/artistload.js"></script>
+    
     
 
     
@@ -77,12 +77,7 @@
     <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="css/festival.min.css?v=1.4" rel="stylesheet">
-    <script>
-        
-      </script>
-      <script>
-          
-      </script>
+    
 </head>
 
 <body id="page-top">
@@ -285,21 +280,21 @@
             </div>
         </div>
         <div class="row text-center" >
-            <!--this div get filled with the artists
-                <div class="d-flex flex-wrap justify-content-between m-4 text-center text-primary jus" id="artistsLineup"></div>
-                
-                <div class="artist col-xl-3 col-md-4 col-6">
-                    <a target="_blank" onclick="$(this).buildArtistModal('modal.artists.ada.heading', 'modal.artists.ada.text', null, 'ada',null);">
-                        <img class="img-fluid d-block mx-auto" src="img/artists/ada.jpg" alt="artist image">
-                    </a>
-                </div>
-            -->
+            <div class="d-flex flex-wrap justify-content-between m-4 text-center text-primary jus" id="artistsLineup"></div>
             
+            <!--this div get filled with the artists
+            <div class="artist col-xl-3 col-md-4 col-6">
+                <a target="_blank" onclick="$(this).buildArtistModal('modal.artists.ada.heading', 'modal.artists.ada.text', null, 'ada',null);">
+                    <img class="img-fluid d-block mx-auto" src="img/artists/ada.jpg" alt="artist image">
+                </a>
+            </div>
+                
                 <div class="col-12">
                     <p class="text-center text-justify lead">
                         tba
                     </p>
                 </div>
+            -->
 
             
             
@@ -867,9 +862,10 @@
         </div>
     </div>
 </div>
+<!--
 
-<div class="modal fade" id="modalArtist" tabindex="-1" role="dialog" aria-labelledby="modalArtistTitle"
-     aria-hidden="true">
+    <div class="modal fade" id="modalArtist" tabindex="-1" role="dialog" aria-labelledby="modalArtistTitle"
+    aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -932,6 +928,61 @@
                     </li>
                 </ul>
                 <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<div class="modal fade" id="modalArtist" tabindex="-1" role="dialog" aria-labelledby="modalArtistTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content archived">
+            <div class="modal-footer p-0 archived">
+                <ul class="list-inline social-buttons m-auto">
+                    <li id="modalArtistContainerFb" class="list-inline-item d-none">
+                        <a id="modalArtistLinkFb" href="#" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerSc" class="list-inline-item d-none">
+                        <a id="modalArtistLinkSc" href="#" target="_blank">
+                            <i class="fab fa-soundcloud"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerIg" class="list-inline-item d-none">
+                        <a id="modalArtistLinkIg" href="#" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerYt" class="list-inline-item d-none">
+                        <a id="modalArtistLinkYt" href="#" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerBc" class="list-inline-item d-none">
+                        <a id="modalArtistLinkBc" href="#" target="_blank">
+                            <i class="fab fa-bandcamp"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerMc" class="list-inline-item d-none">
+                        <a id="modalArtistLinkMc" href="#" target="_blank">
+                            <i class="fab fa-mixcloud"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerTw" class="list-inline-item d-none">
+                        <a id="modalArtistLinkTw" href="#" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li id="modalArtistContainerDefault" class="list-inline-item ">
+                        <a id="modalArtistLinkDefault" href="#" target="_blank">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <!--<button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>-->
             </div>
         </div>
     </div>
@@ -1003,7 +1054,8 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
 <script src="js/jquery.cookiebar.js"></script>
-<script src="js/festival.min.js?v=1.8"></script>
+<script src="js/festival.min.js?v=1.9"></script>
+<script src="/js/artistload.min.js?v=1.2"></script>
 
 
 </body>
