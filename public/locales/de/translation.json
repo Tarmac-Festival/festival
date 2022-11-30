@@ -61,7 +61,7 @@
       "heading": "An- & Abreise",
       "subheading1": "Einlass Festivalgelände",
       "question1": "Wie komme ich zum Festivalgelände?",
-      "text1": "<p>Die Anreise ist ab Donnerstag (1.9.2022) um 12.30 Uhr sowie am Freitag (2.9.2022) um 10 Uhr m&ouml;glich.</p><p>Falls Ihr mit dem Auto anreisen wollt, gebt als Ziel in das Navi &bdquo;Flugplatz Allstedt&ldquo; oder die Koordinaten 51.389001, 11.450220 ein.</p><p>Es gibt nur eine Zufahrtsm&ouml;glichkeit zum Veranstaltungsgel&auml;nde. Folgt anschlie&szlig;end der Beschilderung.</p><p>Alternativ k&ouml;nnt ihr auch mit dem Fahrrad, dem &Ouml;PNV anreisen oder organisiert eure Anreise &uuml;ber die Telegramgruppe f&uuml;r Mitfahrgelegenheiten. N&auml;here Informationen findet ihr in den jeweiligen bereichen.</p>",
+      "text1": "<p>Die Anreise ist ab Donnerstag (1.9.2022) um 12.30 Uhr sowie am Freitag (2.9.2022) um 10 Uhr bis jeweils 0 Uhr m&ouml;glich.</p><p>Falls Ihr mit dem Auto anreisen wollt, gebt als Ziel in das Navi &bdquo;Flugplatz Allstedt&ldquo; oder die Koordinaten 51.389001, 11.450220 ein.</p><p>Es gibt nur eine Zufahrtsm&ouml;glichkeit zum Veranstaltungsgel&auml;nde. Folgt anschlie&szlig;end der Beschilderung.</p><p>Alternativ k&ouml;nnt ihr auch mit dem Fahrrad, dem &Ouml;PNV anreisen oder organisiert eure Anreise &uuml;ber die Telegramgruppe f&uuml;r Mitfahrgelegenheiten. N&auml;here Informationen findet ihr in den jeweiligen bereichen.</p>",
       "subheading2": "Heimreise",
       "question2": "Wann muss ich meine Heimreise antreten?",
       "text2": "<strong>Das Festival-Programm endet am Sonntag, den 4.9.2022 20 Uhr.</strong><br><br><strong>Abreise ist bis spätestens am Montag, den 5.9.2022 14 Uhr möglich.</strong>",
@@ -228,6 +228,9 @@
       "heading": "Newsletter abonnieren",
       "button":"Zum Formular",
       "text": "Du willst auf dem laufenden bleiben? Keine Updates zu Ticketverkauf, Helfer-Bewerbungen oder Stellungnahmen und sonstigen Ankündigungen verpassen? Dann abonniert den TARMAC-Newsletter und lasst euch die Informationen ins Postfach schicken."
+    },
+    "booking":{
+      "text": "Bitte beachtet, dass wir keine Initiativbewerbungen entgegennehmen!"
     }
   },
   "helpers":{

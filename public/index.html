@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v3.10'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v3.11'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -619,7 +619,9 @@
                                     <li><i class="fas fa-envelope text-primary"></i> <a
                                             href="mailto:contact@tarmac-festival.de">contact@tarmac-festival.de</a>
                                     </li>
-                                    <li><i class="fas fa-envelope text-primary"></i> <a
+                                    <li><i class="fas fa-envelope text-primary"></i> 
+                                        <p class="localized" data-i18n="contact.booking.text">#</p>
+                                        <a
                                             href="mailto:booking@tarmac-festival.de">booking@tarmac-festival.de</a>
                                     </li>
                                 </ul>

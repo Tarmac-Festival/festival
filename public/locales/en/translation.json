@@ -58,7 +58,7 @@
       "heading": "Arrival & departure",
       "subheading1": "Admission to site",
       "question1": "How do I get to the festival site?",
-      "text1": "<p>Arrival will be possible from Thursday (9/1/2022) at 12:30pm and on Friday (9/2/2022) at 10am.</p><p>If you want to travel by car, enter \"Flugplatz Allstedt\" or the coordinates 51.389001, 11.450220 as destination in the navigation system.</p><p>There is only one entrance to the event area. Then follow the signs.</p><p>Alternatively, you can travel by bike, public transport or organize your journey via the telegram group for carpooling. You can find more information in the respective areas.</p>",
+      "text1": "<p>Arrival will be possible from Thursday (9/1/2022) at 12:30am  till 12:00pm and on Friday (9/2/2022) at 10am till 12:00pm.</p><p>If you want to travel by car, enter \"Flugplatz Allstedt\" or the coordinates 51.389001, 11.450220 as destination in the navigation system.</p><p>There is only one entrance to the event area. Then follow the signs.</p><p>Alternatively, you can travel by bike, public transport or organize your journey via the telegram group for carpooling. You can find more information in the respective areas.</p>",
       "subheading2": "Home trip",
       "question2": "When do I have to start my trip home?",
       "text2": "<strong>The festival program ends September 05th 2021, 6 pm.</strong><br><br><strong>Departure is possible until September 06th 2021, 2 pm at the latest.</strong>",
@@ -225,6 +225,9 @@
       "heading": "Subscribe to our newsletter",
       "button":"Subscribe",
       "text": "You don’t want to miss out on any updates? Be informed when important dates are coming up; for example when ticket sales are coming up, applications for supporters are going to be open or announcements concerning the TARMAC are made? You are now able to subscribe to our TARMAC newsletter."
+    },
+    "booking":{
+      "text": "Please note that we do not accept unsolicited applications!"
     }
   },
   "helpers":{
@@ -250,8 +253,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "Caution when buying tickets",
-      "text": "Tickets are exclusively sold by our webshop provider <a href='https://www.tixforgigs.com/de-DE/Event/41504' target='blank'>TixforGigs</a>. Offers from other sites and shops are fraudulent and will be not be accepted for entrance. Your personalized tickets can only be sold via the market at <a href='https://www.tixforgigs.com/de-DE/Event/41504' target='blank'>TixforGigs</a>."
+      "heading": "aution when buying tickets",
+      "text": "<p>Tickets are exclusively sold by our webshop provider TixforGigs. Offers from other sites and shops are fraudulent and will be not be accepted for entrance. Your personalized tickets can be sold via the market TixforGigs.</p>"
       },
     "chronic": {
       "heading": "Chronicle",
