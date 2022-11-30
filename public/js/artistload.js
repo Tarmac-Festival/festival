@@ -10,7 +10,7 @@ function fillDOM(year){
 
         var container = document.getElementById("acts");
         for(var i = 0; i < acts.length; i++) {
-            console.log(acts[i].actType);
+            //console.log(acts[i].actType);
             var actDiv = document.createElement("div");
             actDiv.classList.add("py-2");
             actDiv.classList.add("px-3");
@@ -62,9 +62,9 @@ function fillDOM(year){
                             actName.append(", ");
                         }
                     }else{
-                        actName.appent(act.name);
+                        actName.append(act.name);
                         if(j<acts[i].acts.length-1){
-                            actname.append(", ");
+                            actName.append(", ");
                         }
                     }
                 }
@@ -89,7 +89,7 @@ function fillArtists(year){
 
         var container = document.getElementById("artistsLineup");
         for(var i = 0; i < acts.length; i++) {
-            console.log(acts[i].actType);
+            //console.log(acts[i].actType);
             var actDiv = document.createElement("div");
             actDiv.classList.add("py-2");
             actDiv.classList.add("px-3");

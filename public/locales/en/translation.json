@@ -39,6 +39,7 @@
     "heading": "Info",
     "box1": {
       "heading": "Tickets",
+      "tba": "Information about ticket options will be published at the beginning of february 2023.",
       "subheading1": "Ticket 140 € + shop fee (sold out)",
       "text1": "",
       "subheading2": "Camping ticket 20 € + shop fee",
@@ -231,21 +232,10 @@
     }
   },
   "helpers":{
-    "upcoming":{
-      "heading":"Apply as a support",
-      "text": "You want to help. More information will be available at May.",
-      "button": "Zum Formular"
-    },
-    "open":{
-      "heading":"Apply as a support",
-      "text": "Enter your personal information in the form below to apply as a support.",
-      "button": "To The Form"
-    },
-    "closed":{
-      "heading":"Many thanks to the numerous helpers",
-      "text": "Our need for support is covered for this year.",
-      "button": "torm"
-    }
+    "heading":"Apply for a supporter ticket",
+    "button": "To the form",
+    "pre": "You are interested in helping and supporting on the venue? Starting on June 2023, there will be further information on the application procedure.",
+    "closed" : "Thank you for your support. Currently we got enouqh requests to meet our support demand."
   },
   "modal": {
     "common": {
