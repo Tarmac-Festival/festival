@@ -3,12 +3,12 @@
 //  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 //}
 @mixin body-font {
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
 @mixin heading-font {
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
@@ -18,6 +18,26 @@
 }
 
 @font-face {
+  font-family: "Fabrik";
+  src: url("../fonts/fabrik/fabrik.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Lesefreude";
+  src: url("../fonts/Lesefreude/Lesefreude.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Osterbar";
+  src: url("../fonts/Osterbar/Osterbar.ttf") format('truetype');
+}
+@font-face {
   font-family: "Fundamental Brigade";
   src: url("../fonts/Fundamental-Brigade.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Phanta Du";
+  src: url("../fonts/PhantaDu/Phanta-Du.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format('truetype');
 }

@@ -39,7 +39,7 @@ gulp.task('vendor', function () {
 
     // Font Awesome
     gulp.src([
-        './node_modules/@fortawesome/**/*'
+        './node_modules/@fontawesome/**/*'
     ])
         .pipe(gulp.dest('./public/vendor'));
 
