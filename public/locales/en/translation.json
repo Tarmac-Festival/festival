@@ -40,13 +40,13 @@
     "box1": {
       "heading": "Tickets",
       "tba": "Information about ticket options will be published at the beginning of february 2023.",
-      "subheading1": "Ticket 140 € + shop fee (sold out)",
+      "announcement": "On 23.02.2023 and on 26.02.2023 half of the ticket contingent will be released at our ticket provider TixforGigs from 18:00 each day.<br><br>A festival ticket will cost 155,00€ (plus booking fees). As in previous years, there will also be camper tickets for vehicles on the campsite.",
+      "subheading1": "Ticket 155 € + shop fee (sold out)",
       "text1": "",
-      "subheading2": "Camping ticket 20 € + shop fee",
+      "subheading2": "Camping ticket",
       "text2": "If you want to stay at the festival site with your caravan or car, you need to purchase this ticket. This ticket allows you to park your vehicle on the camping site. Parking areas outsite the festival and camping site are free.",
       "subheading3": "Important:",
       "text3": "Tickets are exclusively sold by our webshop provider TixforGigs. Offers from other sites and shops are fraudulent and will be not be accepted for entrance. Your personalized tickets can be sold via the market at TixforGigs."
-    
       },
     "box2": {
       "heading": "Tickets",
@@ -243,8 +243,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "TARMAC Festival and Newsletter ",
-      "text": "You don’t want to miss out on any updates? Be informed when important dates are coming up; for example when ticket sales are coming up, applications for supporters are going to be open or announcements concerning the TARMAC are made?<br><br>You are now able to subscribe to our TARMAC newsletter. Fill out the form on our website, or follow the <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">link</a>  and don’t miss any of the aforementioned topics."
+      "heading": "Ticket sales for Tarmac Festival 2023 will start soon!",
+      "text": "Since the ticket sale in the last two years has unfortunately led to disappointment for many, we have decided this year to split the ticket sale over two days. Therefore, you can buy tickets for Tarmac 2023 on our website on 23.02. as well as on 26.02.2023 at 6 pm! A festival ticket will cost 155,00€ (plus VVK fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>."
       },
     "chronic": {
       "heading": "Chronicle",

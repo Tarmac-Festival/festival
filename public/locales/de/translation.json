@@ -11,7 +11,7 @@
     "link": "?lng=en"
   },
   "nav": {
-    "project": "Das Projekt",
+    "project": "Projekt",
     "artists": "Künstler:innen",
     "info": "Info",
     "avenue": "Anfahrt",
@@ -44,12 +44,13 @@
     "box1": {
       "heading": "Tickets",
       "tba": "Informationen zu den Ticketoptionen werden wir Anfang Februar 2023 bekannt geben.",
-      "subheading1": "Festivalticket 140 € + VVK Gebühren",
+      "announcement": "Am 23.02.2023 und am 26.02.2023 wird jeweils ab 18:00 die Hälfte des Ticketkontingents bei unserem Ticketanbieter TixforGigsfreigeschaltet. Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.",
+      "subheading1": "Festivalticket 155 € + VVK Gebühren",
       "text1": "",
-      "subheading2": "Camperticket 20 € + VVK Gebühren",
+      "subheading2": "Camperticket",
       "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto Zutritt zum Zeltplatz möchtest, benötigst du ein solches Ticket. Der Pass ermöglicht dir, mit deinem Fahrzeug/ Anhänger auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei.",
       "subheading3": "Wichtiger Hinweis:",
-      "text3": "Wir bieten unsere Tickets oausschließlich über unseren Webshop-Anbieter TixforGigs an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt. Eure personalisierten Tickets könnt Ihr ausschließlich über den Marktplatz von TixforGigs wiederverkaufen."
+      "text3": "Wir bieten unsere Tickets ausschließlich über unseren Webshop-Anbieter TixforGigs an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt. Eure personalisierten Tickets könnt Ihr ausschließlich über den Marktplatz von TixforGigs wiederverkaufen."
     },
     "box2": {
       "heading": "Tickets",
@@ -246,8 +247,8 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "Newsletter",
-      "text": "Ihr wollt auf dem laufenden bleiben? Keine Updates zu Ticketverkauf, Helfer-Bewerbungen oder Stellungnahmen und sonstigen Ank&uuml;ndigungen verpassen?<br>Dann abonniert den TARMAC-Newsletter und lasst euch die Informationen ins Postfach schicken. Einfach das Anmeldeformular auf der Website ausf&uuml;llen oder diesem <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> Link </a>folgen und keine Termine mehr verpassen."
+      "heading": "Der Ticketverkauf für das Tarmac Festival 2023 startet bald!",
+      "text": "Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das Tarmac 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken."
     },
     "chronic": {
       "heading": "Chronik",

@@ -11247,7 +11247,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
@@ -11266,7 +11266,7 @@ section h3.section-subheading {
   font-weight: 400;
   font-style: italic;
   text-transform: none;
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
@@ -11292,7 +11292,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .btn {
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
 }
@@ -11365,7 +11365,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #010101;
+  background-color: #45415c;
 }
 
 #mainNav .navbar-toggler {
@@ -11376,13 +11376,13 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #ffa200;
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
 #mainNav .navbar-brand {
   color: #ffa200;
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
@@ -11396,7 +11396,7 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
@@ -11645,7 +11645,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
@@ -11654,7 +11654,7 @@ footer ul.quicklinks {
   line-height: 50px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Lesefreude', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
