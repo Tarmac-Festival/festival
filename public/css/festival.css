@@ -1,6 +1,6 @@
 /*!
  * Tarmac Festival - Festival Allstedt v1.2.0 (https://tarmac-festival.de/)
- * Copyright 2019-2022 Martin Suckau
+ * Copyright 2019-2023 Martin Suckau
  */
 
 @font-face {
@@ -9,8 +9,33 @@
 }
 
 @font-face {
+  font-family: "Fabrik";
+  src: url("../fonts/fabrik/fabrik.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lesefreude";
+  src: url("../fonts/Lesefreude/Lesefreude.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Osterbar";
+  src: url("../fonts/Osterbar/Osterbar.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Fundamental Brigade";
   src: url("../fonts/Fundamental-Brigade.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Phanta Du";
+  src: url("../fonts/PhantaDu/Phanta-Du.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
 }
 
 /*!
@@ -11184,7 +11209,7 @@ template {
 body {
   overflow-x: hidden;
   font-size: 1.1rem;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
 }
 
@@ -11222,7 +11247,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
@@ -11241,7 +11266,7 @@ section h3.section-subheading {
   font-weight: 400;
   font-style: italic;
   text-transform: none;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
@@ -11267,7 +11292,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .btn {
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
   font-weight: 700;
 }
@@ -11351,13 +11376,13 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #ffa200;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
 #mainNav .navbar-brand {
   color: #ffa200;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
@@ -11371,7 +11396,7 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
@@ -11620,7 +11645,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
@@ -11629,7 +11654,7 @@ footer ul.quicklinks {
   line-height: 50px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Fundamental Brigade', serif;
+  font-family: 'Lesefreude', sans-serif;
   font-style: normal;
 }
 
