@@ -5,3 +5,8 @@ SOURCE_SITE_ID: festival-allstedt
 firebase hosting:clone SOURCE_SITE_ID:SOURCE_CHANNEL_ID TARGET_SITE_ID:TARGET_CHANNEL_ID
 
 firebase deploy --only hosting
+
+Preview-channel:
+https://firebase.google.com/docs/hosting/manage-hosting-resources?hl=de
+
+firebase hosting:channel:deploy ticket-announcement --expires 7d
