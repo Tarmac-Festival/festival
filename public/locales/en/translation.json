@@ -20,6 +20,13 @@
     "archive": "Archive",
     "newsletter": "Newsletter"
   },
+  "announcements":{
+    "heading": "Update",
+    "subheading1" : "TARMAC 2022",
+    "text1": "We have drawn a fundamentally positive conclusion after the TARMAC Festival 2022. We organized the festival for the first time as a non profit organization and were able to further improve our structures and processes.<br><br>One of the biggest challenges on the TARMAC festival site in Allstedt is the supply of drinking water. Since there is no stationary water connection on site, we rely on a mobile drinking water system and the constant supply of water in water tanks by service providers. To ensure the quality of the drinking water, the water quality is monitored in cooperation with the health department. Starting on Friday of the festival, we had to shut down our drinking water system because critical limits could no longer be met. In order not to have to cancel the festival, we pooled all the resources at our disposal and procured bottled drinking water as an alternative. In this way, a basic supply of drinking water could be maintained. Unfortunately, the shower and hand washing stations had to remain closed. We would like to take this opportunity to apologize for this situation and the inconvenience it caused! Nevertheless, we hope that our emergency solution could also save your festival experience and that you will have good memories of TARMAC 2022 despite these restrictions.<br><br>For TARMAC 2023, we are working to ensure that such a situation cannot occur again and that drinking water will be permanently available for the event.",
+    "subheading2": "TARMAC 2023",
+    "text2": "TARMAC Festival 2023 will take place from 31.08.2023 - 03.09.2023. Tickets will be available from 23/02/2023 via our website www.TARMAC-festival.de. After the ticket sales, there will also be the possibility to apply as a helper in the summer.<br><br>Ticket sales have unfortunately led to disappointment for many in the last two years, as tickets were sold out very quickly. We are not satisfied with this situation either. Last year, we have already tried to improve the situation with a new ticket provider, additional server capacity and an increase in the number of tickets. This year there will also be a small increase in the ticket contingent. We are trying to further improve the stability during the ordering process, too. The option to raffle the tickets has been examined, but is impractical for us due to financial and organizational reasons.<br><br>However, due to your feedback on ticket sales, we have decided to split the ticket sales. On 23.02.2023 and on 26.02.2023 half of the ticket contingent will be released from 18:00 each day.<br><br>A festival ticket will cost 155,00€ (plus advance booking fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>This year there are also <strong>participation tickets</strong>.<br>These are for people with impairments.<br>The participation tickets will NOT be sold in February.<br>For registration there will be an extra form <a href='#contact'>here</a>"
+  },
   "about": {
     "heading": "Project",
     "text1": "We are united by the idea of creating a festival which is intimate and enthusiastic, brings fun, operates sustainably, is non-commercial, and pursues the goal to create a diverse consciousness for music, culture, and life in our present time. A feast which takes you outside and is still just around the corner. A bit of escapism while at the same time confronting the challenges of reality.",
@@ -40,7 +47,7 @@
     "box1": {
       "heading": "Tickets",
       "tba": "Information about ticket options will be published at the beginning of february 2023.",
-      "announcement": "On 23.02.2023 and on 26.02.2023 half of the ticket contingent will be released at our ticket provider TixforGigs from 18:00 each day.<br><br>A festival ticket will cost 155,00€ (plus booking fees). As in previous years, there will also be camper tickets for vehicles on the campsite.",
+      "announcement": "On 23.02.2023 and on 26.02.2023 half of the ticket contingent will be released at our ticket provider TixforGigs from 18:00 each day.<br><br>A festival ticket will cost 155,00€ (plus booking fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>Participation tickets for people with impairments will be sold seperately. An application form will be available under <a href='#contact'>Contact</a>",
       "subheading1": "Ticket 155 € + shop fee (sold out)",
       "text1": "",
       "subheading2": "Camping ticket",
@@ -244,7 +251,7 @@
     },
     "important": {
       "heading": "Ticket sales for Tarmac Festival 2023 will start soon!",
-      "text": "Since the ticket sale in the last two years has unfortunately led to disappointment for many, we have decided this year to split the ticket sale over two days. Therefore, you can buy tickets for Tarmac 2023 on our website on 23.02. as well as on 26.02.2023 at 6 pm! A festival ticket will cost 155,00€ (plus VVK fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>."
+      "text": "Since the ticket sale in the last two years has unfortunately led to disappointment for many, we have decided this year to split the ticket sale over two days. Therefore, you can buy tickets for Tarmac 2023 on our website on 23.02. as well as on 26.02.2023 at 6 pm! A festival ticket will cost 155,00€ (plus VVK fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>There will also be participation tickets for people with impairments. More details can be found under update.<br><br>You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>."
       },
     "chronic": {
       "heading": "Chronicle",
