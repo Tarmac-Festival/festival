@@ -1,7 +1,7 @@
 // Styling for the masthead
 header.masthead {
   min-height: 100vh;
-  background-color: $tarmac-lila;
+  background-color: $primary;
   .down {
     position: absolute;
     left: 0;
@@ -20,7 +20,7 @@ header.masthead {
   }
 }
 .header__bgimg {
-  background-image: url("../img/hero2022.png");
+  background-image: url("../img/header2023.jpg");
   background-position: 93%;
   background-size: cover;
   background-repeat: no-repeat;

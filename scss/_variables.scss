@@ -14,12 +14,20 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$accent: #ffa200 !default;
-$primary: #ececec !default;
-$secondary: #010101 !default;
-$info: #45415c !default;
-$lightAccent: #d5c8e0 !default;
 
-$tarmac-lila: #45415c;
-$tarmac-orange: #ffa200;
-//$tarmac-orange: #8dc4bf;
+
+$tarmac-trks: #9acccb;
+$tarmac-vltt: #58466e;
+$tarmac-orag: #de866f;
+$tarmac-yellw: #ffe27f;
+$tarmac-cyan: #4cb6a1;
+
+$accent: $tarmac-cyan !default;
+$primary: $tarmac-vltt !default;
+$secondary: $tarmac-trks !default;
+$success: $tarmac-cyan;
+$info: $tarmac-cyan !default;
+$danger: $tarmac-orag;
+$light: #ececec;
+$dark: #101010;
+$lightAccent: #d5c8e0 !default;

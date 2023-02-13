@@ -12,7 +12,7 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $accent;;
+    color: $warning;
     @include heading-font;
     &.active,
     &:active,
@@ -73,7 +73,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $tarmac-lila;
+      background-color: $primary;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
