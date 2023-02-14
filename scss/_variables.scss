@@ -14,8 +14,27 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
+//2022
+$accent22: #ffa200 !default;
+$primary22: #ececec !default;
+$secondary22: #010101 !default;
+$info22: #45415c !default;
+$lightAccent22: #d5c8e0 !default;
 
+$tarmac-lila: #45415c;
+$tarmac-orange: #ffa200;
 
+$accent: $tarmac-orange !default;
+$primary: $tarmac-lila !default;
+$secondary: $accent22 !default;
+$success: $tarmac-orange;
+$info: $info22 !default;
+$danger: $tarmac-orange;
+$light: #ececec;
+$dark: #101010;
+$lightAccent: #d5c8e0 !default;
+//2023
+/*
 $tarmac-trks: #9acccb;
 $tarmac-vltt: #58466e;
 $tarmac-orag: #de866f;
@@ -31,3 +50,4 @@ $danger: $tarmac-orag;
 $light: #ececec;
 $dark: #101010;
 $lightAccent: #d5c8e0 !default;
+*/
