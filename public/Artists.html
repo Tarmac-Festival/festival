@@ -60,7 +60,7 @@
     <link href="css/festival.min.css?v=1.4" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="page-top ">
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString)
@@ -76,7 +76,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">01. - 03.09.2023</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">31.08 - 03.09.23</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -84,7 +84,7 @@
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
+            <ul class="navbar-nav text-uppercase justify-content-between flex-grow-1">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger localized" href="/#about" data-i18n="nav.project">#</a>
                 </li>
@@ -98,20 +98,23 @@
                     <a class="nav-link js-scroll-trigger localized" href="/#avenue" data-i18n="nav.avenue">#</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger localized" href="/#helpers" data-i18n="nav.helpers">#</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link js-scroll-trigger localized" href="/#contact" data-i18n="nav.contact">#</a>
                 </li>
                 <li class="nav-item">
                     <div class="nav-link nav-btn">
-                        <a class="btn btn-primary localized disabled" href="https://www.tixforgigs.com/Event/41504"
-                           target="_blank" data-i18n="nav.tickets" disabled>#</a>
+                        <a class="btn btn-danger localized " href="https://www.tixforgigs.com/Event/47273"
+                           target="_blank" data-i18n="nav.tickets" >#</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link  dropdown-toggle localized " data-toggle="dropdown" data-i18n="nav.archive">#</a>
-                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="Artists.html?year=2022" target="_blank">2022</a><li>
-                        <li><a class="dropdown-item" href="Artists.html?year=2021" target="_blank">2021</a><li>
-                        <li><a class="dropdown-item" href="Artists.html?year=2020" target="_blank">2020</a><li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
+                     <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
+                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2022" >2022</a></li>
+                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2021" >2021</a></li>
+                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2020" >2020</a></li>
                      </ul>
                  </li>
             </ul>
@@ -120,18 +123,14 @@
 </nav>
 
 <!-- Header -->
-<header class="masthead d-flex">
+<header class="d-flex bg-secondary">
     <div class="container-fluid px-0 ">
         <div class="row m-4 mt-5"></div>
         <div class="row m-4 mt-5"></div>
         <div class="row m-4 mt-5">
             <h1 class="my-5 mx-auto text-primary" id="lineupArchive">#</h1>
         </div>
-        <div class="row  my-2">
-            <div class="d-flex flex-wrap justify-content-between m-4 text-center text-primary jus" id="acts">
-    
-            </div>
-        </div>
+        
         
         
     
@@ -140,6 +139,13 @@
     
     </div>
 </header>
+<section id="actlist">
+    <div class="container-fluid">
+            <div class="d-flex flex-wrap justify-content-between m-4 text-center text-primary jus" id="acts">
+                <!--Acts-->
+            </div>
+    </div>
+</section>
 <div class="modal fade" id="modalArtist" tabindex="-1" role="dialog" aria-labelledby="modalArtistTitle"
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
@@ -194,11 +200,12 @@
 </div>
 
 <!-- Footer -->
-<footer class="bg-primary">
+<!-- Footer -->
+<footer class="bg-light">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; TARMAC Festival 2022</span>
+                <span class="copyright">Copyright &copy; TARMAC Festival 2023</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
@@ -227,11 +234,9 @@
                     <li class="list-inline-item">
                         <a href="Datenschutz.html" target="_blank" data-i18n="footer.policy">#</a>
                     </li>
-                    <!--<li class="list-inline-item">
+                    <li class="list-inline-item">
                         <a href="#" data-i18n="[href]footer.link;footer.language">#</a>
                     </li>
-                    -->
-                    
                 </ul>
             </div>
         </div>

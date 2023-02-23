@@ -11,13 +11,10 @@ p {
 
 a {
   color: $accent;
+  font-weight: 600;
   &:hover {
     color: darken($accent, 10%);
   }
-}
-
-.text-primary {
-  color: $accent !important;
 }
 
 .text-muted {

@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.1'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.2'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -103,7 +103,7 @@
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase ml-auto">
+            <ul class="navbar-nav text-uppercase justify-content-between flex-grow-1">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger localized" href="#about" data-i18n="nav.project">#</a>
                 </li>
@@ -124,16 +124,16 @@
                 </li>
                 <li class="nav-item">
                     <div class="nav-link nav-btn">
-                        <a class="btn btn-primary localized " href="https://www.tixforgigs.com/Event/47273"
+                        <a class="btn btn-danger localized " href="https://www.tixforgigs.com/Event/47273"
                            target="_blank" data-i18n="nav.tickets" >#</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown ">
                     <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
-                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item " href="Artists.html?year=2022" target="_blank">2022</a></li>
-                        <li><a class="dropdown-item " href="Artists.html?year=2021" target="_blank">2021</a></li>
-                        <li><a class="dropdown-item " href="Artists.html?year=2020" target="_blank">2020</a></li>
+                     <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
+                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2022" target="_blank">2022</a></li>
+                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2021" target="_blank">2021</a></li>
+                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2020" target="_blank">2020</a></li>
                      </ul>
                  </li>
             </ul>
@@ -339,7 +339,37 @@
                     <div class="info-content localized">
                         <h2 class="info-title" data-i18n="info.box1.heading">#</h2>
                         <hr class="divider">
-                        <p class="text-justify text-center" data-i18n="[html]info.box1.announcement">#</p>
+                        <!--tba-->
+                        <div class="d-none">
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.tba.text">#</p>
+                        </div>
+                        <!--announcement-->
+                        <div class="d-none">
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.announcement.text">#</p>
+                        </div>
+                        <!--open-->
+                        <div class="">
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading1">#</p>
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.text1">#</p>
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading2">#</p>
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.text2">#</p>
+                        </div>
+                        <!--closednext-->
+                        <div class="d-none">
+                            <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.closednext.heading">#</p>
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.closednext.text">#</p>
+                        </div>
+                        <!--closed-->
+                        <div class="d-none">
+                            <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.closed.heading">#</p>
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.closed.text">#</p>
+                        </div>
+                        <!--participation-->
+                        <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.participation.heading">#</p>
+                        <p class="text-justify text-center" data-i18n="[html]info.box1.participation.text">#</p>
+                        <!--warning-->
+                        <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.warning.heading">#</p>
+                        <p class="text-justify text-center" data-i18n="[html]info.box1.warning.text">#</p>
                         <!--
                             <p class="text-justify text-center" data-i18n="info.box1.text2">#</p>
                             <p class="lead text-center" data-i18n="info.box1.subheading3">#</p>
@@ -713,7 +743,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; TARMAC Festival 2022</span>
+                <span class="copyright">Copyright &copy; TARMAC Festival 2023</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
@@ -786,7 +816,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.heading">#</h4>
+                <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.open.heading">#</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -795,7 +825,8 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 localized">
-                            <p id="modalImportantText">#</p>
+                            <p id="modalImportantText" data-i18n="[html]modal.important.tickets.open.text">#</p>
+                            <p id="modalImportantNewsletter" data-i18n="[html]modal.important.newsletter">#</p>
                         </div>
                     </div>
                 </div>

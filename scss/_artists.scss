@@ -21,10 +21,16 @@
 }
 .artistLink{
   cursor: pointer;
-  color: $accent;
+  color: darken($danger, 6.5);
+  
+  &:hover,
+  &.active{
+    color: darken($danger, 7.5);
+    cursor: pointer;
+  }
 }
 .artist h2{
-  color: $accent;
+  color: $danger;
 }
 .modal-content{
   &.archived{

@@ -58,7 +58,7 @@
             ]
         });
 
-        $('#modalImportantText').html(i18next.t("modal.important.text", "#"))
+        $('#modalImportantText')
         $('#modalImportant').on('show.bs.modal', function () {
             $('#modalImportant a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
                 if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {

@@ -12,13 +12,13 @@
   },
   "nav": {
     "project": "Projekt",
-    "artists": "Künstler:innen",
+    "artists": "Lineup",
     "info": "Info",
     "avenue": "Anfahrt",
     "contact": "Kontakt",
     "helpers": "Helfer:in",
     "tickets": "Tickets",
-    "archive": "Rückblick",
+    "archive": "Archiv",
     "newsletter": "Newsletter"
   },
   "announcements":{
@@ -50,14 +50,36 @@
     "heading": "Info",
     "box1": {
       "heading": "Tickets",
-      "tba": "Informationen zu den Ticketoptionen werden wir Anfang Februar 2023 bekannt geben.",
-      "announcement": "Am 23.02.2023 und am 26.02.2023 wird jeweils ab 18:00 die Hälfte des Ticketkontingents bei unserem Ticketanbieter TixforGigsfreigeschaltet.<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Teilhabetickets für Menschen mit Beeinträchtigungen werden extra verkauft. Die Anmeldung erfolgt zu einem späteren Zeitpunkt uter <a href='#contact'>Kontakt</a>",
-      "subheading1": "Festivalticket 155 € + VVK Gebühren",
-      "text1": "",
-      "subheading2": "Camperticket",
-      "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto Zutritt zum Zeltplatz möchtest, benötigst du ein solches Ticket. Der Pass ermöglicht dir, mit deinem Fahrzeug/ Anhänger auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei.",
-      "subheading3": "Wichtiger Hinweis:",
-      "text3": "Wir bieten unsere Tickets ausschließlich über unseren Webshop-Anbieter TixforGigs an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt. Eure personalisierten Tickets könnt Ihr ausschließlich über den Marktplatz von TixforGigs wiederverkaufen."
+      "tba":{
+        "heading": "",
+        "text": "Informationen zu den Ticketoptionen werden wir Anfang Februar 2023 bekannt geben."
+      },
+      "announcement" : {
+        "heading" : "",
+        "text": "Am 23.02.2023 und am 26.02.2023 wird jeweils ab 18:00 die Hälfte des Ticketkontingents bei unserem Ticketanbieter TixforGigsfreigeschaltet.<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Teilhabetickets für Menschen mit Beeinträchtigungen werden extra verkauft. Die Anmeldung erfolgt zu einem späteren Zeitpunkt uter <a href='#contact'>Kontakt</a>"
+      },
+      "open":{
+        "heading1": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br>",
+        "text1": "Festivalticket 155 € + VVK Gebühren",
+        "heading2": "Camperticket",
+        "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto Zutritt zum Zeltplatz möchtest, benötigst du ein solches Ticket. Der Pass ermöglicht dir, mit deinem Fahrzeug/ Anhänger auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
+      },
+      "closednext":{
+        "heading": "(Sold Out) Sonntag gehts weiter",
+        "text": "Die Tickets für den heutigen Tag sind ausverkauft. Am Sonntag (26.02.2023) um 18 Uhr geht die 2.Verkaufsrunde los."
+      }, 
+      "closed":{
+        "heading":"Sold Out",
+        "text": "Alle Tickets sind ausverkauft. Tickets die weiterverkauft werden findet Ihr im <a class=\"\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Marktplatz von TixforGigs</a>."
+      },
+      "warning":{
+        "heading": "Wichtiger Hinweis:",
+        "text": "Wir bieten unsere Tickets ausschließlich über unseren Webshop-Anbieter <a href=\"https://www.tixforgigs.com/Event/47273\">TixforGigs</a> an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt. Eure personalisierten Tickets könnt Ihr ausschließlich über den Marktplatz von TixforGigs wiederverkaufen."
+      },
+      "participation":{
+        "heading": "Teilhabetickets",
+        "text": "Teilhabetickets für Menschen mit Beeinträchtigungen werden extra verkauft. Die Anmeldung erfolgt zu einem späteren Zeitpunkt uter <a href='#contact'>Kontakt</a>"
+      }
     },
     "box2": {
       "heading": "Tickets",
@@ -254,8 +276,31 @@
       "soon": "Coming Soon"
     },
     "important": {
-      "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet bald!",
-      "text": "Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Beeinträchtigungen geben. Ausführlichere Informationen dazu unter Updates.<br><br>Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken."
+      "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet.",
+      "text": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br> Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Beeinträchtigungen geben. Ausführlichere Informationen dazu unter Updates.<br><br>Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken.",
+      "tickets" :{
+        "tba": {
+          "heading": "",
+          "text": ""
+        },
+        "announcement": {
+          "heading" : "Der Ticketverkauf für das TARMAC Festival 2023 startet bald",
+          "text": "Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Beeinträchtigungen geben. Ausführlichere Informationen dazu unter Updates."
+        },
+        "open": {
+          "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet.",
+          "text":"<a class=\"btn btn-danger\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br>Ab 18 Uhr könnt ihr Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Beeinträchtigungen geben. Ausführlichere Informationen dazu unter Updates."
+        },
+        "closednext":{
+          "heading": "(Sold Out) Sonntag gehts weiter",
+          "text": "Die Tickets für den heutigen Tag sind ausverkauft. Am Sonntag (26.02.2023) um 18 Uhr geht die 2.Verkaufsrunde los."
+        }, 
+        "closed" : {
+          "heading": "Der Ticketverkauf für das TARMAC Festival 2023 ist beendet",
+          "text": "Alle Tickets sind ausverkauft. Tickets die weiterverkauft werden findet Ihr im <a class=\"\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Marktplatz von TixforGigs</a>."
+        }
+      },
+      "newsletter": "Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken."
     },
     "chronic": {
       "heading": "Chronik",
