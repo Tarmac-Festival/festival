@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.3'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.4'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -348,7 +348,7 @@
                             <p class="text-justify text-center" data-i18n="[html]info.box1.announcement.text">#</p>
                         </div>
                         <!--open-->
-                        <div class="">
+                        <div class="d-none">
                             <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading1">#</p>
                             <p class="text-justify text-center" data-i18n="[html]info.box1.open.text1">#</p>
                             <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading2">#</p>
@@ -360,7 +360,7 @@
                             <p class="text-justify text-center" data-i18n="[html]info.box1.closednext.text">#</p>
                         </div>
                         <!--closed-->
-                        <div class="d-none">
+                        <div class="">
                             <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.closed.heading">#</p>
                             <p class="text-justify text-center" data-i18n="[html]info.box1.closed.text">#</p>
                         </div>
@@ -816,7 +816,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.open.heading">#</h4>
+                <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.closed.heading">#</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -825,7 +825,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 localized">
-                            <p id="modalImportantText" data-i18n="[html]modal.important.tickets.open.text">#</p>
+                            <p id="modalImportantText" data-i18n="[html]modal.important.tickets.closed.text">#</p>
                             <p id="modalImportantNewsletter" data-i18n="[html]modal.important.newsletter">#</p>
                         </div>
                     </div>
