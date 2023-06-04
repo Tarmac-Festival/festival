@@ -74,7 +74,7 @@
       },
       "participation":{
         "heading": "Participation Tickets",
-        "text": "There will be participation tickets for the TARMAC festival this year.<br />With this we want to enable people with disabilities to come to TARMAC. The tickets will be sold later. So if you want to buy a participation ticket, you can relax.<br /><br />Information about the participation ticket:<br />You will need a &lsquo;disability card&rsquo;.<br />If you need an accompanying person, they can come with you for free. (Attribute \"B&rdquo; is not requested)<br />There will be more information about this topic on our social media channels and website soon."
+        "text": "There will be participation tickets for the TARMAC festival this year.<br />With this we want to enable people with disabilities to come to TARMAC. More information about the participation tickets is given in the infobox 'Participation' below."
       }
       },
     "box2": {
@@ -231,7 +231,42 @@
       "subheading7": "Disinfection",
       "question7": "Where can I disinfect/clean my hands?",
       "text7": "A hand washing facility with soap and disinfection will be provided at several locations."
-    }
+    },
+    "box11":{
+      "heading": "Participation",
+          "subheading1": "Offer",
+          "question1": "What do we offer?",
+          "text1": "<p>This year the TARMAC association has founded the &lsquo;Teilhabe AG&rsquo; (&lsquo;Participation Working Group&rsquo;) together with the collective &lsquo;<em>Barrieren Sprengen</em>&rsquo; (&lsquo;Blowing Up Barriers&rsquo;). Together we have come up with a low-barrier festival concept and will implement it this year.</p><p>You can expect sanitary facilities that are easily accessible with a walking and standing impairment, leveled paths all over the site and access to a refrigerator for your medication. In a section of the camping area there will be a power supply available for your equipment. On demand we can provide you with camp beds, hearing protection and polarized sunglasses. If you need other or additional equipment, please let us know! We will try to find a solution.</p><p>During the festival, our team of the &lsquo;Teilhabe AG&rsquo; will be available around the clock.</p><p>&nbsp;</p><p>For reasons of transparency, we would like to point out that we are still waiting for the approval of some of our funding applications.</p><p>Therefore, this information is still subject to change. As soon as we know more we will update the FAQ and inform people who have already bought a ticket about the changes.</p><p>&nbsp;</p><p><strong><em>I have more questions. How can I reach you?</em></strong></p><p>If your questions are not answered here, you can reach us at <a href='mailto:teilhabe@tarmac-festival.de'><em>teilhabe@tarmac-festival.de</em></a>. We are looking forward to hearing from you!</p>",
+        
+          "subheading2": "Implementation",
+          "question2": "How does the ‘Teilhabe-Ticket’ (‘Participation-Ticket’) work?",
+          "text2": "<p>In order to be able to purchase a &lsquo;Teilhabe-Ticket&rsquo;, you need a <strong>severely disabled person's ID</strong>. Whether you bring an accompanying person with you is entirely up to you. The label 'B' is not necessary for that.</p><p>&nbsp;</p><p><strong><em>The ticket sales process goes as follows:</em></strong></p><p>The &lsquo;Teilhabe-Tickets&rsquo; will be sold via &lsquo;TixforGigs&rsquo; from 7.6.2023 and cost &euro;82.00 including all fees.</p><p>For the ticket purchase we ask you,</p><ol><li><p>to fill in a form with your contact details and requirements. This will help us with further planning.</p></li><li><p>We will then send you an email. This is not automated, so please bear with us! ;) In this email you will find a code and a link.</p></li><li><p>When you use the link, you will be redirected to a web page where you can enter the code.</p></li><li><p>Afterwards you pay and receive your ticket as a PDF.</p></li></ol><p>You can take your assistant with you free of charge.</p><p>They will receive a ticket as a PDF via their own email address. You also enter the email address of your accompanying person in the form.</p>",
+        
+          "subheading3": "Stay and Camp",
+          "question3": "What is the ‘Teilhabe-Camp’ (‘Participation Camp’)? Do I have to go there?",
+          "text3": "<p>Of course not, but you can! The &lsquo;Teilhabe-Camp&rsquo; is <strong>not</strong> separated from the rest of the campsite, but amidst it. There is also room for your friends and assistants. Unlike the rest of the site, there will be weather-proof electricity within easy reach. Moreover, the section is comparatively flat and the festival area is not too far away.</p>",
+          
+          "subheading4": "Power supply",
+          "question4": "I need electricity for medical devices/aids (eg: e-wheelchair). Is that possible?",
+          "text4": "Of course. In the area of the ‘Teilhabe-Camp’ we provide power supply throughout the course of the festival. Medication or similar that needs cooling can be stored in the crew area.",
+          
+          "subheading5": "Sanitary facilities",
+          "question5": "Sanitary facilities",
+          "text5": "<p>We provide low-barrier toilets on camping and festival grounds, as well as a low-barrier shower with a shower seat, which can be used by all people who purchased a &lsquo;Teilhabe-Ticket&rsquo;. The toilets will be equipped with a combination lock to make sure you will be able to use them at any time. We will tell you the code shortly before the festival! ;)</p>",
+          
+          "subheading6": "I need help with the journey.",
+          "question6": "I need help with the journey.",
+          "text6": "If you arrive by train at the nearest train station, we offer the possibility to pick you up with a shuttle.",
+          
+          "subheading7": "What we can not offer.",
+          "question7": "What we can not offer.",
+          "text7": "If you have a visual or hearing impairment, of course, you are welcome at our festival, too. Unfortunately, we can not yet offer a guidance system for blind people or information in Braille this year. Furthermore, the music can not yet be experienced by other senses.",
+          
+          "subheading8": "Registration",
+          "question8": "Registration",
+          "text8": "Register with this <a target='_blank' href='https://forms.gle/PcdfHp9krFLLbLSg7'>participation form</a>."
+        }
+
   },
   "contact": {
     "form": {
@@ -263,7 +298,7 @@
   "helpers":{
     "heading":"Apply for a supporter ticket",
     "button": "To the form",
-    "pre": "You are interested in helping and supporting on the venue? Starting on May 2023, there will be further information on the application procedure.",
+    "pre": "You are interested in helping and supporting on the venue? Starting on June 2023, there will be further information on the application procedure.",
     "closed" : "Thank you for your support. Currently we got enouqh requests to meet our support demand."
   },
   "modal": {
