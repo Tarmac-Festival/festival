@@ -78,7 +78,7 @@
       },
       "participation":{
         "heading": "Teilhabetickets",
-        "text": "F&uuml;r das TARMAC-Festival wird es dieses Jahr Teilhabe-Tickets geben.&nbsp;<br />Damit wollen wir Menschen mit Behinderungen erm&ouml;glichen, auf das TARMAC zu kommen. Weitere Informationen findet ihr in der Infobox 'Teilhabe'."
+        "text": "F&uuml;r das TARMAC-Festival wird es dieses Jahr Teilhabe-Tickets geben.&nbsp;<br />Damit wollen wir Menschen mit Behinderungen erm&ouml;glichen, auf das TARMAC zu kommen. Weitere Informationen findet ihr in der Infobox <a href='#teilhabe' class='js-scroll-trigger'>'Teilhabe'</a>.<br><br>Anmelden könnt ihr euch ab dem 9.6.23 mit diesem <a target='_blank' href='https://forms.gle/PcdfHp9krFLLbLSg7'>Teilhabe-Formular</a>"
       }
     },
     "box2": {
@@ -244,7 +244,7 @@
         
           "subheading2": "Umsetzung",
           "question2": "Wie funktioniert das ‘Teilhabe-Ticket’?",
-          "text2": "<p>Um das &lsquo;Teilhabe-Ticket&rsquo; erwerben zu k&ouml;nnen, brauchst du einen <strong>Schwerbehindertenausweis.</strong> Ob du eine Begleitperson mitbringst, ist ganz dir &uuml;berlassen. Das Kennzeichen 'B' ist dazu nicht notwendig.</p><p>&nbsp;</p><p><strong><em>Der Ticketverkauf l&auml;uft wie folgt ab:</em></strong></p><p>Die &lsquo;Teilhabe-Tickets&rsquo; werden ab dem 7.6.2023 &uuml;ber &lsquo;TixforGigs&rsquo; verkauft und kosten 82,00 &euro; inkl. aller Geb&uuml;hren.</p><p>Beim Ticketkauf bitten wir dich,&nbsp;</p><ol><li><p>in einem Formular deine Kontaktdaten und Bedarfe anzugeben. Dies hilft uns bei der weiteren Planung.&nbsp;</p></li><li><p>Wir schicken dir dann eine E-Mail zu. Diese ist nicht automatisiert, also habt Geduld mit uns! ;) In dieser E-Mail stehen ein Code und ein Link.&nbsp;</p></li><li><p>Wenn du den Link nutzt, kommst du auf eine Internetseite, auf der du den Code eingeben kannst.&nbsp;</p></li><li><p>Im Anschluss bezahlst du und erh&auml;ltst dein Ticket als PDF.</p></li></ol><p>Du kannst deine Assistenzperson kostenfrei mitnehmen.</p><p>Diese erh&auml;lt &uuml;ber ihre eigene E-Mail-Adresse ein Ticket als PDF.</p><p>Die E-Mail-Adresse deiner Begleitperson gibst du auch im Formular an.</p>",
+          "text2": "<p>Um das &lsquo;Teilhabe-Ticket&rsquo; erwerben zu k&ouml;nnen, brauchst du einen <strong>Schwerbehindertenausweis.</strong> Ob du eine Begleitperson mitbringst, ist ganz dir &uuml;berlassen. Das Kennzeichen 'B' ist dazu nicht notwendig.</p><p>&nbsp;</p><p><strong><em>Der Ticketverkauf l&auml;uft wie folgt ab:</em></strong></p><p>Die &lsquo;Teilhabe-Tickets&rsquo; werden ab dem 9.6.2023 &uuml;ber &lsquo;TixforGigs&rsquo; verkauft und kosten 82,00 &euro; inkl. aller Geb&uuml;hren.</p><p>Beim Ticketkauf bitten wir dich,&nbsp;</p><ol><li><p>in einem <a target='_blank' href='https://forms.gle/PcdfHp9krFLLbLSg7'>Teilhabe-Formular</a> deine Kontaktdaten und Bedarfe anzugeben. Dies hilft uns bei der weiteren Planung.&nbsp;</p></li><li><p>Wir schicken dir dann eine E-Mail zu. Diese ist nicht automatisiert, also habt Geduld mit uns! ;) In dieser E-Mail stehen ein Code und ein Link.&nbsp;</p></li><li><p>Wenn du den Link nutzt, kommst du auf eine Internetseite, auf der du den Code eingeben kannst.&nbsp;</p></li><li><p>Im Anschluss bezahlst du und erh&auml;ltst dein Ticket als PDF.</p></li></ol><p>Du kannst deine Assistenzperson kostenfrei mitnehmen.</p><p>Diese erh&auml;lt &uuml;ber ihre eigene E-Mail-Adresse ein Ticket als PDF.</p><p>Die E-Mail-Adresse deiner Begleitperson gibst du auch im Formular an.</p>",
         
           "subheading3": "Aufenthalt und Camp",
           "question3": "Was ist das ‘Teilhabe-Camp’? Muss ich da hin?",
@@ -320,7 +320,7 @@
         },
         "announcement": {
           "heading" : "Der Ticketverkauf für das TARMAC Festival 2023 startet bald",
-          "text": "Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a href='#info'>Info</a>."
+          "text": "Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a href='#info'>Info</a> weiter unten."
         },
         "open": {
           "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet.",

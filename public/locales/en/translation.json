@@ -74,7 +74,7 @@
       },
       "participation":{
         "heading": "Participation Tickets",
-        "text": "There will be participation tickets for the TARMAC festival this year.<br />With this we want to enable people with disabilities to come to TARMAC. More information about the participation tickets is given in the infobox 'Participation' below."
+        "text": "There will be participation tickets for the TARMAC festival this year.<br />With this we want to enable people with disabilities to come to TARMAC. More information about the participation tickets is given in the infobox <a href='#teilhabe'>'Participation'</a> below.<br><br>You can register starting on the 9th of june 2023 using this <a target='_blank' href='https://forms.gle/PcdfHp9krFLLbLSg7'>participation form</a>"
       }
       },
     "box2": {
@@ -240,7 +240,7 @@
         
           "subheading2": "Implementation",
           "question2": "How does the ‘Teilhabe-Ticket’ (‘Participation-Ticket’) work?",
-          "text2": "<p>In order to be able to purchase a &lsquo;Teilhabe-Ticket&rsquo;, you need a <strong>severely disabled person's ID</strong>. Whether you bring an accompanying person with you is entirely up to you. The label 'B' is not necessary for that.</p><p>&nbsp;</p><p><strong><em>The ticket sales process goes as follows:</em></strong></p><p>The &lsquo;Teilhabe-Tickets&rsquo; will be sold via &lsquo;TixforGigs&rsquo; from 7.6.2023 and cost &euro;82.00 including all fees.</p><p>For the ticket purchase we ask you,</p><ol><li><p>to fill in a form with your contact details and requirements. This will help us with further planning.</p></li><li><p>We will then send you an email. This is not automated, so please bear with us! ;) In this email you will find a code and a link.</p></li><li><p>When you use the link, you will be redirected to a web page where you can enter the code.</p></li><li><p>Afterwards you pay and receive your ticket as a PDF.</p></li></ol><p>You can take your assistant with you free of charge.</p><p>They will receive a ticket as a PDF via their own email address. You also enter the email address of your accompanying person in the form.</p>",
+          "text2": "<p>In order to be able to purchase a &lsquo;Teilhabe-Ticket&rsquo;, you need a <strong>severely disabled person's ID</strong>. Whether you bring an accompanying person with you is entirely up to you. The label 'B' is not necessary for that.</p><p>&nbsp;</p><p><strong><em>The ticket sales process goes as follows:</em></strong></p><p>The &lsquo;Teilhabe-Tickets&rsquo; will be sold via &lsquo;TixforGigs&rsquo; from 9.6.2023 and cost &euro;82.00 including all fees.</p><p>For the ticket purchase we ask you,</p><ol><li><p>to fill in a <a target='_blank' href='https://forms.gle/PcdfHp9krFLLbLSg7'>participation form</a> with your contact details and requirements. This will help us with further planning.</p></li><li><p>We will then send you an email. This is not automated, so please bear with us! ;) In this email you will find a code and a link.</p></li><li><p>When you use the link, you will be redirected to a web page where you can enter the code.</p></li><li><p>Afterwards you pay and receive your ticket as a PDF.</p></li></ol><p>You can take your assistant with you free of charge.</p><p>They will receive a ticket as a PDF via their own email address. You also enter the email address of your accompanying person in the form.</p>",
         
           "subheading3": "Stay and Camp",
           "question3": "What is the ‘Teilhabe-Camp’ (‘Participation Camp’)? Do I have to go there?",
