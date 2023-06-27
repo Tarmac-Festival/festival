@@ -329,6 +329,10 @@
         "closed" : {
           "heading": "Ticket sales for the TARMAC Festival 2023 have ended",
           "text": "Wow, the Tarmac 2023 is sold out! Thank you for your support, we are already looking forward to an unforgettable festival with you!&nbsp;<br />If you were not able to buy a ticket we would like to draw your attention to the following possibilities:<br /><br /><strong>TixforGigs Marketplace</strong><br />In a few weeks the marketplace of our ticket provider TixforGigs will be opened. You will be able to resell your tickets through this marketplace. We will inform you about this via our channels.<br /><br /><strong>Become a helper</strong><br />You want to help at the festival? You will find all information about applying as a helper:in here and on our website from mid-June.<br><br>This year there will be participation tickets for people with disabilities. More detailed information on this under <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>"
+        },
+        "helpers":{
+          "heading": "Support applications starting",
+          "text": "The application form to support on the TARMAC will be open. The form can be found under the section<a href='#helpers'>Support</a>."
         }
       },
       "newsletter": "You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>."

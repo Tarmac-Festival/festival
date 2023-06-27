@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.7'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.8'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -678,11 +678,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center title-box localized">
-                <h4 class="section-heading" data-i18n="helpers.pre">#</h4> 
-                <!--
+                <h4 class="section-heading d-none" data-i18n="helpers.pre">#</h4> 
+                
                     <h2 class="section-heading text-uppercase" data-i18n="helpers.heading">#</h2>
-                    <a href="https://forms.gle/GZ8dp6ieRt6S7MLWA" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="helpers.button">#</a>
-                -->
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSesR3adC5FpLNYxf-9GcMD9mgkfKJ8n4w0IrwW40sxRLphusA/viewform?usp=sf_link" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="helpers.button">#</a>
+                
             </div>
         </div>
     </div>
@@ -858,7 +858,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.closed.heading">#</h4>
+                <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.helpers.heading">#</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -867,7 +867,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 localized">
-                            <p id="modalImportantText" data-i18n="[html]modal.important.tickets.closed.text">#</p>
+                            <p id="modalImportantText" data-i18n="[html]modal.important.tickets.helpers.text">#</p>
                             <p id="modalImportantNewsletter" data-i18n="[html]modal.important.newsletter">#</p>
                         </div>
                     </div>
