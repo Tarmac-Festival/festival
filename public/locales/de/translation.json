@@ -337,6 +337,10 @@
         "helpers":{
           "heading": "Helferbewerbungen starten",
           "text": "Die Helferbewerbungen starten. Zum Formular geht es weiter unter der Rubrik <a href='#helpers'>Helfer:innen</a>."
+        },
+        "postHelpers":{
+          "heading": "Helferbewerbungen abgeschlossen",
+          "text": "Vielen dank für eure Unterstützung"
         }
       },
       "newsletter": "Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken."

@@ -333,6 +333,10 @@
         "helpers":{
           "heading": "Support applications starting",
           "text": "The application form to support on the TARMAC will be open. The form can be found under the section<a href='#helpers'>Support</a>."
+        },
+        "postHelpers":{
+          "heading": "Support applications closed",
+          "text": "Thank you for your support."
         }
       },
       "newsletter": "You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>."
