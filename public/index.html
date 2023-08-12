@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.11'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.12'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -401,10 +401,6 @@
                         <h2 class="info-title" data-i18n="info.box4.heading">#</h2>
                         <hr class="divider">
                         <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question7', 'info.box4.text7');"
-                               data-i18n="info.box4.subheading7">#</a>
-                        </p>
-                        <p class="lead text-center">
                             <a href="#" onclick="return $(this).buildInfoModal('info.box4.question1', 'info.box4.text1');"
                                data-i18n="info.box4.subheading1">#</a>
                         </p>
@@ -427,6 +423,10 @@
                         <p class="lead text-center mb-0">
                             <a href="#" onclick="return $(this).buildInfoModal('info.box4.question6', 'info.box4.text6');"
                                data-i18n="info.box4.subheading6">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question7', 'info.box4.text7');"
+                               data-i18n="info.box4.subheading7">#</a>
                         </p>
                     </div>
                 </div>
