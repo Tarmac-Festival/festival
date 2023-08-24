@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.9'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.11'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -77,7 +77,12 @@
     <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="css/festival.min.css?v=1.4" rel="stylesheet">
-    
+ <style>
+    .teilhabe-img{
+        width: 100%;
+        height: auto;
+    }
+ </style>   
 </head>
 
 <body id="page-top">
@@ -577,10 +582,7 @@
                             <a href="#" onclick="return $(this).buildInfoModal('info.box9.question4', 'info.box9.text4');"
                                data-i18n="info.box9.subheading4">#</a>
                         </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question5', 'info.box9.text5');"
-                               data-i18n="info.box9.subheading5">#</a>
-                        </p>
+                        
                     </div>
                 </div>
             </div>
