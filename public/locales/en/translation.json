@@ -35,7 +35,7 @@
     "text4": "rave hard, be nice",
     "text5": "racism, sexism, antisemitism and all other forms of discrimination won’t be tolerated and will lead to immediate banishment.",
     "text6": "savour the moment - no photos, no video, no phones!",
-    "button": "Learn more"
+    "button": "How it started"
   },
   "artists": {
     "heading": "Line up",
@@ -316,6 +316,29 @@
       "text3": "At the end of 2018 we had the first talks with the operators of the Allstedt airfield. Good to have landed here: a stretch of forest and concrete. An inspiring airfield ruin. A tarmac that extends to the horizon, close to Halle and Leipzig. Practically reachable by train and bike. In short: The ideal location for us.",
       "text4": "In 2019 the cooperation was a done deal. This was followed by the continuous use of an aircraft hangar and a lot of work input to make the area suitable for the festival in 2020.",
       "text5": "In summer 2019, we realized our first private rave on the premises. This showed us what it means to make a project of this size come true through voluntary work, self-determination and self-financing. Your coming gave us strength and confirmation to pursue a real goal with our visions."
+    },
+    "review": {
+      "button":"Review 2023",
+      "heading": "TARMAC FESTIVAL 2023",
+      "content": {
+        "general": "<p>This year's festival was an incredible experience for us. 2750 guests, 550 artists and countless volunteers. We would like to thank all the associations , collectives, groups and individuals who keep coming to us and swinging their cordless screwdrivers for a hot meal and cold showers. Without this willingness and the&nbsp; wholesome actionism of the crew, this special rave culture would be unthinkable.</p><p>No party without guests. A&nbsp; huge thank you also goes out to all rave lovers and culture enthusiasts who visit our small and large stages and create an incomparable atmosphere for us.&nbsp;</p><p>The year 2023 has&nbsp; shown us clearly that there is still a high demand for niche projects in the music and culture scene. The renewed run on tickets and the numerous applications for participation are also a subcultural statement for us. Our small festival has also taught us that not everything always has to be perfect. Dedication and transparency have helped us to overcome hurdles and break down barriers.&nbsp;</p><p>Special thanks therefore go to all the teams involved, who provided us with particularly strong support in these areas: Accessibility Participation, Awareness, Psycare, Security, Medical Services.</p><p>There are also three topics that are particularly important to us in connection with the 2023 festival, which have repeatedly caused us sleepless nights and will play a major role in our plenaries in winter.</p>",
+        "water":{
+          "heading":"WATER",
+          "text": "<p>This year's festival has once again presented us with major challenges together. We quote ourselves from last year's newsletter after we had digested the 2022 water scenario.</p><p><em>\"For TARMAC 2023, we are working to ensure that such a situation cannot occur again and that drinking water quality will be permanently available for the event.\" (TARMAC e.V.; 11/2022)</em></p><p>We say <em>touch&eacute;</em> here and look back with a smile and a tear in our eye. In principle, of course, this sentence is actually correct. To shed some light on this, we would like to talk about the 2023 water supply once again.</p><p>As a team, we spent a year working intensively on the problem and implemented the best solution for the 2023 festival. To do this, we invested in a new drinking water supply system and expanded our cooperation with the public health department and the relevant laboratories. Unfortunately, we did not&nbsp; plan for the fact that our drinking water supplier would not be able to supply adequate clean water. Thanks to a tireless team, we have found another company that has spared us a situation like 2022 in the nick of time. Shout-outs at this point also to the airfield management, who provided us with alternative shower facilities at short notice. We are now going to go out on a limb and say that we will be able to offer drinking water from the tap permanently&nbsp; for TARMAC 2024.&nbsp;</p><p>We would like to take this opportunity to thank all the people who have supported us in this difficult situation and have&nbsp; shown understanding despite the tense situation.</p><p>We can't wait to see how this story continues and would like to use our network at this point to close the topic of water with a smile and a tear:</p><p>As you know, our last-minute rescheduling meant that we bought a lot of bottled drinking water. You certainly remember the lovely fizz in your throats. Around 26 pallets of this water were stolen from the airfield in the fall. Unfortunately, we&nbsp; did not have enough secure storage space for these large quantities of water. Ironically, only the Euro pallets were left behind. We therefore assume that the crates were all loaded separately . So, if somebody offers you large quantities of drinking water - around 1000 crates - please let us know. In addition to the missing raw material, the financial loss is of course also significant.</p>"
+        },
+        "deposit":  {
+          "heading":"DEPOSIT",
+          "text":"<p>Dear helpers, we are very sorry that many people get their deposit refunded  very late. This year, we have opted for purely electronic processing and must apologize for this decision. Unfortunately, this handling has led to many problems in the implementation. We are working with our ticket provider on an alternative for the next year and would like to thank you for your understanding.</p>"
+        },
+        "design":{
+          "heading":"STAGE DESIGN",
+          "text":"<p>This year we made a mistake in the&nbsp; planning process. When designing the site, we didn't pay enough attention to the themes of the individual stages. The Endlos Collective designed a western-style movie set, which provoked criticism during the event and afterwards.</p><p>We take this criticism very seriously and are currently in discussion with the Endlos. We need to take a critical look at our own way of working at this point and improve&nbsp; it. This process will accompany us through the winter and will have a corresponding impact on the 2024 festival.&nbsp;</p><p>At the same time, we would like to encourage you to approach us with both positive and negative criticism. Only visible and expressed issues can be dealt with and it is not always easy to recognize and correctly name such things from within.&nbsp;</p><p>It is very important&nbsp; for us to work through issues such as this stage design and to find the causes. We and the Endlos Collective are not helped if such issues remain hidden.</p><p>In this context, please forgive us for not discussing every topic publicly and not taking a stand on everything. We can only do this adequately once we have completed our internal processes.</p>"
+        },
+        "soundcloud":{
+          "heading":"SOUNDCLOUD",
+          "text":"There are many recordings of the individual artists on our Soundcloud profile. There you can beam yourself back to Allstedt and turn up the volume again. <a href=\"https://soundcloud.com/tarmac-festival\">Here you go</a>."
+        }
+      }
     },
     "faq": {
       "heading": "FAQ"
