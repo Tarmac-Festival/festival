@@ -409,8 +409,12 @@
         "text": "<p></p>"
       },
       "brausecus": {
-        "heading": "brausecus",
-        "text": "<p></p>"
+        "heading": "BrauseCus",
+        "text": "<p>Welcome to the BrauseCus concert stage, where music comes to life in all its many facets! The Potsdam underground of DIY club culture and live music has come together to bring musical blossoms to the Tarmac Festival. Just like last year, our Leipzig friends from Proper Pull will be back to enhance the program. We try to make every year a little more colorful and diverse - this year you can expect many live acts and DJs from different genres to enchant you with their wide variety and creativity.</p>"
+      },
+      "poly": {
+        "heading": "Polynoiseon",
+        "text": ""
       }
     },
     "artists": {

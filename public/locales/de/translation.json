@@ -412,8 +412,12 @@
         "text": "<p>/p>"
       },
       "brausecus": {
-        "heading": "brausecus",
-        "text": "<p></p>"
+        "heading": "BrauseCus",
+        "text": "<p>Willkommen auf der BrauseCus Konzertbühne, wo die Musik in all ihren Facetten zum Leben erwacht! Der Potsdamer Underground aus DIY-Clubkultur und punkiger Livemusik hat sich zusammengerafft, um musikalische Blüten auf dem Tarmac-Festival treiben zu lassen. Wie bereits im vergangenen Jahr sind auch unsere Leipziger Freunde von Proper Pull wieder mit von der Partie, um das Programm zu veredeln. Wir wollen versuchen, jedes Jahr ein Stückchen bunter und diverser zu gestalten - Dieses Jahr erwarten euch wieder viele Live Acts und DJs aus den unterschiedlichsten Genres,  um euch mit ihrer Vielfalt und Kreativität zu verzaubern.</p>"
+      },
+      "poly": {
+        "heading": "Polynoiseon",
+        "text": ""
       }
 
     },
