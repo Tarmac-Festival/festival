@@ -56,11 +56,11 @@
       },
       "announcement" : {
         "heading" : "",
-        "text": "<p>der Ticketverkauf f&uuml;r das TARMAC Festival 2024 findet am Freitag, den 01.03. statt.&nbsp;Damit&nbsp;m&ouml;glichst alle die Chance haben, direkt zum Verkaufsbeginn online zu sein, haben wir das&nbsp;Ticketkontingent aufgeteilt. Die erste H&auml;lfte wird um 17 Uhr freigeschaltet und die zweite<br>H&auml;lfte um 21 Uhr. Weitere Infos folgen in der kommenden Woche. Also stay tuned! <br>Euer Team TARMAC</p><p>Teilhabetickets für Menschen mit Behinderungen werden extra verkauft. Die Anmeldung erfolgt zu einem späteren Zeitpunkt unter <a href='#contact'>Kontakt</a></p>"
+        "text": "<p>TICKETVERKAUF</p><p>Der Ticketverkauf f&uuml;r das TARMAC Festival 2024 findet am Freitag, den 01.03. statt. Der Ticketpreis betr&auml;gt dieses Jahr 160 &euro; inkl. MwSt. (zzgl. Verkaufsgeb&uuml;hr von 4,50&euro;). Damit m&ouml;glichst alle die Chance haben, direkt zum Verkaufsbeginn online zu sein, haben wir das Ticketkontingent aufgeteilt. Die erste H&auml;lfte wird um 17 Uhr freigeschaltet und die zweite H&auml;lfte um 21 Uhr.&nbsp; Pro Bestellung k&ouml;nnen maximal vier personalisierte Tickets gekauft werden. Wir vertreiben die Tickets wie gewohnt &uuml;ber TixforGigs.</p><p>TEILHABE-TICKETS</p><p>Nach einem erfolgreichen Testlauf 2023 freuen wir uns, auch in diesem Jahr ein Kontingent f&uuml;r Teilhabe-Tickets zur Verf&uuml;gung stellen zu k&ouml;nnen. Die Tickets werden wie im letzten Jahr zu einem sp&auml;teren Zeitpunkt und zu einem reduzierten Preis freigeschaltet. Du kannst au&szlig;erdem eine Begleitperson umsonst mitbringen (Kennzeichen &ldquo;B&rdquo; wird nicht abgefragt). Um ein Teilhabe-Ticket erwerben zu k&ouml;nnen, ben&ouml;tigst du einen &lsquo;Schwerbehinderten-Ausweis&rsquo;. Weitere Infos dazu folgen.</p><p>CAMPER-TICKETS</p><p>Wenn du einen Camper oder ein Auto auf dem Campingplatz abstellen m&ouml;chtest, brauchst du ein Camper-Ticket. Dieses kostet 25 &euro; + VVK Geb&uuml;hr.</p>"
       },
       "open":{
         "heading1": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br>",
-        "text1": "Festivalticket 155 € + VVK Gebühren",
+        "text1": "Festivalticket 160€ + 4,50€ VVK Gebühren",
         "heading2": "Camperticket",
         "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto Zutritt zum Zeltplatz möchtest, benötigst du ein solches Ticket. Der Pass ermöglicht dir, mit deinem Fahrzeug/ Anhänger auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
       },
@@ -417,7 +417,7 @@
       },
       "poly": {
         "heading": "Polynoiseon",
-        "text": ""
+        "text": "<p>Seit 2022 gibt es uns, die Poly-Crew, als erste Crew, die aus dem Tarmac-Scho&szlig; geboren Wurde.<br>Unser (immersiver) Space: Das Polynoiseon. Hier findet Ihr Performances, Workshops und interaktive Kunst. Von Poledancer:innen &uuml;ber k&uuml;nstliche Intelligenzen bis hin zu euch Partypeops - alle beeinflussen das Polynoiseon mit ihren (teils absonderlichen) Bewegungen.</p>"
       }
 
     },

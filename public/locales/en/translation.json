@@ -52,11 +52,11 @@
       },
       "announcement" : {
         "heading": "",
-        "text": "<p>the ticket sale for the TARMAC Festival 2024 will take place on Friday, March 1st. To<br>maximize everyone's chance to be online at the start of sales, we have split the ticket<br>contingent. The first half will be available at 5 pm and the second half at 9 pm.<br>More information will follow in the next week. So stay tuned!<br>Your Team TARMAC</p><p>Participation tickets for people with impairments will be sold seperately. An application form will be available under <a href='#contact'>Contact</a></p>"
+        "text": "<p>TICKET SALES</p><p>Ticket sales for the TARMAC Festival 2024 will take place on Friday, March 1st. The ticket price this year is &euro;160 including value-added tax (plus a sales fee of &euro;4.50). So that as many people as possible have the chance to be online right when sales start, we have divided the ticket contingent. The first half will be activated at 5 p.m. and the second half at 9 p.m. A maximum of four personalised tickets can be purchased per order. We sell the tickets as usual via TixforGigs.&nbsp;</p><p>PARTICIPATION TICKETS</p><p>After a successful test run in 2023, we are pleased to be able to provide a contingent of participation tickets again this year. Like last year, the tickets will be released later and at a reduced price. You can also bring an accompanying person for free (code &ldquo;B&rdquo; is not requested). To purchase a participation ticket, you need a 'severely disabled ID'. Further information will follow.</p><p>CAMPER TICKETS</p><p>You need a camper ticket to park a camper or car at the campsite. This costs &euro;25 + booking fee.</p>"
       },
       "open":{
         "heading1": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br>",
-        "text1": "Ticket 155 € + shop fee",
+        "text1": "Ticket 160€ + 4.50€ shop fee",
         "heading2": "Camping ticket",
         "text2": "If you want to stay at the festival site with your caravan or car, you need to purchase this ticket. This ticket allows you to park your vehicle on the camping site. Parking areas outsite the festival and camping site are free."
       },
@@ -414,7 +414,7 @@
       },
       "poly": {
         "heading": "Polynoiseon",
-        "text": ""
+        "text": "<p>We, the Poly Crew, have been around since 2022 as the first crew to be born from the Tarmac womb.<br>Our (immersive) space: the Polynoiseon. Here you will find performances, workshops and interactive art. From pole dancers and artificial intelligences to you party pops - everyone influences the Polynoiseon with their (sometimes outlandish) movements.</p>"
       }
     },
     "artists": {

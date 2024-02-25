@@ -36,19 +36,33 @@ $dark: #101010;
 $lightAccent: #d5c8e0 !default;
 */
 //2023
-
 $tarmac-trks: #9acccb;
 $tarmac-vltt: #58466e;
 $tarmac-orag: #de866f;
 $tarmac-yellw: #ffe27f;
 $tarmac-cyan: #4cb6a1;
+//2024
+//kombi1
+$tarmac-24-blue:#0000ff;
+$tarmac-24-orange:#f29244;
+$tarmac-24-green:#00ffba;
 
-$accent: $tarmac-cyan !default;
-$primary: $tarmac-vltt !default;
-$secondary: $tarmac-trks !default;
-$success: $tarmac-cyan;
-$info: $tarmac-yellw !default;
-$danger: $tarmac-orag;
+//kombi2
+$tarmac-24-violett:#4e4bb4;
+$tarmac-24-red:#ff5858;
+$tarmac-24-cyan:#0afff1;
+
+
+
+$accent: $tarmac-24-orange !default;
+$primary: $tarmac-24-blue !default;
+$secondary: $tarmac-24-orange !default;
+//$primary: $tarmac-24-orange !default;
+//$secondary: $tarmac-24-blue !default;
+//$accent: $tarmac-24-blue !default;
+$success: $tarmac-24-green;
+$info: $tarmac-24-violett !default;
+$danger: $tarmac-24-red;
 $light: #ececec;
 $dark: #101010;
 $lightAccent: #d5c8e0 !default;

@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.12'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.13'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -76,7 +76,7 @@
 
     <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="css/festival.min.css?v=1.4" rel="stylesheet">
+    <link href="css/festival.min.css?v=4.13" rel="stylesheet">
  <style>
     .teilhabe-img{
         width: 100%;
@@ -221,11 +221,7 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle','stationendlos');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
-                </a>
-            </div>
+            
             <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.teilko.heading', 'modal.collectives.teilko.text', 'Teil7', 'teilkonversum7',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/teilkonversum.png" alt="collective image">
@@ -291,11 +287,11 @@
                 </a>
             </div>
         -->
-        <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.reihe.heading', 'modal.collectives.reihe.text', 'ZWEITE-REIHE-446423509465185', 'zweitereihe','zweitereihe_halle');">
-                <img class="img-fluid d-block mx-auto" src="img/logos/reihe.png" alt="collective image">
-            </a>
-        </div>
+            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.reihe.heading', 'modal.collectives.reihe.text', 'ZWEITE-REIHE-446423509465185', 'zweitereihe','zweitereihe_halle');">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/reihe.png" alt="collective image">
+                </a>
+            </div>
             <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.wert.heading', 'modal.collectives.wert.text', null, null,'wertderdinge');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/wert.png" alt="collective image">
@@ -310,7 +306,11 @@
                     <img class="img-fluid d-block mx-auto" src="img/logos/unterdruck.png" alt="collective image">
                 </a>
             </div>
-            
+            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle','stationendlos');">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
+                </a>
+            </div>
         </div>
     </div>
 </section>
