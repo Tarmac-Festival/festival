@@ -52,10 +52,10 @@
       },
       "announcement" : {
         "heading": "",
-        "text": "<p>TICKET SALES</p><p>Ticket sales for the TARMAC Festival 2024 will take place on Friday, March 1st. The ticket price this year is &euro;160 including value-added tax (plus a sales fee of &euro;4.50). So that as many people as possible have the chance to be online right when sales start, we have divided the ticket contingent. The first half will be activated at 5 p.m. and the second half at 9 p.m. A maximum of four personalised tickets can be purchased per order. We sell the tickets as usual via TixforGigs.&nbsp;</p><p>PARTICIPATION TICKETS</p><p>After a successful test run in 2023, we are pleased to be able to provide a contingent of participation tickets again this year. Like last year, the tickets will be released later and at a reduced price. You can also bring an accompanying person for free (code &ldquo;B&rdquo; is not requested). To purchase a participation ticket, you need a 'severely disabled ID'. Further information will follow.</p><p>CAMPER TICKETS</p><p>You need a camper ticket to park a camper or car at the campsite. This costs &euro;25 + booking fee.</p>"
+        "text": "<p>TICKET SALES</p><p>Ticket sales for the TARMAC Festival 2024 will take place on Friday, March 1st. The ticket price this year is &euro;160 including value-added tax (plus a sales fee of &euro;4.50). So that as many people as possible have the chance to be online right when sales start, we have divided the ticket contingent. The first half will be activated at 5 p.m. and the second half at 9 p.m. A maximum of four personalised tickets can be purchased per order. We sell the tickets as usual via <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a>.&nbsp;</p><p>PARTICIPATION TICKETS</p><p>After a successful test run in 2023, we are pleased to be able to provide a contingent of participation tickets again this year. Like last year, the tickets will be released later and at a reduced price. You can also bring an accompanying person for free (code &ldquo;B&rdquo; is not requested). To purchase a participation ticket, you need a 'severely disabled ID'. Further information will follow.</p><p>CAMPER TICKETS</p><p>You need a camper ticket to park a camper or car at the campsite. This costs &euro;25 + booking fee.</p>"
       },
       "open":{
-        "heading1": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br>",
+        "heading1": "<a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a>Tickets</a><br><br>",
         "text1": "Ticket 160€ + 4.50€ shop fee",
         "heading2": "Camping ticket",
         "text2": "If you want to stay at the festival site with your caravan or car, you need to purchase this ticket. This ticket allows you to park your vehicle on the camping site. Parking areas outsite the festival and camping site are free."
@@ -66,11 +66,11 @@
       },
       "closed":{
         "heading1":"Sold Out",
-        "text1": "Check out the <a class=\"\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Marketplace</a> from our vendor, for resales"
+        "text1": "Check out the <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs marketplace</a> from our vendor, for resales"
       },
       "warning":{
         "heading": "Important:",
-        "text": "Tickets are exclusively sold by our webshop provider <a href=\"https://www.tixforgigs.com/Event/47273\">TixforGigs</a>. Offers from other sites and shops are fraudulent and will be not be accepted for entrance. Your personalized tickets can be sold via the market at TixforGigs."
+        "text": "Tickets are exclusively sold by our webshop provider <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a>. Offers from other sites and shops are fraudulent and will be not be accepted for entrance. Your personalized tickets can be sold via the market at TixforGigs."
       },
       "participation":{
         "heading": "Participation Tickets",
@@ -276,7 +276,7 @@
     },
     "important": {
       "heading": "Ticket sales for TARMAC Festival 2024 are starting today",
-      "text": "<a class=\"btn btn-danger\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br> Since the ticket sale in the last two years has unfortunately led to disappointment for many, we have decided this year to split the ticket sale over two days. Therefore, you can buy tickets for TARMAC 2023 on our website on 23.02. as well as on 26.02.2023 at 6 pm! A festival ticket will cost 155,00€ (plus VVK fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>There will also be participation tickets for people with impairments. More details can be found under Info.<br><br>You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>.",
+      "text": "<a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a><br><br> Since the ticket sale in the last two years has unfortunately led to disappointment for many, we have decided this year to split the ticket sale over two days. Therefore, you can buy tickets for TARMAC 2023 on our website on 23.02. as well as on 26.02.2023 at 6 pm! A festival ticket will cost 155,00€ (plus VVK fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>There will also be participation tickets for people with impairments. More details can be found under Info.<br><br>You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>.",
       "tickets" :{
         "tba": {
           "heading": "",
@@ -288,7 +288,7 @@
         },
         "open": {
           "heading": "Ticket sales for TARMAC Festival 2023 start today",
-          "text":"<a class=\"btn btn-danger\" href=\"https://www.tixforgigs.com/Event/47273\" target=\"_blank\" >Tickets</a><br><br> You can buy tickets for TARMAC 2023 from 6 p.m.!<br><br>A festival ticket will cost €155.00 (plus advance booking fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>This year there will be participation tickets for people with disabilities. More detailed information on this under <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>"
+          "text":"<a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a>Tickets</a><br><br> You can buy tickets for TARMAC 2023 from 6 p.m.!<br><br>A festival ticket will cost €155.00 (plus advance booking fees). As in previous years, there will also be camper tickets for vehicles on the campsite.<br><br>This year there will be participation tickets for people with disabilities. More detailed information on this under <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>"
         },
         "closednext":{
           "heading": "(Sold Out) Next chance on sunday",
@@ -406,7 +406,7 @@
       },
       "vacanza": {
         "heading": "Vacanza",
-        "text": "<p></p>"
+        "text": "<p>Ciao! Vacanza e.V. - club for music and culture from Leipzig. We are a group of music loving people with common and charitable projects. As often we can, we organize various regional club events, festival floors and day events with cultural content.</p><p>HeyCiao!Vacanza (Elipamanoke), AMPED. (tba), THE TANGLE (Nachtiville), VACANZA (Tarmac Festival) and more</p>"
       },
       "brausecus": {
         "heading": "BrauseCus",
