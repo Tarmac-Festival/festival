@@ -305,6 +305,10 @@
         "postHelpers":{
           "heading": "Support applications closed",
           "text": "Thank you for your support."
+        },
+        "marketplace":{
+          "heading": "Achtung Fake-Tickets und Marktplatz",
+          "text": "<p>Unfortunately, as every year, there are some offers for fake tickets in circulation. We make every effort to keep these offers away from our social media presence, but fake tickets are also offered on other platforms.</p><p>Hence the explicit notice:</p><p>We offer our tickets <strong>exclusively </strong>via our webshop provider <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a>. Offers on other ticketing sites are counterfeits! Fake tickets will be recognized by us at the latest at the entrance and will unfortunately mean that you will not be able to enter the festival. You can only resell your personalized tickets via the <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs marketplace</a>.</p>"
         }
       },
       "newsletter": "You don’t want to miss out on any updates? Subscribe to our <a target=\"_blank\" href=\"https://stats.sender.net/forms/b227vb/view\">TARMAC newsletter</a>."

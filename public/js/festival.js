@@ -57,8 +57,7 @@
                 ['insert', ['link', 'table']]
             ]
         });
-        /*
-        $('#modalImportantText')
+        
         $('#modalImportant').on('show.bs.modal', function () {
             $('#modalImportant a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
                 if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
@@ -78,7 +77,7 @@
             backdrop: false,
             keyboard: false
         })
-        */
+        
         var details = {
             message: i18next.t('cookies.message', "#"),
             acceptText: i18next.t('cookies.accept', "#"),
