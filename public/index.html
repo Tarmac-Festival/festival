@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.16'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.17'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -420,7 +420,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-4">
+            <div id="arivalanddeparture" class="col-lg-4 col-sm-6 col-12 mb-4">
                 <div class="info-box">
                     <div class="info-content localized">
                         <h2 class="info-title" data-i18n="info.box4.heading">#</h2>
@@ -557,56 +557,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box8.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question1', 'info.box8.text1');"
-                               data-i18n="info.box8.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question2', 'info.box8.text2');"
-                               data-i18n="info.box8.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question3', 'info.box8.text3');"
-                               data-i18n="info.box8.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question4', 'info.box8.text4');"
-                               data-i18n="info.box8.subheading4">#</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box9.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question1', 'info.box9.text1');"
-                               data-i18n="info.box9.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question2', 'info.box9.text2');"
-                               data-i18n="info.box9.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question3', 'info.box9.text3');"
-                               data-i18n="info.box9.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question4', 'info.box9.text4');"
-                               data-i18n="info.box9.subheading4">#</a>
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-            <div id="teilhabe" class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
+            <div id="teilhabe" class="col-lg-4 col-sm-6 col-12 mb-4">
                 <div  class="info-box">
                     <div class="info-content localized">
                         <h2 class="info-title" data-i18n="info.box11.heading">#</h2>
@@ -646,6 +597,56 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                <div class="info-box">
+                    <div class="info-content localized">
+                        <h2 class="info-title" data-i18n="info.box8.heading">#</h2>
+                        <hr class="divider">
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question1', 'info.box8.text1');"
+                               data-i18n="info.box8.subheading1">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question2', 'info.box8.text2');"
+                               data-i18n="info.box8.subheading2">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question3', 'info.box8.text3');"
+                               data-i18n="info.box8.subheading3">#</a>
+                        </p>
+                        <p class="lead text-center mb-0">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question4', 'info.box8.text4');"
+                               data-i18n="info.box8.subheading4">#</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
+                <div class="info-box">
+                    <div class="info-content localized">
+                        <h2 class="info-title" data-i18n="info.box9.heading">#</h2>
+                        <hr class="divider">
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question1', 'info.box9.text1');"
+                               data-i18n="info.box9.subheading1">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question2', 'info.box9.text2');"
+                               data-i18n="info.box9.subheading2">#</a>
+                        </p>
+                        <p class="lead text-center">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question3', 'info.box9.text3');"
+                               data-i18n="info.box9.subheading3">#</a>
+                        </p>
+                        <p class="lead text-center mb-0">
+                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question4', 'info.box9.text4');"
+                               data-i18n="info.box9.subheading4">#</a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            
             <!--
             <div id="infocorona" class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
                 <div class="info-box">
