@@ -32,7 +32,7 @@
             .use(i18nextBrowserLanguageDetector)
             .init({
                 backend: {
-                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.19'
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.20'
                 },
                 fallbackLng: {
                     'default': ['en'],
@@ -309,6 +309,11 @@
             <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle','stationendlos');">
                     <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
+                </a>
+            </div>
+            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.kbs.heading', 'modal.collectives.kbs.text', null, null,null);">
+                    <img class="img-fluid d-block mx-auto" src="img/logos/LOGO_Kollektiv_Barrieren_Sprengen.png" alt="collective image">
                 </a>
             </div>
         </div>
