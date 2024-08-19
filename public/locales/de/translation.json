@@ -1,559 +1,559 @@
 {
-  "cookies": {
-    "message": "Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung von Cookies zu.",
-    "accept": "Akzeptieren",
-    "policy": "Datenschutzerklärung"
-  },
-  "footer": {
-    "policy": "Datenschutzerklärung",
-    "notice": "Impressum",
-    "language": "English",
-    "link": "?lng=en"
-  },
-  "nav": {
-    "project": "Projekt",
-    "artists": "Lineup",
-    "info": "Info",
-    "avenue": "Anfahrt",
-    "contact": "Kontakt",
-    "helpers": "Helfer:in",
-    "tickets": "Tickets",
-    "archive": "Archiv",
-    "newsletter": "Newsletter"
-  },
-  "announcements":{
-    "heading": "Updates",
-    "subheading1" : "TARMAC 2022",
-    "text1": "Wir haben nach dem TARMAC Festival 2022 ein grundsätzlich positives Fazit gezogen. Wir haben das Festival erstmals als Verein auf die Beine gestellt und konnten unsere Strukturen und Abläufe weiter verbessern. <br><br>Eine der größten Herausforderungen auf dem TARMAC-Gelände in Allstedt ist die Versorgung mit Trinkwasser. Da es vor Ort keinen stationären  Wasseranschluss gibt, greifen wir auf ein mobiles Trinkwassersystem und die stetige Belieferung von Wasser in Wassertanks durch Dienstleister:innen zurück. Um die Qualität des Trinkwassers zu gewährleisten, wird in Kooperation mit dem Gesundheitsamt die Wasserqualität überwacht. Ab dem Festival-Freitag mussten wir unser Trinkwassersystem außer Betrieb nehmen, weil kritische Grenzwerte nicht mehr eingehalten werden konnten. Um das Festival nicht abbrechen zu müssen, haben wir alle uns zur Verfügung stehenden Ressourcen gebündelt und als Alternative Trinkwasser in Flaschen beschafft. So konnte eine Grundversorgung mit Trinkwasser aufrechterhalten werden. Die Dusch- und Handwaschstationen mussten leider weiterhin geschlossen bleiben. Für diese Situation und die damit verbundenen Unannehmlichkeiten  möchten wir uns bei euch an dieser Stelle entschuldigen! Wir hoffen dennoch, dass unsere Notlösung auch euer Festival-Erlebnis retten konnte und ihr das TARMAC 2022 trotz dieser Einschränkungen in guter Erinnerung behalten habt. <br><br>Für das TARMAC 2023 arbeiten wir daran, dass eine solche Situation nicht mehr auftreten kann und dass für die Veranstaltung dauerhaft Wasser in Trinkwasserqualität zur Verfügung stehen wird.",
-    "subheading2": "TARMAC 2023",
-    "text2": "Das TARMAC Festival 2023 wird vom 31.08.2023 - 03.09.2023 stattfinden. Die Tickets sind ab dem 23.02.2023 über unsere Website www.TARMAC-festival.de erhältlich. Nach dem Ticketverkauf wird es im Sommer auch wieder die Möglichkeit geben, sich als Helfer:in zu bewerben. <br><br>Der Ticketverkauf hat in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt, da die Tickets sehr schnell ausverkauft waren. Auch wir sind mit dieser Situation nicht zufrieden. Bereits im letzten Jahr haben wir mit einem neuen Ticketanbieter, zusätzlichen Serverkapazitäten und einer Erhöhung der Ticketanzahl versucht, die Situation zu verbessern. Auch in diesem Jahr wird es eine kleine Erhöhung des Ticketkontingents geben. Außerdem versuchen wir, die Stabilität während des Bestellvorgangs weiter zu verbessern. Eine Verlosung der Tickets wurde geprüft, kommt für uns aus finanziellen und organisatorischen Gründen jedoch nicht in Betracht.<br><br>Aufgrund eures Feedbacks zum Ticketverkauf haben wir uns jedoch dazu entschieden, den Ticketverkauf aufzuteilen. Am 23.02.2023 und am 26.02.2023 wird jeweils ab 18:00 die Hälfte des Ticketkontingents freigeschaltet.<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>In diesem Jahr gibt es <strong>Teilhabe-Tickets</strong>.<br>Diese sind für Menschen mit Behinderungen.<br>Die Teilhabe-Tickets werden NICHT  im Februar verkauft.<br>Zur Anmeldung wird es ein extra Formular an dieser <a href='#contact'>Stelle</a> geben."
-  },
-  "about": {
-    "heading": "Leitbild des TARMAC e.V.",
-    "text1": "Konstituierung und Ziele des Vereins",
-    "text2": "Der TARMAC e.V. wurde im Juni 2021 gegründet und ist das Ergebnis von mehr als zwei Jahren intensiver Erfahrung bei der Durchführung des TARMAC Festivals. Der Verein bildet den offiziellen Rahmen um gemeinsame Ideen und Vorstellungen kleiner Kunst- und Musikkollektive aus Sachsen-Anhalt, Sachsen, Berlin, Brandenburg und Thüringen zu verwirklichen. Unser gemeinsames Ziel ist es, Räume zu schaffen, in denen sich Menschen ausdrücken und wohlfühlen können und in denen Eskapismus, aber gleichzeitig auch Auseinandersetzung mit den Herausforderungen der Gegenwart möglich ist.",
-    "text3": "Zusammensetzung der Gruppe von Menschen",
-    "text4": "Unsere Gruppe hat einen festen Kern, der ehrenamtlich leitende Funktionen für die Realisierung des Festivals übernimmt, welches jährlich auf dem Flugplatz Allstedt stattfindet und sich in der Szene kleinerer Musikfestivals an Beliebtheit erfreuen durfte. Der feste Kern wird unterstützt durch die Mitstreiter*innen der einzelnen Kollektive, die ihre Freizeit dem Projekt zur Verfügung stellen und damit diese unkonventionelle Durchführungsart eines Festivals ermöglichen. Die Utopien und Vorstellungen des TARMAC e.V. befinden sich im Rahmen unserer gemeinsamen Ziele kontinuierlich in einem dynamischen Wandlungsprozess. Hierbei versuchen wir stets fordernd, lösungsorientiert und rücksichtsvoll miteinander zu arbeiten, trotz Meinungsverschiedenheiten immer einen Konsens anzustreben und dadurch unsere Wirkungs- und Handlungsziele gemeinschaftlich erfolgreich umzusetzen.",
-    "text5": "Gegenwärtige Aufgaben & Perspektiven",
-    "text6": "Schwerpunkt bleibt vorerst die Durchführung des TARMAC Festivals. Auseinandersetzung mit bzw. gemeinsames Erleben von Musik, Kunst- und Kultur war schon immer ein wichtiges menschliches Bedürfnis. Die hohe Nachfrage an Tickets in den beiden vergangenen Jahren bestätigt uns in unserer Herangehensweise das Projekt zu realisieren. Als Hauptaufgaben sehen wir dabei einerseits das Erschaffen gemeinschaftlicher, offener und diskriminierungsfreier Räume im Kontext des Festival Ablaufs und andererseits die Förderung Kunstschaffender in der Region sowie ansässiger Unternehmen, deren Dienstleistungen wir in Anspruch nehmen möchten. Weiter erachten wir es als wichtig, einen Ort zu bieten, an denen sich überregionale und regionale Künstler*innen vernetzen können. In Zukunft kann sich der Verein auch die Realisierung anderer Projekte im Kunst- und Kulturbereich vorstellen sowie die Umsetzung eines weitgehend barrierefrei gestalteten Festivals.",
-    "text7": "rave hard, be nice",
-    "text8": "racism, sexism, antisemitism and all other forms of discrimination won’t be tolerated and will lead to immediate banishment.",
-    "text9": "savour the moment - no photos, no video, no phones!",
-    "button": "Wie alles begann"
-  },
-  "artists": {
-    "heading": "Künstler:innen",
-    "subheading": "(bisher bestätigt - weitere folgen in Kürze)",
-    "years":["2020", "2021"]
-  },
-  "info": {
-    "heading": "Info",
-    "box1": {
-      "heading": "Tickets",
-      "tba":{
-        "heading": "",
-        "text": "Informationen zu den Ticketoptionen werden wir Anfang Februar 2024 bekannt geben."
-      },
-      "announcement" : {
-        "heading" : "",
-        "text": "<p>TICKETVERKAUF</p><p>Der Ticketverkauf f&uuml;r das TARMAC Festival 2024 findet am Freitag, den 01.03. statt. Der Ticketpreis betr&auml;gt dieses Jahr 160 &euro; inkl. MwSt. (zzgl. Verkaufsgeb&uuml;hr von 4,50&euro;). Damit m&ouml;glichst alle die Chance haben, direkt zum Verkaufsbeginn online zu sein, haben wir das Ticketkontingent aufgeteilt. Die erste H&auml;lfte wird um 17 Uhr freigeschaltet und die zweite H&auml;lfte um 21 Uhr.&nbsp; Pro Bestellung k&ouml;nnen maximal vier personalisierte Tickets gekauft werden. Wir vertreiben die Tickets wie gewohnt &uuml;ber <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a>.</p><p>TEILHABE-TICKETS</p><p>Nach einem erfolgreichen Testlauf 2023 freuen wir uns, auch in diesem Jahr ein Kontingent f&uuml;r Teilhabe-Tickets zur Verf&uuml;gung stellen zu k&ouml;nnen. Die Tickets werden wie im letzten Jahr zu einem sp&auml;teren Zeitpunkt und zu einem reduzierten Preis freigeschaltet. Du kannst au&szlig;erdem eine Begleitperson umsonst mitbringen (Kennzeichen &ldquo;B&rdquo; wird nicht abgefragt). Weitere Infos dazu unter dem Punkt 'Teilhabe'.</p><p>CAMPER-TICKETS</p><p>Wenn du einen Camper oder ein Auto auf dem Campingplatz abstellen m&ouml;chtest, brauchst du ein Camper-Ticket. Dieses kostet 25 &euro; + VVK Geb&uuml;hr.</p>"
-      },
-      "open":{
-        "heading1": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/54917\" target=\"_blank\" >Tickets</a><br><br>",
-        "text1": "Festivalticket 160€ + 4,50€ VVK Gebühren",
-        "heading2": "Camperticket",
-        "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto Zutritt zum Zeltplatz möchtest, benötigst du ein solches Ticket. Der Pass ermöglicht dir, mit deinem Fahrzeug/ Anhänger auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
-      },
-      "closednext":{
-        "heading": "(Sold Out) Sonntag gehts weiter",
-        "text": "Die Tickets für den heutigen Tag sind ausverkauft. Am Sonntag (26.02.2023) um 18 Uhr geht die 2.Verkaufsrunde los."
-      }, 
-      "closed":{
-        "heading":"Sold Out",
-        "text": "Alle Tickets sind ausverkauft. Tickets die weiterverkauft werden findet Ihr im <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>Marktplatz von TixforGigs</a>."
-      },
-      "warning":{
-        "heading": "Wichtiger Hinweis:",
-        "text": "Wir bieten unsere Tickets ausschließlich über unseren Webshop-Anbieter <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt. Eure personalisierten Tickets könnt Ihr ausschließlich über den Marktplatz von <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> wiederverkaufen."
-      },
-      "participation":{
-        "heading": "Teilhabetickets",
-        "text": "F&uuml;r das TARMAC-Festival wird es dieses Jahr Teilhabe-Tickets geben.&nbsp;<br />Damit wollen wir Menschen mit Behinderungen erm&ouml;glichen, auf das TARMAC zu kommen. Weitere Informationen findet ihr in der Infobox <a href='#teilhabe' class='js-scroll-trigger'>'Teilhabe'</a>.<br><br>Anmelden könnt ihr euch ab dem 9.6.23 mit diesem <a target='_blank' href='https://forms.gle/PcdfHp9krFLLbLSg7'>Teilhabe-Formular</a>"
-      }
+    "cookies": {
+        "message": "Wir verwenden Cookies auf dieser Webseite. Durch die Verwendung stimmen Sie der Nutzung von Cookies zu.",
+        "accept": "Akzeptieren",
+        "policy": "Datenschutzerklärung"
     },
-    "box2": {
-      "heading": "Tickets",
-      "subheading1": "Soliticket (90€) - SOLD OUT",
-      "text1": "Da es uns am Herzen liegt, DJs und andere Kleinkünster:innen in der aktuell schwierigen Situation zu unterstützen, bieten wir ein Soli-Ticket an, denn durch die weltweite Verbreitung des SARS-CoV-2 Corona Virus bricht die Lebensgrundlage vieler dieser Menschen fast völlig weg. Wer die Möglichkeit hat zu helfen, kann das Soli-Ticket ab sofort erwerben. Der gesammelte Mehrbetrag ermöglicht es uns, die bisher kleinen Gagen für die Artists auf dem TARMAC Festival aufzustocken.",
-      "subheading2": "Camper-/ Autopass (10€) - SOLD OUT",
-      "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto auf dem Zeltplatz übernachten möchtest, hol dir einen Camper-/ Autopass! Der Pass ermöglicht dir, mit deinem Fahrzeug auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
+    "footer": {
+        "policy": "Datenschutzerklärung",
+        "notice": "Impressum",
+        "language": "English",
+        "link": "?lng=en"
     },
-    "box4":{
-       "heading":"An- & Abreise",
-       "subheading1":"No Ticket - No Entry",
-       "question1":"Gibt es eine Tages- oder Abendkasse?",
-       "text1":"Es wird keine Tagestickets oder eine Abendkasse geben. Wenn ihr kein Ticket habt, lohnt die Anreise nicht. Sollten wir dennoch \\\"Gäste\\\" antreffen, die kein Bändchen haben und diese nicht nachweisen können, dass sie ein Ticket erworben haben, machen wir von unserem Hausrecht Gebrauch und werfen diese Personen raus. Ohne Diskussion! Bitte haltet eure Bändchen stets zum Vorzeigen bereit. Bändchen-Kontrollen gibt es beim Einlass, beim Bestellen an der Bar und stichprobenartig während des gesamten Festivals. Jeden Versuch, das Festivalgelände ohne Ticket zu betreten, werten wir als Absicht, unser Festival stören zu wollen. Dem entgegnen wir entschieden mit Hausverboten.",
-       "subheading2":"Einlass Festivalgelände",
-       "question2":"Wie komme ich zum Festivalgelände?",
-       "text2":"<p>Die Anreise ist ab Donnerstag (31.08.2023) um 12.30 Uhr sowie am Freitag (1.9.2023) um 9:30 Uhr bis jeweils 0 Uhr m&ouml;glich.&nbsp;</p>\r\n<p>Falls Ihr mit dem Auto anreisen wollt, gebt ins Navi als Ziel &bdquo;Flugplatz Allstedt&ldquo; oder die Koordinaten 51.389001, 11.450220 ein.</p>\r\n<p>Es gibt nur eine Zufahrtsm&ouml;glichkeit zum Veranstaltungsgel&auml;nde. Folgt anschlie&szlig;end der Beschilderung.</p>\r\n<p>Alternativ k&ouml;nnt ihr auch mit dem Fahrrad, dem &Ouml;PNV anreisen oder organisiert eure Anreise &uuml;ber die Telegramgruppe f&uuml;r Mitfahrgelegenheiten. N&auml;here Informationen findet ihr in den jeweiligen Bereichen.</p>",
-       "subheading3":"Heimreise",
-       "question3":"Wann muss ich meine Heimreise antreten?",
-       "text3":"<p>Das Festival-Programm endet am Sonntag, den 3.9.2023, 22 Uhr.</p>\r\n<p>Die Abreise ist bis sp&auml;testens am Montag, den 4.9.2023, 14 Uhr m&ouml;glich.</p>",
-       "subheading4":"Shuttleservice",
-       "question4":"Gibt es einen Shuttleservice?",
-       "text4":"<p>Ihr k&ouml;nnt ganz bequem mit Bus und Bahn anreisen. Daf&uuml;r haben wir in Zusammenarbeit mit der VGS ein Shuttle vom Bahnhof in Sangerhausen zum Gel&auml;nde und zur&uuml;ck eingerichtet.</p>\r\n<p><br>Das Shuttle pendelt zu folgenden Zeiten:</p>\r\n<p><br>Do. &nbsp; &nbsp; 31.08.2023 von 12:00 - 22:00 Uhr</p>\r\n<p>Fr. &nbsp; &nbsp; &nbsp;01.09.2023 von 10:00 - 22:00 Uhr</p>\r\n<p>Sa. &nbsp; &nbsp; 02.09.2023 von 12:00 - 20:00 Uhr</p>\r\n<p>So. &nbsp; &nbsp; 03.09.2023 von 10:00 - 22:00 Uhr</p>\r\n<p>Mo. &nbsp; &nbsp;04.09.2023 von 10:00 - 18:00 Uhr</p>\r\n<p><br>Je nach Pendelverkehr k&ouml;nnte es sein, dass ein Shuttle gerade abgefahren ist und ihr ca. 60 Minuten warten m&uuml;sst, also plant genug Zeit ein, um sp&auml;ter euren Zug zu bekommen.</p>\r\n<p>Eine Fahrt kostet 5,- &euro; und wird direkt bei Fahrtantritt bezahlt. Bitte haltet das Geld m&ouml;glichst passend bereit.</p>\r\n<p><br>F&uuml;r die letzte Fahrt zum Festivalgel&auml;nde ab Sangerhausen solltet Ihr sp&auml;testens um 21:30 Uhr anwesend (genauer: an der Haltestelle/ vor dem Bahnhof) &nbsp;sein und f&uuml;r die letzte Abfahrt vom Gel&auml;nde seid bitte ca. 21:30 am Sonntag (3.9.2023) bzw. am Montag (4.9.2023) 17:30 Uhr an der Haltestelle.</p>",
-       "subheading5":"Mitfahrgelegenheiten",
-       "question5":"Wo kann ich Mitfahrgelegenheiten organisieren?",
-       "text5":"<p>In der Telegram-Gruppe k&ouml;nnen Mitfahrgelegenheiten zum Gel&auml;nde abgesprochen werden. Zur Gruppe gelangt Ihr &uuml;ber folgenden Link: https://t.me/joinchat/gtVKrX9eUHllNmYy</p>",
-       "subheading6":"Mit dem Fahrrad und Zug zum TARMAC",
-       "question6":"Wie funktioniert das mit den begleiteten Radtouren?",
-       "text6":"<p>Wir haben wieder unseren Fahrradgep&auml;ck-Shuttle f&uuml;r euch eingerichtet. Wenn ihr mit Zug und Fahrrad anreist, k&ouml;nnt ihr euer Gep&auml;ck am Bahnhof Sangerhausen bei uns aufgeben und ohne Ballast mit dem Rad bis zum Festivalgel&auml;ne fahren. Begleitet werdet ihr von der Crew &ldquo;Riotpack&rdquo;. Unterwegs versorgen wir euch an ein paar Pausen Spots mit Snacks und Getr&auml;nken. Auf dem Festivalgel&auml;nde k&ouml;nnt ihr eure Sachen am Infopoint von Friz abholen. F&uuml;r die R&uuml;ckfahrt nach dem Festival ab Allstedt nach Sangerhausen bieten wir ausschlie&szlig;lich einen Gep&auml;cksguttle an. &nbsp;Zu folgenden Zeiten k&ouml;nnt ihr unser Angebot wahrnehmen.</p>\r\n<p><strong>Anreise</strong></p>\r\n<table style=\"border-collapse: collapse; width: 100%; border-width: 1px;\" border=\"1\"><colgroup><col style=\"width: 25%;\"><col style=\"width: 25%;\"><col style=\"width: 50%;\"></colgroup>\r\n<tbody>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Sangerhausen - Allstedt</td>\r\n<td style=\"border-width: 1px;\">Gep&auml;ckaufgabe</td>\r\n<td style=\"border-width: 1px;\">Abholung am Infopoint von Friz</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Donnerstag, 31.8.</td>\r\n<td style=\"border-width: 1px;\">14 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 16 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Donnerstag, 31.8.</td>\r\n<td style=\"border-width: 1px;\">18 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 20 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Freitag, 1.9.</td>\r\n<td style=\"border-width: 1px;\">13 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 15 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Freitag, 1.9.</td>\r\n<td style=\"border-width: 1px;\">17 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 19 Uhr</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p><strong>Abreise</strong></p>\r\n<table style=\"border-collapse: collapse; width: 100%; border-width: 1px;\" border=\"1\"><colgroup><col style=\"width: 25%;\"><col style=\"width: 25%;\"><col style=\"width: 50%;\"></colgroup>\r\n<tbody>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Allstedt - Sangerhausen</td>\r\n<td style=\"border-width: 1px;\">Gep&auml;ckaufgabe Friz</td>\r\n<td style=\"border-width: 1px;\">Bahnhof</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Sonntag, 3.9.</td>\r\n<td style=\"border-width: 1px;\">18 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 20 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Montag, 4.9.</td>\r\n<td style=\"border-width: 1px;\">14 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 16 Uhr</td>\r\n</tr>\r\n</tbody>\r\n</table>",
-       "subheading7":"Camperticket",
-       "question7":"Wann benötige ich ein Camperticket?",
-       "text7":"<p>Ihr braucht ein Camperticket, falls ihr euer Fahrzeug mit auf den Campingplatz nehmen m&ouml;chtet (begrenzte Anzahl). Andernfalls k&ouml;nnt ihr euer Auto auf dem Parkplatz kostenlos abstellen. Der Fu&szlig;weg zum Campingplatz betr&auml;gt von dort noch etwa 5 Minuten. F&uuml;r Wohnmobile o.&auml;. gibt es keine Strom- oder Wasseranschlussm&ouml;glichkeiten.</p>"
+    "nav": {
+        "project": "Projekt",
+        "artists": "Lineup",
+        "info": "Info",
+        "avenue": "Anfahrt",
+        "contact": "Kontakt",
+        "helpers": "Helfer:in",
+        "tickets": "Tickets",
+        "archive": "Archiv",
+        "newsletter": "Newsletter"
     },
-   "box5":{
-      "heading":"Camping & Imbiss",
-      "subheading1":"Campingplatz",
-      "question1":"Gibt es die Möglichkeit zu campen?",
-      "text1":"<p>Campen ist in den ausgewiesenen Fl&auml;chen m&ouml;glich. Die Kosten hierfür sind bereits im Ticketpreis enthalten. Der Campingplatz ist als Ruhezone gedacht. Gro&szlig;e Musikanlagen und Stromgeneratoren bleiben deshalb am besten zu Hause. Nat&uuml;rlich ist es nicht verboten im Camp Musik zu h&ouml;ren und/oder selbst zu machen (was uns noch lieber ist). Wir setzen auf einen respektvollen Umgang miteinander.</p>",
-      "subheading2":"Duschmöglichkeiten",
-      "question2":"Sind auf dem Gelände Duschmöglichkeiten vorhanden?",
-      "text2":"<p>Es gibt auf dem Hauptplatz Kaltwasser-Duschen unter freiem Himmel. Um die Duschen nutzen zu k&ouml;nnen, verwendet ausschlie&szlig;lich biologisch abbaubare Duschgele/ Seifen. Die Duschen sind nicht f&uuml;r ausgiebige Duschrituale, sondern nur zur schnellen Erfrischung/ K&ouml;rperhygiene mit geringem Wasserverbrauch konstruiert.</p>",
-      "subheading3":"Orientierung",
-      "question3":"Wie kann ich mich auf dem Gelände orientieren?",
-      "text3":"<p>Einen Lageplan zur Orientierung auf dem Gel&auml;nde erhaltet ihr am Einlass beim Betreten des Festivalgel&auml;ndes und/ oder &uuml;ber die TARMAC Festival-App.</p>",
-      "subheading4":"Speisen & Getränke",
-      "question4":"Welche Auswahl an Speisen und Tränken gibt es vor Ort?",
-      "text4":"<p>Es wird eine Food-Corner mit verschiedenen Essensst&auml;nden geben, welche vegane und vegetarische, warme und kalte Gerichte für kleines Geld anbieten. An unseren Bars bekommt Ihr gek&uuml;hlte Getr&auml;nke. Ihr k&ouml;nnt auch eigene Getr&auml;nke in normalen Mengen mit auf das Festivalgel&auml;nde nehmen. Bitte bedenkt, dass wir zur Erhaltung unseres Festivals auch auf die Einnahmen der Bars angewiesen sind.</p>\r\n<p>Sprich: Ein paar Bier im Rucki: easygoing.</p>\r\n<p>Mit K&auml;sten zu den B&uuml;hnen ziehen: No-Go.</p>",
-      "subheading5":"Trinkwasserstationen",
-      "question5":"Gibt es kostenfreie Trinkwasserstationen?",
-      "text5":"<p>Ja eine kostenlose Trinkwasserstelle steht zur Verf&uuml;gung. Auch an unseren Bars gibt es wieder die M&ouml;glichkeit Trinkwasserflaschen zu einem fairen Preis zu kaufen. Somit ist eine grundlegende Wasserversorgung auf dem Gel&auml;nde gesichert. Wenn m&ouml;glich, bringt euch selbst einen kleinen Wasservorrat mit.</p>",
-      "subheading6":"Grillen & Feuer",
-      "question6":"Darf man Grillen und Feuer machen?",
-      "text6":"<p>Wir befinden uns auf einem Gel&auml;nde inmitten der Natur. Die letzten Sommer waren sehr trocken und wir rechnen damit, dass Anfang September eine erh&ouml;hte Waldbrandgefahr bestehen wird. Offenes Feuer oder Grillen ist deshalb nicht erlaubt. Wer dies missachtet, gef&auml;hrdet das Leben seiner/ihrer Mitmenschen und muss leider des Gel&auml;ndes verwiesen werden.</p>",
-      "subheading7":"Dinge des täglichen Bedarfs",
-      "question7":"Wo kann ich mir allgemeine Informationen und grundlegende Dinge des täglichen Bedarfs erhalten?",
-      "text7":"<p>Am Infopoint bei friz erhaltet ihr nicht nur alle Informationen, die ihr braucht, sondern findet auch eine kleine Auswahl an n&uuml;tzlichen Dingen - wie zum Beispiel einen Ersatz für die vergessene Zahnbürste, Tabak, Kondome, Tampons u.a.</p>"
-   },
-   "box6":{
-      "heading":"Sicherheit & Hilfe",
-      "subheading1":"Awarenessstrukturen",
-      "question1":"Gibt es Awarenessstrukturen?",
-      "text1":"<p>Unser Awareness-Team wird das ganze Festival von Donnerstag bis Sonntag im Einsatz sein und euch unterst&uuml;tzen, wenn ihr selbst Hilfe oder Unterst&uuml;tzung beim Helfen ben&ouml;tigt.</p>\r\n<p>Wir tolerieren kein diskriminierendes Verhalten und streben einen Schutzraum f&uuml;r alle auf dem Festival an. Daher bitten wir euch im Gegenzug ebenfalls um Unterst&uuml;tzung, falls wir nicht direkt vor Ort sein k&ouml;nnen. Sollte gerade kein Team in der N&auml;he sein, meldet euch bitte an der n&auml;chsten Bar oder dem Stand der Awareness-Struktur.&nbsp;</p>\r\n<p>Allerdings funktioniert Awareness nicht nur durch eine Awareness-Struktur, sondern auch durch eure Mithilfe. Bitte gebt aufeinander Acht und seid respektvoll miteinander, damit wir alle gemeinsam ein sch&ouml;nes TARMAC haben k&ouml;nnen.</p>",
-      "subheading2":"Sicherheitspersonal",
-      "question2":"ird die Veranstaltung von Sicherheitspersonal betreut?",
-      "text2":"<p>Ja. Wir freuen uns erneut auf die Zusammenarbeit mit der professionellen Sicherheitsfirma &ldquo;Movement&rdquo; aus Leipzig. In enger Abstimmung mit uns ist die Sicherheitsfirma beauftragt, unser Sicherheits- und ggf. Hygienekonzept durchzusetzen. Die Mitarbeiter:innen sind &uuml;ber alle wichtigen Facts, die wir mit euch vereinbart haben, informiert und handeln auch dementsprechend.</p>",
-      "subheading3":"Fotos & Videos",
-      "question3":"Darf ich Fotos und Videos machen, auf denen andere Menschen eindeutig zu erkennen sind?",
-      "text3":"<p>Das Anfertigen von Fotos &amp; Videos ist nicht erlaubt. Respektiert die Privatsph&auml;re der anderen und genie&szlig;t das Wochenende ohne Smartphone. Es wird ein von uns beauftragtes Team - mit Rücksicht auf eure Privatsph&auml;re - Fotos und Filmaufnahmen zur Dokumentation anfertigen. Dieses Team wird f&uuml;r euch ersichtlich gekennzeichnet sein.</p>",
-      "subheading4":"Verhalten bei Unwetter",
-      "question4":"Was geschieht bei einem Unwetter?",
-      "text4":"<p>Sollte es zu einem Unwetter kommen, befolgt die Ansagen der Security und der Festivalcrew. Bringt euch und andere in Sicherheit. Haltet Abstand von B&auml;umen oder Bühnenaufbauten.</p>",
-      "subheading5":"Psycare",
-      "question5":"PSY-CARE",
-      "text5":"<p>Das Psycare-Team freut sich darauf, auch dieses Jahr wieder f&uuml;r dich da sein zu k&ouml;nnen. Mit unserer Arbeit m&ouml;chten wir dazu beitragen, dass du eine gro&szlig;artige Zeit auf dem Festival erlebst und dich dabei sicher, wohl und unterst&uuml;tzt f&uuml;hlst. Zwischen Partytrubel, Eskapismus und Ekstase sind wir deine Anlaufstelle &ndash; solltest du eine herausfordernde Situation erleben, wird unser geschultes Team dich bestm&ouml;glich mit Rat und Tat unterst&uuml;tzen.</p>\r\n<p><br>Folgende Angebote halten wir f&uuml;r euch bereit:</p>\r\n<p>Die psychedelische Ambulanz: Ein sicherer, warmer und gem&uuml;tlicher Ort. Ein R&uuml;ckzugsraum, f&uuml;r Personen, die eine psychisch (&uuml;ber)fordernde Situation erleben. In ruhiger und reizarmer Umgebung wirst du w&auml;hrend dieses herausfordernden Erlebnisses von erfahrenen und einf&uuml;hlsamen Menschen begleitet. Au&szlig;erdem wird sich das Psycare-Team auch Zeit f&uuml;r dich nehmen, falls bei dir Gespr&auml;chsbedarf bez&uuml;glich Erfahrungen im Kontext von Bet&auml;ubungsmitteln besteht, die zu sensibel f&uuml;r den Infostand sind. Du findest uns neben der Brausecus-B&uuml;hne.</p>\r\n<p><br>Der Infostand: Unser Infostand befindet sich an einer belebten Stelle des Festivals: &nbsp;auf der gro&szlig;en Gabelung bei den Komposttoiletten und an der Psytrance-Stage gelegen &ndash; du kannst uns also nicht verfehlen. Hier erh&auml;ltst du kostenlose Infomaterialien zu g&auml;ngigen psychoaktiven Substanzen, Safer-</p>\r\n<p>Use/Safer-Sex-Materialien. Selbstverst&auml;ndlich beantwortet dir das Psycare-Team gerne deine offenen Fragen zur Thematik. Neben Kondomen und Ohrschutz geh&ouml;ren zu unserem Angebot auch Snacks, Kaugummis, Vitamine, Fr&uuml;chte, Traubenzucker ... und nat&uuml;rlich selbstgemachter Chai-Tee. Auch dieses Jahr k&ouml;nnt ihr euer Wissen wieder in einem Quiz testen und coole Preise gewinnen. Vorbeischauen lohnt sich also :)</p>\r\n<p><br>Unser neues L&auml;ufer:innen-Team:&nbsp;</p>\r\n<p>Die Psycare macht mobil und ist w&auml;hrend unserer &Ouml;ffnungszeiten in Zweiergruppen auf dem Festivalgel&auml;nde unterwegs. In unseren pinken Pullovern mit dem blauen Schriftzug &bdquo;Psycare&ldquo; sind wir nicht zu &uuml;bersehen - du kannst uns einfach ansprechen, wenn du, deine Freund:innen oder ein/e andere/r Besucher:in Hilfe ben&ouml;tigt. So k&ouml;nnen wir euch in einem eventuellen Notfall schnellstm&ouml;glich professionelle Unterst&uuml;tzung zukommen lassen und begleiten dich beispielsweise in die psychedelische Ambulanz. Dar&uuml;ber hinaus kannst du jederzeit Kontakt mit dem L&auml;ufer:innen-Team aufnehmen, wir beantworten dir gerne deine Fragen und versorgen dich mit Informationen und Safer-Use-Materialien.</p>\r\n<p><br>Pr&auml;ventionsplakate: Wir m&ouml;chten dir alle n&ouml;tigen Informationen zukommen lassen, sodass du selbstbestimmt und in Eigenverantwortung deine Entscheidungen treffen kannst. Wer mit offenen Augen &uuml;ber das Festivalgel&auml;nde geht, kann unsere Pr&auml;ventionsplakate entdecken, die &uuml;ber m&ouml;gliche Herausforderungen beim Feiern informieren und auf die Psycare als vorurteilsfreie Anlaufstelle verweisen. Komm uns gerne am Infostand besuchen.</p>\r\n<p>Stay safe and have fun.</p>\r\n<p>Euer TARMAC Psycare-Team 2023</p>\r\n<p><br>&Ouml;FFNUNGSZEITEN:</p>\r\n<p>DO bis SO:</p>\r\n<p>22:00- 22:00 Uhr</p>\r\n<p>Pause:</p>\r\n<p>FR 10:00 Uhr bis 18:00 Uhr</p>\r\n<p>Wir sind f&uuml;r dich da! Auch nach offiziellem Festivalende, am Sonntagabend. Die Psycare und das</p>\r\n<p>Awareness-Team werden gemeinsam eine Anlaufstelle auf dem Campinggel&auml;nde aufbauen und stehen</p>\r\n<p>euch dort noch bis Montag zur Verf&uuml;gung.</p>",
-      "subheading6":"Erste Hilfe",
-      "question6":"Kann ich im Notfall medizinisch behandelt werden?",
-      "text6":"<p>W&auml;hrend des gesamten Festivals wird ein professioneller Sanit&auml;ts-Dienst (ASB) mit Rettungswagen auf dem Festival-Gel&auml;nde sein. Um Hilfe zu rufen, wendet euch an das Personal an den B&uuml;hnen oder geht direkt zum Sani-Standort.</p>",
-      "subheading7":"PsyCare",
-      "question7":"Fragen rund um das Thema Psycare?",
-      "text7":"<p>Unser PsyCare-Team beantwortet sie dir und deinen Freunden gern an unserem Infostand. Zudem werden wir Nachts ein kleines Team zur Begleitung haben. Auch wenn ihr auf Menschen sto&szlig;t, die Hilfe brauchen: Sagt uns gern bescheid! Oder kommt einfach zu unserem kleinen Chill Out Space, und genie&szlig;t einen leckeren Chai mit uns.</p>"
-   },
-   "box7":{
-      "heading":"Gelände",
-      "subheading1":"Infopoint",
-      "question1":"Wo kann ich Informationen und Gebrauchsgüter erhalten?",
-      "text1":"Am Infopoint (S.I.C.) erhaltet ihr nicht nur alle Informationen die ihr braucht, sondern findet auch eine kleine Auswahl von Dingen, wie zum Beispiel einen Ersatz für die vergessene Zahnbürste, Tabak, Kondome, Tampons u.a. .",
-      "subheading2":"Verlorene Gegenstände",
-      "question2":"An wen wende ich mich, sollte ich etwas verlieren?",
-      "text2":"Bitte sei fair und gib Fundsachen am Infopoint oder einer der Bars ab. Wenn du etwas verloren hast, melde Dich noch während des Festivals am Infopoint oder mit einer genauen Beschreibung unter <a href=\\\"mailto:lost@tarmac-festival.de\\\">lost@tarmac-festival.de</a>.",
-      "subheading3":"Internet & Handynetz",
-      "question3":"Gibt es auf dem Veranstaltungsgelände Handynetz?",
-      "text3":"Der Flugplatz liegt in einem Gebiet mit schwacher Netzabdeckung. Telefonieren und mobiles Internet funktionieren nur schlecht bis gar nicht. SMS sind i.d.R. aber kein Problem. Trefft wichtige Absprachen am besten vor eurer An- bzw. Abreise.",
-      "subheading4":"Müllentsorgung",
-      "question4":"Was muss ich bei meinem Restmüll beachten?",
-      "text4":"<strong>Naturschutzgebiet:</strong> Unser Festival-Gelände ist umgeben von Wald, der unter Naturschutz steht. Bitte haltet euch nicht abseits der Wege auf und hinterlasst den Müll ausschließlich in den dafür von uns bereitgestellten Behältnissen. Mit eurem Festival-Bändchen erhaltet ihr eine Mülltüte. Bitte nutzt diese und helft uns, das Festival sauber zu halten.",
-      "subheading5":"Parkmöglichkeiten",
-      "question5":"Wie sieht es mit der Parkplatzsituation vor Ort aus?",
-      "text5":"Parkplätze sind vorhanden. Bitte versucht der Umwelt zuliebe die Kapazitäten der Fahrzeuge möglichst auszulasten und Fahrgemeinschaften zu bilden."
-   },
-   "box8":{
-      "heading":"Haftung",
-      "subheading1":"Hausrecht",
-      "question1":"Wem obliegt das Hausrecht während der Veranstaltung?",
-      "text1":"Während des Festivals sind wir Mieter:innen des Flugplatzes. Rassismus, Sexismus, Antisemitismus und andere Formen der Diskriminierung werden von uns nicht toleriert. Wir behalten uns vor, in solchen Fällen von unserem Hausrecht gebrauch zu machen.",
-      "subheading2":"Haftung Wertgegenstände",
-      "question2":"Wer haftet für verlorene/ geklaute Wertgegenstände?",
-      "text2":"Achtet auf Eure Wertgegenstände und nehmt nur das Nötigste mit. Wir können keine Haftung für verlorene oder gestohlene Sachen übernehmen.",
-      "subheading3":"Verursachte Schäden",
-      "question3":"Wer haftet für einen Schaden, den ich verursacht habe?",
-      "text3":"Jede(r) Besucher:in hat sich so zu verhalten, dass eine Gefährdung von anderen Besucher:innen oder Dritten ausgeschlossen ist. Für Schäden, die Ihr verursacht, seid Ihr auch verantwortlich.",
-      "subheading4":"Mindestalter",
-      "question4":"Wie alt muss man sein, um das Festivalgelände betreten zu dürfen?",
-      "text4":"Das Festival ist ausnahmslos für Erwachsene (P18). Zum Altersnachweis akzeptiert werden ausschließlich amtliche Lichtbildausweise (keine Studienausweise, Krankenkarten, usw.)."
-   },
-   "box9":{
-      "heading":"Sonstiges",
-      "subheading1":"Feuerwerkskörper",
-      "question1":"Ist das Entzünden von Feuerwerk erlaubt?",
-      "text1":"Feuerwerk ist aufgrund der Waldbrandgefahr strikt verboten. Wer dieses Verbot missachtet, gefährdet die Menschen der Festival-Community und den Weiterbestand des Festivals. Bei Missachtung erfolgt der Verweis vom Gelände.",
-      "subheading2":"Konfetti",
-      "question2":"Wie ist das mit dem Konfetti?",
-      "text2":"Bitte verzichtet auf Konfetti! Wir wollen den Veranstaltungsort so zurücklassen, wie wir in vorgefunden haben. Niemand von uns hat Lust, stundenlang Konfetti aus der Wiese, der Technik oder vom Waldboden aufzusammeln.",
-      "subheading3":"Graffiti-Tags",
-      "question3":"Darf ich sprayen oder Graffiti-Tags anfertigen?",
-      "text3":"Wer geliehene Technik & Infrastruktur oder Bühnen mit Tags oder Graffiti ohne Absprache \\\"verschönert\\\", fliegt und muss für den entstandenen Schaden aufkommen. Wir müssen diese Dinge im Nachhinein aufwändig reinigen und schlimmstenfalls komplett bezahlen.<br>Es wird eine Vielzahl an Möglichkeiten geben, eurer Kreativität freien Lauf zu lassen. Wir haben deshalb kein Verständnis für Leute, die an jeder Ecke Ihre Tags hinterlassen müssen.",
-      "subheading4":"Haustiere",
-      "question4":"Ist es gestattet, mein Haustier mitzubringen?",
-      "text4":"Ein Festival ist kein Ort für Haustiere. Lasst eure liebsten Vierbeiner deshalb einfach zuhause.",
-      "subheading5":"HYGIENE- UND CORONAMASSNAHMEN",
-      "question5":"Welche Regelungen gelten zu Kontaktbeschränkungen?",
-      "text5":"Ob im September  weiterhin Relegungen zur Eindämmung des Infektionsgeschehens für uns gelten, können wir zum aktuellen Zeitpunkt nicht beurteilen. Wir gehen jedoch davon aus, dass die Auflagen geringer als in den letzten Jahren sein werden."
-   },
-   "box11":{
-      "heading":"Teilhabe",
-      "subheading1":"Angebot",
-      "question1":"Was bieten wir an?",
-      "text1":"<p>Wir vom TARMAC-Verein haben gemeinsam mit dem Kollektiv &lsquo;Barrieren Sprengen&rsquo; die &lsquo;Teilhabe AG&rsquo; gegr&uuml;ndet. Zusammen arbeiten wir auch dieses Jahr wieder daran, m&ouml;glichst viele Barrieren auf dem Festival abzubauen.</p><p>Dich erwarten Sanit&auml;ranlagen, die mit einer Mobilit&auml;tseinschr&auml;nkung im Gehen und Stehen problemlos genutzt werden k&ouml;nnen, geebnete Wege auf dem ganzen Gel&auml;nde und Zugang zu einem K&uuml;hlschrank f&uuml;r deine Medikamente. Ein Teil des Campingbereichs ist mit einer Stromversorgung f&uuml;r deine Ger&auml;te ausgestattet. Auf Nachfrage k&ouml;nnen wir dir Feldbetten, Geh&ouml;rschutz und polarisierte Sonnenbrillen zur Verf&uuml;gung stellen. Solltest du eine andere oder weitere Ausstattung ben&ouml;tigen, sag uns gerne Bescheid! Wir schauen dann, ob sich eine L&ouml;sung finden l&auml;sst.</p><p>Auch in diesem Jahr wird erneut an einem Lichtkonzept gearbeitet. Hierf&uuml;r werden wir auf den Timetables kennzeichnen, wann und wo grelles, flackerndes Licht auf den Floors genutzt wird. Das Ziel ist, zu jeder Tages- und Nachtzeit Floors zur Verf&uuml;gung zu stellen, an denen das Licht langsamer und weniger grell gefahren wird. Weitere Informationen folgen.</p><p>W&auml;hrend des Festivals agieren wir von der &lsquo;Teilhabe AG&rsquo; als Ansprechpartner*innen rund um die Uhr.&nbsp;&nbsp;</p><p>Falls deine Fragen hier nicht beantwortet werden, kannst du uns unter <a href='mailto:teilhabe@tarmac-festival.de'>teilhabe@tarmac-festival.de</a> erreichen. Wir freuen uns auf deine Nachricht!</p>",
-      "subheading2":"Infos ‘Teilhabe-Tickets’",
-      "question2":"Wie funktioniert das ‘Teilhabe-Ticket’?",
-      "text2":"<p>Der Ticketverkauf l&auml;uft wie folgt ab:</p><p>Die &lsquo;Teilhabe-Tickets&rsquo; werden ab dem 15.05.2024 verkauft und kosten 75,00&euro; zuz&uuml;glich 5,00&euro; Geb&uuml;hren f&uuml;r den Vorverkauf.</p><p>Im vergangenen Jahr haben wir euch gebeten, ein Formular auszuf&uuml;llen, damit wir wissen, was wir wie h&auml;ufig bereitstellen m&uuml;ssen. Darauf wollen wir in diesem Jahr verzichten. Es ist allerdings erforderlich, dass du uns eine E-Mail schreibst, um dich anzumelden. Dabei ist es hilfreich f&uuml;r uns, wenn du Bescheid gibst,</p><p>ob du eine Ladestation f&uuml;r ein elektrisches Hilfsmittel brauchst,</p><p>ob du ein Feldbett ben&ouml;tigst,</p><p>ob du einen Geh&ouml;rschutz und/oder eine polarisierte Sonnenbrille brauchst,</p><p>und ob du im &lsquo;Teilhabe-Camp&rsquo; zelten m&ouml;chtest.</p><p>Du kannst dich auch gerne an uns wenden, wenn du Fragen hast oder dir bei bestimmten Bedarfen nicht sicher bist.</p><p>Falls du lieber telefonieren m&ouml;chtest, schreib uns einfach eine kurze E-Mail mit deinen Kontaktdaten und deinen pr&auml;ferierten Zeiten. Wir rufen dich dann zur&uuml;ck</p><p>Nach der Anmeldung, schicken wir dir dann eine E-Mail zu. Diese ist nicht automatisiert, also hab Geduld mit uns! <span data-emoticon='wink'><span title=':wink:'>:wink:</span></span> In dieser E-Mail stehen ein Code und ein Link. Wenn du den Link nutzt, kommst du auf eine Internetseite, auf der du den Code eingeben kannst. Im Anschluss bezahlst du und erh&auml;ltst dein Ticket als PDF. Du kannst deine Assistenzpersonen kostenfrei mitnehmen.</p><p>Diese erhalten &uuml;ber ihre eigene E-Mail-Adresse ein Ticket als PDF. Die E-Mail-Adresse deiner Begleitpersonen schreibst du uns auch per E-Mail.</p><p>Unsere E-Mail-Adresse lautet: <a href='mailto:teilhabe@tarmac-festival.de' target='_blank' rel='noopener noreferrer'>teilhabe@tarmac-festival.de</a></p>",
-      "subheading3":"Aufenthalt und Camp",
-      "question3":"Was ist das ‘Teilhabe-Camp’? Muss ich da hin?",
-      "text3":"<p><strong>Wo liegt das &lsquo;Teilhabe-Camp&rsquo;?&nbsp;</strong></p><p>Das &lsquo;Teilhabe-Camp&rsquo; liegt auf einem Gr&uuml;nstreifen inmitten des restlichen Campingbereichs. Diesen kannst du auch mit deinem Fahrzeug befahren. Der Bereich des Teilhabe-Camps liegt relativ nah am Festivalgelände, somit probieren wir die Wege f&uuml;r euch m&ouml;glichst kurz zu halten.&nbsp;</p><p><strong>Muss ich im &lsquo;Teilhabe-Camp&rsquo; zelten?</strong></p><p>Nat&uuml;rlich nicht, aber du kannst! Das &lsquo;Teilhabe-Camp&rsquo; ist <strong>kein </strong>abgegrenzter Ort vom restlichen Campingplatz, sondern mittendrin. Hier ist auch Platz f&uuml;r deine Freund*innen und Assistenzen. Anders als auf dem restlichen Campinggel&auml;nde wird hier in direkter N&auml;he f&uuml;r wettergesch&uuml;tzten Strom gesorgt. Zudem ist die Fl&auml;che vergleichsweise eben und du hast es nicht so weit zum Festivalgel&auml;nde. In diesem Jahr geben wir uns M&uuml;he, dass es auch mehr vor der Lautst&auml;rke des Festivals gesch&uuml;tzt ist.</p>",
-      "subheading4":"Stromversorgung",
-      "question4":"Ich brauche Strom für medizinische Geräte/Hilfsmittel (z.B: E-Rollstuhl). Geht das?",
-      "text4":"Selbstverständlich. Im Bereich des ‘Teilhabe-Camps’ stellen wir während des Festivals Stromversorgung zur Verfügung. Hier kannst du auch Medikamente o.ä. lagern, die Kühlung brauchen.",
-      "subheading5":"Sanitäranlagen",
-      "question5":"Sanitäranlagen",
-      "text5":"<p>Wir stellen rollstuhlgerechte Toiletten auf dem gesamten Festivalgel&auml;nde sowie eine rollstuhlgerechte Dusche mit Duschsitz, Warmwasser und Heizung zur Verf&uuml;gung. Diese k&ouml;nnen von allen Menschen mit &lsquo;Teilhabe-Ticket&rsquo; genutzt werden. Mindestens eine der Toiletten wird ein beheizter Container mit Sp&uuml;lung und Warmwassernutzung sein. Die anderen Toiletten sind voraussichtlich rollstuhlgerechte Dixi-Kabinen. Alle Toiletten werden mit einem Zahlenschloss, guter Beleuchtung und Desinfektionsm&ouml;glichkeiten versehen sein, um dir zu jeder Zeit die Nutzung zu gew&auml;hren. Den Zahlencode f&uuml;r das Schloss verraten wir dir kurz vor dem Festival!</p>",
-      "subheading6":"Anreise",
-      "question6":"Ich brauche Hilfe bei der Anreise.",
-      "text6":"<h4><strong>Ich brauche Hilfe bei der Anreise.</strong></h4><p>Solltest du nicht mit dem Auto anreisen, sondern per Zug am n&auml;chsten Bahnhof Sangerhausen ankommen, hast du die M&ouml;glichkeit, in einem der regul&auml;ren Shuttle des Festivals mitzufahren. Dies sind herk&ouml;mmliche Linienbusse mit Rollstuhlpl&auml;tzen und Rampen.&nbsp;</p><p>Informationen &uuml;ber die aktuelle Zug&auml;nglichkeit des Bahnhofs Sangerhausen findest du hier:&nbsp;</p><p><a href='https://www.bahnhof.de/sangerhausen/ausstattung-barrierefreiheit'>https://www.bahnhof.de/sangerhausen/ausstattung-barrierefreiheit</a></p><p>Mehr Informationen zum Shuttle und der An - und Abreise findest du hier unter dem Punkt 'An- und Abreise'</p><p>Solltest du mit dem Auto kommen, hast du die M&ouml;glichkeit, am Einlass zu parken. Wenn du dein Fahrzeug mit aufs Gel&auml;nde nehmen m&ouml;chtest, schreib uns eine E-Mail und wir lassen dir ein kostenfreies &lsquo;Camper-Ticket&rsquo; zukommen.</p>",
-      "subheading7":"Was können wir nicht anbieten?",
-      "question7":"Was können wir nicht anbieten?",
-      "text7":"<p>Uns ist bewusst, dass unser Festival noch viele Barrieren aufwirft. So sind einzelne Teile von Floors nicht mit Rollstuhl oder Gehhilfen erreichbar. Au&szlig;erdem ist es uns zum Beispiel noch nicht m&ouml;glich, Musik f&uuml;r geh&ouml;rlose Menschen erfahrbar zu machen oder ein Blindenleitsystem auf dem Gel&auml;nde zu etablieren. Auch gibt es keine umfassenden Informationen in leichter Sprache.</p><p>Sollte eine der oben genannten Barrieren f&uuml;r dich relevant sein, du aber trotzdem kommen m&ouml;chtest, bist du selbstverst&auml;ndlich herzlich willkommen bei uns.&nbsp;</p><p>Wir werden uns in Zukunft bem&uuml;hen, auch diese und weitere H&uuml;rden, so gut es geht, zu beseitigen. Falls du Anmerkungen oder Feedback hast, teile uns dies gerne mit.</p>",
-      "subheading8":"Anmeldung",
-      "question8":"Anmeldung",
-      "text8":"<p>Wenn du <em><a href='mailto:teilhabe@tarmac-festival.de'>hier</a></em>&nbsp; klickst, wirst du direkt an unsere E-Mail-Adresse weitergeleitet und kannst dich so anmelden.</p><p>Hier kannst du uns schon mitteilen,&nbsp;</p><p>ob du Strom f&uuml;r ein elektrisches Hilfsmittel ben&ouml;tigst,&nbsp;</p><p>ein Feldbett nutzen willst,&nbsp;</p><p>Geh&ouml;rschutz und/oder polarisierende Sonnenbrille ausleihen magst&nbsp;</p><p>und ob du im &lsquo;Teilhabe-Camp&rsquo; zelten willst.&nbsp;</p><p>Auch deine Fragen und W&uuml;nsche kannst du hier schon &auml;u&szlig;ern.</p><p>Wir schicken dir dann einen Code zu, mit dem du das &lsquo;Teilhabe-Ticket&rsquo; kaufen kannst. Dieses bekommst du danach als PDF per E-Mail zugesendet. Wir freuen uns auf dich!</p>"
-   }
-  },
-  "contact": {
-    "form": {
-      "heading": "Nachricht senden",
-      "alert": {
-        "success": "Deine Nachricht wurde erfolgreich gesendet - Vielen Dank.",
-        "fail": "Leider konnte deine Nachricht nicht verarbeitet werden. Bitte sende dein Anliegen direkt an "
-      },
-      "input1": "* E-Mail",
-      "input2": "* Betreff",
-      "input3": "* Name",
-      "textarea": "* Nachricht",
-      "button": "Senden"
+    "announcements": {
+        "heading": "Updates",
+        "subheading1": "TARMAC 2022",
+        "text1": "Wir haben nach dem TARMAC Festival 2022 ein grundsätzlich positives Fazit gezogen. Wir haben das Festival erstmals als Verein auf die Beine gestellt und konnten unsere Strukturen und Abläufe weiter verbessern. <br><br>Eine der größten Herausforderungen auf dem TARMAC-Gelände in Allstedt ist die Versorgung mit Trinkwasser. Da es vor Ort keinen stationären  Wasseranschluss gibt, greifen wir auf ein mobiles Trinkwassersystem und die stetige Belieferung von Wasser in Wassertanks durch Dienstleister:innen zurück. Um die Qualität des Trinkwassers zu gewährleisten, wird in Kooperation mit dem Gesundheitsamt die Wasserqualität überwacht. Ab dem Festival-Freitag mussten wir unser Trinkwassersystem außer Betrieb nehmen, weil kritische Grenzwerte nicht mehr eingehalten werden konnten. Um das Festival nicht abbrechen zu müssen, haben wir alle uns zur Verfügung stehenden Ressourcen gebündelt und als Alternative Trinkwasser in Flaschen beschafft. So konnte eine Grundversorgung mit Trinkwasser aufrechterhalten werden. Die Dusch- und Handwaschstationen mussten leider weiterhin geschlossen bleiben. Für diese Situation und die damit verbundenen Unannehmlichkeiten  möchten wir uns bei euch an dieser Stelle entschuldigen! Wir hoffen dennoch, dass unsere Notlösung auch euer Festival-Erlebnis retten konnte und ihr das TARMAC 2022 trotz dieser Einschränkungen in guter Erinnerung behalten habt. <br><br>Für das TARMAC 2023 arbeiten wir daran, dass eine solche Situation nicht mehr auftreten kann und dass für die Veranstaltung dauerhaft Wasser in Trinkwasserqualität zur Verfügung stehen wird.",
+        "subheading2": "TARMAC 2023",
+        "text2": "Das TARMAC Festival 2023 wird vom 31.08.2023 - 03.09.2023 stattfinden. Die Tickets sind ab dem 23.02.2023 über unsere Website www.TARMAC-festival.de erhältlich. Nach dem Ticketverkauf wird es im Sommer auch wieder die Möglichkeit geben, sich als Helfer:in zu bewerben. <br><br>Der Ticketverkauf hat in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt, da die Tickets sehr schnell ausverkauft waren. Auch wir sind mit dieser Situation nicht zufrieden. Bereits im letzten Jahr haben wir mit einem neuen Ticketanbieter, zusätzlichen Serverkapazitäten und einer Erhöhung der Ticketanzahl versucht, die Situation zu verbessern. Auch in diesem Jahr wird es eine kleine Erhöhung des Ticketkontingents geben. Außerdem versuchen wir, die Stabilität während des Bestellvorgangs weiter zu verbessern. Eine Verlosung der Tickets wurde geprüft, kommt für uns aus finanziellen und organisatorischen Gründen jedoch nicht in Betracht.<br><br>Aufgrund eures Feedbacks zum Ticketverkauf haben wir uns jedoch dazu entschieden, den Ticketverkauf aufzuteilen. Am 23.02.2023 und am 26.02.2023 wird jeweils ab 18:00 die Hälfte des Ticketkontingents freigeschaltet.<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>In diesem Jahr gibt es <strong>Teilhabe-Tickets</strong>.<br>Diese sind für Menschen mit Behinderungen.<br>Die Teilhabe-Tickets werden NICHT  im Februar verkauft.<br>Zur Anmeldung wird es ein extra Formular an dieser <a href='#contact'>Stelle</a> geben."
     },
-    "display": {
-      "heading": "Kontakt aufnehmen",
-      "button": "Du möchtest helfen? - hier klicken",
-      "text": "Du hast offene Fragen? Fülle das nebenstehende Kontaktformular aus und wir melden uns schnellstmöglich bei dir. Alternativ kannst du uns auch direkt eine Mail an die unten stehenden Adressen senden."
-    },
-    "newsletter":{
-      "heading": "Newsletter abonnieren",
-      "button":"Zum Formular",
-      "text": "Du willst auf dem laufenden bleiben? Keine Updates zu Ticketverkauf, Helfer-Bewerbungen oder Stellungnahmen und sonstigen Ankündigungen verpassen? Dann abonniert den TARMAC-Newsletter und lasst euch die Informationen ins Postfach schicken."
-    },
-    "booking":{
-      "text": "Bitte beachtet, dass wir keine Initiativbewerbungen für das DJ-Booking entgegennehmen!"
-    }
-  },
-  "helpers":{
-    "heading":"Bewirb dich als Helfer:in",
-    "button": "Zum Formular",
-    "pre" : "Du hast Lust zu helfen? Alle Infos findest du ab Anfang Juli hier oder auf unseren Social Media Kanälen.",
-    "closed" : "Danke für Eure Unterstützung. Wir haben genug Bewerbungen von Helfer:innen erhalten, um den Bedarf zu decken."
-  },
-  "modal": {
-    "common": {
-      "button": "Schließen",
-      "soon": "Coming Soon"
-    },
-    "important": {
-      "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet.",
-      "text": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/54917\" target=\"_blank\" >Tickets</a><br><br> Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu im Infobereich.<br><br>Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken.",
-      "tickets" :{
-        "tba": {
-          "heading": "Tickets",
-          "text": ""
-        },
-        "announcement": {
-          "heading" : "Der Ticketverkauf für das TARMAC Festival 2023 startet bald",
-          "text": "Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a href='#info'>Info</a> weiter unten."
-        },
-        "open": {
-          "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet.",
-          "text":"<a class=\"btn btn-danger\" href=\"https://www.tixforgigs.com/Event/54917\" target=\"_blank\" >Tickets</a><br><br>Ab 18 Uhr könnt ihr Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>."
-        },
-        "closednext":{
-          "heading": "(Sold Out) Sonntag gehts weiter",
-          "text": "Die Tickets für den heutigen Tag sind ausverkauft. Am Sonntag (26.02.2023) um 18 Uhr geht die 2.Verkaufsrunde los.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>."
-        }, 
-        "closed" : {
-          "heading": "Der Ticketverkauf für das TARMAC Festival 2023 ist beendet",
-          "text": "Wow, das Tarmac 2023 ist ausverkauft! Vielen Dank f&uuml;r euren Support, wir freuen uns schon jetzt auf ein unvergessliches Festival mit euch!&nbsp;<br />Falls ihr kein Ticket erwerben konntet m&ouml;chten wir euch noch auf folgende M&ouml;glichkeiten aufmerksam machen:<br /><br /><strong>TixforGigs Marktplatz</strong><br />In ein paar Wochen wird der Marktplatz unseres Ticket Anbieters TixforGigs ge&ouml;ffnet. Dar&uuml;ber k&ouml;nnen erworbene Tickets weiterverkauft werden. Wir informieren euch dazu &uuml;ber unsere Kan&auml;le.<br /><br /><strong>Helfer*in werden</strong><br />Du hast Lust auf dem Festival zu helfen? Alle Infos zur Bewerbung als Helfer:In findest du ab Mitte Juni hier und auf unserer Website.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>."
-        },
-        "helpers":{
-          "heading": "Helferbewerbungen starten",
-          "text": "Die Helferbewerbungen starten. Zum Formular geht es weiter unter der Rubrik <a href='#helpers'>Helfer:innen</a>."
-        },
-        "postHelpers":{
-          "heading": "Helferbewerbungen abgeschlossen",
-          "text": "Vielen dank für eure Unterstützung"
-        },
-        "marketplace":{
-          "heading": "Achtung Fake-Tickets und Marktplatz",
-          "text": "<div>Es&nbsp;sind leider wie jedes Jahr einige Angebote f&uuml;r Fake Tickets im Umlauf. Wir bem&uuml;hen uns diese Angebote von unseren Pr&auml;senzen in sozialen Medien fern zu halten, aber es werden auch auf anderen Plattformen unechte Tickets angeboten.</div><div>&nbsp;</div><div>Darum ausdr&uuml;cklich der Hinweis:</div><div>&nbsp;</div><div>Wir bieten unsere Tickets <strong>ausschlie&szlig;lich </strong>&uuml;ber unseren Webshop-Anbieter <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um F&auml;lschungen! Fake-Tickets werden sp&auml;testens bei uns am Einlass erkannt und f&uuml;hren dazu, dass Ihr das Festival leider nicht betreten k&ouml;nnt. Eure personalisierten Tickets k&ouml;nnt Ihr ausschlie&szlig;lich &uuml;ber den Marktplatz von <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> wiederverkaufen.</div><div>&nbsp;</div>"
-        }
-      },
-      "newsletter": "Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken."
-    },
-    "chronic": {
-      "heading": "Chronik",
-      "text1": "In den letzten Jahren hat es uns fasziniert, wie sich Menschen im subkulturellen Raum bewegen, sich in Kollektiven organisieren, richtig was reißen und dabei bedächtig ihre Werte vertreten. Es stellte sich heraus, dass die einzelnen Kollektive einander schon wahrgenommen haben, jedoch selten gemeinsame Veranstaltungen organisierten, auch weil die diversen musikalischen Ausrichtungen den Prozess zunächst nicht offensichtlich erschienen ließen.",
-      "text2": "Wir waren uns einig, dass die Realisierung des Projektes dann besonders gut gelingen würde, wenn wir die bereits aktiven Kollektive in Halle und weit gefasster Umgebung motivieren könnten, Teil einer Idee zu werden. 2018 begannen wir damit, uns als Team-TARMAC bei verschiedenen Kollektiven vorzustellen. Wir saßen in Plena, bauten ein verschiedene Kunst- und Musikbereiche umspannendes Netzwerk auf, halfen dabei, Open-Air-Raves und andere Veranstaltungen zu verwirklichen.",
-      "text3": "Ende 2018 führten wir erste Gespräche mit den Betreiber:innen des Flugplatzes Allstedt. Gut, hier gelandet zu sein: Ein Stück Wald und Beton. Eine inspirierende Flugplatzruine. Ein Rollfeld (zu engl. TARMAC), das bis an den Horizont reicht, nahe Halle und Leipzig. Quasi mit Zug und Fahrrad zu erreichen. Kurzum: Die optimale Location für uns.",
-      "text4": "2019 war die Kooperation dann beschlossene Sache. Es folgten die dauerhafte Nutzung eines Flugzeughangars und viele Arbeitseinsätze, um das Gelände für das Jahr 2020 festivaltauglich zu machen.",
-      "text5": "Im Sommer 2019 verwirklichten wir unter vereinten Kräften unseren ersten privaten Rave auf dem Gelände. Dieser hat uns gezeigt, was es bedeutet, ein Projekt dieser Größe durch ehrenamtliche Arbeit, Selbstbestimmtheit und Eigenfinanzierung wahr werden zu lassen. Euer Kommen hat uns Bestätigung und Kraft gegeben, mit unseren Visionen ein richtiges Ziel zu verfolgen."
-    },
-    "review": {
-      "button":"Rückblick 2023",
-      "heading": "TARMAC FESTIVAL 2023",
-      "content": {
-        "general": "<p>Das diesj&auml;hrige Festival war f&uuml;r uns eine unglaubliche Erfahrung. 2750 G&auml;ste, 550 Artists und unz&auml;hlige beteiligte HelferInnen. Wir m&ouml;chten uns bei allen Vereinen, Kollektiven, Gruppen und Personen bedanken, die immer wieder zu uns kommen und f&uuml;r eine warme Mahlzeit und kalte Duschen die Akkuschrauber schwingen. Ohne diese Bereitschaft und den gesunden Aktionismus aus der Crew heraus w&auml;re diese besondere Ravekultur nicht denkbar.</p><p>Keine Party ohne G&auml;ste. Ein ebenso dickes Dankesch&ouml;n geht raus an alle Rave-LiebhaberInnen und Kulturliebende, die unsere kleinen und gro&szlig;en B&uuml;hnen besuchen und eine, f&uuml;r uns, unvergleichliche Stimmung erschaffen.&nbsp;</p><p>Das Jahr 2023 hat uns ganz klar gezeigt, dass weiterhin eine hohe Nachfrage in der Musik- und Kulturszene nach Nischenprojekten vorhanden ist. Der erneute Run auf die Tickets und die zahlreichen Mitwirk-Bewerbungen sind f&uuml;r uns auch ein subkulturelles Statement. Unser <em>kleines</em> Festival hat uns ebenfalls gelehrt, dass nicht immer alles perfekt sein muss. Hingabe und Transparenz haben uns geholfen, H&uuml;rden zu &uuml;berwinden und Barrieren abzubauen.&nbsp;</p><p>Besonderer Dank gilt daher allen beteiligten Teams, die uns in diesen Bereichen besonders stark unterst&uuml;tzen: AG Teilhabe, Awareness, Psycare, Security, Sanit&auml;tsdienst.</p><p>Es gibt zudem drei Themen, die uns im Zusammenhang mit dem Festival 2023 besonders wichtig sind, uns immer wieder schlaflose N&auml;chte bereitet haben und unsere Plena im Winter ma&szlig;geblich begleiten werden.</p>",
-        "water":{
-          "heading":"WASSER",
-          "text": "<p>Das diesj&auml;hrige Festival hat uns mal wieder gemeinsam vor gro&szlig;e Aufgaben gestellt. Wir zitieren uns selbst aus dem Newsletter des letzten Jahres, nachdem wir das Wasser-Szenario 2022 verdaut hatten.</p><p style=\"text-align: center;\"><em>&ldquo;F&uuml;r das TARMAC 2023 arbeiten wir daran, dass eine solche Situation nicht mehr auftreten kann und dass f&uuml;r die Veranstaltung dauerhaft Wasser in Trinkwasserqualit&auml;t zur Verf&uuml;gung stehen wird.&rdquo; (TARMAC e.V.; 11/2022)</em></p><p><em>Touch&eacute;</em> sagen wir hier und blicken mit einem lachenden und weinenden Auge zur&uuml;ck. Grunds&auml;tzlich ist dieser Satz so nat&uuml;rlich sogar richtig. Um hier Licht ins Dunkel zu bringen, m&ouml;chten wir gern noch einmal &uuml;ber die Wasserversorgung 2023 sprechen.</p><p>Wir haben uns im Team ein Jahr intensiv mit der Problematik befasst und die f&uuml;r uns beste L&ouml;sung f&uuml;r das Festival 2023 umgesetzt. Daf&uuml;r haben wir in ein neues Trinkwasserleitsystem investiert und die Zusammenarbeit mit Gesundheitsamt sowie den&nbsp; zust&auml;ndigen Laboren ausgebaut. Leider haben wir dabei nicht einplanen k&ouml;nnen, dass unser Trinkwasserlieferant nicht in der Lage sein wird, sauberes Wasser zu liefern. Dank eines unerm&uuml;dlichen Teams haben wir eine weitere Firma gefunden, die uns auf den letzten Metern eine Situation wie 2022 erspart hat. Shoutouts an dieser Stelle auch an die Flugplatzleitung, die uns kurzfristig alternative Duschm&ouml;glichkeiten erm&ouml;glicht hat. Wir lehnen uns nun aus dem Fenster und erlauben uns zu behaupten, dass wir mit Blick auf das TARMAC 2024 dauerhaft Trinkwasser aus dem Hahn anbieten k&ouml;nnen.&nbsp;</p><p>An dieser Stelle m&ouml;chten wir uns bei allen Menschen bedanken, die uns in der schwierigen Lage supportet haben und trotz der angespannten Situation verst&auml;ndnisvoll auf uns zugekommen sind.</p><p>Wir d&uuml;rfen gespannt sein, wie diese Geschichte weitergeht und m&ouml;chten an dieser Stelle unser Netzwerk nutzen und das Thema Wasser mit einem lachenden und einem weinenden Auge abschlie&szlig;en:</p><p>Unsere kurzfristige Umplanung hat bekannterma&szlig;en dazu gef&uuml;hrt, dass wir sehr viel Trinkwasser in Flaschen gekauft haben. Ihr erinnert euch sicherlich an den sch&ouml;nen Sprudel in den Kehlen. Ca. 26 Paletten von diesem Wasser wurden im Herbst vom Flugplatz entwendet. Leider konnten wir diese gro&szlig;en Mengen Wasser nicht entsprechend sichern. Zur&uuml;ckgeblieben sind ironischerweise nur die Europaletten. Wir gehen daher davon aus, dass alle Kisten einzeln verladen wurden. Sollten euch also gro&szlig;e Mengen Trinkwasser - so 1000 K&auml;sten - angeboten werden, dann gebt uns gern Bescheid. Neben dem fehlenden Rohstoff ist natürlich auch der finanzielle Schaden erheblich.</p>"
-        },
-        "deposit":  {
-          "heading":"KAUTION",
-          "text":"Liebe Helfis, es tut uns sehr Leid, dass viele Menschen ihre Kaution erst sehr spät erstattet bekommen haben. Wir haben uns dieses Jahr für eine rein elektronische Abwicklung entschieden und müssen uns für diese Entscheidung entschuldigen. Leider hat diese Handhabung in der Umsetzung zu vielen Problemen geführt. Wir arbeiten mit unserem Ticketanbieter an einer Alternative für das neue Jahr und möchten uns für das entgegengebrachte Verständnis bedanken."
-        },
-        "design":{
-          "heading":"BÜHNENGESTALTUNG",
-          "text":"<p>Dieses Jahr ist uns in der Planung ein Fehler unterlaufen. Wir haben bei der Gestaltung des Gel&auml;ndes nicht ausreichend darauf geachtet, welche Themen die einzelnen B&uuml;hnen verfolgen werden. Dabei hat das Endlos-Kollektiv eine alte Western-Theaterkulisse als B&uuml;hnenbild genutzt, was w&auml;hrend der Veranstaltung und danach zu Kritik f&uuml;hrte.</p><p>Wir und das Endlos nehmen diese Kritik sehr ernst und sind derzeit im Austausch dar&uuml;ber.. Wir m&uuml;ssen unsere eigene Arbeitsweise an dieser Stelle kritisch betrachten und ver&auml;ndern. Dieser Prozess wird uns durch den Winter begleiten und sich entsprechend auf das Festival 2024 auswirken.&nbsp;</p><p>Wir m&ouml;chten Euch gleichzeitig dazu ermutigen, mit positiver sowie negativer Kritik auf uns zuzukommen. Nur sichtbare und ausgesprochene Themen k&ouml;nnen auch bearbeitet werden und nicht immer ist es leicht, solche Dinge aus dem Inneren zu erkennen und richtig zu benennen.&nbsp;</p><p>Es ist uns ein gro&szlig;es Anliegen, Themen wie eben diese B&uuml;hnengestaltung aufzuarbeiten und die Ursachen zu finden. Uns und dem Endlos-Kollektiv ist nicht geholfen, wenn solche Themen im Verborgenen bleiben.</p><p>Bitte seht uns in diesem Zusammenhang nach, dass wir nicht jedes Thema &ouml;ffentlich diskutieren und nicht zu allen Dingen Stellung beziehen. Dies k&ouml;nnen wir erst hinreichend tun, wenn wir unsere Prozesse intern abgeschlossen haben.</p>"
-        },
-        "soundcloud":{
-          "heading":"SOUNDCLOUD",
-          "text":"<p>Es gibt mittlerweile sehr viele Mitschnitte der einzelnen K&uuml;nstlerInnen auf unserem Soundcloud Profil. Dort k&ouml;nnt ihr Euch nach Allstedt zur&uuml;ckbeamen und nochmal ordentlich die Anlage aufdrehen. <a href=\"https://soundcloud.com/tarmac-festival\">Hier entlang</a>.</p>"
-        }
-      }
-    },
-    "faq": {
-      "heading": "FAQ"
-    },
-    "newsletter":{
-      "heading": "Newsletter",
-      "form": "l3u2htire1egjeuwx8f"
-    },
-    "collectives": {
-      "endlos": {
-        "heading": "Station Endlos",
-        "text": "Ich bin das Endlos und ich erwuchs aus dem Willen, der Schaffenskraft und Kreativität zweier Brüder und deren Freundeskreis. In die Tat getragen wurde ich über die Motivation, nun wie drücke ich mich da am besten aus, um der etwas kargen Tanzkulturlandschaft meiner Heimatstadt Halle (Saale) zu etwas mehr Farbe und Raum zu verhelfen.<br><br>Ich bin mehr als nur eine Tanzfläche. Ich bin ein sich ständig neu erfindender Mikrokosmos, der viel mehr Rahmen als Fläche ist. In mir lösen sich die steifen Zeiger einer Uhr zu einem Fluss auf, der in dem Moment mündet, wo Zeit nicht länger an ein Ziffern- oder Kalenderblatt gebunden ist. In mir ist die Illusion von Kontrolle einem jeden selbst überlassen.<br><br>Hier ist alles erlaubt was Freude bringt und bereichert, ohne, dass dabei die Freiheit eines anderen eingeschränkt wird. Tolerantes Verhalten, dialogorientierte Kommunikation und ein respektvoller Umgang untereinander sind grundlegende Voraussetzungen, für jeden, der mich kennen lernen will."
-      },
-      "l300": {
-        "heading": "L300 Decoration & Arts Circle",
-        "text": "L300 Decoration & Arts Circle ist ein wachsendes Kollektiv junger Djs, Künstler und Eventhustler...<br><br>Nach einigen exzessiven Festivaltrips in Europa haben wir uns entschlossen, den Vibe der psychedelischen Culture, welchen wir auf unseren Reisen so oft erleben und erfahren durften, in die Welt zu tragen! Nun sind wir mittlerweile seit Anfang 2016 auf Abenteuern unterwegs in Halle, Berlin, Leipzig und im Outer Space...Und bis jetzt ist kein Ende in Sicht!<br>Boomshakalaka Spaceamigos und -amigas!!!!"
-      },
-      "reihe": {
-        "heading": "II. Reihe",
-        "text": "Wir sind ZWEITE REIHE (II.R), ein Kunst- und Kulturprojekt. ZWEITE REIHE widmet sich Orten, Ereignissen und Menschen. All dem, was nicht offensichtlich scheint, im Verborgenen kreativ ist und entdeckt werden will. ZWEITE REIHE macht den KIOSK, ist Bühne, Raum, Plattform u.v.m..<br>Ihr seid herzlich eingeladen!"
-      },
-      "resonant": {
-        "heading": "resonant",
-        "text": "[Resonánz] - Substantiv, feminin, die<br><br>Was eigentlich als spontane Zusammenkunft von Freund:innen begann, wuchs irgendwann zu einer festen Struktur heran. Was eigentlich als einmaliges Ereignis geplant war, fand im Sommer 2018 plötzlich jede Woche statt. Seither versuchen wir regelmäßig neue Resonanzräume für alle denkbaren Spielarten elektronischer Musik zu (er)schaffen und dabei der gängigen Verwertungslogik zu trotzen."
-      },
-      "orgia": {
-        "heading": "Orgia",
-        "text": "Die Organisierte-Rave-Gemeinschaft-In-Aktion (ORGIA), gegründet 2018, spezialisiert sich auf Full-Service-Solutions im Tanzveranstaltungsbereich und hat sich innerhalb kürzester Zeit zu einem führenden Dienstleister in diesem Segment etabliert. Mit rund 12 Mitarbeiter:innen in den beiden Standorten Halle-Musterstadt und Leipzig-Beispieldorf erzielte unser Unternehmen zuletzt rund 253 Euro Umsatz!<br><br>Im Zuge des TARMAC Festivals wurde ORGIA mit der Projektierung eines Hangar Tanzplatzes betraut. Zur Beschallung werden Acid, Elektro, Rave & Trance als stilprägende Elemente eingesetzt."
-      },
-      "teilko": {
-        "heading": "Teilkonversum 7",
-        "text": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund:innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an \"Drinnenpartys\" gefunden haben.<br><br>Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.<br><br>Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
-      },
-      "lila": {
-        "heading": "Lila Drache",
-        "text": "Der \"Lila Drache\" ist das Vereinsheim des gemeinnützigen \"Kunst- und Kulturvereins Südliche Innenstadt\". Wir sind eine bunte Gruppe von Menschen, die es sich zur Aufgabe gemacht hat, das Kulturangebot in Halle auszubauen. Die recht unbelebte Südliche Innenstadt rief förmlich danach, ihr neues Leben einzuhauchen, um auch abseits von Paulusviertel und Zentrum Kunst, Kultur und Vielfalt zu erleben. Wir haben im Hallenser Süden eine Plattform etabliert, in der Künstler_innen ihre Werke ausstellen können, Musiker_innen offene Ohren finden, sowie Lesungen und Vorträge ein breites Publikum erreichen."
-      },
-      "klubska": {
-        "heading": "klubska scena",
-        "text": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer:innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
-      },
-      "nautilux": {
-        "heading": "Nautilux",
-        "text": "ist ein Kollektiv und Freundeskreis aus Halle. Uns vereint die Liebe zu Partys und elektronischer Musik. Das Medium Licht spielt für uns eine wichtige Rolle, ebenso wie der Anspruch, Räume neu zu erschließen und zu interpretieren. Seit 2018 realisieren wir verschiedenste Projekte und freuen uns, das Nachtleben unserer Heimatstadt mitgestalten zu können."
-      },
-      "kvhz": {
-        "heading": "Kinder von der Haltestelle Zoo",
-        "text": "Die Kinder von der Haltestelle Zoo sind ein Veranstaltungskollektiv aus Halle, bestehend aus Producern, DJs*, Bastler:innen und Technikbegeisterten. Diesen bunten Haufen verbinden jahrelange Bekanntschaften und Freundschaften, aber vor allem die Liebe zu lauter Musik und zum Tanzen. Daher fing man im Sommer 2018 an gemeinsam Partys zu schmeißen und etablierte sich seitdem in der halleschen Raveszene. Nun sind die Kinder von der Haltestelle auch beim TARMAC-Festival mit dabei, um ihre Freunde, die L300 Crew, bei der Gestaltung und Bespielung der Planetenweide-Stage zu unterstützen."
-      },
-      "mjut": {
-        "heading": "mjut",
-        "text": ""
-      },
-      "wert": {
-        "heading": "Wert der Dinge",
-        "text": "Reisegruppe Flotte Lotte - Begleitete Radtour mit Gepäckservice<br>Für alle die mit dem Fahrrad anreisen, gibt es das Angebot mit der Reisegruppe Flotte Lotte gemeinsam von Halle gen Flugplatz Allstedt zu fahren. Euer Gepäck transportieren wir dir kostenfrei bis aufs Festival Gelände. Dich erwartet eine Radtour mit zwei Pausen, die dich langsam in Festivalstimmung bringt und dich ganz entspannt auf dem Flugplatz ankommen lässt. (Nur für Personen mit Festivalticket.)"
-      },
-      "material": {
-        "heading": "Materialbuffet",
-        "text": "Das Materialbuffet e.V. ist eine frischgebackene Materialinitiative in Leipzig, die Materialien aus Kulturbetrieben wie Theatern, nach Events, Film- und Fernsehproduktionen und aus dem produzierendem Gewerbe vor der Entsorgung rettet. Im MB kann zukünftig jede*r umweltfreundlich und kostensparend für's neue Hochbett shoppen oder eben für 1 lecker Festival wie das TARMAC.<br>Schmackhafte Neuigkeiten wie beispielsweise zur Eröffnung findet ihr bei Instagram @materialbuffet_ev"
-      },
-      "unterdruck": {
-        "heading": "UNTERDRUCK",
-        "text": "<p>Ende 2019, Paar Freund*innen, eine Anlage, ein Fahrradkeller und Bock mit den Friends &lsquo;ne gute Zeit zu haben. Daraus entstand: das Kollektiv UNTERDRUCK.<br />So viel hat sich daran nicht ge&auml;ndert. Der Versuch einen Freiraum f&uuml;r Kreative zu schaffen, Lust die Subkulturszene in Halle mitzugestalten und viele helfende H&auml;nde halten das Projekt bis heute aufrecht. Ein famili&auml;res Zusammensein, bei dem auf alle geachtet wird, hat bei allen Feiernden einen erheblichen Stellenwert. Im Laufe der Jahre zeichnet sich ein minimalistischer Stil, sowie die Vorliebe f&uuml;r house-ige Sounds ab.</p>"
-      },
-      "vacanza": {
-        "heading": "Vacanza",
-        "text": "<p>Ciao! Vacanza e.V. - Verein f&uuml;r Musik und Kultur aus Leipzig. Eine Gruppe musikbegeisterter Menschen mit gemeinsamen &amp; gemeinn&uuml;tzigen Projekten. So oft wir k&ouml;nnen, gestalten wir diverse regionale Clubabende, Festival Floors und Tagesveranstaltungen mit kulturellem Inhalt.</p><p>HeyCiao!Vacanza (Elipamanoke), AMPED. (tba), THE TANGLE (Nachtiville), VACANZA (Tarmac Festival) and more</p>"
-      },
-      "brausecus": {
-        "heading": "BrauseCus",
-        "text": "<p>Willkommen auf der BrauseCus Konzertbühne, wo die Musik in all ihren Facetten zum Leben erwacht! Der Potsdamer Underground aus DIY-Clubkultur und punkiger Livemusik hat sich zusammengerafft, um musikalische Blüten auf dem Tarmac-Festival treiben zu lassen. Wie bereits im vergangenen Jahr sind auch unsere Leipziger Freunde von Proper Pull wieder mit von der Partie, um das Programm zu veredeln. Wir wollen versuchen, jedes Jahr ein Stückchen bunter und diverser zu gestalten - Dieses Jahr erwarten euch wieder viele Live Acts und DJs aus den unterschiedlichsten Genres,  um euch mit ihrer Vielfalt und Kreativität zu verzaubern.</p>"
-      },
-      "poly": {
-        "heading": "Polynoiseon",
-        "text": "<p>Seit 2022 gibt es uns, die Poly-Crew, als erste Crew, die aus dem Tarmac-Scho&szlig; geboren Wurde.<br>Unser (immersiver) Space: Das Polynoiseon. Hier findet Ihr Performances, Workshops und interaktive Kunst. Von Poledancer:innen &uuml;ber k&uuml;nstliche Intelligenzen bis hin zu euch Partypeops - alle beeinflussen das Polynoiseon mit ihren (teils absonderlichen) Bewegungen.</p>"
-      },
-      "kbs": {
-        "heading": "Kollektiv Barrieren Sprengen",
-        "text": "<p>Als Kollektiv Barrieren Sprengen (e. V.) arbeiten wir seit 2023 mit dem TARMAC e. V. Zusammen&nbsp;und entwickeln ma&szlig;geschneiderte L&ouml;sungen zur Beseitigung von Barrieren.&nbsp;Unser Ansatz geht &uuml;ber bauliche Ma&szlig;nahmen hinaus &ndash; wir engagieren uns auch in administrativen&nbsp;Aufgaben, unter anderem durch die Schaffung behindertengerechter Awareness-Strukturen.&nbsp;Unser Ziel ist es, aktiv die Teilhabe von Menschen mit Behinderung am kulturellen Leben zu f&ouml;rdern&nbsp;und die gesellschaftliche Wahrnehmung dieses Themas zu st&auml;rken.</p>"
-      }
-
+    "about": {
+        "heading": "Leitbild des TARMAC e.V.",
+        "text1": "Konstituierung und Ziele des Vereins",
+        "text2": "Der TARMAC e.V. wurde im Juni 2021 gegründet und ist das Ergebnis von mehr als zwei Jahren intensiver Erfahrung bei der Durchführung des TARMAC Festivals. Der Verein bildet den offiziellen Rahmen um gemeinsame Ideen und Vorstellungen kleiner Kunst- und Musikkollektive aus Sachsen-Anhalt, Sachsen, Berlin, Brandenburg und Thüringen zu verwirklichen. Unser gemeinsames Ziel ist es, Räume zu schaffen, in denen sich Menschen ausdrücken und wohlfühlen können und in denen Eskapismus, aber gleichzeitig auch Auseinandersetzung mit den Herausforderungen der Gegenwart möglich ist.",
+        "text3": "Zusammensetzung der Gruppe von Menschen",
+        "text4": "Unsere Gruppe hat einen festen Kern, der ehrenamtlich leitende Funktionen für die Realisierung des Festivals übernimmt, welches jährlich auf dem Flugplatz Allstedt stattfindet und sich in der Szene kleinerer Musikfestivals an Beliebtheit erfreuen durfte. Der feste Kern wird unterstützt durch die Mitstreiter*innen der einzelnen Kollektive, die ihre Freizeit dem Projekt zur Verfügung stellen und damit diese unkonventionelle Durchführungsart eines Festivals ermöglichen. Die Utopien und Vorstellungen des TARMAC e.V. befinden sich im Rahmen unserer gemeinsamen Ziele kontinuierlich in einem dynamischen Wandlungsprozess. Hierbei versuchen wir stets fordernd, lösungsorientiert und rücksichtsvoll miteinander zu arbeiten, trotz Meinungsverschiedenheiten immer einen Konsens anzustreben und dadurch unsere Wirkungs- und Handlungsziele gemeinschaftlich erfolgreich umzusetzen.",
+        "text5": "Gegenwärtige Aufgaben & Perspektiven",
+        "text6": "Schwerpunkt bleibt vorerst die Durchführung des TARMAC Festivals. Auseinandersetzung mit bzw. gemeinsames Erleben von Musik, Kunst- und Kultur war schon immer ein wichtiges menschliches Bedürfnis. Die hohe Nachfrage an Tickets in den beiden vergangenen Jahren bestätigt uns in unserer Herangehensweise das Projekt zu realisieren. Als Hauptaufgaben sehen wir dabei einerseits das Erschaffen gemeinschaftlicher, offener und diskriminierungsfreier Räume im Kontext des Festival Ablaufs und andererseits die Förderung Kunstschaffender in der Region sowie ansässiger Unternehmen, deren Dienstleistungen wir in Anspruch nehmen möchten. Weiter erachten wir es als wichtig, einen Ort zu bieten, an denen sich überregionale und regionale Künstler*innen vernetzen können. In Zukunft kann sich der Verein auch die Realisierung anderer Projekte im Kunst- und Kulturbereich vorstellen sowie die Umsetzung eines weitgehend barrierefrei gestalteten Festivals.",
+        "text7": "rave hard, be nice",
+        "text8": "racism, sexism, antisemitism and all other forms of discrimination won’t be tolerated and will lead to immediate banishment.",
+        "text9": "savour the moment - no photos, no video, no phones!",
+        "button": "Wie alles begann"
     },
     "artists": {
-      "battery": {
-        "heading": "Double A Battery Team",
-        "text": "Was die Jungs vom Double A Battery Team auf die Tanzfläche bringen, ist mehr als nur eine volle Ladung Energie. Alois und Alex (AA) verbindet eine jahrelange Freundschaft und die Leidenschaft für Elektro, Trance und Breaks jeglicher Art. Als Savour the Moment Residents, seit über 2 Jahren, spielen sie meist in der Wilden Renate in Berlin, wo man sie hinterm DJ-Pult oder breakdancend auf dem Floor findet – nicht selten mit einem Glas Weißbier in der Hand."
-      },
-      "ada": {
-        "heading": "Ada Luvv",
-        "text": "and so the story goes: ada fell in luvv with electronic dance music. forever heartbroken, she lost herself in djing. blowing boundaries of genre and speed, she provides a highly diverse while still very consistent sound. while feeling at home at the decks of fettschmelze (karlsruhe), she has been recently guesting at drama bar (tbilisi, georgia), transmediale festival (berlin) and points (freiburg). as a part of the karlsruhe-based BLEX crew, she shares hearts and decks with chaos angel, super venus, double u cc and JWLRY. BLEX hosts parties which can be experienced with all senses and invite one to rethink club culture."
-      },
-      "albina": {
-        "heading": "Albina",
-        "text": "Albina verknüpft reichhaltige Texturen und bringt dabei konträre Klänge in Kontext. Gespickt mit rhythmischen Passagen und Songs sind ihre dj sets die perfekte Balance zwischen Ruhe und Puls."
-      },
-      "anna": {
-        "heading": "Anna SchuSchu",
-        "text": "Anna Schuschus experimentelle Performances vereinen Pop mit verschobenen Texturen, häufig basierend auf ihrer eigenen Stimme. Ein weitreichender Sound ist das Ergebnis: von sphärisch entspannt, bis hin zu kantig provokant."
-      },
-      "cyan": {
-        "heading": "Cyan 85",
-        "text": "Cyan 85 - unserer Meinung nach eine der Überraschungen des letzten Jahres. Mit bisher zwei ausverkauften Platten bei den Labels voitax und lunar orbiter, ist er mittlerweile auch international unterwegs. Im Herbst folgt eine mini LP des gebürtigen Erfurters, der ebenso kürzlich zusammen mit Turk Turkelton das Label habibi bass gegründet hat. Wir freuen uns auf seinen roughen sound. - shake what your mamas gave ya!"
-      },
-      "detox": {
-        "heading": "DJ Detox",
-        "text": "DJ Detox aka Gnista – ein junges Urgestein aus der Dresdner Clubszene, mag Thermalbäder nicht so sehr wie der Name vermuten lässt. Sein Sound findet Platz auf den Labels FTP, Ghettoraid und auch bald auf Rand Muzik. Andere Projekte mit Releases bei Brokn Toys und Uncally Valley sind nicht weniger erfolgreich.<br>DJ Detox lädt mit seinen LiveSets nicht gerade zur Entspannung ein und vitalisiert uns trotzdem mit Breakz, House und Acid! - Looking forward!"
-      },
-      "hornhaut": {
-        "heading": "DJ Hornhaut",
-        "text": "DJ Hornhaut ist eine wilde Mischung aus Disko, Punk, Hip-Hop und Hard-Tech. Böse Bässe mischen sich mit einer sanften Stimme und dadaistischen und politischen Texten."
-      },
-      "yumyum": {
-        "heading": "DJ YumYum b2b Shane Lizard",
-        "text": "Shane Lizard und DJ YumYum machen modernen, experimentellen und ravigen Sound. Sie sind Maschinen, dazu verdammt, den digitalen Äther nach freshsten Releases zu durchleuchten und sie dann in veränderter Form auf Raves zu werfen. Mit ihrer Leipziger Reihe \"Aeolian\" holen sie dafür regelmäßig ihre liebsten Musiknerds zusammen."
-      },
-      "dmrk": {
-        "heading": "dmrk",
-        "text": "⁴⋅⁵ Und von den Membranen gingen aus Blitze, Stimmen und Donner; Und Nebel erfüllte den Raum.<br>⁴⋅⁶ Und auf dem Beton war ein Meer aus flüssigem Stahl, gleich einem Vulkan; Und über dem Pult schwebten vier Augen, gerichtet nach vorn.<br>⁴⋅⁸ Und sie hatten keine Ruhe Tag und Nacht."
-      },
-      "dsompa": {
-        "heading": "dsompa",
-        "text": "Dsompa is the Tibetan meaning for \"flowing together\", and is the project of Philipp based in Hamburg, Germany.<br>Dsompa discovered electronic music in the late 90′s, and was bewitched with the culture, art and the sound of the psychedelic subculture. Encouraged by friends of the Ruigoord Community in Amsterdam, he played his first DJ set in the squatted church turned dance-temple, of Ruigoord early 2007.<br>His debut EP „Shinan\" came out on Sangoma Records in 2014, followed by tracks and collabs on labels as Looney Moon, Sonica, Forestdelic, Hypnotique and Believe Lab. He became part of the Italy based Believe Lab Family in early 2016. In March his EP „4 more drops\" is out on Believe Lab."
-      },
-      "flexibleheart": {
-        "heading": "Flexibleheart",
-        "text": "Flexibleheart lebt in Dresden und ist Mitglied des feministischen Dj-Kollektivs ProZecco. Sie spielte bereits im About Blank, MenschMeier, IFZ und Objekt Klein A. Ihr Sound: bassgetriebener- energiegeladener Acid House und Techno, Ghetto und Elektro. Crazy good! Don't miss her!"
-      },
-      "pause": {
-        "heading": "FM Pause",
-        "text": "FM Pause baut wabernde Puzzle aus experimentellen und etablierten Club-Sounds. Seine Sets sowie seine Mindstretch-Partys sind dabei voller Einflüsse aus US und UK."
-      },
-      "galaxaura": {
-        "heading": "Galaxaura",
-        "text": "Galaxaura ist seit 2013 Resident DJ im Spartacus Potsdam, produziert Radio Shows für das Freie Radio Potsdam, ist Gründerin des Galaxunity-Movements und organisiert regelmäßig Parties. Ihre Sets sprechen eine intergalaktische Sprache, irgendwo zwischen Breakbeat Electro, Acid, tripped-down Techno, low-fi- und Cosmic House. Mit ihren DJ* empowerment Workshops supportet sie aufkommende Talente."
-      },
-      "qnete": {
-        "heading": "Qnete",
-        "text": ""
-      },
-      "illousion": {
-        "heading": "illousion",
-        "text": "illousion verbindet in ihren DJ-Sets eine düster-dystopische Ästhetik mit energetischer, treibender Rhythmik. Am liebsten kombiniert sie dabei ältere Lieblingstracks aus ihren früheren Zeiten als Clubbesucherin mit aktuellen Releases und lässt daraus einen vielseitigen Sound entstehen. Häufig findet man sie im Institut fuer Zukunft, mal in der Booth, mal hinter der Bar, mal als Veranstalterin der NEBULA-Partyreihe dort mit ihrem gleichnamigen Nebula Kollektiv."
-      },
-      "juke": {
-        "heading": "Juke Dordan",
-        "text": "Was Juke Dordan in seinen Sets preisgibt ist eine fundierte Auseinandersetzung mit genreübergreifenden Releases und gekonnte Ineinanderführung verschiedener Klangflächen. Dadurch zeichnet sich ein Bild auf der Tanzfläche ab, welches von Energie, wechselnden Rythmen und positiver Athmosphäre gekennzeichnet ist. Häufig sieht man ihn als Teil der PVC Crew in der DJ Booth oder als Mitveranstalter verschiedener Partyreihen des Kollektivs auf der Tanzfläche."
-      },
-      "karakum": {
-        "heading": "Karakum",
-        "text": "'Karakum' - das ist handgemachter Techno, live performt von vier Musikern die Sequenzer und Drumcomputer durch ihre analogen Vorbilder ersetzen. Hierbei verschmelzen melodische Synth- und Gitarrenklänge mit einem treibenden Fundament aus Bass und Schlagzeug. Der satte genrecharakteristische Sound eines durchproduzierten Technotracks trifft auf den Charme und Groove einer Liveband."
-      },
-      "kontinum": {
-        "heading": "Kontinum b2b t_nsaye",
-        "text": "Die beiden Residents des Nebula Kollektivs aus Leipzig sind schon lange kein unbeschriebenes Blatt mehr. Seit der Gründung 2017 ist Nebula über Raves und Clubveranstaltungen zu einem festen Bestandteil der Technoszene geworden. Neben seinen Aktivitäten im Kollektiv produziert Kontinum eigene Musik und veröffentlichte unter anderem bei Circular Limited, Oslated, Proselytizing und Lowless.<br>Als DJs überwältigen die zwei mit treibendem hypnotischen Sound  – perfekt für die frühen Morgenstunden."
-      },
-      "lukov": {
-        "heading": "Lukov",
-        "text": "Als Resident der Parzelle 56 und Gründungsmitglied des Resonant e.V. ist Lukov mittlerweile fester Bestandteil der Jenaer Technoszene. In seinen Sets erschafft er eine deepe und vocalaffine Ästhetik, die seine Liebe zur elektronischen Tanzmusik zelebriert."
-      },
-      "mico": {
-        "heading": "Mico X",
-        "text": "Mico-X (Miodrag Radeljak) originally from Croatia and now based in Germany. Since the age of 13 he lives in Frankfurt am Main. In early childhood he got fascinated with electronical sounds and already at the age of 16 he had his first Gigs.<br>In the glory time of 1997 he discovered Psychedelic Goa Trance - a life changing experience because he as a DJ could identify with this music immediantly. Since then the name Mico-X grew to a well known legend among the Frankfurt Goa Scene.<br>What followed were countless gigs back to back with the biggest names of the scene.<br>Today Mico X plays his DJ-Sets all around Europe on different international Festivals and Partys, he is also an ambassador for MO:DEM Festival in Croatia.<br>He reestablished the „Hypnopulse\" Events in Limburg and is part of the \"PsyArmy\" DJ-Team aswell as a resident DJ at the \"Unterholz\" forest gatherings in Wiesbaden.<br>People love his deeply energized and all-time forward pumping psychedelic bassmusic because of his magical track selection and the intense feeling for the groovin' crowd!<br>Full Power Night Psy, Twilight & Forest Trance are gonna be styles which he will present to your ears at the next edition of MO:DEM  2020/2021 Festival."
-      },
-      "monarch": {
-        "heading": "Mønarch",
-        "text": "Aus dem südwestlichsten Punkt Badens entsprungen, hat sich Mønarch dem dunklen Sound verschrieben. In seiner Wahlheimat Jena ist er eines der Gründungsmitglieder des resonant e.V.. Mønarch überzeugt stets durch ein Equilibrium aus Härte und Groove, welches er auf dem Dancefloor erklingen lässt. Immer auf den Punkt und gleichzeitig nicht uniform, wird er sicherlich auch beim TARMAC alle Tanzwütigen zu einer gemeinsamen, außergewöhnlichen Resonanzerfahrung führen können."
-      },
-      "morioun": {
-        "heading": "morioun b2b aurifex",
-        "text": "After DJ’in several years and being part of organizing underground events to help rising the free spirit of the trance movement in the region of the black forest and elsewhere the project MORIOUN was born. The music is mainly focused on old-schoolisch Goa Trance with both, melodic and dark/acidic elements, trying to move outside of the genre’s borders and combining whatever might fit the story that is told within the music. Be exited for pumping dancefloor bonkers and melodic twists and a special b2b set together with Space-Partner in Ryhme Aurifex."
-      },
-      "naomi": {
-        "heading": "Naomi Dasmoe",
-        "text": "Naomi Dasmoe sind zwei aufstrebende DJs, die ihre Mission der Verbreitung von \"ursprünglicher\" House-Musik in Berlin und darüber hinaus verfolgen. Ihre ganz eigene Note bringen die Beiden in ein lange Zeit beliebtes Genre. Dies geschieht durch Naomis gefühlvolle Art, ergänzt durch Dasmoes Leidenschaft für rhythmische, kraftvolle Beats."
-      },
-      "neelie": {
-        "heading": "Neelie.",
-        "text": "Neelies diverse Projekte eint ein starker Fokus auf zeitgenössische japanische Kultur - sei es in ihren Mixes oder bei ihrem aktuellen Projekt oh mochi, das sich auf Veranstaltungen und Grafiken konzentriert."
-      },
-      "signal": {
-        "heading": "NO LIFE SIGNAL",
-        "text": "NO LIFE SIGNAL heißt das Projekt von Reka Zalan und THNTS. Beide haben im ://about blank ihr musikalisches Zuhause gefunden. Ihre Podcast-Serie ESCH und die Partyreihe ://Elements sind in der Szene zurecht hoch angesehen. Freut euch mit uns auf Techno à la carte!"
-      },
-      "ritar": {
-        "heading": "Ritar",
-        "text": "Ritar kam über Halle nach Leipzig, ist dort eng mit dem VARY Recordstore und Label verbunden. Ebenso ist sie Teil des kölner Labels und Booking-Agentur GHETTO TRAXX. Ihre Sets sind getrieben von schneller und kraftvoller Underground Dance Music."
-      },
-      "sequoya": {
-        "heading": "Sequoya",
-        "text": "Sequoya is the project of Yan Krassowski, born in 1979 in Darmstadt, Germany. His love and passion for electronic music started back in the mid 90`s with the young age of 15, where he discovered the local techno scene. Early influences where DJ`s like Sven Väth or DJ Dag and first experiences in technoclubs, like the legendary Omen or Dorian Gray in Frankfurt A.M.<br>He started to spin techno tunes at small parties until the psytrance virus changed his musical direction. With a bunch of friends – the Gecko Crew \u00AD he organised a couple of small parties in his home area, and begann to play progressive/psytrance Dj sets under the alias Yan Gecko. After a couple of years, with lots of national and some international gigs, he joined BMSS Records and released a few tracks on different compilations.<br>Yans favourite was always rather deep and mystical sound. After some life changing dancefloor experiences at big festivals, he fell completely in love with forest psy and more nighttime orientated music\u00AD 2012 the Sequoya project was born. The debut EP \"Nomad\" came out in 2013 on BMSS Records, 2015 the \"Singularity EP\" on Sangoma, followed by tracks on various Compilations from different Labels. His music can be described as deep and driving forest psy with a unique style of storytelling and remarkable sounddesign, resulting from Yans love for modular Synthesizers."
-      },
-      "sevensol": {
-        "heading": "Sevensol",
-        "text": "Mitgründer von Long Vehicle und KANN, eine Hälfte vom DJ-Duo Manamana. Sevensols Sounds sind vielfältig, perkussiv - manchmal experimentell. Mittlerweile überzeugt der Leipziger die internationalen Tanzflächen. Sekt auf Eis steht bereit."
-      },
-      "shape": {
-        "heading": "Shape",
-        "text": "Shapes Dj Sets sind die klangliche Repräsentation seines Plattenladens Vary in Leipzigs Eisenbahnstraße. Mal synthetisch, mal organisch ergibt seine Selektion eine harmonische Mischung der interessantesten urbanen Genres der letzten 40 Jahre."
-      },
-      "tereza": {
-        "heading": "TEREZA",
-        "text": "Mit viel Liebe zum Detail und technischer Finesse gleitet Tereza durch ihre eigene eklektische Klanglandschaft und überschreitet dabei die traditionellen Genregrenzen. Das Bindeglied in ihren Sets ist ein gefühlvolles, jazziges Element. Tereza ist DJ, Radiomoderatorin und Kuratorin und veranstaltet ihre eigene Clubnacht BLUE SPACE in der Palomabar (Berlin)."
-      },
-      "waxa": {
-        "heading": "Wiki Waxa",
-        "text": "Wiki Waxa spielt genreübergreifende Musiken: Vielschichtige Sounds wechseln sich mit Fragmenten ab und entfalten eine ungezwungene und spannende Dynamik."
-      }
+        "heading": "Künstler:innen",
+        "subheading": "(bisher bestätigt - weitere folgen in Kürze)",
+        "years": ["2020", "2021"]
+    },
+    "info": {
+        "heading": "Info",
+        "box1": {
+            "heading": "Tickets",
+            "tba": {
+                "heading": "",
+                "text": "Informationen zu den Ticketoptionen werden wir Anfang Februar 2024 bekannt geben."
+            },
+            "announcement": {
+                "heading": "",
+                "text": "<p>TICKETVERKAUF</p><p>Der Ticketverkauf f&uuml;r das TARMAC Festival 2024 findet am Freitag, den 01.03. statt. Der Ticketpreis betr&auml;gt dieses Jahr 160 &euro; inkl. MwSt. (zzgl. Verkaufsgeb&uuml;hr von 4,50&euro;). Damit m&ouml;glichst alle die Chance haben, direkt zum Verkaufsbeginn online zu sein, haben wir das Ticketkontingent aufgeteilt. Die erste H&auml;lfte wird um 17 Uhr freigeschaltet und die zweite H&auml;lfte um 21 Uhr.&nbsp; Pro Bestellung k&ouml;nnen maximal vier personalisierte Tickets gekauft werden. Wir vertreiben die Tickets wie gewohnt &uuml;ber <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a>.</p><p>TEILHABE-TICKETS</p><p>Nach einem erfolgreichen Testlauf 2023 freuen wir uns, auch in diesem Jahr ein Kontingent f&uuml;r Teilhabe-Tickets zur Verf&uuml;gung stellen zu k&ouml;nnen. Die Tickets werden wie im letzten Jahr zu einem sp&auml;teren Zeitpunkt und zu einem reduzierten Preis freigeschaltet. Du kannst au&szlig;erdem eine Begleitperson umsonst mitbringen (Kennzeichen &ldquo;B&rdquo; wird nicht abgefragt). Weitere Infos dazu unter dem Punkt 'Teilhabe'.</p><p>CAMPER-TICKETS</p><p>Wenn du einen Camper oder ein Auto auf dem Campingplatz abstellen m&ouml;chtest, brauchst du ein Camper-Ticket. Dieses kostet 25 &euro; + VVK Geb&uuml;hr.</p>"
+            },
+            "open": {
+                "heading1": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/54917\" target=\"_blank\" >Tickets</a><br><br>",
+                "text1": "Festivalticket 160€ + 4,50€ VVK Gebühren",
+                "heading2": "Camperticket",
+                "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto Zutritt zum Zeltplatz möchtest, benötigst du ein solches Ticket. Der Pass ermöglicht dir, mit deinem Fahrzeug/ Anhänger auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
+            },
+            "closednext": {
+                "heading": "(Sold Out) Sonntag gehts weiter",
+                "text": "Die Tickets für den heutigen Tag sind ausverkauft. Am Sonntag (26.02.2023) um 18 Uhr geht die 2.Verkaufsrunde los."
+            },
+            "closed": {
+                "heading": "Sold Out",
+                "text": "Alle Tickets sind ausverkauft. Tickets die weiterverkauft werden findet Ihr im <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>Marktplatz von TixforGigs</a>."
+            },
+            "warning": {
+                "heading": "Wichtiger Hinweis:",
+                "text": "Wir bieten unsere Tickets ausschließlich über unseren Webshop-Anbieter <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um Fälschungen! Fake-Tickets werden spätestens bei uns am Einlass erkannt und führen dazu, dass Ihr das Festival leider nicht betreten könnt. Eure personalisierten Tickets könnt Ihr ausschließlich über den Marktplatz von <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> wiederverkaufen."
+            },
+            "participation": {
+                "heading": "Teilhabetickets",
+                "text": "F&uuml;r das TARMAC-Festival wird es dieses Jahr Teilhabe-Tickets geben.&nbsp;<br />Damit wollen wir Menschen mit Behinderungen erm&ouml;glichen, auf das TARMAC zu kommen. Weitere Informationen findet ihr in der Infobox <a href='#teilhabe' class='js-scroll-trigger'>'Teilhabe'</a>.<br><br>Anmelden könnt ihr euch ab dem 9.6.23 mit diesem <a target='_blank' href='https://forms.gle/PcdfHp9krFLLbLSg7'>Teilhabe-Formular</a>"
+            }
+        },
+        "box2": {
+            "heading": "Tickets",
+            "subheading1": "Soliticket (90€) - SOLD OUT",
+            "text1": "Da es uns am Herzen liegt, DJs und andere Kleinkünster:innen in der aktuell schwierigen Situation zu unterstützen, bieten wir ein Soli-Ticket an, denn durch die weltweite Verbreitung des SARS-CoV-2 Corona Virus bricht die Lebensgrundlage vieler dieser Menschen fast völlig weg. Wer die Möglichkeit hat zu helfen, kann das Soli-Ticket ab sofort erwerben. Der gesammelte Mehrbetrag ermöglicht es uns, die bisher kleinen Gagen für die Artists auf dem TARMAC Festival aufzustocken.",
+            "subheading2": "Camper-/ Autopass (10€) - SOLD OUT",
+            "text2": "Wenn du mit Camper, Wohnwagen oder dem Auto auf dem Zeltplatz übernachten möchtest, hol dir einen Camper-/ Autopass! Der Pass ermöglicht dir, mit deinem Fahrzeug auf das Veranstaltungsgelände zu kommen. Das Parken direkt vor dem Veranstaltungsgelände ist kostenfrei."
+        },
+        "box4": {
+            "heading": "An- & Abreise",
+            "subheading1": "No Ticket - No Entry",
+            "question1": "Gibt es eine Tages- oder Abendkasse?",
+            "text1": "Es wird keine Tagestickets oder eine Abendkasse geben. Wenn ihr kein Ticket habt, lohnt die Anreise nicht. Sollten wir dennoch \\\"Gäste\\\" antreffen, die kein Bändchen haben und diese nicht nachweisen können, dass sie ein Ticket erworben haben, machen wir von unserem Hausrecht Gebrauch und werfen diese Personen raus. Ohne Diskussion! Bitte haltet eure Bändchen stets zum Vorzeigen bereit. Bändchen-Kontrollen gibt es beim Einlass, beim Bestellen an der Bar und stichprobenartig während des gesamten Festivals. Jeden Versuch, das Festivalgelände ohne Ticket zu betreten, werten wir als Absicht, unser Festival stören zu wollen. Dem entgegnen wir entschieden mit Hausverboten.",
+            "subheading2": "Einlass Festivalgelände",
+            "question2": "Wie komme ich zum Festivalgelände?",
+            "text2": "<p>Die Anreise ist ab Donnerstag (29.08.2024) um 14:00 Uhr sowie am Freitag (30.8.2024) um 9:30 Uhr bis jeweils 0 Uhr m&ouml;glich.&nbsp;</p>\r\n<p>Falls Ihr mit dem Auto anreisen wollt, gebt ins Navi als Ziel &bdquo;Flugplatz Allstedt&ldquo; oder die Koordinaten 51.389001, 11.450220 ein.</p>\r\n<p>Es gibt nur eine Zufahrtsm&ouml;glichkeit zum Veranstaltungsgel&auml;nde. Folgt anschlie&szlig;end der Beschilderung.</p>\r\n<p>Alternativ k&ouml;nnt ihr auch mit dem Fahrrad, dem &Ouml;PNV anreisen oder organisiert eure Anreise &uuml;ber die Telegramgruppe f&uuml;r Mitfahrgelegenheiten. N&auml;here Informationen findet ihr in den jeweiligen Bereichen.</p>",
+            "subheading3": "Heimreise",
+            "question3": "Wann muss ich meine Heimreise antreten?",
+            "text3": "<p>Das Festival-Programm endet am Sonntag, den 1.9.2024, 22 Uhr.</p>\r\n<p>Die Abreise ist bis sp&auml;testens am Montag, den 2.9.2024, 14 Uhr m&ouml;glich.</p>",
+            "subheading4": "Shuttleservice",
+            "question4": "Gibt es einen Shuttleservice?",
+            "text4": "<p>Ihr k&ouml;nnt ganz bequem mit Bus und Bahn anreisen. Daf&uuml;r haben wir in Zusammenarbeit mit der VGS ein Shuttle vom Bahnhof in Sangerhausen zum Gel&auml;nde und zur&uuml;ck eingerichtet.</p>\r\n<p><br>Das Shuttle pendelt zu folgenden Zeiten:</p>\r\n<p><br>Do. &nbsp; &nbsp; 29.08.2024 von 12:00 - 22:00 Uhr</p>\r\n<p>Fr. &nbsp; &nbsp;&nbsp; 30.08.2024 von 10:00 - 22:00 Uhr</p>\r\n<p>Sa. &nbsp; &nbsp; 31.08.2024 von 12:00 - 20:00 Uhr</p>\r\n<p>So. &nbsp; &nbsp; 01.09.2024 von 10:00 - 22:00 Uhr</p>\r\n<p>Mo. &nbsp; &nbsp;02.09.2024 von 10:00 - 18:00 Uhr</p>\r\n<p><br>Je nach Pendelverkehr k&ouml;nnte es sein, dass ein Shuttle gerade abgefahren ist und ihr ca. 60 Minuten warten m&uuml;sst, also plant genug Zeit ein, um sp&auml;ter euren Zug zu bekommen.</p>\r\n<p>Eine Fahrt kostet 5,- &euro; und wird direkt bei Fahrtantritt bezahlt. Bitte haltet das Geld m&ouml;glichst passend bereit.</p>\r\n<p><br>F&uuml;r die letzte Fahrt zum Festivalgel&auml;nde ab Sangerhausen solltet Ihr sp&auml;testens um 21:30 Uhr anwesend (genauer: an der Haltestelle/ vor dem Bahnhof) &nbsp;sein und f&uuml;r die letzte Abfahrt vom Gel&auml;nde seid bitte ca. 21:30 am Sonntag (1.9.2024) bzw. am Montag (2.9.2024) 17:30 Uhr an der Haltestelle.</p>",
+            "subheading5": "Mitfahrgelegenheiten",
+            "question5": "Wo kann ich Mitfahrgelegenheiten organisieren?",
+            "text5": "<p>In der Telegram-Gruppe k&ouml;nnen Mitfahrgelegenheiten zum Gel&auml;nde abgesprochen werden. Zur Gruppe gelangt Ihr &uuml;ber folgenden Link: https://t.me/+UE5WkJTl-ktlZjcy</p>",
+            "subheading6": "Mit dem Fahrrad und Zug zum TARMAC",
+            "question6": "Wie funktioniert das mit den begleiteten Radtouren?",
+            "text6": "<p>Wir haben wieder unseren Fahrradgep&auml;ck-Shuttle f&uuml;r euch eingerichtet. Wenn ihr mit Zug und Fahrrad anreist, k&ouml;nnt ihr euer Gep&auml;ck am Bahnhof Sangerhausen bei uns aufgeben und ohne Ballast mit dem Rad bis zum Festivalgel&auml;ne fahren. Begleitet werdet ihr von der Crew &ldquo;Riotpack&rdquo;. Unterwegs versorgen wir euch an ein paar Pausen Spots mit Snacks und Getr&auml;nken. Auf dem Festivalgel&auml;nde k&ouml;nnt ihr eure Sachen am Infopoint von Friz abholen. F&uuml;r die R&uuml;ckfahrt nach dem Festival ab Allstedt nach Sangerhausen bieten wir ausschlie&szlig;lich einen Gep&auml;cksguttle an. &nbsp;Zu folgenden Zeiten k&ouml;nnt ihr unser Angebot wahrnehmen.</p>\r\n<p><strong>Anreise</strong></p>\r\n<table style=\"border-collapse: collapse; width: 100%; border-width: 1px;\" border=\"1\"><colgroup><col style=\"width: 25%;\"><col style=\"width: 25%;\"><col style=\"width: 50%;\"></colgroup>\r\n<tbody>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Sangerhausen - Allstedt</td>\r\n<td style=\"border-width: 1px;\">Gep&auml;ckaufgabe</td>\r\n<td style=\"border-width: 1px;\">Abholung am Infopoint von Friz</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Donnerstag, 29.8.</td>\r\n<td style=\"border-width: 1px;\">14 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 16 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Donnerstag, 29.8.</td>\r\n<td style=\"border-width: 1px;\">18 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 20 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Freitag, 30.8.</td>\r\n<td style=\"border-width: 1px;\">13 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 15 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Freitag, 30.8.</td>\r\n<td style=\"border-width: 1px;\">17 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 19 Uhr</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p><strong>Abreise</strong></p>\r\n<table style=\"border-collapse: collapse; width: 100%; border-width: 1px;\" border=\"1\"><colgroup><col style=\"width: 25%;\"><col style=\"width: 25%;\"><col style=\"width: 50%;\"></colgroup>\r\n<tbody>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Allstedt - Sangerhausen</td>\r\n<td style=\"border-width: 1px;\">Gep&auml;ckaufgabe Friz</td>\r\n<td style=\"border-width: 1px;\">Bahnhof</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Sonntag, 1.9.</td>\r\n<td style=\"border-width: 1px;\">18 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 20 Uhr</td>\r\n</tr>\r\n<tr>\r\n<td style=\"border-width: 1px;\">Montag, 2.9.</td>\r\n<td style=\"border-width: 1px;\">14 Uhr</td>\r\n<td style=\"border-width: 1px;\">ab 16 Uhr</td>\r\n</tr>\r\n</tbody>\r\n</table>",
+            "subheading7": "Camperticket",
+            "question7": "Wann benötige ich ein Camperticket?",
+            "text7": "<p>Ihr braucht ein Camperticket, falls ihr euer Fahrzeug mit auf den Campingplatz nehmen m&ouml;chtet (begrenzte Anzahl). Andernfalls k&ouml;nnt ihr euer Auto auf dem Parkplatz kostenlos abstellen. Der Fu&szlig;weg zum Campingplatz betr&auml;gt von dort noch etwa 5 Minuten. F&uuml;r Wohnmobile o.&auml;. gibt es keine Strom- oder Wasseranschlussm&ouml;glichkeiten.</p>"
+        },
+        "box5": {
+            "heading": "Camping & Imbiss",
+            "subheading1": "Campingplatz",
+            "question1": "Gibt es die Möglichkeit zu campen?",
+            "text1": "<p>Campen ist in den ausgewiesenen Fl&auml;chen m&ouml;glich. Die Kosten hierfür sind bereits im Ticketpreis enthalten. Der Campingplatz ist als Ruhezone gedacht. Gro&szlig;e Musikanlagen und Stromgeneratoren bleiben deshalb am besten zu Hause. Nat&uuml;rlich ist es nicht verboten im Camp Musik zu h&ouml;ren und/oder selbst zu machen (was uns noch lieber ist). Wir setzen auf einen respektvollen Umgang miteinander.</p>",
+            "subheading2": "Duschmöglichkeiten",
+            "question2": "Sind auf dem Gelände Duschmöglichkeiten vorhanden?",
+            "text2": "<p>Es gibt auf dem Hauptplatz Kaltwasser-Duschen unter freiem Himmel. Um die Duschen nutzen zu k&ouml;nnen, verwendet ausschlie&szlig;lich biologisch abbaubare Duschgele/ Seifen. Die Duschen sind nicht f&uuml;r ausgiebige Duschrituale, sondern nur zur schnellen Erfrischung/ K&ouml;rperhygiene mit geringem Wasserverbrauch konstruiert.</p>",
+            "subheading3": "Orientierung",
+            "question3": "Wie kann ich mich auf dem Gelände orientieren?",
+            "text3": "<p>Einen Lageplan zur Orientierung auf dem Gel&auml;nde erhaltet ihr am Einlass beim Betreten des Festivalgel&auml;ndes und/ oder &uuml;ber die TARMAC Festival-App.</p>",
+            "subheading4": "Speisen & Getränke",
+            "question4": "Welche Auswahl an Speisen und Tränken gibt es vor Ort?",
+            "text4": "<p>Es wird eine Food-Corner mit verschiedenen Essensst&auml;nden geben, welche vegane und vegetarische, warme und kalte Gerichte für kleines Geld anbieten. An unseren Bars bekommt Ihr gek&uuml;hlte Getr&auml;nke. Ihr k&ouml;nnt auch eigene Getr&auml;nke in normalen Mengen mit auf das Festivalgel&auml;nde nehmen. Bitte bedenkt, dass wir zur Erhaltung unseres Festivals auch auf die Einnahmen der Bars angewiesen sind.</p>\r\n<p>Sprich: Ein paar Bier im Rucki: easygoing.</p>\r\n<p>Mit K&auml;sten zu den B&uuml;hnen ziehen: No-Go.</p>",
+            "subheading5": "Trinkwasserstationen",
+            "question5": "Gibt es kostenfreie Trinkwasserstationen?",
+            "text5": "<p>Ja eine kostenlose Trinkwasserstelle steht zur Verf&uuml;gung. Auch an unseren Bars gibt es wieder die M&ouml;glichkeit Trinkwasserflaschen zu einem fairen Preis zu kaufen. Somit ist eine grundlegende Wasserversorgung auf dem Gel&auml;nde gesichert. Wenn m&ouml;glich, bringt euch selbst einen kleinen Wasservorrat mit.</p>",
+            "subheading6": "Grillen & Feuer",
+            "question6": "Darf man Grillen und Feuer machen?",
+            "text6": "<p>Wir befinden uns auf einem Gel&auml;nde inmitten der Natur. Die letzten Sommer waren sehr trocken und wir rechnen damit, dass Anfang September eine erh&ouml;hte Waldbrandgefahr bestehen wird. Offenes Feuer oder Grillen ist deshalb nicht erlaubt. Wer dies missachtet, gef&auml;hrdet das Leben seiner/ihrer Mitmenschen und muss leider des Gel&auml;ndes verwiesen werden.</p>",
+            "subheading7": "Dinge des täglichen Bedarfs",
+            "question7": "Wo kann ich mir allgemeine Informationen und grundlegende Dinge des täglichen Bedarfs erhalten?",
+            "text7": "<p>Am Infopoint bei friz erhaltet ihr nicht nur alle Informationen, die ihr braucht, sondern findet auch eine kleine Auswahl an n&uuml;tzlichen Dingen - wie zum Beispiel einen Ersatz für die vergessene Zahnbürste, Tabak, Kondome, Tampons u.a.</p>"
+        },
+        "box6": {
+            "heading": "Sicherheit & Hilfe",
+            "subheading1": "Awarenessstrukturen",
+            "question1": "Gibt es Awarenessstrukturen?",
+            "text1": "<p>Unser Awareness-Team wird das ganze Festival von Donnerstag bis Sonntag im Einsatz sein und euch unterst&uuml;tzen, wenn ihr selbst Hilfe oder Unterst&uuml;tzung beim Helfen ben&ouml;tigt.</p>\r\n<p>Wir tolerieren kein diskriminierendes Verhalten und streben einen Schutzraum f&uuml;r alle auf dem Festival an. Daher bitten wir euch im Gegenzug ebenfalls um Unterst&uuml;tzung, falls wir nicht direkt vor Ort sein k&ouml;nnen. Sollte gerade kein Team in der N&auml;he sein, meldet euch bitte an der n&auml;chsten Bar oder dem Stand der Awareness-Struktur.&nbsp;</p>\r\n<p>Allerdings funktioniert Awareness nicht nur durch eine Awareness-Struktur, sondern auch durch eure Mithilfe. Bitte gebt aufeinander Acht und seid respektvoll miteinander, damit wir alle gemeinsam ein sch&ouml;nes TARMAC haben k&ouml;nnen.</p>",
+            "subheading2": "Sicherheitspersonal",
+            "question2": "ird die Veranstaltung von Sicherheitspersonal betreut?",
+            "text2": "<p>Ja. Wir freuen uns erneut auf die Zusammenarbeit mit der professionellen Sicherheitsfirma &ldquo;Movement&rdquo; aus Leipzig. In enger Abstimmung mit uns ist die Sicherheitsfirma beauftragt, unser Sicherheits- und ggf. Hygienekonzept durchzusetzen. Die Mitarbeiter:innen sind &uuml;ber alle wichtigen Facts, die wir mit euch vereinbart haben, informiert und handeln auch dementsprechend.</p>",
+            "subheading3": "Fotos & Videos",
+            "question3": "Darf ich Fotos und Videos machen, auf denen andere Menschen eindeutig zu erkennen sind?",
+            "text3": "<p>Das Anfertigen von Fotos &amp; Videos ist nicht erlaubt. Respektiert die Privatsph&auml;re der anderen und genie&szlig;t das Wochenende ohne Smartphone. Es wird ein von uns beauftragtes Team - mit Rücksicht auf eure Privatsph&auml;re - Fotos und Filmaufnahmen zur Dokumentation anfertigen. Dieses Team wird f&uuml;r euch ersichtlich gekennzeichnet sein.</p>",
+            "subheading4": "Verhalten bei Unwetter",
+            "question4": "Was geschieht bei einem Unwetter?",
+            "text4": "<p>Sollte es zu einem Unwetter kommen, befolgt die Ansagen der Security und der Festivalcrew. Bringt euch und andere in Sicherheit. Haltet Abstand von B&auml;umen oder Bühnenaufbauten.</p>",
+            "subheading5": "Psycare",
+            "question5": "PSY-CARE",
+            "text5": "<p>Das Psycare-Team freut sich darauf, auch dieses Jahr wieder f&uuml;r dich da sein zu k&ouml;nnen. Mit unserer Arbeit m&ouml;chten wir dazu beitragen, dass du eine gro&szlig;artige Zeit auf dem Festival erlebst und dich dabei sicher, wohl und unterst&uuml;tzt f&uuml;hlst. Zwischen Partytrubel, Eskapismus und Ekstase sind wir deine Anlaufstelle &ndash; solltest du eine herausfordernde Situation erleben, wird unser geschultes Team dich bestm&ouml;glich mit Rat und Tat unterst&uuml;tzen.</p>\r\n<p><br>Folgende Angebote halten wir f&uuml;r euch bereit:</p>\r\n<p>Die psychedelische Ambulanz: Ein sicherer, warmer und gem&uuml;tlicher Ort. Ein R&uuml;ckzugsraum, f&uuml;r Personen, die eine psychisch (&uuml;ber)fordernde Situation erleben. In ruhiger und reizarmer Umgebung wirst du w&auml;hrend dieses herausfordernden Erlebnisses von erfahrenen und einf&uuml;hlsamen Menschen begleitet. Au&szlig;erdem wird sich das Psycare-Team auch Zeit f&uuml;r dich nehmen, falls bei dir Gespr&auml;chsbedarf bez&uuml;glich Erfahrungen im Kontext von Bet&auml;ubungsmitteln besteht, die zu sensibel f&uuml;r den Infostand sind. Du findest uns neben der Brausecus-B&uuml;hne.</p>\r\n<p><br>Der Infostand: Unser Infostand befindet sich an einer belebten Stelle des Festivals: &nbsp;auf der gro&szlig;en Gabelung bei den Komposttoiletten und an der Psytrance-Stage gelegen &ndash; du kannst uns also nicht verfehlen. Hier erh&auml;ltst du kostenlose Infomaterialien zu g&auml;ngigen psychoaktiven Substanzen, Safer-</p>\r\n<p>Use/Safer-Sex-Materialien. Selbstverst&auml;ndlich beantwortet dir das Psycare-Team gerne deine offenen Fragen zur Thematik. Neben Kondomen und Ohrschutz geh&ouml;ren zu unserem Angebot auch Snacks, Kaugummis, Vitamine, Fr&uuml;chte, Traubenzucker ... und nat&uuml;rlich selbstgemachter Chai-Tee. Auch dieses Jahr k&ouml;nnt ihr euer Wissen wieder in einem Quiz testen und coole Preise gewinnen. Vorbeischauen lohnt sich also :)</p>\r\n<p><br>Unser neues L&auml;ufer:innen-Team:&nbsp;</p>\r\n<p>Die Psycare macht mobil und ist w&auml;hrend unserer &Ouml;ffnungszeiten in Zweiergruppen auf dem Festivalgel&auml;nde unterwegs. In unseren pinken Pullovern mit dem blauen Schriftzug &bdquo;Psycare&ldquo; sind wir nicht zu &uuml;bersehen - du kannst uns einfach ansprechen, wenn du, deine Freund:innen oder ein/e andere/r Besucher:in Hilfe ben&ouml;tigt. So k&ouml;nnen wir euch in einem eventuellen Notfall schnellstm&ouml;glich professionelle Unterst&uuml;tzung zukommen lassen und begleiten dich beispielsweise in die psychedelische Ambulanz. Dar&uuml;ber hinaus kannst du jederzeit Kontakt mit dem L&auml;ufer:innen-Team aufnehmen, wir beantworten dir gerne deine Fragen und versorgen dich mit Informationen und Safer-Use-Materialien.</p>\r\n<p><br>Pr&auml;ventionsplakate: Wir m&ouml;chten dir alle n&ouml;tigen Informationen zukommen lassen, sodass du selbstbestimmt und in Eigenverantwortung deine Entscheidungen treffen kannst. Wer mit offenen Augen &uuml;ber das Festivalgel&auml;nde geht, kann unsere Pr&auml;ventionsplakate entdecken, die &uuml;ber m&ouml;gliche Herausforderungen beim Feiern informieren und auf die Psycare als vorurteilsfreie Anlaufstelle verweisen. Komm uns gerne am Infostand besuchen.</p>\r\n<p>Stay safe and have fun.</p>\r\n<p>Euer TARMAC Psycare-Team 2023</p>\r\n<p><br>&Ouml;FFNUNGSZEITEN:</p>\r\n<p>DO bis SO:</p>\r\n<p>22:00- 22:00 Uhr</p>\r\n<p>Pause:</p>\r\n<p>FR 10:00 Uhr bis 18:00 Uhr</p>\r\n<p>Wir sind f&uuml;r dich da! Auch nach offiziellem Festivalende, am Sonntagabend. Die Psycare und das</p>\r\n<p>Awareness-Team werden gemeinsam eine Anlaufstelle auf dem Campinggel&auml;nde aufbauen und stehen</p>\r\n<p>euch dort noch bis Montag zur Verf&uuml;gung.</p>",
+            "subheading6": "Erste Hilfe",
+            "question6": "Kann ich im Notfall medizinisch behandelt werden?",
+            "text6": "<p>W&auml;hrend des gesamten Festivals wird ein professioneller Sanit&auml;ts-Dienst (ASB) mit Rettungswagen auf dem Festival-Gel&auml;nde sein. Um Hilfe zu rufen, wendet euch an das Personal an den B&uuml;hnen oder geht direkt zum Sani-Standort.</p>",
+            "subheading7": "PsyCare",
+            "question7": "Fragen rund um das Thema Psycare?",
+            "text7": "<p>Unser PsyCare-Team beantwortet sie dir und deinen Freunden gern an unserem Infostand. Zudem werden wir Nachts ein kleines Team zur Begleitung haben. Auch wenn ihr auf Menschen sto&szlig;t, die Hilfe brauchen: Sagt uns gern bescheid! Oder kommt einfach zu unserem kleinen Chill Out Space, und genie&szlig;t einen leckeren Chai mit uns.</p>"
+        },
+        "box7": {
+            "heading": "Gelände",
+            "subheading1": "Infopoint",
+            "question1": "Wo kann ich Informationen und Gebrauchsgüter erhalten?",
+            "text1": "Am Infopoint (S.I.C.) erhaltet ihr nicht nur alle Informationen die ihr braucht, sondern findet auch eine kleine Auswahl von Dingen, wie zum Beispiel einen Ersatz für die vergessene Zahnbürste, Tabak, Kondome, Tampons u.a. .",
+            "subheading2": "Verlorene Gegenstände",
+            "question2": "An wen wende ich mich, sollte ich etwas verlieren?",
+            "text2": "Bitte sei fair und gib Fundsachen am Infopoint oder einer der Bars ab. Wenn du etwas verloren hast, melde Dich noch während des Festivals am Infopoint oder mit einer genauen Beschreibung unter <a href=\\\"mailto:lost@tarmac-festival.de\\\">lost@tarmac-festival.de</a>.",
+            "subheading3": "Internet & Handynetz",
+            "question3": "Gibt es auf dem Veranstaltungsgelände Handynetz?",
+            "text3": "Der Flugplatz liegt in einem Gebiet mit schwacher Netzabdeckung. Telefonieren und mobiles Internet funktionieren nur schlecht bis gar nicht. SMS sind i.d.R. aber kein Problem. Trefft wichtige Absprachen am besten vor eurer An- bzw. Abreise.",
+            "subheading4": "Müllentsorgung",
+            "question4": "Was muss ich bei meinem Restmüll beachten?",
+            "text4": "<p><strong>Naturschutzgebiet:</strong> Unser Festival-Gel&auml;nde ist umgeben von Wald, der unter Naturschutz steht. Bitte haltet euch nicht abseits der Wege auf und hinterlasst den M&uuml;ll ausschlie&szlig;lich in den daf&uuml;r von uns bereitgestellten Beh&auml;ltnissen. </p>\r\n<p>Die letzten Jahre haben gezeigt, dass viel Pfand, Glas und M&uuml;ll auf dem Campingplatz zur&uuml;ckbleibt. Um unserer Trashhunter-Crew das Rumw&uuml;hlen in euren M&uuml;lls&auml;cken ein wenig zu ersparen, habt ihr am Einlass zwei Beutel bekommen. Benutzt bitte den einen f&uuml;r Pfandflaschen oder -dosen und den anderen Beutel f&uuml;r M&uuml;ll jeglicher Art. F&uuml;r Altglas findet ihr zugeh&ouml;rige Stationen auf dem gesamten Platz.</p>",
+            "subheading5": "Parkmöglichkeiten",
+            "question5": "Wie sieht es mit der Parkplatzsituation vor Ort aus?",
+            "text5": "Parkplätze sind vorhanden. Bitte versucht der Umwelt zuliebe die Kapazitäten der Fahrzeuge möglichst auszulasten und Fahrgemeinschaften zu bilden."
+        },
+        "box8": {
+            "heading": "Haftung",
+            "subheading1": "Hausrecht",
+            "question1": "Wem obliegt das Hausrecht während der Veranstaltung?",
+            "text1": "Während des Festivals sind wir Mieter:innen des Flugplatzes. Rassismus, Sexismus, Antisemitismus und andere Formen der Diskriminierung werden von uns nicht toleriert. Wir behalten uns vor, in solchen Fällen von unserem Hausrecht gebrauch zu machen.",
+            "subheading2": "Haftung Wertgegenstände",
+            "question2": "Wer haftet für verlorene/ geklaute Wertgegenstände?",
+            "text2": "Achtet auf Eure Wertgegenstände und nehmt nur das Nötigste mit. Wir können keine Haftung für verlorene oder gestohlene Sachen übernehmen.",
+            "subheading3": "Verursachte Schäden",
+            "question3": "Wer haftet für einen Schaden, den ich verursacht habe?",
+            "text3": "Jede(r) Besucher:in hat sich so zu verhalten, dass eine Gefährdung von anderen Besucher:innen oder Dritten ausgeschlossen ist. Für Schäden, die Ihr verursacht, seid Ihr auch verantwortlich.",
+            "subheading4": "Mindestalter",
+            "question4": "Wie alt muss man sein, um das Festivalgelände betreten zu dürfen?",
+            "text4": "Das Festival ist ausnahmslos für Erwachsene (P18). Zum Altersnachweis akzeptiert werden ausschließlich amtliche Lichtbildausweise (keine Studienausweise, Krankenkarten, usw.)."
+        },
+        "box9": {
+            "heading": "Sonstiges",
+            "subheading1": "Feuerwerkskörper",
+            "question1": "Ist das Entzünden von Feuerwerk erlaubt?",
+            "text1": "Feuerwerk ist aufgrund der Waldbrandgefahr strikt verboten. Wer dieses Verbot missachtet, gefährdet die Menschen der Festival-Community und den Weiterbestand des Festivals. Bei Missachtung erfolgt der Verweis vom Gelände.",
+            "subheading2": "Konfetti",
+            "question2": "Wie ist das mit dem Konfetti?",
+            "text2": "Bitte verzichtet auf Konfetti! Wir wollen den Veranstaltungsort so zurücklassen, wie wir in vorgefunden haben. Niemand von uns hat Lust, stundenlang Konfetti aus der Wiese, der Technik oder vom Waldboden aufzusammeln.",
+            "subheading3": "Graffiti-Tags",
+            "question3": "Darf ich sprayen oder Graffiti-Tags anfertigen?",
+            "text3": "Wer geliehene Technik & Infrastruktur oder Bühnen mit Tags oder Graffiti ohne Absprache \\\"verschönert\\\", fliegt und muss für den entstandenen Schaden aufkommen. Wir müssen diese Dinge im Nachhinein aufwändig reinigen und schlimmstenfalls komplett bezahlen.<br>Es wird eine Vielzahl an Möglichkeiten geben, eurer Kreativität freien Lauf zu lassen. Wir haben deshalb kein Verständnis für Leute, die an jeder Ecke Ihre Tags hinterlassen müssen.",
+            "subheading4": "Haustiere",
+            "question4": "Ist es gestattet, mein Haustier mitzubringen?",
+            "text4": "Ein Festival ist kein Ort für Haustiere. Lasst eure liebsten Vierbeiner deshalb einfach zuhause.",
+            "subheading5": "HYGIENE- UND CORONAMASSNAHMEN",
+            "question5": "Welche Regelungen gelten zu Kontaktbeschränkungen?",
+            "text5": "Ob im September  weiterhin Relegungen zur Eindämmung des Infektionsgeschehens für uns gelten, können wir zum aktuellen Zeitpunkt nicht beurteilen. Wir gehen jedoch davon aus, dass die Auflagen geringer als in den letzten Jahren sein werden."
+        },
+        "box11": {
+            "heading": "Teilhabe",
+            "subheading1": "Angebot",
+            "question1": "Welche Barrieren können wir abbauen?",
+            "text1": "<p>Wir vom TARMAC-Verein haben gemeinsam mit dem &ldquo;Kollektiv Barrieren Sprengen&rdquo; die &ldquo;Teilhabe AG&rdquo; gegr&uuml;ndet. Zusammen arbeiten wir auch 2024 daran, m&ouml;glichst viele Barrieren auf dem TARMAC-Festival abzubauen.</p>\r\n<p><br>Dich erwarten <strong>geebnete Wege</strong> auf dem ganzen Gel&auml;nde sowie <strong>Sanit&auml;ranlagen</strong>, die mit einer Mobilit&auml;tseinschr&auml;nkung im Gehen und Stehen problemlos genutzt werden k&ouml;nnen. Ein Teil des <strong>Campingbereichs </strong>(&ldquo;Teilhabe-Camp&rdquo;) ist mit einer <strong>Stromversorgung </strong>ausgestattet, sodass du hier deine Ger&auml;te und Hilfsmittel laden kannst. Au&szlig;erdem gibt es dort einen <strong>K&uuml;hlschrank </strong>f&uuml;r Medikamente. Auf Nachfrage k&ouml;nnen wir <strong>Feldbetten</strong>, <strong>Geh&ouml;rschutz </strong>und <strong>polarisierte </strong>Sonnenbrillen zur Verf&uuml;gung stellen. Solltest du eine andere oder weitere Ausstattung ben&ouml;tigen, sag uns gern Bescheid. Wir schauen dann, ob sich eine L&ouml;sung finden l&auml;sst.</p>\r\n<p><br>Dieses Jahr arbeiten wir erneut an einem <strong>Lichtkonzept</strong>. So wird zum Beispiel im Timetable, aber auch auf dem Festivalgel&auml;nde selbst gekennzeichnet sein, wann und wo auf den Floors <strong>grelles, flackerndes Licht</strong> genutzt wird. Dabei achten wir darauf, dass zu jeder Tages- und Nachtzeit mehrere Floors zur Verf&uuml;gung stehen, wo das Licht sanfter, langsamer und weniger grell gefahren wird. Weitere Informationen folgen.</p>\r\n<p>Falls du Fragen zu unserem Angebot hast, schreib uns gern eine E-Mail unter teilhabe@tarmac-festival.de Wir freuen uns, von dir zu h&ouml;ren!</p>",
+            "subheading2": "Anmeldung und Kauf",
+            "question2": "Wie kann ich ein Teilhabe-Ticket kaufen?",
+            "text2": "<p>Wenn du <a title=\"hier\" href=\"mailto:teilhabe@tarmac-festival.de\">hier klickst</a>, wirst du direkt an unsere E-Mail-Adresse weitergeleitet und kannst dich f&uuml;r ein Teilhabe-Ticket anmelden.</p>\r\n<p>Dazu schreibst du uns einfach eine <strong>E-Mail</strong> mit deinem Namen. Au&szlig;erdem kannst du uns gern schon mitteilen,</p>\r\n<ul>\r\n<li>ob du Strom f&uuml;r ein elektrisches Hilfsmittel ben&ouml;tigst</li>\r\n<li>ein Feldbett nutzen willst</li>\r\n<li>Geh&ouml;rschutz und/oder polarisierte Sonnenbrille ausleihen magst und</li>\r\n<li>ob du im &ldquo;Teilhabe-Camp&rdquo; zelten m&ouml;chtest.</li>\r\n</ul>\r\n<p>Solltest du Fragen oder W&uuml;nsche haben, kannst du diese auch hier &auml;u&szlig;ern.</p>\r\n<p>Nach der Anmeldung schicken wir dir eine E-Mail zu. Diese E-Mail ist nicht automatisiert, also hab Geduld mit uns ;) In der E-Mail stehen ein <strong>Code </strong>und ein <strong>Link</strong>. Wenn du den Link nutzt, kommst du auf eine Internetseite, auf der du den Code eingeben kannst. Im Anschluss bezahlst du und erh&auml;ltst dein Ticket als PDF per E-Mail.</p>\r\n<p>Falls du lieber telefonieren m&ouml;chtest, schreib uns einfach eine kurze E-Mail mit deinen Kontaktdaten und deinen pr&auml;ferierten Zeiten. Wir rufen dich dann zur&uuml;ck.</p>\r\n<p><strong>Darf ich Begleitpersonen oder meinen Assistenzhund mitbringen?</strong></p>\r\n<p>Du hast die M&ouml;glichkeit, deine <strong>Assistenzpersonen kostenlos</strong> mitzunehmen. Dazu schreibst du uns die <strong>Namen </strong>und <strong>E-Mail-Adressen</strong> deiner Begleitpersonen ebenfalls per E-Mail. Deine Begleitpersonen erhalten Anfang August eine E-Mail an ihre eigene E-Mail-Adresse mit dem Ticket als PDF.</p>\r\n<p><br>Du kannst auch deinen <strong>Assistenzhund </strong>mitbringen. Schreibe uns dazu bitte ebenfalls vorab eine E-Mail. Unsere E-Mail-Adresse lautet: teilhabe@tarmac-festival.de</p>",
+            "subheading3": "Aufenthalt und Camp",
+            "question3": "Wo und was ist das “Teilhabe-Camp”?",
+            "text3": "<p>Das Teilhabe-Camp liegt auf einem Gr&uuml;nstreifen inmitten des restlichen Zeltplatzes. Hier gibt es wettergesch&uuml;tzten Strom und einen K&uuml;hlschrank f&uuml;r Medikamente. Wir werden den Weg zum Teilhabe-Camp vom asphaltierten Hauptweg aus mit Schwerlastmatten auslegen. Au&szlig;erdem ist es m&ouml;glich, mit dem Auto auf dem Gr&uuml;ndstreifen zu fahren und das Auto w&auml;hrend des Festivals direkt neben dem Zelt zu parken. Dazu ben&ouml;tigst du ein &ldquo;Camper-Ticket&rdquo;. Weitere Informationen dazu findest du unter &ldquo;Anreise&rdquo;.</p>\r\n<p>Da wir die Wege zu den Floors m&ouml;glichst kurz halten wollen, wird das Teilhabe-Camp relativ nah am Festivalgel&auml;nde sein. Dennoch geben wir uns dieses Jahr M&uuml;he, dass der Ort etwas gesch&uuml;tzter vor der Lautst&auml;rke des Festivals ist. Solltest du einen ruhigen Schlafplatz ben&ouml;tigen, steht auch ein regul&auml;rer <strong>Ruhe-Camping-Bereich</strong> des Festivals zur Verf&uuml;gung. Dieser geh&ouml;rt nicht zum Teilhabe-Camp und ist etwas weiter weg.</p>\r\n<p>In der N&auml;he des Teilhabe-Camps wird es eine barrierefreie Toilette geben. Welche barrierefreien Sanit&auml;ranlagen dich genau auf dem Tarmac-Festival erwarten, erf&auml;hrst du unter &ldquo;Sanit&auml;ranlagen&rdquo;.</p>\r\n<p><strong>Muss ich im &ldquo;Teilhabe-Camp&rdquo; zelten?</strong></p>\r\n<p><strong>Nat&uuml;rlich nicht</strong>, aber du kannst, wenn du m&ouml;chtest! Das Teilhabe-Camp ist <strong>kein</strong> abgegrenzter Ort vom restlichen Campingplatz, sondern mittendrin. Hier ist auch genug Platz f&uuml;r deine Freund*innen und Begleitpersonen. Der Unterschied zum restlichen Campinggel&auml;nde besteht nur darin, dass es hier in direkter N&auml;he wettergesch&uuml;tzten Strom und einen K&uuml;hlschrank f&uuml;r Medikamente gibt. Zudem ist die Fl&auml;che vergleichsweise eben und nicht so weit vom Festivalgel&auml;nde entfernt.</p>",
+            "subheading4": "Stromversorgung",
+            "question4": "Ich brauche Strom für medizinische Geräte und Hilfsmittel (z.B. E-Rollstuhl). Geht das? E-Rollstuhl). Geht das?",
+            "text4": "<p>Selbstverst&auml;ndlich. Im Bereich des &ldquo;Teilhabe-Camps&rdquo; stellen wir w&auml;hrend des Festivals eine wettergesch&uuml;tzte Stromversorgung zur Verf&uuml;gung. Au&szlig;erdem gibt es dort einen K&uuml;hlschrank, in dem du Medikamente oder &auml;hnliches lagern kannst.</p>",
+            "subheading5": "Sanitäranlagen",
+            "question5": "Welche barrierefreien Toiletten und Duschen gibt es auf dem TARMAC-Festival?",
+            "text5": "<p>Auf dem gesamten Festivalgel&auml;nde wird es mehrere rollstuhlgerechte Toiletten an unterschiedlichen Orten geben. Mindestens eine der Toiletten wird ein beheizter Container mit Sp&uuml;lung und Warmwassernutzung sein. Die anderen Toiletten sind voraussichtlich rollstuhlgerechte Dixi-Kabinen. Dar&uuml;ber hinaus wird es eine rollstuhlgerechte Dusche mit Duschsitz, Warmwasser und Heizung geben.&nbsp;</p>\r\n<p><br>Alle rollstuhlgerechten Toiletten und Duschen werden mit guter Beleuchtung und Desinfektionsm&ouml;glichkeiten versehen sein. Au&szlig;erdem sind die Toiletten und Duschen mit einem Zahlenschloss versehen. Den Zahlencode f&uuml;r das Schloss verraten wir dir kurz vor dem Festival per Mail :)</p>",
+            "subheading6": "Anreise",
+            "question6": "Wie funktioniert die Anreise?",
+            "text6": "<p><strong>Wie funktioniert die Anreise mit dem Auto?</strong></p>\r\n<p>Wenn du mit dem Auto anreisen m&ouml;chtest, hast du die M&ouml;glichkeit von uns ein kostenloses &ldquo;Camper-Ticket&rdquo; zu bekommen. Mit diesem zus&auml;tzlichen Ticket darfst du dein Auto mit auf den Zeltplatz nehmen und kannst direkt neben deinem Zelt parken. Wenn du ein &ldquo;Camper-Ticket&rdquo; haben m&ouml;chtest, schreibe uns bitte eine E-Mail an <a href=\"mailto:teilhabe@tarmac-festival.de\">teilhabe@tarmac-festival.de</a></p>\r\n<p>Wenn du dein Auto nicht mit auf den Zeltplatz nehmen m&ouml;chtest, kannst du es ganz nah am Einlass kostenlos parken. Daf&uuml;r stehen mehrere PKW-Parkpl&auml;tze f&uuml;r Menschen mit Teilhabe-Ticket zur Verf&uuml;gung.</p>\r\n<p><strong>Wie funktioniert die Anreise mit dem Zug?</strong></p>\r\n<p>Wenn du mit dem Zug anreisen m&ouml;chtest, musst du bis zum Bahnhof Sangerhausen fahren. Alle Gleise des Bahnhofs sind mit einem stufenlosen Zugang, Lautsprecheranlagen, einem Blindenleitsystem und markierten Treppenstufen ausgestattet. Stets aktuelle Informationen &uuml;ber die Zug&auml;nglichkeit des Bahnhofs Sangerhausen findest du hier: <a href=\"https://www.bahnhof.de/sangerhausen/ausstattung-barrierefreiheit\">https://www.bahnhof.de/sangerhausen/ausstattung-barrierefreiheit</a></p>\r\n<p>Am Bahnhof Sangerhausen kannst du dann mit einem der regul&auml;ren Festival-Shuttles mitfahren. Diese sind herk&ouml;mmliche Linienbusse mit Rollstuhlpl&auml;tzen und Rampen. Mehr Informationen zum Shuttle und der An- und Abreise findest du unter dem Punkt &ldquo;An- und Abreise&rdquo;.</p>",
+            "subheading7": "Was können wir nicht anbieten?",
+            "question7": "Welche Barrieren bestehen weiterhin auf dem Tarmac-Festival?",
+            "text7": "<p>Uns ist bewusst, dass unser Festival noch viele Barrieren aufwirft. So sind zum Beispiel einzelne Teile von einigen Floors nicht oder nur erschwert mit Rollstuhl oder Gehhilfen erreichbar. Auch verf&uuml;gen nicht alle Floors &uuml;ber Podeste, um eine bessere Sicht zu erm&ouml;glichen.</p>\r\n<p><br>Au&szlig;erdem ist es uns dieses Jahr noch nicht m&ouml;glich, Musik f&uuml;r geh&ouml;rlose Menschen erfahrbar zu machen oder ein Blindenleitsystem auf dem Gel&auml;nde zu etablieren. Auch gibt es keine umfassenden Informationen in leichter Sprache.</p>\r\n<p><br>Wir werden uns in Zukunft bem&uuml;hen, diese und weitere Barrieren, so gut es geht, abzubauen. Falls du Anmerkungen oder Feedback hast, teile uns dies gerne per E-Mail unter teilhabe@tarmac-festival.de mit.</p>",
+            "subheading8": "Anmeldung",
+            "question8": "Das Anmeldeformular.",
+            "text8": "<p>Meldet euch unter folgendem<a title=\"Teilhabe-Formular\" href=\"https://forms.gle/PcdfHp9krFLLbLSg7\" target=\"_blank\" rel=\"noopener\"> Teilhabe-Formular</a></p>"
+        }
+    },
+    "contact": {
+        "form": {
+            "heading": "Nachricht senden",
+            "alert": {
+                "success": "Deine Nachricht wurde erfolgreich gesendet - Vielen Dank.",
+                "fail": "Leider konnte deine Nachricht nicht verarbeitet werden. Bitte sende dein Anliegen direkt an "
+            },
+            "input1": "* E-Mail",
+            "input2": "* Betreff",
+            "input3": "* Name",
+            "textarea": "* Nachricht",
+            "button": "Senden"
+        },
+        "display": {
+            "heading": "Kontakt aufnehmen",
+            "button": "Du möchtest helfen? - hier klicken",
+            "text": "Du hast offene Fragen? Fülle das nebenstehende Kontaktformular aus und wir melden uns schnellstmöglich bei dir. Alternativ kannst du uns auch direkt eine Mail an die unten stehenden Adressen senden."
+        },
+        "newsletter": {
+            "heading": "Newsletter abonnieren",
+            "button": "Zum Formular",
+            "text": "Du willst auf dem laufenden bleiben? Keine Updates zu Ticketverkauf, Helfer-Bewerbungen oder Stellungnahmen und sonstigen Ankündigungen verpassen? Dann abonniert den TARMAC-Newsletter und lasst euch die Informationen ins Postfach schicken."
+        },
+        "booking": {
+            "text": "Bitte beachtet, dass wir keine Initiativbewerbungen für das DJ-Booking entgegennehmen!"
+        }
+    },
+    "helpers": {
+        "heading": "Bewirb dich als Helfer:in",
+        "button": "Zum Formular",
+        "pre": "Du hast Lust zu helfen? Alle Infos findest du ab Anfang Juli hier oder auf unseren Social Media Kanälen.",
+        "closed": "Danke für Eure Unterstützung. Wir haben genug Bewerbungen von Helfer:innen erhalten, um den Bedarf zu decken."
+    },
+    "modal": {
+        "common": {
+            "button": "Schließen",
+            "soon": "Coming Soon"
+        },
+        "important": {
+            "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet.",
+            "text": "<a class=\"btn btn-danger align-self-center m-auto\" href=\"https://www.tixforgigs.com/Event/54917\" target=\"_blank\" >Tickets</a><br><br> Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu im Infobereich.<br><br>Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken.",
+            "tickets": {
+                "tba": {
+                    "heading": "Tickets",
+                    "text": ""
+                },
+                "announcement": {
+                    "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet bald",
+                    "text": "Da der Ticketverkauf in den letzten zwei Jahren leider bei vielen zu Enttäuschungen geführt hat, haben wir uns in diesem Jahr dazu entschieden, den Ticketverkauf auf zwei Tage aufzuteilen. Deshalb könnt ihr sowohl am 23.02. als auch am 26.02.2023 um 18 Uhr auf unserer Website Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a href='#info'>Info</a> weiter unten."
+                },
+                "open": {
+                    "heading": "Der Ticketverkauf für das TARMAC Festival 2023 startet.",
+                    "text": "<a class=\"btn btn-danger\" href=\"https://www.tixforgigs.com/Event/54917\" target=\"_blank\" >Tickets</a><br><br>Ab 18 Uhr könnt ihr Tickets für das TARMAC 2023 kaufen!<br><br>Ein Festivalticket wird 155,00€ (zzgl. VVK-Gebühren) kosten. Wie in den vergangenen Jahren wird es außerdem Campertickets für Fahrzeuge auf dem Campingplatz geben.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>."
+                },
+                "closednext": {
+                    "heading": "(Sold Out) Sonntag gehts weiter",
+                    "text": "Die Tickets für den heutigen Tag sind ausverkauft. Am Sonntag (26.02.2023) um 18 Uhr geht die 2.Verkaufsrunde los.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>."
+                },
+                "closed": {
+                    "heading": "Der Ticketverkauf für das TARMAC Festival 2023 ist beendet",
+                    "text": "Wow, das Tarmac 2023 ist ausverkauft! Vielen Dank f&uuml;r euren Support, wir freuen uns schon jetzt auf ein unvergessliches Festival mit euch!&nbsp;<br />Falls ihr kein Ticket erwerben konntet m&ouml;chten wir euch noch auf folgende M&ouml;glichkeiten aufmerksam machen:<br /><br /><strong>TixforGigs Marktplatz</strong><br />In ein paar Wochen wird der Marktplatz unseres Ticket Anbieters TixforGigs ge&ouml;ffnet. Dar&uuml;ber k&ouml;nnen erworbene Tickets weiterverkauft werden. Wir informieren euch dazu &uuml;ber unsere Kan&auml;le.<br /><br /><strong>Helfer*in werden</strong><br />Du hast Lust auf dem Festival zu helfen? Alle Infos zur Bewerbung als Helfer:In findest du ab Mitte Juni hier und auf unserer Website.<br><br>Dieses Jahr wird es Teilhabe-Tickets für Menschen mit Behinderungen geben. Ausführlichere Informationen dazu unter <a onclick=\"$('#modalImportant').modal('hide')\" href='#info'>Info</a>."
+                },
+                "helpers": {
+                    "heading": "Helferbewerbungen starten",
+                    "text": "Die Helferbewerbungen starten. Zum Formular geht es weiter unter der Rubrik <a href='#helpers'>Helfer:innen</a>."
+                },
+                "postHelpers": {
+                    "heading": "Helferbewerbungen abgeschlossen",
+                    "text": "Vielen dank für eure Unterstützung"
+                },
+                "marketplace": {
+                    "heading": "Achtung Fake-Tickets und Marktplatz",
+                    "text": "<div>Es&nbsp;sind leider wie jedes Jahr einige Angebote f&uuml;r Fake Tickets im Umlauf. Wir bem&uuml;hen uns diese Angebote von unseren Pr&auml;senzen in sozialen Medien fern zu halten, aber es werden auch auf anderen Plattformen unechte Tickets angeboten.</div><div>&nbsp;</div><div>Darum ausdr&uuml;cklich der Hinweis:</div><div>&nbsp;</div><div>Wir bieten unsere Tickets <strong>ausschlie&szlig;lich </strong>&uuml;ber unseren Webshop-Anbieter <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> an. Bei Angeboten anderer Ticketing-Seiten handelt es sich um F&auml;lschungen! Fake-Tickets werden sp&auml;testens bei uns am Einlass erkannt und f&uuml;hren dazu, dass Ihr das Festival leider nicht betreten k&ouml;nnt. Eure personalisierten Tickets k&ouml;nnt Ihr ausschlie&szlig;lich &uuml;ber den Marktplatz von <a href='https://www.tixforgigs.com/Event/54917' target='_blank'>TixforGigs</a> wiederverkaufen.</div><div>&nbsp;</div>"
+                }
+            },
+            "newsletter": "Ihr wollt auf dem laufenden bleiben? <br>Dann abonniert den <a target=\"_blank\" href=\"https://stats.sender.net/forms/e1EGje/view\"> TARMAC-Newsletter </a>und lasst euch die Informationen ins Postfach schicken."
+        },
+        "chronic": {
+            "heading": "Chronik",
+            "text1": "In den letzten Jahren hat es uns fasziniert, wie sich Menschen im subkulturellen Raum bewegen, sich in Kollektiven organisieren, richtig was reißen und dabei bedächtig ihre Werte vertreten. Es stellte sich heraus, dass die einzelnen Kollektive einander schon wahrgenommen haben, jedoch selten gemeinsame Veranstaltungen organisierten, auch weil die diversen musikalischen Ausrichtungen den Prozess zunächst nicht offensichtlich erschienen ließen.",
+            "text2": "Wir waren uns einig, dass die Realisierung des Projektes dann besonders gut gelingen würde, wenn wir die bereits aktiven Kollektive in Halle und weit gefasster Umgebung motivieren könnten, Teil einer Idee zu werden. 2018 begannen wir damit, uns als Team-TARMAC bei verschiedenen Kollektiven vorzustellen. Wir saßen in Plena, bauten ein verschiedene Kunst- und Musikbereiche umspannendes Netzwerk auf, halfen dabei, Open-Air-Raves und andere Veranstaltungen zu verwirklichen.",
+            "text3": "Ende 2018 führten wir erste Gespräche mit den Betreiber:innen des Flugplatzes Allstedt. Gut, hier gelandet zu sein: Ein Stück Wald und Beton. Eine inspirierende Flugplatzruine. Ein Rollfeld (zu engl. TARMAC), das bis an den Horizont reicht, nahe Halle und Leipzig. Quasi mit Zug und Fahrrad zu erreichen. Kurzum: Die optimale Location für uns.",
+            "text4": "2019 war die Kooperation dann beschlossene Sache. Es folgten die dauerhafte Nutzung eines Flugzeughangars und viele Arbeitseinsätze, um das Gelände für das Jahr 2020 festivaltauglich zu machen.",
+            "text5": "Im Sommer 2019 verwirklichten wir unter vereinten Kräften unseren ersten privaten Rave auf dem Gelände. Dieser hat uns gezeigt, was es bedeutet, ein Projekt dieser Größe durch ehrenamtliche Arbeit, Selbstbestimmtheit und Eigenfinanzierung wahr werden zu lassen. Euer Kommen hat uns Bestätigung und Kraft gegeben, mit unseren Visionen ein richtiges Ziel zu verfolgen."
+        },
+        "review": {
+            "button": "Rückblick 2023",
+            "heading": "TARMAC FESTIVAL 2023",
+            "content": {
+                "general": "<p>Das diesj&auml;hrige Festival war f&uuml;r uns eine unglaubliche Erfahrung. 2750 G&auml;ste, 550 Artists und unz&auml;hlige beteiligte HelferInnen. Wir m&ouml;chten uns bei allen Vereinen, Kollektiven, Gruppen und Personen bedanken, die immer wieder zu uns kommen und f&uuml;r eine warme Mahlzeit und kalte Duschen die Akkuschrauber schwingen. Ohne diese Bereitschaft und den gesunden Aktionismus aus der Crew heraus w&auml;re diese besondere Ravekultur nicht denkbar.</p><p>Keine Party ohne G&auml;ste. Ein ebenso dickes Dankesch&ouml;n geht raus an alle Rave-LiebhaberInnen und Kulturliebende, die unsere kleinen und gro&szlig;en B&uuml;hnen besuchen und eine, f&uuml;r uns, unvergleichliche Stimmung erschaffen.&nbsp;</p><p>Das Jahr 2023 hat uns ganz klar gezeigt, dass weiterhin eine hohe Nachfrage in der Musik- und Kulturszene nach Nischenprojekten vorhanden ist. Der erneute Run auf die Tickets und die zahlreichen Mitwirk-Bewerbungen sind f&uuml;r uns auch ein subkulturelles Statement. Unser <em>kleines</em> Festival hat uns ebenfalls gelehrt, dass nicht immer alles perfekt sein muss. Hingabe und Transparenz haben uns geholfen, H&uuml;rden zu &uuml;berwinden und Barrieren abzubauen.&nbsp;</p><p>Besonderer Dank gilt daher allen beteiligten Teams, die uns in diesen Bereichen besonders stark unterst&uuml;tzen: AG Teilhabe, Awareness, Psycare, Security, Sanit&auml;tsdienst.</p><p>Es gibt zudem drei Themen, die uns im Zusammenhang mit dem Festival 2023 besonders wichtig sind, uns immer wieder schlaflose N&auml;chte bereitet haben und unsere Plena im Winter ma&szlig;geblich begleiten werden.</p>",
+                "water": {
+                    "heading": "WASSER",
+                    "text": "<p>Das diesj&auml;hrige Festival hat uns mal wieder gemeinsam vor gro&szlig;e Aufgaben gestellt. Wir zitieren uns selbst aus dem Newsletter des letzten Jahres, nachdem wir das Wasser-Szenario 2022 verdaut hatten.</p><p style=\"text-align: center;\"><em>&ldquo;F&uuml;r das TARMAC 2023 arbeiten wir daran, dass eine solche Situation nicht mehr auftreten kann und dass f&uuml;r die Veranstaltung dauerhaft Wasser in Trinkwasserqualit&auml;t zur Verf&uuml;gung stehen wird.&rdquo; (TARMAC e.V.; 11/2022)</em></p><p><em>Touch&eacute;</em> sagen wir hier und blicken mit einem lachenden und weinenden Auge zur&uuml;ck. Grunds&auml;tzlich ist dieser Satz so nat&uuml;rlich sogar richtig. Um hier Licht ins Dunkel zu bringen, m&ouml;chten wir gern noch einmal &uuml;ber die Wasserversorgung 2023 sprechen.</p><p>Wir haben uns im Team ein Jahr intensiv mit der Problematik befasst und die f&uuml;r uns beste L&ouml;sung f&uuml;r das Festival 2023 umgesetzt. Daf&uuml;r haben wir in ein neues Trinkwasserleitsystem investiert und die Zusammenarbeit mit Gesundheitsamt sowie den&nbsp; zust&auml;ndigen Laboren ausgebaut. Leider haben wir dabei nicht einplanen k&ouml;nnen, dass unser Trinkwasserlieferant nicht in der Lage sein wird, sauberes Wasser zu liefern. Dank eines unerm&uuml;dlichen Teams haben wir eine weitere Firma gefunden, die uns auf den letzten Metern eine Situation wie 2022 erspart hat. Shoutouts an dieser Stelle auch an die Flugplatzleitung, die uns kurzfristig alternative Duschm&ouml;glichkeiten erm&ouml;glicht hat. Wir lehnen uns nun aus dem Fenster und erlauben uns zu behaupten, dass wir mit Blick auf das TARMAC 2024 dauerhaft Trinkwasser aus dem Hahn anbieten k&ouml;nnen.&nbsp;</p><p>An dieser Stelle m&ouml;chten wir uns bei allen Menschen bedanken, die uns in der schwierigen Lage supportet haben und trotz der angespannten Situation verst&auml;ndnisvoll auf uns zugekommen sind.</p><p>Wir d&uuml;rfen gespannt sein, wie diese Geschichte weitergeht und m&ouml;chten an dieser Stelle unser Netzwerk nutzen und das Thema Wasser mit einem lachenden und einem weinenden Auge abschlie&szlig;en:</p><p>Unsere kurzfristige Umplanung hat bekannterma&szlig;en dazu gef&uuml;hrt, dass wir sehr viel Trinkwasser in Flaschen gekauft haben. Ihr erinnert euch sicherlich an den sch&ouml;nen Sprudel in den Kehlen. Ca. 26 Paletten von diesem Wasser wurden im Herbst vom Flugplatz entwendet. Leider konnten wir diese gro&szlig;en Mengen Wasser nicht entsprechend sichern. Zur&uuml;ckgeblieben sind ironischerweise nur die Europaletten. Wir gehen daher davon aus, dass alle Kisten einzeln verladen wurden. Sollten euch also gro&szlig;e Mengen Trinkwasser - so 1000 K&auml;sten - angeboten werden, dann gebt uns gern Bescheid. Neben dem fehlenden Rohstoff ist natürlich auch der finanzielle Schaden erheblich.</p>"
+                },
+                "deposit": {
+                    "heading": "KAUTION",
+                    "text": "Liebe Helfis, es tut uns sehr Leid, dass viele Menschen ihre Kaution erst sehr spät erstattet bekommen haben. Wir haben uns dieses Jahr für eine rein elektronische Abwicklung entschieden und müssen uns für diese Entscheidung entschuldigen. Leider hat diese Handhabung in der Umsetzung zu vielen Problemen geführt. Wir arbeiten mit unserem Ticketanbieter an einer Alternative für das neue Jahr und möchten uns für das entgegengebrachte Verständnis bedanken."
+                },
+                "design": {
+                    "heading": "BÜHNENGESTALTUNG",
+                    "text": "<p>Dieses Jahr ist uns in der Planung ein Fehler unterlaufen. Wir haben bei der Gestaltung des Gel&auml;ndes nicht ausreichend darauf geachtet, welche Themen die einzelnen B&uuml;hnen verfolgen werden. Dabei hat das Endlos-Kollektiv eine alte Western-Theaterkulisse als B&uuml;hnenbild genutzt, was w&auml;hrend der Veranstaltung und danach zu Kritik f&uuml;hrte.</p><p>Wir und das Endlos nehmen diese Kritik sehr ernst und sind derzeit im Austausch dar&uuml;ber.. Wir m&uuml;ssen unsere eigene Arbeitsweise an dieser Stelle kritisch betrachten und ver&auml;ndern. Dieser Prozess wird uns durch den Winter begleiten und sich entsprechend auf das Festival 2024 auswirken.&nbsp;</p><p>Wir m&ouml;chten Euch gleichzeitig dazu ermutigen, mit positiver sowie negativer Kritik auf uns zuzukommen. Nur sichtbare und ausgesprochene Themen k&ouml;nnen auch bearbeitet werden und nicht immer ist es leicht, solche Dinge aus dem Inneren zu erkennen und richtig zu benennen.&nbsp;</p><p>Es ist uns ein gro&szlig;es Anliegen, Themen wie eben diese B&uuml;hnengestaltung aufzuarbeiten und die Ursachen zu finden. Uns und dem Endlos-Kollektiv ist nicht geholfen, wenn solche Themen im Verborgenen bleiben.</p><p>Bitte seht uns in diesem Zusammenhang nach, dass wir nicht jedes Thema &ouml;ffentlich diskutieren und nicht zu allen Dingen Stellung beziehen. Dies k&ouml;nnen wir erst hinreichend tun, wenn wir unsere Prozesse intern abgeschlossen haben.</p>"
+                },
+                "soundcloud": {
+                    "heading": "SOUNDCLOUD",
+                    "text": "<p>Es gibt mittlerweile sehr viele Mitschnitte der einzelnen K&uuml;nstlerInnen auf unserem Soundcloud Profil. Dort k&ouml;nnt ihr Euch nach Allstedt zur&uuml;ckbeamen und nochmal ordentlich die Anlage aufdrehen. <a href=\"https://soundcloud.com/tarmac-festival\">Hier entlang</a>.</p>"
+                }
+            }
+        },
+        "faq": {
+            "heading": "FAQ"
+        },
+        "newsletter": {
+            "heading": "Newsletter",
+            "form": "l3u2htire1egjeuwx8f"
+        },
+        "collectives": {
+            "endlos": {
+                "heading": "Station Endlos",
+                "text": "Ich bin das Endlos und ich erwuchs aus dem Willen, der Schaffenskraft und Kreativität zweier Brüder und deren Freundeskreis. In die Tat getragen wurde ich über die Motivation, nun wie drücke ich mich da am besten aus, um der etwas kargen Tanzkulturlandschaft meiner Heimatstadt Halle (Saale) zu etwas mehr Farbe und Raum zu verhelfen.<br><br>Ich bin mehr als nur eine Tanzfläche. Ich bin ein sich ständig neu erfindender Mikrokosmos, der viel mehr Rahmen als Fläche ist. In mir lösen sich die steifen Zeiger einer Uhr zu einem Fluss auf, der in dem Moment mündet, wo Zeit nicht länger an ein Ziffern- oder Kalenderblatt gebunden ist. In mir ist die Illusion von Kontrolle einem jeden selbst überlassen.<br><br>Hier ist alles erlaubt was Freude bringt und bereichert, ohne, dass dabei die Freiheit eines anderen eingeschränkt wird. Tolerantes Verhalten, dialogorientierte Kommunikation und ein respektvoller Umgang untereinander sind grundlegende Voraussetzungen, für jeden, der mich kennen lernen will."
+            },
+            "l300": {
+                "heading": "L300 Decoration & Arts Circle",
+                "text": "L300 Decoration & Arts Circle ist ein wachsendes Kollektiv junger Djs, Künstler und Eventhustler...<br><br>Nach einigen exzessiven Festivaltrips in Europa haben wir uns entschlossen, den Vibe der psychedelischen Culture, welchen wir auf unseren Reisen so oft erleben und erfahren durften, in die Welt zu tragen! Nun sind wir mittlerweile seit Anfang 2016 auf Abenteuern unterwegs in Halle, Berlin, Leipzig und im Outer Space...Und bis jetzt ist kein Ende in Sicht!<br>Boomshakalaka Spaceamigos und -amigas!!!!"
+            },
+            "reihe": {
+                "heading": "II. Reihe",
+                "text": "Wir sind ZWEITE REIHE (II.R), ein Kunst- und Kulturprojekt. ZWEITE REIHE widmet sich Orten, Ereignissen und Menschen. All dem, was nicht offensichtlich scheint, im Verborgenen kreativ ist und entdeckt werden will. ZWEITE REIHE macht den KIOSK, ist Bühne, Raum, Plattform u.v.m..<br>Ihr seid herzlich eingeladen!"
+            },
+            "resonant": {
+                "heading": "resonant",
+                "text": "[Resonánz] - Substantiv, feminin, die<br><br>Was eigentlich als spontane Zusammenkunft von Freund:innen begann, wuchs irgendwann zu einer festen Struktur heran. Was eigentlich als einmaliges Ereignis geplant war, fand im Sommer 2018 plötzlich jede Woche statt. Seither versuchen wir regelmäßig neue Resonanzräume für alle denkbaren Spielarten elektronischer Musik zu (er)schaffen und dabei der gängigen Verwertungslogik zu trotzen."
+            },
+            "orgia": {
+                "heading": "Orgia",
+                "text": "Die Organisierte-Rave-Gemeinschaft-In-Aktion (ORGIA), gegründet 2018, spezialisiert sich auf Full-Service-Solutions im Tanzveranstaltungsbereich und hat sich innerhalb kürzester Zeit zu einem führenden Dienstleister in diesem Segment etabliert. Mit rund 12 Mitarbeiter:innen in den beiden Standorten Halle-Musterstadt und Leipzig-Beispieldorf erzielte unser Unternehmen zuletzt rund 253 Euro Umsatz!<br><br>Im Zuge des TARMAC Festivals wurde ORGIA mit der Projektierung eines Hangar Tanzplatzes betraut. Zur Beschallung werden Acid, Elektro, Rave & Trance als stilprägende Elemente eingesetzt."
+            },
+            "teilko": {
+                "heading": "Teilkonversum 7",
+                "text": "Wir, das Teilkonversum7, sind ein Musikkollektiv aus Halle; ein Zusammenschluss von Freund:innen und partyfreudigen Menschen, die nach anfänglichen Raves in der Natur langsam auch Geschmack an \"Drinnenpartys\" gefunden haben.<br><br>Wir spielen verschiedene Musikstile wie Discohouse, Breakbeat, Acid-, Industrial- und Hypnotechno und tragen damit seit 2014 unseren Anteil zur lokalen Partyszene bei.<br><br>Da wir uns als emanzipatorisch und offen verstehen, legen wir Wert auf einen solidarischen Umgang miteinander und versuchen mit unseren Partys diskriminierungsfreie Räume zu erschaffen, die jeden Menschen einladen sollen, gemeinsam mit uns zu feiern und sich dort frei auszuleben zu können. Raved mit uns und lasst euch von uns in eine Welt aus treibenden Beats, bunter Atmosphäre und hypnotisch-funkigen Sounds verführen."
+            },
+            "lila": {
+                "heading": "Lila Drache",
+                "text": "Der \"Lila Drache\" ist das Vereinsheim des gemeinnützigen \"Kunst- und Kulturvereins Südliche Innenstadt\". Wir sind eine bunte Gruppe von Menschen, die es sich zur Aufgabe gemacht hat, das Kulturangebot in Halle auszubauen. Die recht unbelebte Südliche Innenstadt rief förmlich danach, ihr neues Leben einzuhauchen, um auch abseits von Paulusviertel und Zentrum Kunst, Kultur und Vielfalt zu erleben. Wir haben im Hallenser Süden eine Plattform etabliert, in der Künstler_innen ihre Werke ausstellen können, Musiker_innen offene Ohren finden, sowie Lesungen und Vorträge ein breites Publikum erreichen."
+            },
+            "klubska": {
+                "heading": "klubska scena",
+                "text": "klubska scena ist eine geheime Pop-up-Underground-Veranstaltungsreihe für Audiophile und Freiheitskämpfer:innen und verschreibt sich  gegen die Musikindustrie! Die \"guerilla-ähnliche\" Natur der Aktionen besteht aus Veranstaltungen, die spontan und ohne Genehmigung an atemberaubenden Orten durchgeführt werden."
+            },
+            "nautilux": {
+                "heading": "Nautilux",
+                "text": "ist ein Kollektiv und Freundeskreis aus Halle. Uns vereint die Liebe zu Partys und elektronischer Musik. Das Medium Licht spielt für uns eine wichtige Rolle, ebenso wie der Anspruch, Räume neu zu erschließen und zu interpretieren. Seit 2018 realisieren wir verschiedenste Projekte und freuen uns, das Nachtleben unserer Heimatstadt mitgestalten zu können."
+            },
+            "kvhz": {
+                "heading": "Kinder von der Haltestelle Zoo",
+                "text": "Die Kinder von der Haltestelle Zoo sind ein Veranstaltungskollektiv aus Halle, bestehend aus Producern, DJs*, Bastler:innen und Technikbegeisterten. Diesen bunten Haufen verbinden jahrelange Bekanntschaften und Freundschaften, aber vor allem die Liebe zu lauter Musik und zum Tanzen. Daher fing man im Sommer 2018 an gemeinsam Partys zu schmeißen und etablierte sich seitdem in der halleschen Raveszene. Nun sind die Kinder von der Haltestelle auch beim TARMAC-Festival mit dabei, um ihre Freunde, die L300 Crew, bei der Gestaltung und Bespielung der Planetenweide-Stage zu unterstützen."
+            },
+            "mjut": {
+                "heading": "mjut",
+                "text": ""
+            },
+            "wert": {
+                "heading": "Wert der Dinge",
+                "text": "Reisegruppe Flotte Lotte - Begleitete Radtour mit Gepäckservice<br>Für alle die mit dem Fahrrad anreisen, gibt es das Angebot mit der Reisegruppe Flotte Lotte gemeinsam von Halle gen Flugplatz Allstedt zu fahren. Euer Gepäck transportieren wir dir kostenfrei bis aufs Festival Gelände. Dich erwartet eine Radtour mit zwei Pausen, die dich langsam in Festivalstimmung bringt und dich ganz entspannt auf dem Flugplatz ankommen lässt. (Nur für Personen mit Festivalticket.)"
+            },
+            "material": {
+                "heading": "Materialbuffet",
+                "text": "Das Materialbuffet e.V. ist eine frischgebackene Materialinitiative in Leipzig, die Materialien aus Kulturbetrieben wie Theatern, nach Events, Film- und Fernsehproduktionen und aus dem produzierendem Gewerbe vor der Entsorgung rettet. Im MB kann zukünftig jede*r umweltfreundlich und kostensparend für's neue Hochbett shoppen oder eben für 1 lecker Festival wie das TARMAC.<br>Schmackhafte Neuigkeiten wie beispielsweise zur Eröffnung findet ihr bei Instagram @materialbuffet_ev"
+            },
+            "unterdruck": {
+                "heading": "UNTERDRUCK",
+                "text": "<p>Ende 2019, Paar Freund*innen, eine Anlage, ein Fahrradkeller und Bock mit den Friends &lsquo;ne gute Zeit zu haben. Daraus entstand: das Kollektiv UNTERDRUCK.<br />So viel hat sich daran nicht ge&auml;ndert. Der Versuch einen Freiraum f&uuml;r Kreative zu schaffen, Lust die Subkulturszene in Halle mitzugestalten und viele helfende H&auml;nde halten das Projekt bis heute aufrecht. Ein famili&auml;res Zusammensein, bei dem auf alle geachtet wird, hat bei allen Feiernden einen erheblichen Stellenwert. Im Laufe der Jahre zeichnet sich ein minimalistischer Stil, sowie die Vorliebe f&uuml;r house-ige Sounds ab.</p>"
+            },
+            "vacanza": {
+                "heading": "Vacanza",
+                "text": "<p>Ciao! Vacanza e.V. - Verein f&uuml;r Musik und Kultur aus Leipzig. Eine Gruppe musikbegeisterter Menschen mit gemeinsamen &amp; gemeinn&uuml;tzigen Projekten. So oft wir k&ouml;nnen, gestalten wir diverse regionale Clubabende, Festival Floors und Tagesveranstaltungen mit kulturellem Inhalt.</p><p>HeyCiao!Vacanza (Elipamanoke), AMPED. (tba), THE TANGLE (Nachtiville), VACANZA (Tarmac Festival) and more</p>"
+            },
+            "brausecus": {
+                "heading": "BrauseCus",
+                "text": "<p>Willkommen auf der BrauseCus Konzertbühne, wo die Musik in all ihren Facetten zum Leben erwacht! Der Potsdamer Underground aus DIY-Clubkultur und punkiger Livemusik hat sich zusammengerafft, um musikalische Blüten auf dem Tarmac-Festival treiben zu lassen. Wie bereits im vergangenen Jahr sind auch unsere Leipziger Freunde von Proper Pull wieder mit von der Partie, um das Programm zu veredeln. Wir wollen versuchen, jedes Jahr ein Stückchen bunter und diverser zu gestalten - Dieses Jahr erwarten euch wieder viele Live Acts und DJs aus den unterschiedlichsten Genres,  um euch mit ihrer Vielfalt und Kreativität zu verzaubern.</p>"
+            },
+            "poly": {
+                "heading": "Polynoiseon",
+                "text": "<p>Seit 2022 gibt es uns, die Poly-Crew, als erste Crew, die aus dem Tarmac-Scho&szlig; geboren Wurde.<br>Unser (immersiver) Space: Das Polynoiseon. Hier findet Ihr Performances, Workshops und interaktive Kunst. Von Poledancer:innen &uuml;ber k&uuml;nstliche Intelligenzen bis hin zu euch Partypeops - alle beeinflussen das Polynoiseon mit ihren (teils absonderlichen) Bewegungen.</p>"
+            },
+            "kbs": {
+                "heading": "Kollektiv Barrieren Sprengen",
+                "text": "<p>Als Kollektiv Barrieren Sprengen (e. V.) arbeiten wir seit 2023 mit dem TARMAC e. V. Zusammen&nbsp;und entwickeln ma&szlig;geschneiderte L&ouml;sungen zur Beseitigung von Barrieren.&nbsp;Unser Ansatz geht &uuml;ber bauliche Ma&szlig;nahmen hinaus &ndash; wir engagieren uns auch in administrativen&nbsp;Aufgaben, unter anderem durch die Schaffung behindertengerechter Awareness-Strukturen.&nbsp;Unser Ziel ist es, aktiv die Teilhabe von Menschen mit Behinderung am kulturellen Leben zu f&ouml;rdern&nbsp;und die gesellschaftliche Wahrnehmung dieses Themas zu st&auml;rken.</p>"
+            }
+
+        },
+        "artists": {
+            "battery": {
+                "heading": "Double A Battery Team",
+                "text": "Was die Jungs vom Double A Battery Team auf die Tanzfläche bringen, ist mehr als nur eine volle Ladung Energie. Alois und Alex (AA) verbindet eine jahrelange Freundschaft und die Leidenschaft für Elektro, Trance und Breaks jeglicher Art. Als Savour the Moment Residents, seit über 2 Jahren, spielen sie meist in der Wilden Renate in Berlin, wo man sie hinterm DJ-Pult oder breakdancend auf dem Floor findet – nicht selten mit einem Glas Weißbier in der Hand."
+            },
+            "ada": {
+                "heading": "Ada Luvv",
+                "text": "and so the story goes: ada fell in luvv with electronic dance music. forever heartbroken, she lost herself in djing. blowing boundaries of genre and speed, she provides a highly diverse while still very consistent sound. while feeling at home at the decks of fettschmelze (karlsruhe), she has been recently guesting at drama bar (tbilisi, georgia), transmediale festival (berlin) and points (freiburg). as a part of the karlsruhe-based BLEX crew, she shares hearts and decks with chaos angel, super venus, double u cc and JWLRY. BLEX hosts parties which can be experienced with all senses and invite one to rethink club culture."
+            },
+            "albina": {
+                "heading": "Albina",
+                "text": "Albina verknüpft reichhaltige Texturen und bringt dabei konträre Klänge in Kontext. Gespickt mit rhythmischen Passagen und Songs sind ihre dj sets die perfekte Balance zwischen Ruhe und Puls."
+            },
+            "anna": {
+                "heading": "Anna SchuSchu",
+                "text": "Anna Schuschus experimentelle Performances vereinen Pop mit verschobenen Texturen, häufig basierend auf ihrer eigenen Stimme. Ein weitreichender Sound ist das Ergebnis: von sphärisch entspannt, bis hin zu kantig provokant."
+            },
+            "cyan": {
+                "heading": "Cyan 85",
+                "text": "Cyan 85 - unserer Meinung nach eine der Überraschungen des letzten Jahres. Mit bisher zwei ausverkauften Platten bei den Labels voitax und lunar orbiter, ist er mittlerweile auch international unterwegs. Im Herbst folgt eine mini LP des gebürtigen Erfurters, der ebenso kürzlich zusammen mit Turk Turkelton das Label habibi bass gegründet hat. Wir freuen uns auf seinen roughen sound. - shake what your mamas gave ya!"
+            },
+            "detox": {
+                "heading": "DJ Detox",
+                "text": "DJ Detox aka Gnista – ein junges Urgestein aus der Dresdner Clubszene, mag Thermalbäder nicht so sehr wie der Name vermuten lässt. Sein Sound findet Platz auf den Labels FTP, Ghettoraid und auch bald auf Rand Muzik. Andere Projekte mit Releases bei Brokn Toys und Uncally Valley sind nicht weniger erfolgreich.<br>DJ Detox lädt mit seinen LiveSets nicht gerade zur Entspannung ein und vitalisiert uns trotzdem mit Breakz, House und Acid! - Looking forward!"
+            },
+            "hornhaut": {
+                "heading": "DJ Hornhaut",
+                "text": "DJ Hornhaut ist eine wilde Mischung aus Disko, Punk, Hip-Hop und Hard-Tech. Böse Bässe mischen sich mit einer sanften Stimme und dadaistischen und politischen Texten."
+            },
+            "yumyum": {
+                "heading": "DJ YumYum b2b Shane Lizard",
+                "text": "Shane Lizard und DJ YumYum machen modernen, experimentellen und ravigen Sound. Sie sind Maschinen, dazu verdammt, den digitalen Äther nach freshsten Releases zu durchleuchten und sie dann in veränderter Form auf Raves zu werfen. Mit ihrer Leipziger Reihe \"Aeolian\" holen sie dafür regelmäßig ihre liebsten Musiknerds zusammen."
+            },
+            "dmrk": {
+                "heading": "dmrk",
+                "text": "⁴⋅⁵ Und von den Membranen gingen aus Blitze, Stimmen und Donner; Und Nebel erfüllte den Raum.<br>⁴⋅⁶ Und auf dem Beton war ein Meer aus flüssigem Stahl, gleich einem Vulkan; Und über dem Pult schwebten vier Augen, gerichtet nach vorn.<br>⁴⋅⁸ Und sie hatten keine Ruhe Tag und Nacht."
+            },
+            "dsompa": {
+                "heading": "dsompa",
+                "text": "Dsompa is the Tibetan meaning for \"flowing together\", and is the project of Philipp based in Hamburg, Germany.<br>Dsompa discovered electronic music in the late 90′s, and was bewitched with the culture, art and the sound of the psychedelic subculture. Encouraged by friends of the Ruigoord Community in Amsterdam, he played his first DJ set in the squatted church turned dance-temple, of Ruigoord early 2007.<br>His debut EP „Shinan\" came out on Sangoma Records in 2014, followed by tracks and collabs on labels as Looney Moon, Sonica, Forestdelic, Hypnotique and Believe Lab. He became part of the Italy based Believe Lab Family in early 2016. In March his EP „4 more drops\" is out on Believe Lab."
+            },
+            "flexibleheart": {
+                "heading": "Flexibleheart",
+                "text": "Flexibleheart lebt in Dresden und ist Mitglied des feministischen Dj-Kollektivs ProZecco. Sie spielte bereits im About Blank, MenschMeier, IFZ und Objekt Klein A. Ihr Sound: bassgetriebener- energiegeladener Acid House und Techno, Ghetto und Elektro. Crazy good! Don't miss her!"
+            },
+            "pause": {
+                "heading": "FM Pause",
+                "text": "FM Pause baut wabernde Puzzle aus experimentellen und etablierten Club-Sounds. Seine Sets sowie seine Mindstretch-Partys sind dabei voller Einflüsse aus US und UK."
+            },
+            "galaxaura": {
+                "heading": "Galaxaura",
+                "text": "Galaxaura ist seit 2013 Resident DJ im Spartacus Potsdam, produziert Radio Shows für das Freie Radio Potsdam, ist Gründerin des Galaxunity-Movements und organisiert regelmäßig Parties. Ihre Sets sprechen eine intergalaktische Sprache, irgendwo zwischen Breakbeat Electro, Acid, tripped-down Techno, low-fi- und Cosmic House. Mit ihren DJ* empowerment Workshops supportet sie aufkommende Talente."
+            },
+            "qnete": {
+                "heading": "Qnete",
+                "text": ""
+            },
+            "illousion": {
+                "heading": "illousion",
+                "text": "illousion verbindet in ihren DJ-Sets eine düster-dystopische Ästhetik mit energetischer, treibender Rhythmik. Am liebsten kombiniert sie dabei ältere Lieblingstracks aus ihren früheren Zeiten als Clubbesucherin mit aktuellen Releases und lässt daraus einen vielseitigen Sound entstehen. Häufig findet man sie im Institut fuer Zukunft, mal in der Booth, mal hinter der Bar, mal als Veranstalterin der NEBULA-Partyreihe dort mit ihrem gleichnamigen Nebula Kollektiv."
+            },
+            "juke": {
+                "heading": "Juke Dordan",
+                "text": "Was Juke Dordan in seinen Sets preisgibt ist eine fundierte Auseinandersetzung mit genreübergreifenden Releases und gekonnte Ineinanderführung verschiedener Klangflächen. Dadurch zeichnet sich ein Bild auf der Tanzfläche ab, welches von Energie, wechselnden Rythmen und positiver Athmosphäre gekennzeichnet ist. Häufig sieht man ihn als Teil der PVC Crew in der DJ Booth oder als Mitveranstalter verschiedener Partyreihen des Kollektivs auf der Tanzfläche."
+            },
+            "karakum": {
+                "heading": "Karakum",
+                "text": "'Karakum' - das ist handgemachter Techno, live performt von vier Musikern die Sequenzer und Drumcomputer durch ihre analogen Vorbilder ersetzen. Hierbei verschmelzen melodische Synth- und Gitarrenklänge mit einem treibenden Fundament aus Bass und Schlagzeug. Der satte genrecharakteristische Sound eines durchproduzierten Technotracks trifft auf den Charme und Groove einer Liveband."
+            },
+            "kontinum": {
+                "heading": "Kontinum b2b t_nsaye",
+                "text": "Die beiden Residents des Nebula Kollektivs aus Leipzig sind schon lange kein unbeschriebenes Blatt mehr. Seit der Gründung 2017 ist Nebula über Raves und Clubveranstaltungen zu einem festen Bestandteil der Technoszene geworden. Neben seinen Aktivitäten im Kollektiv produziert Kontinum eigene Musik und veröffentlichte unter anderem bei Circular Limited, Oslated, Proselytizing und Lowless.<br>Als DJs überwältigen die zwei mit treibendem hypnotischen Sound  – perfekt für die frühen Morgenstunden."
+            },
+            "lukov": {
+                "heading": "Lukov",
+                "text": "Als Resident der Parzelle 56 und Gründungsmitglied des Resonant e.V. ist Lukov mittlerweile fester Bestandteil der Jenaer Technoszene. In seinen Sets erschafft er eine deepe und vocalaffine Ästhetik, die seine Liebe zur elektronischen Tanzmusik zelebriert."
+            },
+            "mico": {
+                "heading": "Mico X",
+                "text": "Mico-X (Miodrag Radeljak) originally from Croatia and now based in Germany. Since the age of 13 he lives in Frankfurt am Main. In early childhood he got fascinated with electronical sounds and already at the age of 16 he had his first Gigs.<br>In the glory time of 1997 he discovered Psychedelic Goa Trance - a life changing experience because he as a DJ could identify with this music immediantly. Since then the name Mico-X grew to a well known legend among the Frankfurt Goa Scene.<br>What followed were countless gigs back to back with the biggest names of the scene.<br>Today Mico X plays his DJ-Sets all around Europe on different international Festivals and Partys, he is also an ambassador for MO:DEM Festival in Croatia.<br>He reestablished the „Hypnopulse\" Events in Limburg and is part of the \"PsyArmy\" DJ-Team aswell as a resident DJ at the \"Unterholz\" forest gatherings in Wiesbaden.<br>People love his deeply energized and all-time forward pumping psychedelic bassmusic because of his magical track selection and the intense feeling for the groovin' crowd!<br>Full Power Night Psy, Twilight & Forest Trance are gonna be styles which he will present to your ears at the next edition of MO:DEM  2020/2021 Festival."
+            },
+            "monarch": {
+                "heading": "Mønarch",
+                "text": "Aus dem südwestlichsten Punkt Badens entsprungen, hat sich Mønarch dem dunklen Sound verschrieben. In seiner Wahlheimat Jena ist er eines der Gründungsmitglieder des resonant e.V.. Mønarch überzeugt stets durch ein Equilibrium aus Härte und Groove, welches er auf dem Dancefloor erklingen lässt. Immer auf den Punkt und gleichzeitig nicht uniform, wird er sicherlich auch beim TARMAC alle Tanzwütigen zu einer gemeinsamen, außergewöhnlichen Resonanzerfahrung führen können."
+            },
+            "morioun": {
+                "heading": "morioun b2b aurifex",
+                "text": "After DJ’in several years and being part of organizing underground events to help rising the free spirit of the trance movement in the region of the black forest and elsewhere the project MORIOUN was born. The music is mainly focused on old-schoolisch Goa Trance with both, melodic and dark/acidic elements, trying to move outside of the genre’s borders and combining whatever might fit the story that is told within the music. Be exited for pumping dancefloor bonkers and melodic twists and a special b2b set together with Space-Partner in Ryhme Aurifex."
+            },
+            "naomi": {
+                "heading": "Naomi Dasmoe",
+                "text": "Naomi Dasmoe sind zwei aufstrebende DJs, die ihre Mission der Verbreitung von \"ursprünglicher\" House-Musik in Berlin und darüber hinaus verfolgen. Ihre ganz eigene Note bringen die Beiden in ein lange Zeit beliebtes Genre. Dies geschieht durch Naomis gefühlvolle Art, ergänzt durch Dasmoes Leidenschaft für rhythmische, kraftvolle Beats."
+            },
+            "neelie": {
+                "heading": "Neelie.",
+                "text": "Neelies diverse Projekte eint ein starker Fokus auf zeitgenössische japanische Kultur - sei es in ihren Mixes oder bei ihrem aktuellen Projekt oh mochi, das sich auf Veranstaltungen und Grafiken konzentriert."
+            },
+            "signal": {
+                "heading": "NO LIFE SIGNAL",
+                "text": "NO LIFE SIGNAL heißt das Projekt von Reka Zalan und THNTS. Beide haben im ://about blank ihr musikalisches Zuhause gefunden. Ihre Podcast-Serie ESCH und die Partyreihe ://Elements sind in der Szene zurecht hoch angesehen. Freut euch mit uns auf Techno à la carte!"
+            },
+            "ritar": {
+                "heading": "Ritar",
+                "text": "Ritar kam über Halle nach Leipzig, ist dort eng mit dem VARY Recordstore und Label verbunden. Ebenso ist sie Teil des kölner Labels und Booking-Agentur GHETTO TRAXX. Ihre Sets sind getrieben von schneller und kraftvoller Underground Dance Music."
+            },
+            "sequoya": {
+                "heading": "Sequoya",
+                "text": "Sequoya is the project of Yan Krassowski, born in 1979 in Darmstadt, Germany. His love and passion for electronic music started back in the mid 90`s with the young age of 15, where he discovered the local techno scene. Early influences where DJ`s like Sven Väth or DJ Dag and first experiences in technoclubs, like the legendary Omen or Dorian Gray in Frankfurt A.M.<br>He started to spin techno tunes at small parties until the psytrance virus changed his musical direction. With a bunch of friends – the Gecko Crew \u00AD he organised a couple of small parties in his home area, and begann to play progressive/psytrance Dj sets under the alias Yan Gecko. After a couple of years, with lots of national and some international gigs, he joined BMSS Records and released a few tracks on different compilations.<br>Yans favourite was always rather deep and mystical sound. After some life changing dancefloor experiences at big festivals, he fell completely in love with forest psy and more nighttime orientated music\u00AD 2012 the Sequoya project was born. The debut EP \"Nomad\" came out in 2013 on BMSS Records, 2015 the \"Singularity EP\" on Sangoma, followed by tracks on various Compilations from different Labels. His music can be described as deep and driving forest psy with a unique style of storytelling and remarkable sounddesign, resulting from Yans love for modular Synthesizers."
+            },
+            "sevensol": {
+                "heading": "Sevensol",
+                "text": "Mitgründer von Long Vehicle und KANN, eine Hälfte vom DJ-Duo Manamana. Sevensols Sounds sind vielfältig, perkussiv - manchmal experimentell. Mittlerweile überzeugt der Leipziger die internationalen Tanzflächen. Sekt auf Eis steht bereit."
+            },
+            "shape": {
+                "heading": "Shape",
+                "text": "Shapes Dj Sets sind die klangliche Repräsentation seines Plattenladens Vary in Leipzigs Eisenbahnstraße. Mal synthetisch, mal organisch ergibt seine Selektion eine harmonische Mischung der interessantesten urbanen Genres der letzten 40 Jahre."
+            },
+            "tereza": {
+                "heading": "TEREZA",
+                "text": "Mit viel Liebe zum Detail und technischer Finesse gleitet Tereza durch ihre eigene eklektische Klanglandschaft und überschreitet dabei die traditionellen Genregrenzen. Das Bindeglied in ihren Sets ist ein gefühlvolles, jazziges Element. Tereza ist DJ, Radiomoderatorin und Kuratorin und veranstaltet ihre eigene Clubnacht BLUE SPACE in der Palomabar (Berlin)."
+            },
+            "waxa": {
+                "heading": "Wiki Waxa",
+                "text": "Wiki Waxa spielt genreübergreifende Musiken: Vielschichtige Sounds wechseln sich mit Fragmenten ab und entfalten eine ungezwungene und spannende Dynamik."
+            }
+        }
     }
-  }
 }

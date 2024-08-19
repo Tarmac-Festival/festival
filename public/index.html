@@ -41,34 +41,33 @@
             }, function() {
                 jqueryI18next.init(i18next, $);
                 $(".localized").localize();
-                $("#newsletterForm").attr("data-sender-form-id",i18next.t("modal.newsletter.form", "#"));
-                (function (s, e, n, d, er) {
-          s['Sender'] = er;
-          s[er] = s[er] || function () {
-            (s[er].q = s[er].q || []).push(arguments)
-          }, s[er].l = 1 * new Date();
-          var a = e.createElement(n),
-              m = e.getElementsByTagName(n)[0];
-          a.async = 1;
-          a.src = d;
-          m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js?', 'sender');
-        sender('48424b2f421657')
+                $("#newsletterForm").attr("data-sender-form-id", i18next.t("modal.newsletter.form", "#"));
+                (function(s, e, n, d, er) {
+                    s['Sender'] = er;
+                    s[er] = s[er] || function() {
+                        (s[er].q = s[er].q || []).push(arguments)
+                    }, s[er].l = 1 * new Date();
+                    var a = e.createElement(n),
+                        m = e.getElementsByTagName(n)[0];
+                    a.async = 1;
+                    a.src = d;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js?', 'sender');
+                sender('48424b2f421657')
             });
-
     </script>
-    
-    
 
-    
 
-<link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
-<link rel="manifest" href="img/icon/site.webmanifest">
-<link rel="mask-icon" href="img/icon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+    <link rel="manifest" href="img/icon/site.webmanifest">
+    <link rel="mask-icon" href="img/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
 
 
@@ -77,201 +76,197 @@
     <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="css/festival.min.css?v=4.14" rel="stylesheet">
- <style>
-    .teilhabe-img{
-        width: 100%;
-        height: auto;
-    }
- </style>   
+    <style>
+        .teilhabe-img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body id="page-top">
     <script>
         /*fills the lineup for 
-        $(document).ready(function(){
-            fillArtists(2022);
-            
-        });
-        */
-        
+                                $(document).ready(function(){
+                                    fillArtists(2022);
+                                    
+                                });
+                                */
     </script>
-<h1 class="d-none">Tarmac Festival</h1>
+    <h1 class="d-none">Tarmac Festival</h1>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">29.08 - 01.09.24</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">29.08 - 01.09.24</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav text-uppercase justify-content-between flex-grow-1">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger localized" href="#about" data-i18n="nav.project">#</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger localized" href="#artists" data-i18n="nav.artists">#</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger localized" href="#info" data-i18n="nav.info">#</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger localized" href="#avenue" data-i18n="nav.avenue">#</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger localized" href="#helpers" data-i18n="nav.helpers">#</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger localized" href="#contact" data-i18n="nav.contact">#</a>
-                </li>
-                <li class="nav-item">
-                    <div class="nav-link nav-btn">
-                        <a class="btn btn-danger localized" href="https://www.tixforgigs.com/Event/54917"
-                           target="_blank" data-i18n="nav.tickets" >#</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
-                     <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
-                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2022" target="_blank">2022</a></li>
-                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2021" target="_blank">2021</a></li>
-                        <li><a class="dropdown-item text-primary" href="Artists.html?year=2020" target="_blank">2020</a></li>
-                     </ul>
-                 </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!-- Header -->
-<header class="masthead d-flex">
-    <div class="container-fluid d-flex px-0 header__bgimg">
-
-    <a class="btn btn-primary down js-scroll-trigger" href="#about">
-        <i class="fas fa-angle-down fa-2x"></i>
-    </a> 
-    </div>
-</header>
-<!--announcements-->
-<section id="announcements"class="pb-0 d-none">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center title-box">
-                <h2 class="section-heading text-uppercase mb-0 localized" data-i18n="announcements.heading">#</h2>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase justify-content-between flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="#about" data-i18n="nav.project">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="#artists" data-i18n="nav.artists">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="#info" data-i18n="nav.info">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="#avenue" data-i18n="nav.avenue">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="#helpers" data-i18n="nav.helpers">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="#contact" data-i18n="nav.contact">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link nav-btn">
+                            <a class="btn btn-danger localized" href="https://www.tixforgigs.com/Event/54917" target="_blank" data-i18n="nav.tickets">#</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
+                        <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
+                            <li><a class="dropdown-item text-primary" href="Artists.html?year=2022" target="_blank">2022</a></li>
+                            <li><a class="dropdown-item text-primary" href="Artists.html?year=2021" target="_blank">2021</a></li>
+                            <li><a class="dropdown-item text-primary" href="Artists.html?year=2020" target="_blank">2020</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-            <div class="row text-justify pb-5">
-                <div class="col-lg-12">
+        </div>
+    </nav>
 
-                    <h5 class="text-center localized" data-i18n="announcements.subheading1">#</h5>
-                    <p class="localized" data-i18n="[html]announcements.text1"></p>
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container-fluid d-flex px-0 header__bgimg">
+
+            <a class="btn btn-primary down js-scroll-trigger" href="#about">
+                <i class="fas fa-angle-down fa-2x"></i>
+            </a>
+        </div>
+    </header>
+    <!--announcements-->
+    <section id="announcements" class="pb-0 d-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center title-box">
+                    <h2 class="section-heading text-uppercase mb-0 localized" data-i18n="announcements.heading">#</h2>
+                </div>
+                <div class="row text-justify pb-5">
+                    <div class="col-lg-12">
+
+                        <h5 class="text-center localized" data-i18n="announcements.subheading1">#</h5>
+                        <p class="localized" data-i18n="[html]announcements.text1"></p>
+                    </div>
+                </div>
+                <div class="row text-justify">
+                    <div class="col-lg-12">
+                        <h5 class="text-center localized" data-i18n="announcements.subheading2">#</h5>
+                        <p class="localized" data-i18n="[html]announcements.text2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center title-box">
+                    <h2 class="section-heading text-uppercase mb-0 localized" data-i18n="about.heading">#</h2>
                 </div>
             </div>
             <div class="row text-justify">
-                <div class="col-lg-12">
-                    <h5 class="text-center localized" data-i18n="announcements.subheading2">#</h5>
-                    <p class="localized" data-i18n="[html]announcements.text2"></p>
+                <div class="col-12 localized">
+                    <p data-i18n="about.text1">#</p>
+                    <p data-i18n="about.text2">#</p>
+                    <p data-i18n="about.text3">#</p>
+                    <p data-i18n="about.text4">#</p>
+                    <p data-i18n="about.text5">#</p>
+                    <p data-i18n="about.text6">#</p>
+                    <p class="lead text-center font-italic" data-i18n="about.text7">#</p>
+                    <p class="text-center" data-i18n="about.text8">#</p>
+                    <p class="text-center" data-i18n="about.text9">#</p>
+                </div>
+            </div>
+            <div class="row text-center mt-3">
+                <div class="col-12">
+                    <a class="btn btn-primary localized" target="_blank" data-toggle="modal" data-target="#modalChronik" data-i18n="about.button">#</a>
+                </div>
+            </div>
+            <div class="row text-center mt-3">
+                <div class="col-12">
+                    <a class="btn btn-primary localized" target="_blank" data-toggle="modal" data-target="#modalReview" data-i18n="modal.review.button">#</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- About -->
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center title-box">
-                <h2 class="section-heading text-uppercase mb-0 localized" data-i18n="about.heading">#</h2>
-            </div>
-        </div>
-        <div class="row text-justify">
-            <div class="col-12 localized">
-                <p data-i18n="about.text1">#</p>
-                <p data-i18n="about.text2">#</p>
-                <p data-i18n="about.text3">#</p>
-                <p data-i18n="about.text4">#</p>
-                <p data-i18n="about.text5">#</p>
-                <p data-i18n="about.text6">#</p>
-                <p class="lead text-center font-italic" data-i18n="about.text7">#</p>
-                <p class="text-center" data-i18n="about.text8">#</p>
-                <p class="text-center" data-i18n="about.text9">#</p>
-            </div>
-        </div>
-        <div class="row text-center mt-3">
-            <div class="col-12">
-                <a class="btn btn-primary localized" target="_blank" data-toggle="modal" data-target="#modalChronik" data-i18n="about.button">#</a>
-            </div>
-        </div>
-        <div class="row text-center mt-3">
-            <div class="col-12">
-                <a class="btn btn-primary localized" target="_blank" data-toggle="modal" data-target="#modalReview" data-i18n="modal.review.button">#</a>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Collectives -->
-<section class="bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center title-box">
-                <h3 class="section-subheading text-muted">presented by...</h3>
+    <!-- Collectives -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center title-box">
+                    <h3 class="section-subheading text-muted">presented by...</h3>
+                </div>
             </div>
-        </div>
-        <div class="row mb-5">
-            
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.teilko.heading', 'modal.collectives.teilko.text', 'Teil7', 'teilkonversum7',null);">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/teilkonversum.png" alt="collective image">
-                </a>
+            <div class="row mb-5">
+
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.teilko.heading', 'modal.collectives.teilko.text', 'Teil7', 'teilkonversum7',null);">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/teilkonversum.png" alt="collective image">
+                    </a>
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.lila.heading', 'modal.collectives.lila.text', 'LDrache', null,'liladrache.halle');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/drache.png" alt="collective image">
+                    </a>
+                </div>
+
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.l300.heading', 'modal.collectives.l300.text', 'L300DecArt', 'l300decart','l300.decoration.arts.circle');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/l300.png" alt="collective image">
+                    </a>
+                </div>
+
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.orgia.heading', 'modal.collectives.orgia.text', 'orgiadreitausend', 'orgia3000','orgia3000');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/orgia.png" alt="collective image">
+                    </a>
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.resonant.heading', 'modal.collectives.resonant.text', 'resonantKollektiv', 'resonant_ev','resonant_ev');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/resonant.png" alt="collective image">
+                    </a>
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.vacanza.heading', 'modal.collectives.vacanza.text', null, null,'vacanzaleipzig');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/vacanza.png" alt="collective image">
+                    </a>
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.brausecus.heading', 'modal.collectives.brausecus.text', null, null,'brausecus');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/brausecus.png" alt="BrauseCus">
+                    </a>
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.poly.heading', 'modal.collectives.poly.text', null, null,'polynoiseon');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/poly.png" alt="Polynoiseon">
+                    </a>
+                </div>
             </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.lila.heading', 'modal.collectives.lila.text', 'LDrache', null,'liladrache.halle');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/drache.png" alt="collective image">
-                </a>
+            <div class="row pt-5">
+                <div class="col-lg-12 text-center title-box">
+                    <h3 class="section-subheading text-muted">supported by...</h3>
+                </div>
             </div>
-            
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.l300.heading', 'modal.collectives.l300.text', 'L300DecArt', 'l300decart','l300.decoration.arts.circle');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/l300.png" alt="collective image">
-                </a>
-            </div>
-            
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.orgia.heading', 'modal.collectives.orgia.text', 'orgiadreitausend', 'orgia3000','orgia3000');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/orgia.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.resonant.heading', 'modal.collectives.resonant.text', 'resonantKollektiv', 'resonant_ev','resonant_ev');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/resonant.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.vacanza.heading', 'modal.collectives.vacanza.text', null, null,'vacanzaleipzig');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/vacanza.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.brausecus.heading', 'modal.collectives.brausecus.text', null, null,'brausecus');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/brausecus.png" alt="BrauseCus">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.poly.heading', 'modal.collectives.poly.text', null, null,'polynoiseon');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/poly.png" alt="Polynoiseon">
-                </a>
-            </div>
-        </div>
-        <div class="row pt-5">
-            <div class="col-lg-12 text-center title-box">
-                <h3 class="section-subheading text-muted">supported by...</h3>
-            </div>
-        </div>
-        <div class="row">
-            <!--<div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <div class="row">
+                <!--<div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.nautilux.heading', 'modal.collectives.nautilux.text', null, 'nautilux',null);">
                     <img class="img-fluid d-block mx-auto" src="img/logos/nautilux.png" alt="collective image">
                 </a>
@@ -287,51 +282,47 @@
                 </a>
             </div>
         -->
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.reihe.heading', 'modal.collectives.reihe.text', 'ZWEITE-REIHE-446423509465185', 'zweitereihe','zweitereihe_halle');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/reihe.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.wert.heading', 'modal.collectives.wert.text', null, null,'wertderdinge');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/wert.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-               
-                    <img class="img-fluid d-block mx-auto" src="img/logos/mjut.png" alt="collective image">
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.unterdruck.heading', 'modal.collectives.unterdruck.text', null, null,null);">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/unterdruck.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle','stationendlos');">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
-                </a>
-            </div>
-            <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.kbs.heading', 'modal.collectives.kbs.text', null, null,null);">
-                    <img class="img-fluid d-block mx-auto" src="img/logos/LOGO_Kollektiv_Barrieren_Sprengen.png" alt="collective image">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.reihe.heading', 'modal.collectives.reihe.text', 'ZWEITE-REIHE-446423509465185', 'zweitereihe','zweitereihe_halle');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/reihe.png" alt="collective image">
+                    </a>
+                </div>
 
-<!-- Artists -->
-<section class="" id="artists">
-    <div class="container">
-        <div class="row">
-            
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center title-box localized">
-                <h2 class="section-heading text-uppercase" data-i18n="artists.heading">#</h2>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+
+                    <img class="img-fluid d-block mx-auto" src="img/logos/mjut.png" alt="collective image">
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.unterdruck.heading', 'modal.collectives.unterdruck.text', null, null,null);">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/unterdruck.png" alt="collective image">
+                    </a>
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.endlos.heading', 'modal.collectives.endlos.text', 'StationEndlos', 'station-endlos-halle','stationendlos');">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/endlos.png" alt="collective image">
+                    </a>
+                </div>
+                <div class="collective col-xl-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <a target="_blank" onclick="$(this).buildCollModal('modal.collectives.kbs.heading', 'modal.collectives.kbs.text', null, null,null);">
+                        <img class="img-fluid d-block mx-auto" src="img/logos/LOGO_Kollektiv_Barrieren_Sprengen.png" alt="collective image">
+                    </a>
+                </div>
             </div>
         </div>
-        <!--
+    </section>
+
+    <!-- Artists -->
+    <section class="" id="artists">
+        <div class="container">
+            <div class="row">
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center title-box localized">
+                    <h2 class="section-heading text-uppercase" data-i18n="artists.heading">#</h2>
+                </div>
+            </div>
+            <!--
         <div class="row text-center" >
             <div class="d-flex flex-wrap justify-content-between m-4 text-center text-primary jus" id="artistsLineup"></div>
             
@@ -343,66 +334,66 @@
             </div>
                 
         -->
-                <div class="col-12">
-                    <p class="text-center text-justify lead">
-                        tba
-                    </p>
-                </div>
-
-            
-            
-        </div>
-    </div>
-</section>
-
-<!-- Info -->
-<section id="info" class="bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center title-box localized">
-                <h2 class="section-heading text-uppercase" data-i18n="info.heading">#</h2>
+            <div class="col-12">
+                <p class="text-center text-justify lead">
+                    tba
+                </p>
             </div>
+
+
+
         </div>
-        <div class="row">
-            <div class="col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box1.heading">#</h2>
-                        <hr class="divider">
-                        <!--tba-->
-                        <div class="d-none">
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.tba.text">#</p>
-                        </div>
-                        <!--announcement-->
-                        <div class="">
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.announcement.text">#</p>
-                        </div>
-                        <!--open-->
-                        <div class="d-none">
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading1">#</p>
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.text1">#</p>
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading2">#</p>
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.open.text2">#</p>
-                        </div>
-                        <!--closednext-->
-                        <div class="d-none">
-                            <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.closednext.heading">#</p>
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.closednext.text">#</p>
-                        </div>
-                        <!--closed-->
-                        <div class="d-none">
-                            <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.closed.heading">#</p>
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.closed.text">#</p>
-                        </div>
-                        <!--accessibility-->
-                        <div class="d-none">
-                            <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.accessibility.heading">#</p>
-                            <p class="text-justify text-center" data-i18n="[html]info.box1.accessibility.text">#</p>
-                        </div>
-                        <!--warning-->
-                        <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.warning.heading">#</p>
-                        <p class="text-justify text-center" data-i18n="[html]info.box1.warning.text">#</p>
-                        <!--
+        </div>
+    </section>
+
+    <!-- Info -->
+    <section id="info" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center title-box localized">
+                    <h2 class="section-heading text-uppercase" data-i18n="info.heading">#</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box1.heading">#</h2>
+                            <hr class="divider">
+                            <!--tba-->
+                            <div class="d-none">
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.tba.text">#</p>
+                            </div>
+                            <!--announcement-->
+                            <div class="">
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.announcement.text">#</p>
+                            </div>
+                            <!--open-->
+                            <div class="d-none">
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading1">#</p>
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.open.text1">#</p>
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.open.heading2">#</p>
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.open.text2">#</p>
+                            </div>
+                            <!--closednext-->
+                            <div class="d-none">
+                                <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.closednext.heading">#</p>
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.closednext.text">#</p>
+                            </div>
+                            <!--closed-->
+                            <div class="d-none">
+                                <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.closed.heading">#</p>
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.closed.text">#</p>
+                            </div>
+                            <!--accessibility-->
+                            <div class="d-none">
+                                <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.accessibility.heading">#</p>
+                                <p class="text-justify text-center" data-i18n="[html]info.box1.accessibility.text">#</p>
+                            </div>
+                            <!--warning-->
+                            <p class="text-justify text-center font-weight-bold" data-i18n="[html]info.box1.warning.heading">#</p>
+                            <p class="text-justify text-center" data-i18n="[html]info.box1.warning.text">#</p>
+                            <!--
                             <p class="text-justify text-center" data-i18n="info.box1.text2">#</p>
                             <p class="lead text-center" data-i18n="info.box1.subheading3">#</p>
                             <p class="text-justify text-center" data-i18n="info.box1.text3">#</p>
@@ -410,249 +401,205 @@
                             <p class="lead text-center"><a href="https://www.tixforgigs.com/Event/41504" target="_blank" data-i18n="info.box1.subheading1">#</a></p>
                             <p class="lead text-center"><a href="https://www.tixforgigs.com/Event/41504" target="_blank" data-i18n="info.box1.subheading2">#</a></p>
                         -->
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-12 mb-4 d-none">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box2.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center" data-i18n="info.box2.subheading1">#</p>
-                        <p class="text-justify" data-i18n="info.box2.text1">#</p>
-                        <p class="lead text-center" data-i18n="info.box2.subheading2">#</p>
-                        <p class="text-justify mb-0" data-i18n="info.box2.text2">#</p>
+                <div class="col-md-6 col-12 mb-4 d-none">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box2.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center" data-i18n="info.box2.subheading1">#</p>
+                            <p class="text-justify" data-i18n="info.box2.text1">#</p>
+                            <p class="lead text-center" data-i18n="info.box2.subheading2">#</p>
+                            <p class="text-justify mb-0" data-i18n="info.box2.text2">#</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="arivalanddeparture" class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box4.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question1', 'info.box4.text1');"
-                               data-i18n="info.box4.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question2', 'info.box4.text2');"
-                               data-i18n="info.box4.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question3', 'info.box4.text3');"
-                               data-i18n="info.box4.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question4', 'info.box4.text4');"
-                               data-i18n="info.box4.subheading4">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question5', 'info.box4.text5');"
-                               data-i18n="info.box4.subheading5">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question6', 'info.box4.text6');"
-                               data-i18n="info.box4.subheading6">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box4.question7', 'info.box4.text7');"
-                               data-i18n="info.box4.subheading7">#</a>
-                        </p>
+                <div id="arivalanddeparture" class="col-lg-4 col-sm-6 col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box4.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box4.question1', 'info.box4.text1');" data-i18n="info.box4.subheading1">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box4.question2', 'info.box4.text2');" data-i18n="info.box4.subheading2">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box4.question3', 'info.box4.text3');" data-i18n="info.box4.subheading3">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box4.question4', 'info.box4.text4');" data-i18n="info.box4.subheading4">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box4.question5', 'info.box4.text5');" data-i18n="info.box4.subheading5">#</a>
+                            </p>
+                            <p class="lead text-center mb-0">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box4.question6', 'info.box4.text6');" data-i18n="info.box4.subheading6">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box4.question7', 'info.box4.text7');" data-i18n="info.box4.subheading7">#</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box5.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box5.question1', 'info.box5.text1');"
-                               data-i18n="info.box5.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box5.question2', 'info.box5.text2');"
-                               data-i18n="info.box5.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box5.question3', 'info.box5.text3');"
-                               data-i18n="info.box5.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box5.question4', 'info.box5.text4');"
-                               data-i18n="info.box5.subheading4">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box5.question5', 'info.box5.text5');"
-                               data-i18n="info.box5.subheading5">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box5.question6', 'info.box5.text6');"
-                               data-i18n="info.box5.subheading6">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box5.question7', 'info.box5.text7');"
-                               data-i18n="info.box5.subheading7">#</a>
-                        </p>
+                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box5.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box5.question1', 'info.box5.text1');" data-i18n="info.box5.subheading1">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box5.question2', 'info.box5.text2');" data-i18n="info.box5.subheading2">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box5.question3', 'info.box5.text3');" data-i18n="info.box5.subheading3">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box5.question4', 'info.box5.text4');" data-i18n="info.box5.subheading4">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box5.question5', 'info.box5.text5');" data-i18n="info.box5.subheading5">#</a>
+                            </p>
+                            <p class="lead text-center mb-0">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box5.question6', 'info.box5.text6');" data-i18n="info.box5.subheading6">#</a>
+                            </p>
+                            <p class="lead text-center mb-0">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box5.question7', 'info.box5.text7');" data-i18n="info.box5.subheading7">#</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box6.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box6.question1', 'info.box6.text1');"
-                               data-i18n="info.box6.subheading1">#</a>
-                        </p>
-                        <!--<p class="lead text-center">
+                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box6.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box6.question1', 'info.box6.text1');" data-i18n="info.box6.subheading1">#</a>
+                            </p>
+                            <!--<p class="lead text-center">
                             <a href="#" onclick="return $(this).buildInfoModal('info.box6.question7', 'info.box6.text7');"
                                data-i18n="info.box6.subheading7">#</a>
                         </p>
                     -->
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box6.question2', 'info.box6.text2');"
-                               data-i18n="info.box6.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box6.question3', 'info.box6.text3');"
-                               data-i18n="info.box6.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box6.question4', 'info.box6.text4');"
-                               data-i18n="info.box6.subheading4">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box6.question5', 'info.box6.text5');"
-                               data-i18n="info.box6.subheading5">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box6.question6', 'info.box6.text6');"
-                               data-i18n="info.box6.subheading6">#</a>
-                        </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box6.question2', 'info.box6.text2');" data-i18n="info.box6.subheading2">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box6.question3', 'info.box6.text3');" data-i18n="info.box6.subheading3">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box6.question4', 'info.box6.text4');" data-i18n="info.box6.subheading4">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box6.question5', 'info.box6.text5');" data-i18n="info.box6.subheading5">#</a>
+                            </p>
+                            <p class="lead text-center mb-0">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box6.question6', 'info.box6.text6');" data-i18n="info.box6.subheading6">#</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box7.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box7.question1', 'info.box7.text1');"
-                               data-i18n="info.box7.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box7.question2', 'info.box7.text2');"
-                               data-i18n="info.box7.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box7.question3', 'info.box7.text3');"
-                               data-i18n="info.box7.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box7.question4', 'info.box7.text4');"
-                               data-i18n="info.box7.subheading4">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box7.question5', 'info.box7.text5');"
-                               data-i18n="info.box7.subheading5">#</a>
-                        </p>
+                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box7.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box7.question1', 'info.box7.text1');" data-i18n="info.box7.subheading1">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box7.question2', 'info.box7.text2');" data-i18n="info.box7.subheading2">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box7.question3', 'info.box7.text3');" data-i18n="info.box7.subheading3">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box7.question4', 'info.box7.text4');" data-i18n="info.box7.subheading4">#</a>
+                            </p>
+                            <p class="lead text-center mb-0">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box7.question5', 'info.box7.text5');" data-i18n="info.box7.subheading5">#</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="teilhabe" class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div  class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box11.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question1', 'info.box11.text1');"
-                               data-i18n="info.box11.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question2', 'info.box11.text2');"
-                               data-i18n="info.box11.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question3', 'info.box11.text3');"
-                               data-i18n="info.box11.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center ">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question4', 'info.box11.text4');"
-                               data-i18n="info.box11.subheading4">#</a>
-                        </p>
-                        <p class="lead text-center ">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question5', 'info.box11.text5');"
-                               data-i18n="info.box11.subheading5">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question6', 'info.box11.text6');"
-                               data-i18n="info.box11.subheading6">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question7', 'info.box11.text7');"
-                               data-i18n="info.box11.subheading7">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box11.question8', 'info.box11.text8');"
-                               data-i18n="info.box11.subheading8">#</a>
-                        </p>
+                <div id="teilhabe" class="col-lg-4 col-sm-6 col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box11.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box11.question1', 'info.box11.text1');" data-i18n="info.box11.subheading1">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box11.question2', 'info.box11.text2');" data-i18n="info.box11.subheading2">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box11.question3', 'info.box11.text3');" data-i18n="info.box11.subheading3">#</a>
+                            </p>
+                            <p class="lead text-center ">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box11.question4', 'info.box11.text4');" data-i18n="info.box11.subheading4">#</a>
+                            </p>
+                            <p class="lead text-center ">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box11.question5', 'info.box11.text5');" data-i18n="info.box11.subheading5">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box11.question6', 'info.box11.text6');" data-i18n="info.box11.subheading6">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box11.question7', 'info.box11.text7');" data-i18n="info.box11.subheading7">#</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box8.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question1', 'info.box8.text1');"
-                               data-i18n="info.box8.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question2', 'info.box8.text2');"
-                               data-i18n="info.box8.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question3', 'info.box8.text3');"
-                               data-i18n="info.box8.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box8.question4', 'info.box8.text4');"
-                               data-i18n="info.box8.subheading4">#</a>
-                        </p>
+                <div class="col-lg-4 col-sm-6 col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box8.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box8.question1', 'info.box8.text1');" data-i18n="info.box8.subheading1">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box8.question2', 'info.box8.text2');" data-i18n="info.box8.subheading2">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box8.question3', 'info.box8.text3');" data-i18n="info.box8.subheading3">#</a>
+                            </p>
+                            <p class="lead text-center mb-0">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box8.question4', 'info.box8.text4');" data-i18n="info.box8.subheading4">#</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
-                <div class="info-box">
-                    <div class="info-content localized">
-                        <h2 class="info-title" data-i18n="info.box9.heading">#</h2>
-                        <hr class="divider">
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question1', 'info.box9.text1');"
-                               data-i18n="info.box9.subheading1">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question2', 'info.box9.text2');"
-                               data-i18n="info.box9.subheading2">#</a>
-                        </p>
-                        <p class="lead text-center">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question3', 'info.box9.text3');"
-                               data-i18n="info.box9.subheading3">#</a>
-                        </p>
-                        <p class="lead text-center mb-0">
-                            <a href="#" onclick="return $(this).buildInfoModal('info.box9.question4', 'info.box9.text4');"
-                               data-i18n="info.box9.subheading4">#</a>
-                        </p>
-                        
+                <div class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
+                    <div class="info-box">
+                        <div class="info-content localized">
+                            <h2 class="info-title" data-i18n="info.box9.heading">#</h2>
+                            <hr class="divider">
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box9.question1', 'info.box9.text1');" data-i18n="info.box9.subheading1">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box9.question2', 'info.box9.text2');" data-i18n="info.box9.subheading2">#</a>
+                            </p>
+                            <p class="lead text-center">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box9.question3', 'info.box9.text3');" data-i18n="info.box9.subheading3">#</a>
+                            </p>
+                            <p class="lead text-center mb-0">
+                                <a href="#" onclick="return $(this).buildInfoModal('info.box9.question4', 'info.box9.text4');" data-i18n="info.box9.subheading4">#</a>
+                            </p>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <!--
+
+                <!--
             <div id="infocorona" class="offset-lg-3 col-lg-6 offset-sm-2 col-sm-8 col-12 mb-4">
                 <div class="info-box">
                     <div class="info-content localized">
@@ -690,352 +637,340 @@
                 </div>
             </div>
             -->
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Avenue -->
-<!--
+    <!-- Avenue -->
+    <!--
     Currently not working
 -->
-<section class="p-0 bg-light" id="avenue">
-    <div id="map" style="height: 400px"></div>
-</section>
-<!--Helpers-->
-<section id="helpers" class="">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center title-box localized">
-                <h4 class="section-heading d-none" data-i18n="helpers.closed">#</h4> 
-                
+    <section class="p-0 bg-light" id="avenue">
+        <div id="map" style="height: 400px"></div>
+    </section>
+    <!--Helpers-->
+    <section id="helpers" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center title-box localized">
+                    <h4 class="section-heading d-none" data-i18n="helpers.closed">#</h4>
+
                     <h2 class="section-heading text-uppercase" data-i18n="helpers.heading">#</h2>
                     <p class="d-none" data-i18n="helpers.pre">#</p>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSesR3adC5FpLNYxf-9GcMD9mgkfKJ8n4w0IrwW40sxRLphusA/viewform?usp=sf_link" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="helpers.button">#</a>
-                
+
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Contact -->
-<section id="contact" class="pb-0 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="box-shadow-full">
-                    <div class="row">
-                        
-                        <div class="col-md">
-                            <div class="title-box pt-4 pt-md-0">
-                                <h3 class="title-left localized" data-i18n="contact.newsletter.heading">#</h3>
-                            </div>
-                            <p class="localized" data-i18n="contact.newsletter.text">#</p>
-                            <a class="btn btn-primary btn-xl localized" target="_blank" onclick="return $(this).showNewsletterModal();"
-                            data-i18n="contact.newsletter.button">#</a>
-                        </div>
-                        <div class="col-md">
-                            
-                            <div class="title-box pt-4 pt-md-0">
-                                <h3 class="title-left localized" data-i18n="contact.display.heading">#</h3>
-                            </div>
-                            <div class="more-info localized">
-                                <a class="btn btn-primary w-100 d-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJlhhNfA9TFceZUY7Tsf6lha0KQs2vyUspztedvlnAfrtZnA/viewform?usp=sf_link" data-i18n="contact.display.button">#</a>
-                                <p class="mt-4" data-i18n="contact.display.text">#</p>
-                                <ul class="list-ico">
-                                    <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1"
-                                                                                                  target="_blank"
-                                                                                                  href="https://www.google.com/maps/@51.3885371,11.4506664,18.92z?hl=de">Flugplatz
-                                        Allstedt</a></li>
-                                    <li><i class="fas fa-envelope text-primary"></i> <a
-                                            href="mailto:contact@tarmac-festival.de">contact@tarmac-festival.de</a>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-envelope text-primary"></i> 
-                                        <a
-                                        href="mailto:booking@tarmac-festival.de">booking@tarmac-festival.de</a>
-                                        <p class="localized" data-i18n="contact.booking.text">#</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row pt-0 pt-md-5">
-                        <div class="col">
-                            <div class="title-box pt-4">
-                                <h3 class="title-left localized" data-i18n="contact.form.heading">#</h3>
-                            </div>
-                            <div>
-                                <div id="alertSuccess" class="alert alert-success text-justify localized" role="alert" style="display: none" data-i18n="contact.form.alert.success">#</div>
-                                <div id="alertFail" class="alert alert-danger text-justify localized" role="alert" style="display: none" data-i18n="[prepend]contact.form.alert.fail">
-                                    <a href="mailto:contact@tarmac-festival.de" class="alert-link">contact@tarmac-festival.de</a>.
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="pb-0 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-shadow-full">
+                        <div class="row">
+
+                            <div class="col-md">
+                                <div class="title-box pt-4 pt-md-0">
+                                    <h3 class="title-left localized" data-i18n="contact.newsletter.heading">#</h3>
                                 </div>
-                                <form action="" method="post" role="form" id="contactForm">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control localized" name="email" id="email"
-                                                       placeholder="#" data-i18n="[placeholder]contact.form.input1" required/>
+                                <p class="localized" data-i18n="contact.newsletter.text">#</p>
+                                <a class="btn btn-primary btn-xl localized" target="_blank" onclick="return $(this).showNewsletterModal();" data-i18n="contact.newsletter.button">#</a>
+                            </div>
+                            <div class="col-md">
+
+                                <div class="title-box pt-4 pt-md-0">
+                                    <h3 class="title-left localized" data-i18n="contact.display.heading">#</h3>
+                                </div>
+                                <div class="more-info localized">
+                                    <a class="btn btn-primary w-100 d-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJlhhNfA9TFceZUY7Tsf6lha0KQs2vyUspztedvlnAfrtZnA/viewform?usp=sf_link" data-i18n="contact.display.button">#</a>
+                                    <p class="mt-4" data-i18n="contact.display.text">#</p>
+                                    <ul class="list-ico">
+                                        <li><i class="fas fa-map-marker-alt text-primary pl-1"></i><a class="pl-1" target="_blank" href="https://www.google.com/maps/@51.3885371,11.4506664,18.92z?hl=de">Flugplatz
+                                        Allstedt</a></li>
+                                        <li><i class="fas fa-envelope text-primary"></i> <a href="mailto:contact@tarmac-festival.de">contact@tarmac-festival.de</a>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-envelope text-primary"></i>
+                                            <a href="mailto:booking@tarmac-festival.de">booking@tarmac-festival.de</a>
+                                            <p class="localized" data-i18n="contact.booking.text">#</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-0 pt-md-5">
+                            <div class="col">
+                                <div class="title-box pt-4">
+                                    <h3 class="title-left localized" data-i18n="contact.form.heading">#</h3>
+                                </div>
+                                <div>
+                                    <div id="alertSuccess" class="alert alert-success text-justify localized" role="alert" style="display: none" data-i18n="contact.form.alert.success">#</div>
+                                    <div id="alertFail" class="alert alert-danger text-justify localized" role="alert" style="display: none" data-i18n="[prepend]contact.form.alert.fail">
+                                        <a href="mailto:contact@tarmac-festival.de" class="alert-link">contact@tarmac-festival.de</a>.
+                                    </div>
+                                    <form action="" method="post" role="form" id="contactForm">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control localized" name="email" id="email" placeholder="#" data-i18n="[placeholder]contact.form.input1" required/>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="name" class="form-control localized" id="subject"
-                                                       placeholder="#" minlength="4" data-i18n="[placeholder]contact.form.input2" required/>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" name="name" class="form-control localized" id="subject" placeholder="#" minlength="4" data-i18n="[placeholder]contact.form.input2" required/>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <input type="text" name="name" class="form-control localized" id="name"
-                                                       placeholder="#" minlength="4" data-i18n="[placeholder]contact.form.input3" required/>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" name="name" class="form-control localized" id="name" placeholder="#" minlength="4" data-i18n="[placeholder]contact.form.input3" required/>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <button id="send" type="submit" class="btn btn-primary btn-xl localized" data-i18n="[append]contact.form.button">
+                                            <div class="col-md-12">
+                                                <button id="send" type="submit" class="btn btn-primary btn-xl localized" data-i18n="[append]contact.form.button">
                                                 <span id="sendSpinner" class="spinner-border spinner-border-sm mr-1 d-none" role="status" aria-hidden="true"></span>
                                             </button>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer class="bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; TARMAC Festival 2023</span>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.instagram.com/tarmacfestival" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://soundcloud.com/tarmac-festival" target="_blank">
-                            <i class="fab fa-soundcloud"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 localized">
-                <ul class="list-inline quicklinks">
-                    <li class="list-inline-item">
-                        <a href="AGB.html" target="_blank" data-i18n="footer.notice">#</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="Datenschutz.html" target="_blank" data-i18n="footer.policy">#</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" data-i18n="[href]footer.link;footer.language">#</a>
-                    </li>
-                </ul>
+    <!-- Footer -->
+    <footer class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; TARMAC Festival 2024</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/tarmacfestival" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://soundcloud.com/tarmac-festival" target="_blank">
+                                <i class="fab fa-soundcloud"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 localized">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <a href="AGB.html" target="_blank" data-i18n="footer.notice">#</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="Datenschutz.html" target="_blank" data-i18n="footer.policy">#</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-i18n="[href]footer.link;footer.language">#</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
-<div class="modal fade" id="modalChronik" tabindex="-1" role="dialog" aria-labelledby="modalChronikTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title localized" id="modalChronikTitle" data-i18n="modal.chronic.heading">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade" id="modalChronik" tabindex="-1" role="dialog" aria-labelledby="modalChronikTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title localized" id="modalChronikTitle" data-i18n="modal.chronic.heading">#</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 localized">
-                            <p data-i18n="modal.chronic.text1">#</p>
-                            <p data-i18n="modal.chronic.text2">#</p>
-                            <p data-i18n="modal.chronic.text3">#</p>
-                            <p data-i18n="modal.chronic.text4">#</p>
-                            <p data-i18n="modal.chronic.text5">#</p>
-                        </div>
-                    </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="modalReview" tabindex="-1" role="dialog" aria-labelledby="modalReviewTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title localized" id="modalReviewTitle" data-i18n="modal.review.heading">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 localized">
-                            <div class="pb-">
-                                <p data-i18n="[html]modal.review.content.general">#</p>
-                            </div>
-                            <div class="pb-3">
-                                <h5 data-i18n="modal.review.content.water.heading">#</h5>
-                                <p data-i18n="[html]modal.review.content.water.text">#</p>
-                            </div>
-                            <div class="pb-3">
-                                <h5 data-i18n="modal.review.content.deposit.heading">#</h5>
-                                <p data-i18n="[html]modal.review.content.deposit.text">#</p>
-                            </div>
-                            <div class="pb-3">
-                                <h5 data-i18n="modal.review.content.design.heading">#</h5>
-                                <p data-i18n="[html]modal.review.content.design.text">#</p>
-                            </div>
-                            <div class="pb-3">
-                                <h5 data-i18n="modal.review.content.soundcloud.heading">#</h5>
-                                <p data-i18n="[html]modal.review.content.soundcloud.text">#</p>
+                <div class="modal-body text-justify">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 localized">
+                                <p data-i18n="modal.chronic.text1">#</p>
+                                <p data-i18n="modal.chronic.text2">#</p>
+                                <p data-i18n="modal.chronic.text3">#</p>
+                                <p data-i18n="modal.chronic.text4">#</p>
+                                <p data-i18n="modal.chronic.text5">#</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="modal fade" id="modalImportant" tabindex="-1" role="dialog" aria-labelledby="modalImportantTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.marketplace.heading">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade" id="modalReview" tabindex="-1" role="dialog" aria-labelledby="modalReviewTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title localized" id="modalReviewTitle" data-i18n="modal.review.heading">#</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 localized">
-                            <p id="modalImportantText" data-i18n="[html]modal.important.tickets.marketplace.text">#</p>
-                            <p id="modalImportantNewsletter" data-i18n="[html]modal.important.newsletter">#</p>
+                </div>
+                <div class="modal-body text-justify">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 localized">
+                                <div class="pb-">
+                                    <p data-i18n="[html]modal.review.content.general">#</p>
+                                </div>
+                                <div class="pb-3">
+                                    <h5 data-i18n="modal.review.content.water.heading">#</h5>
+                                    <p data-i18n="[html]modal.review.content.water.text">#</p>
+                                </div>
+                                <div class="pb-3">
+                                    <h5 data-i18n="modal.review.content.deposit.heading">#</h5>
+                                    <p data-i18n="[html]modal.review.content.deposit.text">#</p>
+                                </div>
+                                <div class="pb-3">
+                                    <h5 data-i18n="modal.review.content.design.heading">#</h5>
+                                    <p data-i18n="[html]modal.review.content.design.text">#</p>
+                                </div>
+                                <div class="pb-3">
+                                    <h5 data-i18n="modal.review.content.soundcloud.heading">#</h5>
+                                    <p data-i18n="[html]modal.review.content.soundcloud.text">#</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <ul class="list-inline social-buttons mr-auto">
-                    <li class="list-inline-item">
-                        <a href="https://www.tixforgigs.com/Event/54917" target="_blank">
-                            <i class="fas fa-ticket-alt"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://soundcloud.com/tarmac-festival" target="_blank">
-                            <i class="fab fa-soundcloud"></i>
-                        </a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <div class="modal fade" id="modalImportant" tabindex="-1" role="dialog" aria-labelledby="modalImportantTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.marketplace.heading">#</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body text-justify">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 localized">
+                                <p id="modalImportantText" data-i18n="[html]modal.important.tickets.marketplace.text">#</p>
+                                <p id="modalImportantNewsletter" data-i18n="[html]modal.important.newsletter">#</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <ul class="list-inline social-buttons mr-auto">
+                        <li class="list-inline-item">
+                            <a href="https://www.tixforgigs.com/Event/54917" target="_blank">
+                                <i class="fas fa-ticket-alt"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://soundcloud.com/tarmac-festival" target="_blank">
+                                <i class="fab fa-soundcloud"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="modal fade" id="modalFaq" tabindex="-1" role="dialog" aria-labelledby="modalFaqTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title localized" id="modalFaqTitle" data-i18n="modal.faq.heading">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade" id="modalFaq" tabindex="-1" role="dialog" aria-labelledby="modalFaqTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title localized" id="modalFaqTitle" data-i18n="modal.faq.heading">#</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 localized">
-                            <p data-i18n="modal.common.soon">#</p>
+                </div>
+                <div class="modal-body text-justify">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 localized">
+                                <p data-i18n="modal.common.soon">#</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="modal fade" id="modalColl" tabindex="-1" role="dialog" aria-labelledby="modalCollTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="modalCollTitle">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade" id="modalColl" tabindex="-1" role="dialog" aria-labelledby="modalCollTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalCollTitle">#</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            <p id="modalCollText">#</p>
+                </div>
+                <div class="modal-body text-justify">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="modalCollText">#</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <ul class="list-inline social-buttons mr-auto">
-                    <li id="modalCollContainerFb" class="list-inline-item">
-                        <a id="modalCollLinkFb" href="#" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li id="modalCollContainerSc" class="list-inline-item">
-                        <a id="modalCollLinkSc" href="#" target="_blank">
-                            <i class="fab fa-soundcloud"></i>
-                        </a>
-                    </li>
-                    <li id="modalCollContainerInst" class="list-inline-item">
-                        <a id="modalCollLinkInst" href="#" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                <div class="modal-footer">
+                    <ul class="list-inline social-buttons mr-auto">
+                        <li id="modalCollContainerFb" class="list-inline-item">
+                            <a id="modalCollLinkFb" href="#" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li id="modalCollContainerSc" class="list-inline-item">
+                            <a id="modalCollLinkSc" href="#" target="_blank">
+                                <i class="fab fa-soundcloud"></i>
+                            </a>
+                        </li>
+                        <li id="modalCollContainerInst" class="list-inline-item">
+                            <a id="modalCollLinkInst" href="#" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--
+    <!--
 
     <div class="modal fade" id="modalArtist" tabindex="-1" role="dialog" aria-labelledby="modalArtistTitle"
     aria-hidden="true">
@@ -1107,129 +1042,128 @@
 </div>
 -->
 
-<div class="modal fade" id="modalArtist" tabindex="-1" role="dialog" aria-labelledby="modalArtistTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-        <div class="modal-content archived">
-            <div class="modal-footer p-0 archived">
-                <ul class="list-inline social-buttons m-auto">
-                    <li id="modalArtistContainerFb" class="list-inline-item d-none">
-                        <a id="modalArtistLinkFb" href="#" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li id="modalArtistContainerSc" class="list-inline-item d-none">
-                        <a id="modalArtistLinkSc" href="#" target="_blank">
-                            <i class="fab fa-soundcloud"></i>
-                        </a>
-                    </li>
-                    <li id="modalArtistContainerIg" class="list-inline-item d-none">
-                        <a id="modalArtistLinkIg" href="#" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li id="modalArtistContainerYt" class="list-inline-item d-none">
-                        <a id="modalArtistLinkYt" href="#" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li id="modalArtistContainerBc" class="list-inline-item d-none">
-                        <a id="modalArtistLinkBc" href="#" target="_blank">
-                            <i class="fab fa-bandcamp"></i>
-                        </a>
-                    </li>
-                    <li id="modalArtistContainerMc" class="list-inline-item d-none">
-                        <a id="modalArtistLinkMc" href="#" target="_blank">
-                            <i class="fab fa-mixcloud"></i>
-                        </a>
-                    </li>
-                    <li id="modalArtistContainerTw" class="list-inline-item d-none">
-                        <a id="modalArtistLinkTw" href="#" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li id="modalArtistContainerDefault" class="list-inline-item ">
-                        <a id="modalArtistLinkDefault" href="#" target="_blank">
-                            <i class="fas fa-link"></i>
-                        </a>
-                    </li>
-                    
-                </ul>
-                <!--<button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>-->
+    <div class="modal fade" id="modalArtist" tabindex="-1" role="dialog" aria-labelledby="modalArtistTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content archived">
+                <div class="modal-footer p-0 archived">
+                    <ul class="list-inline social-buttons m-auto">
+                        <li id="modalArtistContainerFb" class="list-inline-item d-none">
+                            <a id="modalArtistLinkFb" href="#" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li id="modalArtistContainerSc" class="list-inline-item d-none">
+                            <a id="modalArtistLinkSc" href="#" target="_blank">
+                                <i class="fab fa-soundcloud"></i>
+                            </a>
+                        </li>
+                        <li id="modalArtistContainerIg" class="list-inline-item d-none">
+                            <a id="modalArtistLinkIg" href="#" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li id="modalArtistContainerYt" class="list-inline-item d-none">
+                            <a id="modalArtistLinkYt" href="#" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li id="modalArtistContainerBc" class="list-inline-item d-none">
+                            <a id="modalArtistLinkBc" href="#" target="_blank">
+                                <i class="fab fa-bandcamp"></i>
+                            </a>
+                        </li>
+                        <li id="modalArtistContainerMc" class="list-inline-item d-none">
+                            <a id="modalArtistLinkMc" href="#" target="_blank">
+                                <i class="fab fa-mixcloud"></i>
+                            </a>
+                        </li>
+                        <li id="modalArtistContainerTw" class="list-inline-item d-none">
+                            <a id="modalArtistLinkTw" href="#" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li id="modalArtistContainerDefault" class="list-inline-item ">
+                            <a id="modalArtistLinkDefault" href="#" target="_blank">
+                                <i class="fas fa-link"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!--<button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>-->
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="modalInfoTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title localized" id="modalInfoTitle">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="modalInfoTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title localized" id="modalInfoTitle">#</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            <p id="modalInfoText" class="mb-0">#</p>
+                </div>
+                <div class="modal-body text-justify">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="modalInfoText" class="mb-0">#</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="modalNewsletterTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title localized" id="modalNewsletterTitle" data-i18n="modal.newsletter.heading">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="modalNewsletterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title localized" id="modalNewsletterTitle" data-i18n="modal.newsletter.heading">#</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-            </div>
-            <div class="modal-body text-justify">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col d-flex justify-content-center align-items-center" id="modalNewsletterForm">
-                            <div id="newsletterForm" style="text-align: left" class="sender-form-field " data-sender-form-id="#"></div>
-                    </div>
+                </div>
+                <div class="modal-body text-justify">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center align-items-center" id="modalNewsletterForm">
+                                <div id="newsletterForm" style="text-align: left" class="sender-form-field " data-sender-form-id="#"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="vendor/summernote/summernote-bs4.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/summernote/summernote-bs4.min.js"></script>
 
-<!-- Contact form JavaScript -->
-<script src="js/contact_me.min.js?v=1.0"></script>
+    <!-- Contact form JavaScript -->
+    <script src="js/contact_me.min.js?v=1.0"></script>
 
-<!-- Load and init firebase app -->
-<script src="/__/firebase/7.9.0/firebase-app.js"></script>
-<script src="/__/firebase/7.9.0/firebase-analytics.js"></script>
-<script src="/__/firebase/init.js"></script>
+    <!-- Load and init firebase app -->
+    <script src="/__/firebase/7.9.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.9.0/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script>
 
-<!-- Custom scripts -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
-<script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
-<script src="js/jquery.cookiebar.js"></script>
-<script src="js/festival.min.js?v=1.11"></script>
-<script src="/js/artistload.min.js?v=1.2"></script>
+    <!-- Custom scripts -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
+    <script src="js/jquery.cookiebar.js"></script>
+    <script src="js/festival.min.js?v=1.11"></script>
+    <script src="/js/artistload.min.js?v=1.2"></script>
 
 
 </body>
+
 </html>
