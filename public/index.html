@@ -87,11 +87,11 @@
 <body id="page-top">
     <script>
         /*fills the lineup for 
-                                $(document).ready(function(){
-                                    fillArtists(2022);
-                                    
-                                });
-                                */
+                                                                                                                $(document).ready(function(){
+                                                                                                                    fillArtists(2022);
+                                                                                                                    
+                                                                                                                });
+                                                                                                                */
     </script>
     <h1 class="d-none">Tarmac Festival</h1>
 
@@ -117,8 +117,17 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger localized" href="#avenue" data-i18n="nav.avenue">#</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger localized" href="#helpers" data-i18n="nav.helpers">#</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.helpers">#</a>
+                        <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
+                            <li>
+                                <a class="dropdown-item text-primary localized" href="#helpers" data-i18n="nav.helpers">#</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-primary" href="https://tarmac-festival-shop.myspreadshop.de/" target="_blank">Merch</a>
+                            </li>
+                        </ul>
+
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger localized" href="#contact" data-i18n="nav.contact">#</a>
@@ -640,7 +649,20 @@
             </div>
         </div>
     </section>
+    <section id="merch">
+        <div class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center title-box localized">
 
+                        <h2 class="section-heading text-uppercase" data-i18n="merch.heading">#</h2>
+                        <a href="https://tarmac-festival-shop.myspreadshop.de/" target="_blank" class="btn btn-primary btn-xl h2 m-5" data-i18n="merch.button">#</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Avenue -->
     <!--
     Currently not working

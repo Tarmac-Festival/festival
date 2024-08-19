@@ -16,7 +16,9 @@
         "info": "Info",
         "avenue": "Anfahrt",
         "contact": "Kontakt",
+        "support": "Support",
         "helpers": "Helfer:in",
+        "merch": "Merch",
         "tickets": "Tickets",
         "archive": "Archiv",
         "newsletter": "Newsletter"
@@ -271,6 +273,10 @@
         "button": "Zum Formular",
         "pre": "Du hast Lust zu helfen? Alle Infos findest du ab Anfang Juli hier oder auf unseren Social Media Kanälen.",
         "closed": "Danke für Eure Unterstützung. Wir haben genug Bewerbungen von Helfer:innen erhalten, um den Bedarf zu decken."
+    },
+    "merch": {
+        "heading": "Merchandise",
+        "button": "zum Shop"
     },
     "modal": {
         "common": {

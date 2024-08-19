@@ -16,7 +16,9 @@
         "info": "Info",
         "avenue": "Location",
         "contact": "Contact us",
-        "helpers": "Support",
+        "support": "Support",
+        "helpers": "Helpers",
+        "merch": "Merch",
         "archive": "Archive",
         "newsletter": "Newsletter"
     },
@@ -268,6 +270,10 @@
         "button": "To the form",
         "pre": "You are interested in helping and supporting on the venue? Starting on July, there will be further information on the application procedure.",
         "closed": "Thank you for your support. Currently we got enouqh requests to meet our support demand."
+    },
+    "merch": {
+        "heading": "Merchandise",
+        "button": "to the Shop"
     },
     "modal": {
         "common": {
