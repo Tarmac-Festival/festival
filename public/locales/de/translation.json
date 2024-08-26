@@ -239,6 +239,18 @@
             "subheading8": "Anmeldung",
             "question8": "Das Anmeldeformular.",
             "text8": "<p>Meldet euch unter folgendem<a title=\"Teilhabe-Formular\" href=\"https://forms.gle/PcdfHp9krFLLbLSg7\" target=\"_blank\" rel=\"noopener\"> Teilhabe-Formular</a></p>"
+        },
+        "box12": {
+            "heading": "Miteinander",
+            "subheading1": "Grunds\u00E4tze f\u00FCr ein Miteinander",
+            "question1": "Grunds\u00E4tze f\u00FCr ein Miteinander",
+            "text1": "\u003Cp\u003EEs ist ganz einfach: Wir feiern gemeinsam mit sehr vielen sehr unterschiedlichen Menschen. Dabei gehen wir wertsch\u0026auml;tzend, freundlich und aufgeschlossen miteinander um. Rassismus, Antisemitismus, Sexismus, Queer- und Transfeindlichkeit oder jegliche andere Form von Diskriminierung haben auf dem Tarmac-Festival keinen Platz.\u003C/p\u003E",
+            "subheading2": "Miteinander in Solidarit\u00E4t und Konfliktsituationen",
+            "question2": "Miteinander in Solidarit\u00E4t und Konfliktsituationen",
+            "text2": "\u003Cp\u003EUnsere Solidarit\u0026auml;t gilt allen Menschen, die Opfer von Gewalt, Krieg, Terrorismus und Vertreibung sind. Dazu geh\u0026ouml;ren insbesondere diejenigen, die unterdr\u0026uuml;ckt, bedroht oder ausgegrenzt werden und nicht in Sicherheit, Freiheit und W\u0026uuml;rde leben k\u0026ouml;nnen. Botschaften, die diese Zust\u0026auml;nde legitimieren, dulden wir nicht.\u003C/p\u003E\r\n\u003Cp\u003E\u003Cbr\u003EAls Veranstaltende stehen wir vor der Aufgabe, ein f\u0026uuml;r alle Beteiligten m\u0026ouml;glichst sicheres Festival zu organisieren. Sicher bedeutet auch, uns f\u0026uuml;r die gewaltfreie Koexistenz gegenl\u0026auml;ufiger Standpunkte zu engagieren, solange sie unseren Grunds\u0026auml;tzen f\u0026uuml;r ein Miteinander nicht widersprechen.\u0026nbsp;\u003C/p\u003E\r\n\u003Cp\u003E\u003Cbr\u003EDazu geh\u0026ouml;rt auch pr\u0026auml;ventiv von Symbolen oder Botschaften abzusehen, wenn diese als Provokation gegen Menschen oder Menschengruppen gerichtet sein k\u0026ouml;nnten. Nationalflaggen sind auf unserem Gel\u0026auml;nde grunds\u0026auml;tzlich untersagt. Wir wissen, dass m\u0026ouml;glicherweise nicht alles, was im ersten Moment als Provokation verstanden wird, auch als solche gemeint ist. Seid dann verst\u0026auml;ndnisvoll und nachsichtig miteinander.\u0026nbsp;\u003C/p\u003E\r\n\u003Cp\u003E\u003Cbr\u003EUnabh\u0026auml;ngig vom Kontext basiert unser Umgang mit Konfliktsituationen auf dem Grundsatz, dass wir verbale und physische Gewalt nicht tolerieren. Jede Person auf dem Tarmac-Festival ist selbst daf\u0026uuml;r verantwortlich, sich gewaltfrei zu verhalten. So k\u0026ouml;nnen wir gemeinsam einen Beitrag dazu leisten, dass das Tarmac eine guter Rave f\u0026uuml;r alle wird.\u0026nbsp;\u003C/p\u003E",
+            "subheading3": "Dresscode",
+            "question3": "Dresscode",
+            "text3": "\u003Cp\u003EZieht euch bitte etwas an. Aus Solidarit\u0026auml;t mit all jenen, die eine Sexualisierung erfahren, wenn sie sich oben ohne zeigen, bitten wir euch alle, stets ein Oberteil zu tragen. Klassisches Shirt, Croptop, BH oder hei\u0026szlig;er Netzfummel sind ein Oberteil. Kein Oberteil hingegen ist KEIN Oberteil.\u003C/p\u003E"
         }
     },
     "contact": {
@@ -266,6 +278,112 @@
         },
         "booking": {
             "text": "Bitte beachtet, dass wir keine Initiativbewerbungen für das DJ-Booking entgegennehmen!"
+        }
+    },
+    "feedback": {
+        "form": {
+            "heading": "Nachricht senden",
+            "alert": {
+                "success": "Dein Feedback wurde erfolgreich gesendet - Vielen Dank.",
+                "fail": "Leider konnte dein Feedback nicht verarbeitet werden. Bitte sende dein Anliegen direkt an "
+            },
+            "inputs": {
+                "1": {
+                    "label": "Beschreibe das TARMAC Festival mit drei Worten!",
+                    "input": "",
+                    "placeholder": "",
+                    "validation": "",
+                    "type": "text"
+                },
+                "2": {
+                    "label": "Wie bewertest du das Preis-/Leistungsverhältnis auf dem TARMAC Festival?",
+                    "input": "",
+                    "placeholder": "",
+                    "validation": "",
+                    "type": "rating"
+                },
+                "3": {
+                    "label": "Wie schätzt du die Größe des TARMAC Festivals im Verhältnis zur GästInnen-Anzahl ein?",
+                    "input": "",
+                    "placeholder": "",
+                    "validation": "",
+                    "type": "rating"
+                },
+                "4": {
+                    "label": "Allgemeine Fragen zur Barrierefreiheit",
+                    "inputs": {
+                        "1": {
+                            "label": "Wie bewertest du die allgemeine Zugänglichkeit des Festivalgeländes?",
+                            "input": "",
+                            "placeholder": "",
+                            "validation": "",
+                            "type": "rating"
+                        },
+                        "2": {
+                            "label": "Wie bewertest du das Lichtkonzept auf den Floors?",
+                            "input": "",
+                            "placeholder": "",
+                            "validation": "",
+                            "type": "rating"
+                        },
+                        "3": {
+                            "label": "Bitte erläutere deine Bewertung zum Lichtkonzept. Was hat dir gefallen? Was könnte verbessert werden?",
+                            "input": "",
+                            "placeholder": "",
+                            "validation": "",
+                            "type": "textarea"
+                        },
+                        "4": {
+                            "label": "Wie bewertest du die Wegebeleuchtung auf dem Gelände?",
+                            "input": "",
+                            "placeholder": "",
+                            "validation": "",
+                            "type": "rating"
+                        },
+                        "5": {
+                            "label": "Wenn du mit einem Rollstuhl oder Rollator unterwegs warst: Wie bewertest du die Wege und Floorgestaltung?",
+                            "input": "",
+                            "placeholder": "",
+                            "validation": "",
+                            "type": "rating"
+                        },
+                        "6": {
+                            "label": "Gab es Barrieren, die dich eingeschränkt haben oder die dir aufgefallen sind?",
+                            "input": "",
+                            "placeholder": "",
+                            "validation": "",
+                            "type": "radio"
+                        },
+
+                        "7": {
+                            "label": "Wenn ja, bitte beschreibe die Barrieren:",
+                            "input": "",
+                            "placeholder": "",
+                            "validation": ""
+                        }
+                    }
+                },
+                "5": {
+                    "label": "Hast du Vorschläge zur Verbesserung des TARMAC Festivals?",
+                    "input": "",
+                    "placeholder": "",
+                    "validation": "",
+                    "type": "textarea"
+                }
+            },
+            "button": "Senden",
+            "ratingOptions": {
+                "0": "bitte wählen",
+                "1": "sehr gut",
+                "2": "gut",
+                "3": "neutral",
+                "4": "schlecht",
+                "5": "sehr schlecht"
+            },
+            "radio": {
+                "yes": "Ja",
+                "no": "Nein"
+            }
         }
     },
     "helpers": {

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="TARMAC Festival">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="TARMAC Festival">
+    <meta name="description" content="Mit großer Vorfreude schauen wir auf den Sommer 2023. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+
+    <!-- Open Graph meta tags-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tarmac-festival.de/Artists">
+    <meta property="og:title" content="TARMAC Festival">
+    <meta property="og:site_name" content="TARMAC Festival">
+    <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2023. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
+    <meta property="og:image" content="https://tarmac-festival.de/img/cover.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image:alt" content="TARMAC Festival Cover">
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-i18next/i18next.min.js"></script>
+    <script src="vendor/jquery-i18next/i18nextXHRBackend.min.js"></script>
+    <script src="vendor/jquery-i18next/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="vendor/jquery-i18next/jquery-i18next.min.js"></script>
+    <script>
+        // Translate text
+        i18next
+            .use(i18nextXHRBackend)
+            .use(i18nextBrowserLanguageDetector)
+            .init({
+                backend: {
+                    loadPath: './locales/{{lng}}/{{ns}}.json?v4.21'
+                },
+                fallbackLng: {
+                    'default': ['en'],
+                    'en': ['de']
+                }
+            }, function() {
+                jqueryI18next.init(i18next, $);
+                $(".localized").localize();
+            });
+    </script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon-16x16.png">
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <title>TARMAC Festival</title>
+
+    <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="css/festival.min.css?v=4.14" rel="stylesheet">
+</head>
+
+<body id="page-top ">
+
+    <h1 class="d-none">TARMAC Festival</h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">29.08 - 01.09.24</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase justify-content-between flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="/#about" data-i18n="nav.project">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="/#artists" data-i18n="nav.artists">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="/#info" data-i18n="nav.info">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="/#avenue" data-i18n="nav.avenue">#</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.support">#</a>
+                        <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
+                            <li>
+                                <a class="dropdown-item text-primary localized" href="#helpers" data-i18n="nav.helpers">#</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-primary" href="https://tarmac-festival-shop.myspreadshop.de/" target="_blank">Merch</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger localized" href="/#contact" data-i18n="nav.contact">#</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link nav-btn">
+                            <a class="btn btn-danger localized" href="https://www.tixforgigs.com/Event/54917" target="_blank" data-i18n="nav.tickets">#</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
+                        <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
+                            <li><a class="dropdown-item text-primary" href="Artists.html?year=2022">2022</a></li>
+                            <li><a class="dropdown-item text-primary" href="Artists.html?year=2021">2021</a></li>
+                            <li><a class="dropdown-item text-primary" href="Artists.html?year=2020">2020</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="d-flex bg-secondary">
+        <div class="container-fluid px-0 ">
+            <div class="row m-4 mt-5"></div>
+            <div class="row m-4 mt-5"></div>
+            <div class="row m-4 mt-5"></div>
+            <div class="row m-4 mt-5">
+                <h1 class="my-5 mx-auto text-primary localized" data-i18n="feedback.form.heading">#</h1>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </header>
+    <div class="container">
+
+        <div class="row pt-0 pt-md-5">
+            <div class="col">
+                <div class="title-box pt-4">
+                </div>
+                <div>
+                    <div id="alertSuccess" class="alert alert-success text-justify localized" role="alert" style="display: none" data-i18n="contact.form.alert.success">#</div>
+                    <div id="alertFail" class="alert alert-danger text-justify localized" role="alert" style="display: none" data-i18n="[prepend]contact.form.alert.fail">
+                        <a href="mailto:contact@tarmac-festival.de" class="alert-link">contact@tarmac-festival.de</a>.
+                    </div>
+                    <form action="" method="post" role="form" id="contactForm">
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback1" class="form-label localized" data-i18n="feedback.form.inputs.1.label">#</label>
+                                    <input type="text" class="form-control localized" name="feedback1" id="feedback1" placeholder="#" data-i18n="[placeholder]feedback.form.inputs.1.placeholder" required/>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback2" class="form-label localized" data-i18n="feedback.form.inputs.2.label">#</label>
+                                    <select name="feedback2" class="form-control localized" id="feedback2" placeholder="#" data-i18n="[placeholder]feedback.form.inputs.1.placeholder" required>
+                                        <option class="localized" data-i18n="feedback.form.ratingOptions.0">#</option>
+                                    <option value="1" class="localized" data-i18n="feedback.form.ratingOptions.1">#</option>
+                                    <option value="2" class="localized" data-i18n="feedback.form.ratingOptions.2">#</option>
+                                    <option value="3" class="localized" data-i18n="feedback.form.ratingOptions.3" >#</option>
+                                    <option value="4" class="localized" data-i18n="feedback.form.ratingOptions.4">#</option>
+                                    <option value="5" class="localized" data-i18n="feedback.form.ratingOptions.5">#</option>
+                                </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback3" class="form-label localized" data-i18n="feedback.form.inputs.3.label">#</label>
+                                    <select name="feeedback3" class="form-control localized" id="feedback3" required>
+                                        <option class="localized" data-i18n="feedback.form.ratingOptions.0">#</option>
+                                    <option value="1" class="localized" data-i18n="feedback.form.ratingOptions.1">#</option>
+                                    <option value="2" class="localized" data-i18n="feedback.form.ratingOptions.2">#</option>
+                                    <option value="3" class="localized" data-i18n="feedback.form.ratingOptions.3" selected>#</option>
+                                    <option value="4" class="localized" data-i18n="feedback.form.ratingOptions.4">#</option>
+                                    <option value="5" class="localized" data-i18n="feedback.form.ratingOptions.5">#</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback4_1" class="form-label localized" data-i18n="feedback.form.inputs.4.inputs.1.label">#</label>
+                                    <select name="feeedback4_1" class="form-control localized" id="feedback4_1" required>
+                                        <option class="localized" data-i18n="feedback.form.ratingOptions.0">#</option>
+                                    <option value="1" class="localized" data-i18n="feedback.form.ratingOptions.1">#</option>
+                                    <option value="2" class="localized" data-i18n="feedback.form.ratingOptions.2">#</option>
+                                    <option value="3" class="localized" data-i18n="feedback.form.ratingOptions.3" >#</option>
+                                    <option value="4" class="localized" data-i18n="feedback.form.ratingOptions.4">#</option>
+                                    <option value="5" class="localized" data-i18n="feedback.form.ratingOptions.5">#</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback4_2" class="form-label localized" data-i18n="feedback.form.inputs.4.inputs.2.label">#</label>
+                                    <select name="feeedback4_2" class="form-control localized" id="feedback4_2" required>
+                                        <option class="localized" data-i18n="feedback.form.ratingOptions.0">#</option>
+                                    <option value="1" class="localized" data-i18n="feedback.form.ratingOptions.1">#</option>
+                                    <option value="2" class="localized" data-i18n="feedback.form.ratingOptions.2">#</option>
+                                    <option value="3" class="localized" data-i18n="feedback.form.ratingOptions.3" >#</option>
+                                    <option value="4" class="localized" data-i18n="feedback.form.ratingOptions.4">#</option>
+                                    <option value="5" class="localized" data-i18n="feedback.form.ratingOptions.5">#</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback4_3" class="form-label localized" data-i18n="feedback.form.inputs.4.inputs.3.label">#</label>
+                                    <textarea class="form-control localized" name="feedback4_3" id="feedback1" placeholder="#" data-i18n="[placeholder]feedback.form.inputs.4.inputs.3.placeholder" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback4_4" class="form-label localized" data-i18n="feedback.form.inputs.4.inputs.4.label">#</label>
+                                    <select name="feeedback4_4" class="form-control localized" id="feedback4_4" required>
+                                        <option class="localized" data-i18n="feedback.form.ratingOptions.0">#</option>
+                                    <option value="1" class="localized" data-i18n="feedback.form.ratingOptions.1">#</option>
+                                    <option value="2" class="localized" data-i18n="feedback.form.ratingOptions.2">#</option>
+                                    <option value="3" class="localized" data-i18n="feedback.form.ratingOptions.3" >#</option>
+                                    <option value="4" class="localized" data-i18n="feedback.form.ratingOptions.4">#</option>
+                                    <option value="5" class="localized" data-i18n="feedback.form.ratingOptions.5">#</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback4_5" class="form-label localized" data-i18n="feedback.form.inputs.4.inputs.5.label">#</label>
+                                    <select name="feeedback4_5" class="form-control localized" id="feedback4_5" required>
+                                        <option class="localized" data-i18n="feedback.form.ratingOptions.0">#</option>
+                                    <option value="1" class="localized" data-i18n="feedback.form.ratingOptions.1">#</option>
+                                    <option value="2" class="localized" data-i18n="feedback.form.ratingOptions.2">#</option>
+                                    <option value="3" class="localized" data-i18n="feedback.form.ratingOptions.3" >#</option>
+                                    <option value="4" class="localized" data-i18n="feedback.form.ratingOptions.4">#</option>
+                                    <option value="5" class="localized" data-i18n="feedback.form.ratingOptions.5">#</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label class="form-label localized" data-i18n="feedback.form.inputs.4.inputs.6.label">#</label>
+                                <div class="form-check">
+                                    <input type="radio" name="feeedback4_6" class="form-check-input" id="feedback4_6_yes" />
+                                    <label for="feedback4_6_yes" class="form-check-label localized" data-i18n="feedback.form.radio.yes">#</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" name="feeedback4_6" class="form-check-input" id="feedback4_6_no" />
+                                    <label for="feedback4_6_no" class="form-check-label localized" data-i18n="feedback.form.radio.no">#</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback4_7" class="form-label localized" data-i18n="feedback.form.inputs.4.inputs.7.label">#</label>
+                                    <textarea class="form-control localized" name="feedback4_7" id="feedback1" placeholder="#" data-i18n="[placeholder]feedback.form.inputs.4.inputs.7.placeholder"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group">
+                                    <label for="feedback5" class="form-label localized" data-i18n="feedback.form.inputs.5.label">#</label>
+                                    <textarea class="form-control localized" name="feedback5" id="feedback1" placeholder="#" data-i18n="[placeholder]feedback.form.inputs.5.placeholder"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3 d-flex justify-content-center">
+                                <button id="send" type="submit" class="btn btn-primary btn-xl localized" data-i18n="[append]feedback.form.button">
+                            <span id="sendSpinner" class="spinner-border spinner-border-sm mr-1 d-none" role="status" aria-hidden="true"></span>
+                        </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; TARMAC Festival 2024</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/Tarmac-Festival-112807793597299" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/tarmacfestival" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://soundcloud.com/tarmac-festival" target="_blank">
+                                <i class="fab fa-soundcloud"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 localized">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <a href="AGB.html" target="_blank" data-i18n="footer.notice">#</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="Datenschutz.html" target="_blank" data-i18n="footer.policy">#</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-i18n="[href]footer.link;footer.language">#</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/summernote/summernote-bs4.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/contact_me.min.js?v=1.0"></script>
+
+    <!-- Load and init firebase app -->
+    <script src="/__/firebase/7.9.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.9.0/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
+    <script src="js/jquery.cookiebar.js"></script>
+    <script src="js/festival.min.js?v=1.11"></script>
+    <script src="/js/artistload.min.js?v=1.2"></script>
+
+</body>
+
+</html>
