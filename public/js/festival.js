@@ -356,7 +356,7 @@
             return this;
         },
         buildCollModal:
-            function(titleI18Next, textI18Next, fbName, scName, instName) {
+            function(titleI18Next, textI18Next, fbName, scName, instName, ytName) {
                 $('#modalCollTitle').html(i18next.t(titleI18Next, "#"))
                 $('#modalCollText').html(i18next.t(textI18Next, "#"))
 
@@ -377,6 +377,12 @@
                     $('#modalCollContainerInst').removeClass('d-none')
                 } else {
                     $('#modalCollContainerInst').addClass('d-none')
+                }
+                if (ytName) {
+                    $('#modalCollLinkYt').attr('href', 'https://www.youtube.com/' + ytName);
+                    $('#modalCollContainerYt').removeClass('d-none')
+                } else {
+                    $('#modalCollContainerYt').addClass('d-none')
                 }
                 $('#modalColl').modal('show');
                 return this;
