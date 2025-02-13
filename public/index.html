@@ -73,7 +73,7 @@
 
     <title>Tarmac Festival</title>
 
-    <link href="vendor/summernote/summernote-bs4.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/summernote/summernote-bs5.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="css/festival.min.css?v=4.14" rel="stylesheet">
     <style>
@@ -134,7 +134,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="nav-link nav-btn">
-                            <a class="btn btn-danger localized" href="https://www.tixforgigs.com/Event/54917" target="_blank" data-i18n="nav.tickets">#</a>
+                            <a class="btn btn-danger localized disabled" href="https://www.tixforgigs.com/Event/54917" target="_blank" data-i18n="nav.tickets">#</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -183,7 +183,7 @@
         </div>
     </section>
     <!-- About -->
-    <section id="about">
+    <section id="about" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center title-box">
@@ -753,22 +753,22 @@
                                     <form action="" method="post" role="form" id="contactForm">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="form-group">
+                                                <div class="form-group mb-3">
                                                     <input type="email" class="form-control localized" name="email" id="email" placeholder="#" data-i18n="[placeholder]contact.form.input1" required/>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <div class="form-group">
+                                                <div class="form-group mb-3">
                                                     <input type="text" name="name" class="form-control localized" id="subject" placeholder="#" minlength="4" data-i18n="[placeholder]contact.form.input2" required/>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <div class="form-group">
+                                                <div class="form-group mb-3">
                                                     <input type="text" name="name" class="form-control localized" id="name" placeholder="#" minlength="4" data-i18n="[placeholder]contact.form.input3" required/>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <div class="form-group">
+                                                <div class="form-group mb-3">
                                                     <textarea class="form-control" name="message" id="message" rows="5"></textarea>
                                                 </div>
                                             </div>
@@ -836,7 +836,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalChronikTitle" data-i18n="modal.chronic.heading">#</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
@@ -854,7 +854,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                    <button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>
                 </div>
             </div>
         </div>
@@ -864,7 +864,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalReviewTitle" data-i18n="modal.review.heading">#</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
@@ -896,7 +896,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                    <button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>
                 </div>
             </div>
         </div>
@@ -906,8 +906,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalImportantTitle" data-i18n="modal.important.tickets.marketplace.heading">#</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    
                 </button>
                 </div>
                 <div class="modal-body text-justify">
@@ -920,7 +920,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer d-flex flex-row justify-content-between">
                     <ul class="list-inline social-buttons mr-auto">
                         <li class="list-inline-item">
                             <a href="https://www.tixforgigs.com/Event/54917" target="_blank">
@@ -938,7 +938,7 @@
                             </a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                    <button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>
                 </div>
             </div>
         </div>
@@ -949,8 +949,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalFaqTitle" data-i18n="modal.faq.heading">#</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                 </button>
                 </div>
                 <div class="modal-body text-justify">
@@ -963,7 +962,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                    <button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>
                 </div>
             </div>
         </div>
@@ -974,8 +973,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title" id="modalCollTitle">#</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                 </button>
                 </div>
                 <div class="modal-body text-justify">
@@ -987,7 +985,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer d-flex flex-roow justify-content-between">
                     <ul class="list-inline social-buttons mr-auto">
                         <li id="modalCollContainerFb" class="list-inline-item">
                             <a id="modalCollLinkFb" href="#" target="_blank">
@@ -1010,7 +1008,7 @@
                             </a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                    <button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>
                 </div>
             </div>
         </div>
@@ -1023,7 +1021,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title localized" id="modalArtistTitle">#</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -1080,7 +1078,7 @@
                         </a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                <button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>
             </div>
         </div>
     </div>
@@ -1134,7 +1132,7 @@
                         </li>
 
                     </ul>
-                    <!--<button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>-->
+                    <!--<button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>-->
                 </div>
             </div>
         </div>
@@ -1145,8 +1143,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalInfoTitle">#</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                 </button>
                 </div>
                 <div class="modal-body text-justify">
@@ -1166,8 +1163,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalNewsletterTitle" data-i18n="modal.newsletter.heading">#</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <button type="button" class="btn-close" data--bs-dismiss="modal" aria-label="Close">
                 </button>
                 </div>
                 <div class="modal-body text-justify">
@@ -1180,19 +1176,19 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary localized" data-dismiss="modal" data-i18n="modal.common.button">#</button>
+                    <button type="button" class="btn btn-primary localized" data-bs-dismiss="modal" data-i18n="modal.common.button">#</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/summernote/summernote-bs4.min.js"></script>
-
+ <!-- Bootstrap core JavaScript -->
+ <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="vendor/summernote/summernote-bs5.min.js"></script>
     <!-- Contact form JavaScript -->
     <script src="js/contact_me.min.js?v=1.0"></script>
 

@@ -21,10 +21,9 @@
     });
 
     // Activate scrollspy to add active class to navbar items on scroll
-    $('body').scrollspy({
-        target: '#mainNav',
-        offset: 56
-    });
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav'
+      })
 
     // Collapse Navbar
     var navbarCollapse = function () {
@@ -44,7 +43,8 @@
 
     var localizeJs = function () {
         $('textarea#message').summernote({
-            placeholder: i18next.t('contact.form.textarea', "#"),
+            placeholder: "Message",
+            //placeholder: i18next.t('contact.form.textarea', "#"),
             tabsize: 2,
             height: 200,
             disableDragAndDrop: true,
@@ -73,10 +73,10 @@
                 }
             });
         }).modal({
-            show: true,
+            
             backdrop: false,
             keyboard: false
-        })
+        }).modal('show')
         
         var details = {
             message: i18next.t('cookies.message', "#"),

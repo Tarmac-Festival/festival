@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
@@ -17,7 +17,7 @@ var banner = ['/*!\n',
 ].join('');
 
 // Copy third party libraries from /node_modules into /vendor
-gulp.task('vendor', function () {
+gulp.task('vendor', async function () {
 
     // Bootstrap
     gulp.src([
@@ -28,19 +28,21 @@ gulp.task('vendor', function () {
 
     // Summernote Editor
     gulp.src([
-        './node_modules/summernote/dist/summernote-bs4.min.js',
-        './node_modules/summernote/dist/summernote-bs4.min.css'
+        './node_modules/summernote/dist/summernote-bs5.min.js',
+        './node_modules/summernote/dist/summernote-bs5.min.css'
     ])
         .pipe(gulp.dest('./public/vendor/summernote'));
+    //messes up font files which are then rejected by the sanitizer
+
     gulp.src([
         './node_modules/summernote/dist/font/*'
-    ])
+    ],{encoding: false})
         .pipe(gulp.dest('./public/vendor/summernote/font'));
 
     // Font Awesome
     gulp.src([
-        './node_modules/@fontawesome/**/*'
-    ])
+      './node_modules/@fortawesome/**/*'
+    ],{encoding: false})
         .pipe(gulp.dest('./public/vendor'));
 
     // jQuery
@@ -59,7 +61,7 @@ gulp.task('vendor', function () {
     // I18Next
     gulp.src([
         './node_modules/i18next/i18next*.js',
-        './node_modules/i18next-xhr-backend/i18next*.js',
+        './node_modules/i18next-http-backend/i18next*.js',
         './node_modules/i18next-browser-languagedetector/i18next*.js',
         './node_modules/jquery-i18next/*i18next*.js'
     ])
@@ -74,7 +76,7 @@ gulp.task('css:compile', function () {
             includePaths: "./node_modules"
         }).on('error', sass.logError))
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
+            overrideBrowserslist: ['last 2 versions'],
             cascade: false
         }))
         .pipe(header(banner, {
