@@ -457,3 +457,4 @@
     firebase.analytics();
 
 })(jQuery); // End of use strict
+
