@@ -16,15 +16,15 @@
     <meta property="og:title" content="Tarmac Festival">
     <meta property="og:site_name" content="Tarmac Festival">
     <meta property="og:description" content="Mit großer Vorfreude schauen wir auf den Sommer 2024. Seid Gast, Seid Freundin und Freund. Kommt vorbei und macht mit!">
-    <meta property="og:image" content="https://tarmac-festival.de/img/header2023.jpg">
+    <meta property="og:image" content="https://tarmac-festival.de/img/banner2025.png">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:image:alt" content="Tarmac Festival Cover">
 
-    <script src="vendor/jquery/jquery.min.js?v=5.1"></script>
-    <script src="vendor/jquery-i18next/i18next.min.js?v=5.1"></script>
-    <script src="vendor/jquery-i18next/i18nextXHRBackend.min.js?v=5.1"></script>
-    <script src="vendor/jquery-i18next/i18nextBrowserLanguageDetector.min.js?v=5.1"></script>
-    <script src="vendor/jquery-i18next/jquery-i18next.min.js?v=5.1"></script>
+    <script src="vendor/jquery/jquery.min.js?v5.2"></script>
+    <script src="vendor/jquery-i18next/i18next.min.js?v5.2"></script>
+    <script src="vendor/jquery-i18next/i18nextXHRBackend.min.js?v5.2"></script>
+    <script src="vendor/jquery-i18next/i18nextBrowserLanguageDetector.min.js?v5.2"></script>
+    <script src="vendor/jquery-i18next/jquery-i18next.min.js?v5.2"></script>
     <script>
         // Translate text
         i18next
@@ -73,9 +73,9 @@
 
     <title>Tarmac Festival</title>
 
-    <link href="vendor/summernote/summernote-bs5.min.css?v=5.1" rel="stylesheet" type="text/css">
-    <link href="vendor/fontawesome-free/css/all.min.css?v=5.1" rel="stylesheet" type="text/css">
-    <link href="css/festival.min.css?v=5.1" rel="stylesheet">
+    <link href="vendor/summernote/summernote-bs5.min.css?v5.2" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css?v5.2" rel="stylesheet" type="text/css">
+    <link href="css/festival.min.css?v5.2" rel="stylesheet">
     <style>
         .teilhabe-img {
             width: 100%;
@@ -84,7 +84,7 @@
     </style>
 </head>
 
-<body id="page-top">
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#navbarResponsive">
     <script>
         /*fills the lineup for 
                                                                                                                                                                 $(document).ready(function(){
@@ -99,7 +99,7 @@
     <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">04.09 - 07.09.25</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
         </button>
@@ -118,7 +118,7 @@
                         <a class="nav-link js-scroll-trigger localized" href="#avenue" data-i18n="nav.avenue">#</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.support">#</a>
+                        <a class="nav-link dropdown-toggle localized" data-bs-toggle="dropdown" data-i18n="nav.support">#</a>
                         <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
                             <li>
                                 <a class="dropdown-item text-primary localized" href="#helpers" data-i18n="nav.helpers">#</a>
@@ -134,11 +134,11 @@
                     </li>
                     <li class="nav-item">
                         <div class="nav-link nav-btn">
-                            <a class="btn btn-danger localized disabled" href="https://www.tixforgigs.com/Event/54917" target="_blank" data-i18n="nav.tickets">#</a>
+                            <a class="btn btn-primary localized disabled" href="https://www.tixforgigs.com/Event/54917" target="_blank" data-i18n="nav.tickets">#</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle localized" data-toggle="dropdown" data-i18n="nav.archive">#</a>
+                        <a class="nav-link  dropdown-toggle localized" data-bs-toggle="dropdown" data-i18n="nav.archive">#</a>
                         <ul class="dropdown-menu bg-secondary mb-2 border-0 rounded-0 rounded-bottom">
                             <li><a class="dropdown-item text-primary" href="Artists.html?year=2022" target="_blank">2022</a></li>
                             <li><a class="dropdown-item text-primary" href="Artists.html?year=2021" target="_blank">2021</a></li>
@@ -205,12 +205,12 @@
             </div>
             <div class="row text-center mt-3">
                 <div class="col-12">
-                    <a class="btn btn-primary localized" target="_blank" data-toggle="modal" data-target="#modalChronik" data-i18n="about.button">#</a>
+                    <a class="btn btn-primary localized" target="_blank" data-bs-toggle="modal" data-bs-target="#modalChronik" data-i18n="about.button">#</a>
                 </div>
             </div>
             <div class="row text-center mt-3">
                 <div class="col-12">
-                    <a class="btn btn-primary localized" target="_blank" data-toggle="modal" data-target="#modalReview" data-i18n="modal.review.button">#</a>
+                    <a class="btn btn-primary localized" target="_blank" data-bs-toggle="modal" data-bs-target="#modalReview" data-i18n="modal.review.button">#</a>
                 </div>
             </div>
         </div>
@@ -837,7 +837,6 @@
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalChronikTitle" data-i18n="modal.chronic.heading">#</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
                 <div class="modal-body text-justify">
@@ -865,7 +864,7 @@
                 <div class="modal-header">
                     <h4 class="modal-title localized" id="modalReviewTitle" data-i18n="modal.review.heading">#</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                   
                 </button>
                 </div>
                 <div class="modal-body text-justify">
@@ -1022,7 +1021,7 @@
             <div class="modal-header">
                 <h4 class="modal-title localized" id="modalArtistTitle">#</h4>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                  
                 </button>
             </div>
             <div id="modalArtistBody" class="modal-body text-justify">
@@ -1185,12 +1184,12 @@
    
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js?v=5.1"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js?v5.2"></script>
  <!-- Bootstrap core JavaScript -->
- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js?v=5.1"></script>
- <script src="vendor/summernote/summernote-bs5.min.js?v=5.1"></script>
+ <script src="vendor/bootstrap/js/bootstrap.bundle.min.js?v5.2"></script>
+ <script src="vendor/summernote/summernote-bs5.min.js?v5.2"></script>
     <!-- Contact form JavaScript -->
-    <script src="js/contact_me.min.js?v=5.1"></script>
+    <script src="js/contact_me.min.js?v5.2"></script>
 
     <!-- Load and init firebase app -->
     <script src="/__/firebase/7.9.0/firebase-app.js"></script>
@@ -1200,9 +1199,9 @@
     <!-- Custom scripts -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJ0hKwYzWZiz0DHRYwjypgQzDfnIT9UB8"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6LcuY9QUAAAAACswQfBwCN5I8Q0x6fmFXEKGhV5d"></script>
-    <script src="js/jquery.cookiebar.js?v=5.1"></script>
-    <script src="js/festival.min.js?v=5.1"></script>
-    <script src="/js/artistload.min.js?v=5.1"></script>
+    <script src="js/jquery.cookiebar.js?v5.2"></script>
+    <script src="js/festival.min.js?v5.2"></script>
+    <script src="/js/artistload.min.js?v5.2"></script>
 
 
 </body>

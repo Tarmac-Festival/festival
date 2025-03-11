@@ -52,17 +52,23 @@ $tarmac-24-violett:#4e4bb4;
 $tarmac-24-red:#ff5858;
 $tarmac-24-cyan:#0afff1;
 
+//2025
+$tarmac-25-lila:#450b6f;
+$tarmac-25-green: #74ff40;
 
 
-$accent: $tarmac-24-orange !default;
-$primary: $tarmac-24-blue !default;
-$secondary: $tarmac-24-orange !default;
+
+$accent: $tarmac-25-lila !default;
+$primary: $tarmac-25-green !default;
+$secondary: $tarmac-25-lila !default;
 //$primary: $tarmac-24-orange !default;
 //$secondary: $tarmac-24-blue !default;
 //$accent: $tarmac-24-blue !default;
-$success: $tarmac-24-green;
-$info: $tarmac-24-violett !default;
+$success: $tarmac-25-green;
+$info: $tarmac-25-lila !default;
 $danger: $tarmac-24-red;
 $light: #ececec;
 $dark: #101010;
 $lightAccent: #d5c8e0 !default;
+
+$emphasis: $tarmac-25-green;
