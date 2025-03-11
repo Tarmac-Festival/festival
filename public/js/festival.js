@@ -42,41 +42,9 @@
     
 
     var localizeJs = function () {
-        $('textarea#message').summernote({
-            placeholder: "Message",
-            //placeholder: i18next.t('contact.form.textarea', "#"),
-            tabsize: 2,
-            height: 200,
-            disableDragAndDrop: true,
-            spellCheck: true,
-            dialogsInBody: true,
-            toolbar: [
-                ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
-                ['fontsize', ['fontsize', 'color']],
-                ['para', ['ul', 'ol', 'paragraph']],
-                ['insert', ['link', 'table']]
-            ]
-        });
         
-        $('#modalImportant').on('show.bs.modal', function () {
-            $('#modalImportant a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-                if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html, body').animate({
-                            scrollTop: (target.offset().top - 54)
-                        }, 1000, "easeInOutExpo");
-                        $('#modalImportant').modal('hide');
-                        return false;
-                    }
-                }
-            });
-        }).modal({
-            
-            backdrop: false,
-            keyboard: false
-        }).modal('show')
+        
+        
         
         var details = {
             message: i18next.t('cookies.message', "#"),
@@ -457,4 +425,41 @@
     firebase.analytics();
 
 })(jQuery); // End of use strict
+
+$(window).on("load",function(){
+    $('textarea#message').summernote({
+        placeholder: "Message",
+        //placeholder: i18next.t('contact.form.textarea', "#"),
+        tabsize: 2,
+        height: 200,
+        disableDragAndDrop: true,
+        spellCheck: true,
+        dialogsInBody: true,
+        toolbar: [
+            ['style', ['bold', 'italic', 'underline', 'strikethrough', 'clear']],
+            ['fontsize', ['fontsize', 'color']],
+            ['para', ['ul', 'ol', 'paragraph']],
+            ['insert', ['link', 'table']]
+        ]
+    });
+    $('#modalImportant').on('show.bs.modal', function () {
+        $('#modalImportant a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: (target.offset().top - 54)
+                    }, 1000, "easeInOutExpo");
+                    $('#modalImportant').modal('hide');
+                    return false;
+                }
+            }
+        });
+    }).modal({
+        
+        backdrop: false,
+        keyboard: false
+    }).modal('show')
+})
 
